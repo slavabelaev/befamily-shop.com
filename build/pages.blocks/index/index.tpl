@@ -1,10 +1,49 @@
-<header>
-	<h1>That is header!</h1>
+<header class="page-header">
+	<nav class="navbar navbar-expand-lg navbar-light container">
+		<a class="navbar-brand" href="#"><img src="common.blocks/page-header/page-header__be-Family.svg" alt="be Family"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item dropdown active">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Каталог товаров
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="#">Вся семья</a>
+						<a class="dropdown-item" href="#">Мама и дочка</a>
+						<a class="dropdown-item" href="#">Мама и сын</a>
+						<a class="dropdown-item" href="#">Папа и сын</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">О нас</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Оптовикам</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Блог</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Контакты</a>
+				</li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="icon icon__heart"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="icon icon__shopping-bag"></span></a>
+                </li>
+            </ul>
+        </div>
+	</nav>
 </header>
 <link rel="stylesheet" href="pages.blocks/index/index.css">
 
-<main>
-    <h1>1111</h1>
+<main class="container">
+    <h1>Content box</h1>
 </main>
 
 <footer class="page-footer">
@@ -14,8 +53,8 @@
 				<section class="page-footer__section">
 					<h3 class="page-footer__nav-title collapsed"
 						data-toggle="collapse"
-						data-target=".page-footer__for-family">Для всей семьи</h3>
-					<nav class="page-footer__for-family collapse">
+						data-target=".page-footer__nav_type_for-family">Для всей семьи</h3>
+					<nav class="page-footer__nav page-footer__nav_type_for-family collapse">
 						<ul class="page-footer__list-of-links">
 							<li class="nav-item"><a href="#" class="page-footer__nav-link">Платья</a></li>
 							<li class="nav-item"><a href="#" class="page-footer__nav-link">Футболки</a></li>
@@ -32,8 +71,8 @@
 				<section class="page-footer__section">
 					<h3 class="page-footer__nav-title collapsed"
 						data-toggle="collapse"
-						data-target=".page-footer__moms-and-daughter">Мамы и дочки</h3>
-					<nav class="page-footer__moms-and-daughter collapse">
+						data-target=".page-footer__nav_type_moms-and-daughter">Мамы и дочки</h3>
+					<nav class="page-footer__nav page-footer__nav_type_moms-and-daughter collapse">
 						<ul class="page-footer__list-of-links">
 							<li class="nav-item"><a href="#" class="page-footer__nav-link">Платья</a></li>
 							<li class="nav-item"><a href="#" class="page-footer__nav-link">Футболки</a></li>
@@ -48,8 +87,8 @@
 				<section class="page-footer__section">
 					<h3 class="page-footer__nav-title collapsed"
 						data-toggle="collapse"
-						data-target=".page-footer__moms-and-sons">Мамы и сыновья</h3>
-					<nav class="page-footer__moms-and-sons collapse">
+						data-target=".page-footer__nav_type_moms-and-sons">Мамы и сыновья</h3>
+					<nav class="page-footer__nav page-footer__nav_type_moms-and-sons collapse">
 						<ul class="page-footer__list-of-links">
 							<li class="nav-item"><a href="#" class="page-footer__nav-link">Футболки</a></li>
 							<li class="nav-item"><a href="#" class="page-footer__nav-link">Лонгсливы</a></li>
@@ -63,8 +102,8 @@
 				<section class="page-footer__section">
 					<h3 class="page-footer__nav-title collapsed"
 						data-toggle="collapse"
-						data-target=".page-footer__dads-and-sons">Папы и сыновья</h3>
-					<nav class="page-footer__dads-and-sons collapse">
+						data-target=".page-footer__nav_type_dads-and-sons">Папы и сыновья</h3>
+					<nav class="page-footer__nav page-footer__nav_type_dads-and-sons collapse">
 						<ul class="page-footer__list-of-links">
 							<li class="nav-item"><a href="#" class="page-footer__nav-link">Футболки</a></li>
 							<li class="nav-item"><a href="#" class="page-footer__nav-link">Лонгсливы</a></li>
@@ -78,8 +117,8 @@
 				<section class="page-footer__section">
 					<h3 class="page-footer__nav-title collapsed"
 						data-toggle="collapse"
-						data-target=".page-footer__menu">Меню</h3>
-					<nav class="page-footer__menu collapse">
+						data-target=".page-footer__nav_type_menu">Меню</h3>
+					<nav class="page-footer__nav page-footer__nav_type_menu collapse">
 						<ul class="page-footer__list-of-links">
 							<li class="nav-item"><a href="#" class="page-footer__nav-link">Каталог</a></li>
 							<li class="nav-item"><a href="#" class="page-footer__nav-link">О нас</a></li>
@@ -98,8 +137,8 @@
 				<section class="page-footer__section">
 					<h3 class="page-footer__nav-title page-footer__title_type_contacts collapsed"
 						data-toggle="collapse"
-						data-target=".page-footer__contacts">Контакты</h3>
-					<nav class="page-footer__contacts collapse">
+						data-target=".page-footer__nav_type_contacts">Контакты</h3>
+					<nav class="page-footer__nav page-footer__nav_type_contacts collapse">
 						<ul class="page-footer__list-of-contacts">
 							<li class="nav-item"><a href="tel:88005551094" class="page-footer__link">8 (800) 555 - 10 - 94</a></li>
 							<li class="nav-item"><a href="mailto:info@BeFamily-Shop.ru" class="page-footer__link">info@BeFamily-Shop.ru</a></li>

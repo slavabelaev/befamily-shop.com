@@ -3,12 +3,14 @@
 .icon {
   display: inline-block;
   vertical-align: middle;
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.icon__ { background-image: url(../icon/icon__collapse.svg); }
-.icon__ { background-image: url(../icon/icon__.svg); }
+.icon__collapse { background-image: url(/common.blocks/icon/icon__collapse.svg); }
+.icon__shopping-bag { background-image: url(/common.blocks/icon/icon__shopping-bag.svg); }
+.icon__heart { background-image: url(/common.blocks/icon/icon__heart.svg); }
+.icon__ { background-image: url(/common.blocks/icon/icon__.svg); }
