@@ -58,6 +58,11 @@
   color: $gray-400;
 }
 
+.page-footer_delimiter {
+  border-color: $gray-600;
+  margin: 0 0 50px 0;
+}
+
 @include media-breakpoint-between(xs, md) {
   .page-footer__section-item_part_developed-by,
   .page-footer__section-item_part_copyright {
@@ -136,10 +141,6 @@
       border-bottom: 2px solid $gray-400;
       width: 40px;
     }
-  }
-  .page-footer__nav {
-    margin-bottom: 50px;
-    border-bottom: 1px solid $border-color;
   }
   .page-footer__developed-by-logo {
     margin-top: .75rem;
