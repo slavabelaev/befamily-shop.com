@@ -1,0 +1,14 @@
+@import "../../library.blocks/bootstrap/bootstrap-reboot";
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 2rem;
+  height: 2rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.icon__ { background-image: url(../icon/icon__collapse.svg); }
+.icon__ { background-image: url(../icon/icon__.svg); }
