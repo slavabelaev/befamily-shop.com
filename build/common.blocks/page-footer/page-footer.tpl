@@ -1,3 +1,4 @@
+<!-- Page footer -->
 <footer class="page-footer">
 	<div class="container">
 		<ul class="page-footer__list-of-sections row">
@@ -121,3 +122,4 @@
 		</ul>
 	</div>
 </footer>
+<!-- Page footer -->

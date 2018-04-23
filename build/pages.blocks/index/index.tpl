@@ -1,17 +1,31 @@
+<!-- Page header -->
 <header class="page-header">
 	<nav class="navbar navbar-expand-lg navbar-light container">
-		<a class="navbar-brand" href="#"><img src="common.blocks/page-header/page-header__be-Family.svg" alt="be Family"></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+		<a class="navbar-brand" href="#">
+			<img src="common.blocks/page-header/page-header__be-Family.svg" alt="be Family" class="page-header__logo">
+		</a>
+		<div class="page-header__contacts d-none d-xl-block">
+			<div class="page-header__phone">8 (800) 555 - 10 - 94</div>
+			<ul class="page-header__list-of-socials">
+				<li class="page-header__list-of-socials-item">
+					<a href="#" class="page-header__nav-link"><span class="icon icon__instagram"></span>Instagram</a>
+				</li>
+				<li class="page-header__list-of-socials-item">
+					<a href="#" class="page-header__nav-link"><span class="icon icon__vk"></span>Вконтакте</a>
+				</li>
+			</ul>
+		</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".page-header__navbar">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
-		<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+		<div class="page-header__navbar collapse navbar-collapse">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item dropdown active">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Каталог товаров
 					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+					<div class="dropdown-menu">
 						<a class="dropdown-item" href="#">Вся семья</a>
 						<a class="dropdown-item" href="#">Мама и дочка</a>
 						<a class="dropdown-item" href="#">Мама и сын</a>
@@ -30,22 +44,30 @@
 				<li class="nav-item">
 					<a class="nav-link" href="#">Контакты</a>
 				</li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><span class="icon icon__heart"></span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><span class="icon icon__shopping-bag"></span></a>
-                </li>
             </ul>
         </div>
+		<ul class="navbar-nav page-header__navbar-actions">
+			<li class="nav-item">
+				<a class="nav-link" href="#"><span class="icon icon__heart"></span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#">
+					<div class="icon icon__shopping-bag">
+						<span class="page-header__number-of-products badge badge-primary">99</span>
+					</div>
+				</a>
+			</li>
+		</ul>
 	</nav>
 </header>
+<!-- /Page header -->
 <link rel="stylesheet" href="pages.blocks/index/index.css">
 
 <main class="container">
     <h1>Content box</h1>
 </main>
 
+<!-- Page footer -->
 <footer class="page-footer">
 	<div class="container">
 		<ul class="page-footer__list-of-sections row">
@@ -169,3 +191,4 @@
 		</ul>
 	</div>
 </footer>
+<!-- Page footer -->

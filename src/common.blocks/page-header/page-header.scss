@@ -1,9 +1,99 @@
 @import "../../library.blocks/bootstrap/bootstrap-reboot";
 
 @import "../icon/icon";
+.page-header {
+  display: flex;
+  align-items: stretch;
+  border-bottom: 1px solid $border-color;
+}
+.page-header__list-of-socials {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  .icon {
+    margin-right: .5rem;
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+}
+.page-header__navbar-actions {
+  flex-direction: row;
+  .nav-link {
+    padding: $nav-link-padding-x / 2;
+  }
+}
+.page-header__number-of-products {
+  position: absolute;
+  margin-top: 1rem;
+  margin-left: .75rem;
+}
+.page-header__nav-link {
+  color: lighten($gray-900, .8);
+  transition: $transition-base;
+  &:hover {
+    color: $gray-900;
+  }
+}
+.page-header__list-of-socials-item {
+  display: flex;
+  align-items: center;
+  &:not(:last-child) {
+    margin-right: 1.25rem;
+  }
+}
+.page-header__phone {
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-bottom: .5rem;
+  line-height: 1;
+}
 
-@include media-breakpoint-up(xs) {}
+@include media-breakpoint-between(xs, sm) {
+  .page-header__logo {
+    width: 130px;
+  }
+}
+
 @include media-breakpoint-up(sm) {}
+
+@include media-breakpoint-between(xs, md) {
+  .page-header__navbar-actions {
+    order: -1;
+    margin-left: auto;
+    margin-right: 1rem;
+  }
+  .page-header {
+    .navbar-brand {
+      order: -2;
+    }
+  }
+  .page-header__navbar {
+    .nav-link {
+      padding: .75rem 1rem;
+    }
+  }
+}
 @include media-breakpoint-up(md) {}
-@include media-breakpoint-up(lg) {}
+@include media-breakpoint-up(lg) {
+  .page-header {
+    min-height: 90px;
+    .navbar-collapse {
+      align-self: stretch;
+      .navbar-nav {
+        align-self: stretch;
+        >.nav-item {
+          display: flex;
+          align-items: stretch;
+          .nav-link {
+            display: flex;
+            align-items: center;
+            padding-left: 1rem;
+            padding-right: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
 @include media-breakpoint-up(xl) {}
