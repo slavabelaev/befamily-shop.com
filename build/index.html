@@ -60,7 +60,11 @@
         </div>
 		<ul class="navbar-nav page-header__navbar-actions">
 			<li class="nav-item">
-				<a class="nav-link" href="#"><span class="icon icon__heart"></span></a>
+				<a class="nav-link" href="#">
+                    <div class="icon icon__heart">
+                        <span class="page-header__number-of-favorites badge badge-primary">99</span>
+                    </div>
+                </a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="#">
@@ -73,9 +77,16 @@
 	</nav>
 </header>
 <!-- /Page header -->
-<link rel="stylesheet" href="pages.blocks/index/index.css">
 
+<link rel="stylesheet" href="pages.blocks/index/index.css">
 <main class="container">
+    <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Главная</a></li>
+        <li class="breadcrumb-item"><a href="#">Каталог</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Мама и дочка</li>
+    </ol>
+</nav>
     <h1>Content box</h1>
 </main>
 

@@ -230,6 +230,7 @@
     .nav-link.active {
       color: $navbar-light-active-color;
       background-color: $component-active-bg;
+      border-bottom: 4px solid $primary;
     }
   }
 

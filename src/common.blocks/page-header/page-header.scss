@@ -23,17 +23,16 @@
     padding: $nav-link-padding-x / 2;
   }
 }
+.page-header__number-of-favorites,
 .page-header__number-of-products {
   position: absolute;
-  margin-top: 1rem;
+  margin-top: .75rem;
   margin-left: .75rem;
-}
-.page-header__nav-link {
-  color: lighten($gray-900, .8);
-  transition: $transition-base;
-  &:hover {
-    color: $gray-900;
-  }
+  border-radius: 50%;
+  padding: .25rem;
+  font-weight: 600;
+  min-width: 20px;
+  min-height: 20px;
 }
 .page-header__list-of-socials-item {
   display: flex;
@@ -49,7 +48,7 @@
   line-height: 1;
 }
 
-@include media-breakpoint-between(xs, sm) {
+@include media-breakpoint-only(xs) {
   .page-header__logo {
     width: 130px;
   }
@@ -69,6 +68,7 @@
     }
   }
   .page-header__navbar {
+    margin: 0 -1rem;
     .nav-link {
       padding: .75rem 1rem;
     }

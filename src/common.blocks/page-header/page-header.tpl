@@ -48,7 +48,11 @@
         </div>
 		<ul class="navbar-nav page-header__navbar-actions">
 			<li class="nav-item">
-				<a class="nav-link" href="#"><span class="icon icon__heart"></span></a>
+				<a class="nav-link" href="#">
+                    <div class="icon icon__heart">
+                        <span class="page-header__number-of-favorites badge badge-primary">99</span>
+                    </div>
+                </a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="#">

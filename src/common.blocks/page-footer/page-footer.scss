@@ -124,10 +124,12 @@
   }
 }
 @include media-breakpoint-up(sm) {
-  .collapsing,
-  .collapse {
-    display: initial!important;
-    height: initial!important;
+  .page-footer {
+    .collapsing,
+    .collapse {
+      display: initial!important;
+      height: initial!important;
+    }
   }
   .page-footer__nav-title:not(.page-footer__title_type_contacts) {
     position: relative;
