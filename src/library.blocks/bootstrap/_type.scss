@@ -12,6 +12,10 @@ h1, h2, h3, h4, h5, h6,
   line-height: $headings-line-height;
   color: $headings-color;
 }
+h1, h2,
+.h1, .h2{
+  font-weight: $headings-font-weight + 100;
+}
 
 h1, .h1 { font-size: $h1-font-size; }
 h2, .h2 { font-size: $h2-font-size; }

@@ -8,10 +8,10 @@
 			<div class="page-header__phone">8 (800) 555 - 10 - 94</div>
 			<ul class="page-header__list-of-socials">
 				<li class="page-header__list-of-socials-item">
-					<a href="#" class="page-header__nav-link"><span class="icon icon__instagram"></span>Instagram</a>
+					<a href="#" class="page-header__nav-link"><i class="icon icon__instagram"></i>Instagram</a>
 				</li>
 				<li class="page-header__list-of-socials-item">
-					<a href="#" class="page-header__nav-link"><span class="icon icon__vk"></span>Вконтакте</a>
+					<a href="#" class="page-header__nav-link"><i class="icon icon__vk"></i>Вконтакте</a>
 				</li>
 			</ul>
 		</div>

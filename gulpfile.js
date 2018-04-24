@@ -28,15 +28,17 @@ var path = {
         html: 'src/**/*.{html,tpl,tmpl}',
         js: 'src/**/*.js',
         style: 'src/**/*.scss',
-        images: 'src/**/*.{jpg,jpeg,png,gif,svg}',
-        fonts: 'src/**/*.{ttf,otf,woff,woff2,svg,eot}'
+        //images: 'src/**/*.{jpg,jpeg,png,gif,svg}',
+        //fonts: 'src/**/*.{ttf,otf,woff,woff2,svg,eot}'
+        fonts: 'src/**/*.{ttf,otf,woff,woff2,svg,eot,jpg,jpeg,png,gif,svg}'
     },
     watch: {
         html: 'src/**/*.{html,tpl,tmpl}',
         js: 'src/**/*.js',
         style: 'src/**/*.scss',
-        images: 'src/**/*.{jpg,jpeg,png,gif,svg}',
-        fonts: 'src/**/*.{ttf,otf,woff,woff2,svg,eot}'
+        //images: 'src/**/*.{jpg,jpeg,png,gif,svg}',
+        //fonts: 'src/**/*.{ttf,otf,woff,woff2,svg,eot}'
+        fonts: 'src/**/*.{ttf,otf,woff,woff2,svg,eot,jpg,jpeg,png,gif,svg}'
     },
     clean: './build'
 };
@@ -111,7 +113,7 @@ gulp.task('fonts:build', function() {
 gulp.task('build', [
     'html:build',
     'style:build',
-    'image:build',
+    //'image:build',
     'fonts:build',
     'js:build'
 ]);
