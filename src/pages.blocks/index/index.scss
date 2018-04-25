@@ -94,3 +94,14 @@
     }
   }
 }
+
+.add-to-favorite {
+  &:hover {
+    background-color: $white;
+  }
+  &.active {
+    .icon {
+      filter: brightness(0) invert(1);
+    }
+  }
+}

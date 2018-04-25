@@ -21,7 +21,7 @@
 
                         <ul class="product__list-of-actions">
                             <li class="product__list-of-actions-item"><button type="submit" class="btn btn-outline-primary btn-lg active" data-toggle="button" aria-pressed="true" autocomplete="off">Добавить в корзину</button></li>
-                            <li class="product__list-of-actions-item"><button type="button" class="btn btn-outline-primary btn-lg btn-x-y" data-toggle="button" aria-pressed="false" autocomplete="off"><i class="icon icon__heart_style_outline" aria-expanded="true"></i></button></li>
+                            <li class="product__list-of-actions-item"><button type="button" class="add-to-favorite btn btn-outline-primary btn-lg btn-x-y" data-toggle="button" aria-pressed="false" autocomplete="off"><i class="icon icon__heart_style_outline" aria-expanded="true"></i></button></li>
                         </ul>
 
                         <section class="product__section pb-0">
