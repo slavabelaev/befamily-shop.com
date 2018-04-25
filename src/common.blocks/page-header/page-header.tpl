@@ -46,7 +46,7 @@
 				</li>
             </ul>
         </div>
-		<ul class="navbar-nav page-header__navbar-actions">
+		<ul class="page-header__navbar-actions">
 			<li class="nav-item">
 				<a class="nav-link" href="#">
                     <div class="icon icon__heart">

@@ -224,14 +224,36 @@
         color: $navbar-light-disabled-color;
       }
     }
+    >.nav-item > .nav-link {
+      position: relative;
+      &:before {
+        content: "";
+        position: absolute;
+        display: block;
+        left: 0;
+        right: 0;
+        bottom: -1px;
+        width: 0;
+        margin: auto;
+        border-bottom: 2px solid $primary;
+        transition: $transition-base;
+      }
+
+      &:hover:before {
+        width: 100%;
+      }
+    }
 
     .show > .nav-link,
     .active > .nav-link,
     .nav-link.show,
     .nav-link.active {
+      background-color: $dropdown-link-active-bg;
       color: $navbar-light-active-color;
-      background-color: $component-active-bg;
-      border-bottom: 4px solid $primary;
+      &:before {
+        width: 100%;
+        border-width: 4px;
+      }
     }
   }
 

@@ -1,0 +1,17 @@
+@import "../../library.blocks/bootstrap/bootstrap-reboot";
+
+.list-of-images {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.list-of-images__item {
+  margin-bottom: 50px;
+}
+.list-of-images__image {
+  max-width: 100%;
+  transition: $transition-fade;
+  &:hover {
+    opacity: .9;
+  }
+}

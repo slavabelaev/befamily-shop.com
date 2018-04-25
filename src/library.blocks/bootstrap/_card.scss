@@ -12,6 +12,7 @@
   background-clip: border-box;
   border: $card-border-width solid $card-border-color;
   @include border-radius($card-border-radius);
+  transition: $transition-base;
 
   > hr {
     margin-right: 0;
@@ -28,6 +29,12 @@
     .list-group-item:last-child {
       @include border-bottom-radius($card-border-radius);
     }
+  }
+
+  &:hover {
+    //box-shadow: rgba($box);
+    border-color: transparent;
+    box-shadow: $box-shadow;
   }
 }
 
@@ -120,8 +127,13 @@
 }
 
 .card-img {
+  display: block;
   width: 100%; // Required because we use flexbox and this inherently applies align-self: stretch
+  margin-bottom: $card-spacer-y;
   @include border-radius($card-inner-border-radius);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 // Card image caps

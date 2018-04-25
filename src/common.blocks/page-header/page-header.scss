@@ -18,9 +18,13 @@
   }
 }
 .page-header__navbar-actions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
   flex-direction: row;
   .nav-link {
-    padding: $nav-link-padding-x / 2;
+    padding: $nav-link-padding-x;
   }
 }
 .page-header__number-of-favorites,

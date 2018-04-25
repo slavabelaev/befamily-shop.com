@@ -6,6 +6,17 @@
     border-top-width: 0;
   }
 }
+.product-item__image {
+  display: block;
+  min-height: 300px;
+  margin-bottom: .75rem;
+  background-size: cover;
+  background-position: center;
+  transition: $transition-fade;
+  &:hover {
+    opacity: .96;
+  }
+}
 
 .product-item__details {
   list-style: none;

@@ -1,0 +1,18 @@
+@import "../../library.blocks/bootstrap/bootstrap-reboot";
+
+.product-size-control {
+  .btn-group-toggle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+.product-size-control__input-group-size-l {
+  display: inline-flex;
+  vertical-align: middle;
+  width: initial;
+}
+.product-size-control__select-size-l {
+  max-width: 60px;
+}

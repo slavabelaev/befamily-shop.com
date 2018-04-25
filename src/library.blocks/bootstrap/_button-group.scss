@@ -10,6 +10,7 @@
   > .btn {
     position: relative;
     flex: 0 1 auto;
+    padding: $btn-padding-y;
 
     // Bring the hover, focused, and "active" buttons to the front to overlay
     // the borders properly
@@ -64,8 +65,14 @@
 //
 // Remix the default button sizing classes into new ones for easier manipulation.
 
-.btn-group-sm > .btn { @extend .btn-sm; }
-.btn-group-lg > .btn { @extend .btn-lg; }
+.btn-group-sm > .btn {
+  @extend .btn-sm;
+  padding: $btn-padding-y-sm ($btn-padding-y-sm * 2);
+}
+.btn-group-lg > .btn {
+  @extend .btn-lg;
+  padding: $btn-padding-y-lg ($btn-padding-y-lg * 2);
+}
 
 
 //
