@@ -1,0 +1,14 @@
+@import "../../library.blocks/bootstrap/bootstrap-reboot";
+
+.product-item-modal {
+  .product-size-box__collapse-icon {
+    display: none;
+  }
+}
+.product-item-modal__total-label {
+  color: $text-muted;
+}
+.product-item-modal__price {
+  font-size: 2rem;
+  font-weight: bold;
+}

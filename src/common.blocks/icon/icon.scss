@@ -9,32 +9,34 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  transition: $transition-base;
 }
 
 .icon__collapse { background-image: url(/common.blocks/icon/icon__collapse.svg); }
 .icon__shopping-bag { background-image: url(/common.blocks/icon/icon__shopping-bag.svg); }
 .icon__heart { background-image: url(/common.blocks/icon/icon__heart.svg); }
-.icon__heart_style_outline { background-image: url(/common.blocks/icon/icon__heart_style_outline.svg); }
 .icon__clothing-size { background-image: url(/common.blocks/icon/icon__clothing-size.svg); }
 .icon__expand { background-image: url(/common.blocks/icon/icon__expand.svg); }
-.icon__expand_style_primary { background-image: url(/common.blocks/icon/icon__expand_style_primary.svg); }
 .icon__ { background-image: url(/common.blocks/icon/icon__.svg); }
 
 .icon__vk { background-image: url(/common.blocks/icon/icon__vk.svg); }
 .icon__instagram { background-image: url(/common.blocks/icon/icon__instagram.svg); }
-.icon__instagram_style_primary { background-image: url(/common.blocks/icon/icon__instagram_style_primary.svg); }
 
+.icon_style_dark {
+  filter: brightness(0);
+}
+.icon_style_light {
+  filter: brightness(0) invert(1);
+}
 
 [data-toggle="collapse"] {
-  .icon__expand,
-  .icon__expand_style_primary {
+  .icon__expand {
     transform: rotate(45deg);
     transition: $transition-base;
   }
 }
 .collapsed {
-  .icon__expand,
-  .icon__expand_style_primary {
+  .icon__expand {
     transform: rotate(0);
   }
 }

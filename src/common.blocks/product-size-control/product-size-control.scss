@@ -1,13 +1,5 @@
 @import "../../library.blocks/bootstrap/bootstrap-reboot";
 
-.product-size-control {
-  .btn-group-toggle {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-}
-
 .product-size-control__input-group-size-l {
   display: inline-flex;
   vertical-align: middle;
@@ -15,4 +7,19 @@
 }
 .product-size-control__select-size-l {
   max-width: 60px;
+}
+
+.product-size-control {
+  .input-group-text {
+    background-color: $primary;
+    border-color: $primary;
+    color: $white;
+  }
+  .custom-select {
+    border-color: $primary;
+  }
+}
+
+.product-size-control__label {
+  font-size: 1.125rem;
 }

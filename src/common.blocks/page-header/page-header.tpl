@@ -5,13 +5,17 @@
 			<img src="common.blocks/page-header/page-header__be-Family.svg" alt="be Family" class="page-header__logo">
 		</a>
 		<div class="page-header__contacts d-none d-xl-block">
-			<div class="page-header__phone">8 (800) 555 - 10 - 94</div>
+			<a href="tel:+88005551094" class="page-header__phone">8 (800) 555 - 10 - 94</a>
 			<ul class="page-header__list-of-socials">
 				<li class="page-header__list-of-socials-item">
-					<a href="#" class="page-header__nav-link"><i class="icon icon__instagram"></i>Instagram</a>
+					<a href="#" class="page-header__nav-link">
+						<i class="icon icon__instagram icon_style_dark"></i>Instagram
+					</a>
 				</li>
 				<li class="page-header__list-of-socials-item">
-					<a href="#" class="page-header__nav-link"><i class="icon icon__vk"></i>Вконтакте</a>
+					<a href="#" class="page-header__nav-link">
+						<i class="icon icon__vk icon_style_dark"></i>Вконтакте
+					</a>
 				</li>
 			</ul>
 		</div>
@@ -49,16 +53,14 @@
 		<ul class="page-header__navbar-actions">
 			<li class="nav-item">
 				<a class="nav-link" href="#">
-                    <div class="icon icon__heart">
-                        <span class="page-header__number-of-favorites badge badge-primary">99</span>
-                    </div>
+                    <span class="icon icon__heart icon_style_dark"></span>
+					<span class="page-header__number-of-favorites badge badge-primary">99</span>
                 </a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="#">
-					<div class="icon icon__shopping-bag">
-						<span class="page-header__number-of-products badge badge-primary">99</span>
-					</div>
+					<span class="icon icon__shopping-bag icon_style_dark"></span>
+					<span class="page-header__number-of-products badge badge-primary">99</span>
 				</a>
 			</li>
 		</ul>

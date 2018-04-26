@@ -1,6 +1,6 @@
 <!-- Product size control -->
 <div class="product-size-control">
-    <label for="">Выбрать размер:</label>
+    <label for="" class="product-size-control__label">Выбрать размер:</label>
     <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
         <label class="btn btn-outline-dark">
             <input type="radio" name="options" id="option1" autocomplete="off" checked> XS

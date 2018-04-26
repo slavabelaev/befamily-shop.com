@@ -176,4 +176,12 @@
       pointer-events: none;
     }
   }
+
+  &:not(.btn-group) {
+    display: flex;
+    flex-wrap: wrap;
+    > *:not(:last-child) {
+      margin-right: .375rem;
+    }
+  }
 }

@@ -24,19 +24,24 @@
   display: flex;
   flex-direction: row;
   .nav-link {
+    position:relative;
     padding: $nav-link-padding-x;
+    &:hover {
+      .icon {
+        filter: brightness(1);
+      }
+    }
   }
-}
-.page-header__number-of-favorites,
-.page-header__number-of-products {
-  position: absolute;
-  margin-top: .75rem;
-  margin-left: .75rem;
-  border-radius: 50%;
-  padding: .25rem;
-  font-weight: 600;
-  min-width: 20px;
-  min-height: 20px;
+  .badge {
+    position: absolute;
+    border-radius: 50%;
+    padding: .25rem;
+    font-weight: 600;
+    min-width: 20px;
+    min-height: 20px;
+    right: .5rem;
+    bottom: .5rem;
+  }
 }
 .page-header__list-of-socials-item {
   display: flex;
@@ -46,6 +51,7 @@
   }
 }
 .page-header__phone {
+  display: block;
   font-weight: bold;
   font-size: 1.25rem;
   margin-bottom: .5rem;

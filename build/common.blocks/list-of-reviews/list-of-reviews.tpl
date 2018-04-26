@@ -8,7 +8,7 @@
         <h3 class="review-item__fullname">Дарья Пынзарь</h3>
         <address class="review-item__username">
             <a href="#" class="review-item__username-link">
-                <i class="icon icon__instagram_style_primary"></i>@darya_pinzar86
+                <i class="icon icon__instagram"></i>@darya_pinzar86
             </a>
         </address>
         <div class="review-item__message">Мы с Темиком в худи от @befamily теперь настоящий отряд ми-мишности! К отдыху всей семьей готовы! #Mylove #familylook”</div>
@@ -24,7 +24,7 @@
         <h3 class="review-item__fullname">Ксения Бородина</h3>
         <address class="review-item__username">
             <a href="#" class="review-item__username-link">
-                <i class="icon icon__instagram_style_primary"></i>@borodylia
+                <i class="icon icon__instagram"></i>@borodylia
             </a>
         </address>
         <div class="review-item__message">На нас с Мару классные свитера в стиле Family look от @befamily</div>
