@@ -21,6 +21,16 @@
     text-decoration: none;
   }
 
+  &[data-toggle="button"] {
+    &.btn-outline-primary:hover {
+      background-color: white;
+      color: $primary;
+    }
+    &:focus {
+      box-shadow: none !important;
+    }
+  }
+
   &:focus,
   &.focus {
     outline: 0;

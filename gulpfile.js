@@ -25,20 +25,20 @@ var path = {
         fonts: 'build'
     },
     src: {
-        html: 'src/**/*.{html,tpl,tmpl,svg,js}',
+        html: 'src/**/*.{html,tpl,tmpl,svg}',
         js: 'src/**/*.js',
         style: 'src/**/*.scss',
         //images: 'src/**/*.{jpg,jpeg,png,gif,svg}',
         //fonts: 'src/**/*.{ttf,otf,woff,woff2,svg,eot}'
-        fonts: 'src/**/*.{ttf,otf,woff,woff2,svg,eot}'
+        fonts: 'src/**/*.{ttf,otf,woff,woff2,svg,eot,jpg,jpeg,png,gif,svg}'
     },
     watch: {
-        html: 'src/**/*.{html,tpl,tmpl,svg,js}',
+        html: 'src/**/*.{html,tpl,tmpl,svg}',
         js: 'src/**/*.js',
         style: 'src/**/*.scss',
         //images: 'src/**/*.{jpg,jpeg,png,gif,svg}',
         //fonts: 'src/**/*.{ttf,otf,woff,woff2,svg,eot}'
-        fonts: 'src/**/*.{ttf,otf,woff,woff2,eot}'
+        fonts: 'src/**/*.{ttf,otf,woff,woff2,eot,jpg,jpeg,png,gif,svg}'
     },
     clean: './build'
 };
@@ -72,7 +72,7 @@ gulp.task('html:build', function () {
 
 gulp.task('js:build', function () {
     gulp.src(path.src.js)
-        .pipe(plumber())
+        //.pipe(plumber())
         .pipe(rigger()) 
         .pipe(sourcemaps.init()) 
         .pipe(uglify()) 

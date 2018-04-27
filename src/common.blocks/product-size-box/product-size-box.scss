@@ -1,8 +1,7 @@
 @import "../../library.blocks/bootstrap/bootstrap-reboot";
 
 @import "../../common.blocks/product-size-control/product-size-control";
-@import "../../common.blocks/product-numeric-size-control/product-numeric-size-control";
-@import "../../common.blocks/product-size-table-popup/product-size-table-popup";
+@import "../product-size-popover/product-size-popover";
 
 .product-size-box__section {
   border-bottom: 1px solid $border-color;
@@ -44,7 +43,7 @@
     position: absolute;
     display: block;
     width: 12px;
-    height: 3px;
+    height: 2px;
     margin: auto;
     border-radius: 6px;
     background-color: #fff;

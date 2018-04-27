@@ -5,7 +5,7 @@
             <div class="modal-header">
                 <h3 class="modal-title" id="exampleModalLongTitle">Выберите размер и количество</h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                    <span aria-hidden="true" class="icon icon__close"></span>
                 </button>
             </div>
             <div class="modal-body">

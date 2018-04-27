@@ -1,0 +1,2 @@
+$('[data-toggle="popover"]').popover(),$('[data-toggle="tooltip"]').tooltip();
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFzc2V0cy9qcy9nbG9iYWwuanMiXSwibmFtZXMiOlsiJCIsInBvcG92ZXIiLCJ0b29sdGlwIl0sIm1hcHBpbmdzIjoiQUFBQUEsRUFBRSwyQkFBMkJDLFVBQzdCRCxFQUFFLDJCQUEyQkUiLCJmaWxlIjoiYXNzZXRzL2pzL2dsb2JhbC5qcyIsInNvdXJjZXNDb250ZW50IjpbIiQoJ1tkYXRhLXRvZ2dsZT1cInBvcG92ZXJcIl0nKS5wb3BvdmVyKCk7XHJcbiQoJ1tkYXRhLXRvZ2dsZT1cInRvb2x0aXBcIl0nKS50b29sdGlwKCk7Il19

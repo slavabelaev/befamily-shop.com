@@ -353,20 +353,27 @@ $input-btn-border-width:      $border-width !default;
 //
 // For each of Bootstrap's buttons, define text, background, and border color.
 
+
 $btn-font-size:               .875rem !default;
 $btn-padding-y:               6px !default;
 $btn-padding-x:               ($btn-padding-y * 4) !default;
 $btn-line-height:             $input-btn-line-height !default;
+$btn-group-padding-x:         $btn-padding-y !default;
+$btn-group-padding-y:         $btn-padding-y !default;
 
 $btn-font-size-sm:            .75rem !default;
 $btn-padding-y-sm:            5px !default;
 $btn-padding-x-sm:            ($btn-padding-y-sm * 4) !default;
 $btn-line-height-sm:          $input-btn-line-height-sm !default;
+$btn-group-padding-y-sm:      $btn-padding-y-sm !default;
+$btn-group-padding-x-sm:      ($btn-padding-y-sm * 2) !default;
 
 $btn-font-size-lg:            1rem !default;
 $btn-padding-y-lg:            ($btn-padding-y * 2) !default;
 $btn-padding-x-lg:            ($btn-padding-y-lg * 3) !default;
 $btn-line-height-lg:          $input-btn-line-height-lg !default;
+$btn-group-padding-y-lg:      $btn-padding-x-lg !default;
+$btn-group-padding-x-lg:      ($btn-padding-y-lg * 2) !default;
 
 $btn-border-width:            $input-btn-border-width !default;
 
@@ -584,7 +591,7 @@ $dropdown-item-padding-x:           1.25rem !default;
 $dropdown-header-color:             $gray-600 !default;
 
 
-// Z-index master list
+// Z-product master list
 //
 // Warning: Avoid customizing these values. They're used for a bird's eye view
 // of components dependent on the z-axis and are designed to all work together.
@@ -790,8 +797,8 @@ $modal-header-border-width:         $modal-content-border-width !default;
 $modal-footer-border-width:         $modal-header-border-width !default;
 $modal-header-padding:              .75rem 1.5rem !default;
 
-$modal-lg:                          800px !default;
-$modal-md:                          800px !default;
+$modal-lg:                          850px !default;
+$modal-md:                          850px !default;
 $modal-sm:                          300px !default;
 
 $modal-transition:                  transform .3s ease-out !default;

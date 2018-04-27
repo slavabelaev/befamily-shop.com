@@ -5,7 +5,7 @@
             <div class="modal-header">
                 <h3 class="modal-title" id="exampleModalLongTitle">Выберите размер и количество</h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
+                    <span aria-hidden="true" class="icon icon__close"></span>
                 </button>
             </div>
             <div class="modal-body">
@@ -34,42 +34,101 @@
             <div class="product-size-box__collapse-container">
                 <a href="#" class="product-size-box__category">Женский</a>
                 <div class="row mb-4">
-                    <div class="col-md-6">
+                    <div class="col-md-7">
                         <!-- Product size control -->
 <div class="product-size-control">
     <label for="" class="product-size-control__label">Выбрать размер:</label>
     <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
         <label class="btn btn-outline-dark">
-            <input type="radio" name="options" id="option1" autocomplete="off" checked> XS
+            <input type="radio" name="size" value="XS">XS
         </label>
         <label class="btn btn-outline-dark">
-            <input type="radio" name="options" id="option2" autocomplete="off"> S
+            <input type="radio" name="size" value="S"> S
         </label>
         <label class="btn btn-outline-dark">
-            <input type="radio" name="options" id="option3" autocomplete="off"> M
+            <input type="radio" name="size" value="M"> M
         </label>
-        <div class="product-size-control__input-group-size-l input-group input-group-sm">
-            <div class="input-group-prepend">
-                <label class="input-group-text">L</label>
-            </div>
-            <select name="options" class="custom-select custom-select-sm product-size-control__select-size-l">
-                <option selected value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-            </select>
-        </div>
         <label class="btn btn-outline-dark">
-            <input type="radio" name="options" id="option3" autocomplete="off"> XL
+            <input type="radio" name="size" value="L"> L
         </label>
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="XL"> XL
+        </label>
+        <label class="btn btn-outline-dark active">
+            <input type="radio" name="size" value="XXL" checked> XXL
+        </label>
+        <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
+            <option selected value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
     </div>
 </div>
 <!-- /Product size control -->
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-5">
                         <!-- Product size table popup -->
-<a href="#" class="product-size-table-popup__link">
-    <i class="icon icon__clothing-size"></i>Таблица размеров
-</a>
+<div class="product-size-popover">
+    <a href="javascript: return false;"
+       class="product-size-popover__link"
+       role="button"
+       data-trigger="hover"
+       data-toggle="popover"
+       data-placement="top"
+       data-html="true"
+       data-content="
+<table class='product-size-popover__table table table-sm table-bordered'>
+    <thead>
+    <tr>
+        <th></th>
+        <th>А</th>
+        <th>Б</th>
+        <th>В</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>XS</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>S</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>M</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>L</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>XL</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>XXL</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    </tbody>
+    </table>
+">
+        <i class="icon icon__clothing-size"></i>Таблица размеров
+    </a>
+</div>
 <!-- /Product size table popup -->
                     </div>
                 </div>
@@ -86,32 +145,95 @@
             <div class="product-size-box__collapse-container">
                 <a href="#" class="product-size-box__category">Детский</a>
                 <div class="row mb-4">
-                    <div class="col-md-6">
-                        <!-- Product numeric size control -->
-<div class="product-numeric-size-control">
-    <label for="" class="product-numeric-size-control__label">Выбрать размер:</label>
-    <div class="btn-group-sm btn-group-toggle mb-2" data-toggle="buttons">
+                    <div class="col-md-7">
+                        <!-- Product size control -->
+<div class="product-size-control">
+    <label for="" class="product-size-control__label">Выбрать размер:</label>
+    <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
         <label class="btn btn-outline-dark">
-            <input type="radio" name="product-size" autocomplete="off" checked> 86
+            <input type="radio" name="size" value="86"> 86
         </label>
         <label class="btn btn-outline-dark">
-            <input type="radio" name="product-size" autocomplete="off"> 92
+            <input type="radio" name="size" value="92"> 92
         </label>
         <label class="btn btn-outline-dark">
-            <input type="radio" name="product-size" autocomplete="off"> 98
+            <input type="radio" name="size" value="98"> 98
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="product-size" autocomplete="off"> 103
+        <label class="btn btn-outline-dark active">
+            <input type="radio" name="size" value="103" checked> 103
         </label>
+        <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
+            <option selected value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
     </div>
 </div>
-<!-- /Product numeric size control -->
+<!-- /Product size control -->
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-5">
                         <!-- Product size table popup -->
-<a href="#" class="product-size-table-popup__link">
-    <i class="icon icon__clothing-size"></i>Таблица размеров
-</a>
+<div class="product-size-popover">
+    <a href="javascript: return false;"
+       class="product-size-popover__link"
+       role="button"
+       data-trigger="hover"
+       data-toggle="popover"
+       data-placement="top"
+       data-html="true"
+       data-content="
+<table class='product-size-popover__table table table-sm table-bordered'>
+    <thead>
+    <tr>
+        <th></th>
+        <th>А</th>
+        <th>Б</th>
+        <th>В</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>XS</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>S</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>M</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>L</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>XL</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>XXL</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    </tbody>
+    </table>
+">
+        <i class="icon icon__clothing-size"></i>Таблица размеров
+    </a>
+</div>
 <!-- /Product size table popup -->
                     </div>
                 </div>
