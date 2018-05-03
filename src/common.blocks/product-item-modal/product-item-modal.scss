@@ -1,8 +1,10 @@
 @import "../../library.blocks/bootstrap/bootstrap-reboot";
 
 .product-item-modal {
-  .product-size-box__collapse-icon {
-    display: none;
+  .list-of-products-included-item__title {
+    .icon {
+      display: none;
+    }
   }
 }
 .product-item-modal__total-label {

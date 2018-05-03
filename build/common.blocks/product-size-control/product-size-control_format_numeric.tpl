@@ -1,6 +1,5 @@
 <!-- Product size control -->
 <div class="product-size-control">
-    <label for="" class="product-size-control__label">Выбрать размер:</label>
     <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="86"> 86

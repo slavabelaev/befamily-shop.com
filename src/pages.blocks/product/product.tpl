@@ -5,10 +5,10 @@
     <div class="container">
         @@include('../../common.blocks/breadcrumb/breadcrumb.tpl')
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-5 col-lg-6">
                 @@include('../../common.blocks/list-of-images/list-of-images.tpl')
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-lg-6">
                 <!-- Product -->
                 <section class="product">
                     <h1>Комплект “Скандинавия”</h1>
@@ -20,24 +20,21 @@
                     <form action="" class="product__form">
                         <ul class="product__list-of-actions">
                             <li class="product__list-of-actions-item">
-                                <button type="submit"
-                                        class="btn btn-outline-primary btn-lg active"
-                                        data-toggle="button"
-                                        aria-pressed="true">Добавить в корзину</button>
+                                <a href="#"
+                                   class="btn btn-primary btn-lg"
+                                   data-toggle="modal"
+                                   data-target=".added-to-cart-modal">Добавить в корзину</a>
                             </li>
                             <li class="product__list-of-actions-item">
-                                <button type="button"
-                                        class="add-to-favorite btn btn-outline-primary btn-lg btn-x-y"
-                                        data-toggle="button"
-                                        aria-pressed="false"><i class="icon icon__heart"></i></button>
+                                @@include('../../common.blocks/add-to-favorite/add-to-favorite.tpl')
                             </li>
                         </ul>
                         <section class="product__section product__section_type_complect-contents pb-0">
                             <h2>В комплект входит:</h2>
-                            @@include('../../common.blocks/product-size-box/product-size-box.tpl')
+                            @@include('../../common.blocks/list-of-products-included/list-of-products-included.tpl')
                         </section>
                     </form>
-                    <section class="product__section product__section_type_composition-of-goods pl-5">
+                    <section class="product__section product__section_type_composition-of-goods pl-md-5">
                         <h2 class="d-none">Состав товара</h2>
                         <table class="product__composition-table">
                             <tbody>
@@ -54,7 +51,7 @@
                     </section>
                     <section class="product__section product__section_type_product-description">
                         <h2>Описание товара</h2>
-                        <div class="product__description-text pl-5">Прекрасные уютные свитера со скандинавскими узорами для всей семьи. Каждый свитер - эксклюзивное изделие, созданное мастерами с любовью и теплотой. Состав: 60 % шерсть, 40 % акрил. Цвет: красно-белый. В стоимость комплекта входит 2 взрослых и один детский свитер.</div>
+                        <div class="product__description-text pl-md-5">Прекрасные уютные свитера со скандинавскими узорами для всей семьи. Каждый свитер - эксклюзивное изделие, созданное мастерами с любовью и теплотой. Состав: 60 % шерсть, 40 % акрил. Цвет: красно-белый. В стоимость комплекта входит 2 взрослых и один детский свитер.</div>
                     </section>
                     <section class="product__section product__section_type_co-equipment">
                         <h2>С этим товаром покупают</h2>
@@ -86,7 +83,11 @@
 
 @@include('../../common.blocks/page-footer/page-footer.tpl')
 
+@@include('../../common.blocks/product-item-modal/product-item-modal.tpl')
+@@include('../../common.blocks/added-to-cart-modal/added-to-cart-modal.tpl')
+
 <!-- Block scripts -->
 <script src="common.blocks/product-size-popover/product-size-popover.js" defer></script>
 <script src="common.blocks/product-item/product-item.js" defer></script>
+<script src="common.blocks/list-of-products-included/list-of-products-included.js" defer></script>
 <script src="common.blocks/product-size-control/product-size-control.js" defer></script>

@@ -249,14 +249,14 @@ $line-height-base:            1.5 !default;
 
 $h1-font-size:                $font-size-base * 2.25 !default;
 $h2-font-size:                $font-size-base * 1.5 !default;
-$h3-font-size:                $font-size-base * 1.25 !default;
-$h4-font-size:                $font-size-base * 1.125 !default;
-$h5-font-size:                $font-size-base * 1 !default;
-$h6-font-size:                $font-size-base * .875 !default;
+$h3-font-size:                $font-size-base * 1.125 !default;
+$h4-font-size:                $font-size-base * 1 !default;
+$h5-font-size:                $font-size-base * .875 !default;
+$h6-font-size:                $font-size-base * .75 !default;
 
 $headings-margin-bottom:      $spacer !default;
 $headings-font-family:        inherit !default;
-$headings-font-weight:        400 !default;
+$headings-font-weight:        600 !default;
 $headings-line-height:        1.2 !default;
 $headings-color:              inherit !default;
 
@@ -719,16 +719,17 @@ $card-columns-margin:               $card-spacer-y !default;
 
 $tooltip-font-size:                 $font-size-sm !default;
 $tooltip-max-width:                 200px !default;
-$tooltip-color:                     $white !default;
-$tooltip-bg:                        $black !default;
+$tooltip-color:                     $dark !default;
+$tooltip-bg:                        $white !default;
 $tooltip-border-radius:             $border-radius !default;
 $tooltip-opacity:                   .9 !default;
-$tooltip-padding-y:                 .25rem !default;
-$tooltip-padding-x:                 .5rem !default;
+$tooltip-padding-y:                 .5rem !default;
+$tooltip-padding-x:                 1rem !default;
 $tooltip-margin:                    0 !default;
+$tooltip-border:                    1px solid $primary !default;
 
-$tooltip-arrow-width:               .8rem !default;
-$tooltip-arrow-height:              .4rem !default;
+$tooltip-arrow-width:               .5rem !default;
+$tooltip-arrow-height:              .5rem !default;
 $tooltip-arrow-color:               $tooltip-bg !default;
 
 
@@ -737,7 +738,7 @@ $tooltip-arrow-color:               $tooltip-bg !default;
 $popover-font-size:                 $font-size-sm !default;
 $popover-bg:                        $white !default;
 $popover-max-width:                 276px !default;
-$popover-border-width:              $border-width !default;
+$popover-border-width:              0 !default;
 $popover-border-color:              rgba($black, .2) !default;
 $popover-border-radius:             $border-radius-lg !default;
 $popover-box-shadow:                0 .25rem .5rem rgba($black, .2) !default;
@@ -798,7 +799,7 @@ $modal-footer-border-width:         $modal-header-border-width !default;
 $modal-header-padding:              .75rem 1.5rem !default;
 
 $modal-lg:                          850px !default;
-$modal-md:                          850px !default;
+$modal-md:                          500px !default;
 $modal-sm:                          300px !default;
 
 $modal-transition:                  transform .3s ease-out !default;

@@ -1,19 +1,18 @@
-<!-- Product size box -->
-<div class="product-size-box">
-    <section class="product-size-box__section">
-        <h3 class="product-size-box__title"
-            data-toggle="collapse"
-            data-target=".product-size-box__for-women"
-            aria-expanded="true">
-            <i class="product-size-box__collapse-icon"></i>Свитер “Скандинавия”</h3>
-        <div class="product-size-box__for-women collapse show">
-            <div class="product-size-box__collapse-container">
-                <a href="#" class="product-size-box__category">Женский</a>
-                <div class="row mb-4">
-                    <div class="col-md-7">
-                        <!-- Product size control -->
+<!-- List of products included -->
+<ul class="list-of-products-included">
+    <li class="list-of-products-included__item">
+        <section class="list-of-products-included-item">
+    <h3 class="list-of-products-included-item__title"
+        data-toggle="collapse">
+        <i class="icon icon__expand_style_primary"></i>Свитер “Скандинавия”</h3>
+    <div class="collapse show">
+        <div class="list-of-products-included-item__collapse-container">
+            <a href="#" class="list-of-products-included-item__category">Женский</a>
+            <div class="row mb-4">
+                <div class="list-of-products-included-item__size-control-box col mb-3 mb-lg-0">
+                    <!-- Product size control -->
 <div class="product-size-control">
-    <label for="" class="product-size-control__label">Выбрать размер:</label>
+    <h4 class="product-size-control__label">Выбрать размер:</h4>
     <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="XS">XS
@@ -27,12 +26,9 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
+        <label class="btn btn-outline-dark active">
             <input type="radio" name="size" value="XL"> XL
         </label>
-        <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL" checked> XXL
-        </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
             <option value="2">2</option>
@@ -41,21 +37,24 @@
     </div>
 </div>
 <!-- /Product size control -->
-                    </div>
-                    <div class="col-md-5">
-                        <!-- Product size table popup -->
+                </div>
+                <div class="list-of-products-included-item__size-popover-box col-lg-auto">
+                    <!-- Product size table popup -->
 <div class="product-size-popover">
     <a href="javascript: return false;"
        class="product-size-popover__link"
        role="button"
-       data-trigger="hover"
+       data-trigger="focus"
        data-toggle="popover"
-       data-placement="top"
+       data-placement="left"
        data-html="true"
-       data-content="
-<table class='product-size-popover__table table table-sm table-bordered'>
+       data-content='
+<div class="p-3 text-center">
+    <img src="/common.blocks/product-size-popover/product-size-popover__shirt.svg" alt="">
+</div>
+<table class="product-size-popover__table table table-sm table-bordered">
     <thead>
-    <tr>
+    <tr class="text-center">
         <th></th>
         <th>А</th>
         <th>Б</th>
@@ -101,42 +100,45 @@
     </tr>
     </tbody>
     </table>
-">
+'>
         <i class="icon icon__clothing-size"></i>Таблица размеров
     </a>
 </div>
 <!-- /Product size table popup -->
-                    </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="product-size-box__section">
-        <h3 class="product-size-box__title"
-            data-toggle="collapse"
-            data-target=".product-size-box__for-children"
-            aria-expanded="true"><i class="product-size-box__collapse-icon"></i>Свитер “Скандинавия”
-        </h3>
-        <div class="product-size-box__for-children collapse show">
-            <div class="product-size-box__collapse-container">
-                <a href="#" class="product-size-box__category">Детский</a>
-                <div class="row mb-4">
-                    <div class="col-md-7">
-                        <!-- Product size control -->
+    </div>
+</section>
+    </li>
+    <li class="list-of-products-included__item">
+        <section class="list-of-products-included-item">
+    <h3 class="list-of-products-included-item__title"
+        data-toggle="collapse">
+        <i class="icon icon__expand_style_primary"></i>Свитер “Скандинавия”</h3>
+    <div class="collapse show">
+        <div class="list-of-products-included-item__collapse-container">
+            <a href="#" class="list-of-products-included-item__category">Детский</a>
+            <div class="row mb-4">
+                <div class="list-of-products-included-item__size-control-box col mb-3 mb-lg-0">
+                    <!-- Product size control -->
 <div class="product-size-control">
-    <label for="" class="product-size-control__label">Выбрать размер:</label>
+    <h4 class="product-size-control__label">Выбрать размер:</h4>
     <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
         <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="86"> 86
+            <input type="radio" name="size" value="XS">XS
         </label>
         <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="92"> 92
+            <input type="radio" name="size" value="S"> S
         </label>
         <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="98"> 98
+            <input type="radio" name="size" value="M"> M
+        </label>
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="L"> L
         </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="103" checked> 103
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -146,21 +148,24 @@
     </div>
 </div>
 <!-- /Product size control -->
-                    </div>
-                    <div class="col-md-5">
-                        <!-- Product size table popup -->
+                </div>
+                <div class="list-of-products-included-item__size-popover-box col-lg-auto">
+                    <!-- Product size table popup -->
 <div class="product-size-popover">
     <a href="javascript: return false;"
        class="product-size-popover__link"
        role="button"
-       data-trigger="hover"
+       data-trigger="focus"
        data-toggle="popover"
-       data-placement="top"
+       data-placement="left"
        data-html="true"
-       data-content="
-<table class='product-size-popover__table table table-sm table-bordered'>
+       data-content='
+<div class="p-3 text-center">
+    <img src="/common.blocks/product-size-popover/product-size-popover__shirt.svg" alt="">
+</div>
+<table class="product-size-popover__table table table-sm table-bordered">
     <thead>
-    <tr>
+    <tr class="text-center">
         <th></th>
         <th>А</th>
         <th>Б</th>
@@ -206,15 +211,16 @@
     </tr>
     </tbody>
     </table>
-">
+'>
         <i class="icon icon__clothing-size"></i>Таблица размеров
     </a>
 </div>
 <!-- /Product size table popup -->
-                    </div>
                 </div>
             </div>
         </div>
-    </section>
-</div>
-<!-- Product size box -->
+    </div>
+</section>
+    </li>
+</ul>
+<!-- /List of products included -->

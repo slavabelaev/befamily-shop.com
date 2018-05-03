@@ -65,6 +65,4 @@
         })
     </li>
 </ul>
-
-@@include('../../common.blocks/complect-item-modal/complect-item-modal.tpl')
 <!-- /List of complects -->

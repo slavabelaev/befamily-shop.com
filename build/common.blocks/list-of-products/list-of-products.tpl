@@ -1,12 +1,12 @@
 <!-- List of products -->
 <ul class="list-of-products row">
-    <li class="list-of-products__item col-md-6">
+    <li class="list-of-products__item col mb-3">
         <!-- Product item -->
-<form action="" class="product-item card">
+<form action="#" class="product-item card">
     <div class="card-body">
         <a href="#" class="product-item__image" style="background-image: url(content/images/products/sweater__Scandinavia/sweater__Scandinavia-1.jpg);"></a>
         <h3 class="product-item__title"><a href="#">Свитер “Скандинавия”</a></h3>
-        <ul class="product-item__details">
+        <ul class="product-item__details mb-2">
             <li class="product-item__detail product-item__category">Мальчик</li>
             <li class="product-item__detail product-item__uid text-right">Артикул: 0109</li>
             <li class="product-item__detail product-item__price">5860 ₽</li>
@@ -14,7 +14,7 @@
         <div class="product-item__size collapse">
             <!-- Product size control -->
 <div class="product-size-control">
-    <label for="" class="product-size-control__label">Выбрать размер:</label>
+    <h4 class="product-size-control__label">Выбрать размер:</h4>
     <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="XS">XS
@@ -28,11 +28,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL" checked> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -44,23 +41,24 @@
 <!-- /Product size control -->
         </div>
     </div>
-    <div class="card-footer text-center">
-        <button class="btn btn-outline-info"
-                data-toggle="collapse"
-                data-target=".collapse"
-                data-closest-parent=".product-item">Добавить</button>
+    <div class="card-footer">
+        <a href="#" class="product-item__collapse-size btn btn-outline-info"
+                data-toggle="collapse">Добавить</a>
+        <a href="#" class="product-item__added-to-cart btn btn-outline-primary d-none"
+                data-toggle="modal"
+                data-target=".added-to-cart-modal">В корзину</a>
     </div>
 </form>
 <!-- /Product item -->
 
     </li>
-    <li class="list-of-products__item col-md-6">
+    <li class="list-of-products__item col mb-3">
         <!-- Product item -->
-<form action="" class="product-item card">
+<form action="#" class="product-item card">
     <div class="card-body">
         <a href="#" class="product-item__image" style="background-image: url(content/images/products/sweater__Scandinavia/sweater__Scandinavia-2.jpg);"></a>
         <h3 class="product-item__title"><a href="#">Свитер “Скандинавия”</a></h3>
-        <ul class="product-item__details">
+        <ul class="product-item__details mb-2">
             <li class="product-item__detail product-item__category">Мальчик</li>
             <li class="product-item__detail product-item__uid text-right">Артикул: 0109</li>
             <li class="product-item__detail product-item__price">7790 ₽</li>
@@ -68,7 +66,7 @@
         <div class="product-item__size collapse">
             <!-- Product size control -->
 <div class="product-size-control">
-    <label for="" class="product-size-control__label">Выбрать размер:</label>
+    <h4 class="product-size-control__label">Выбрать размер:</h4>
     <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="XS">XS
@@ -82,11 +80,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL" checked> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -98,11 +93,12 @@
 <!-- /Product size control -->
         </div>
     </div>
-    <div class="card-footer text-center">
-        <button class="btn btn-outline-info"
-                data-toggle="collapse"
-                data-target=".collapse"
-                data-closest-parent=".product-item">Добавить</button>
+    <div class="card-footer">
+        <a href="#" class="product-item__collapse-size btn btn-outline-info"
+                data-toggle="collapse">Добавить</a>
+        <a href="#" class="product-item__added-to-cart btn btn-outline-primary d-none"
+                data-toggle="modal"
+                data-target=".added-to-cart-modal">В корзину</a>
     </div>
 </form>
 <!-- /Product item -->

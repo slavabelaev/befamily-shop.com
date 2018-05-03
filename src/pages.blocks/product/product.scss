@@ -6,8 +6,10 @@
 @import "../../common.blocks/list-of-products/list-of-products";
 @import "../../common.blocks/list-of-complects/list-of-complects";
 @import "../../common.blocks/list-of-reviews/list-of-reviews";
-@import "../../common.blocks/product-size-box/product-size-box";
+@import "../../common.blocks/list-of-products-included/list-of-products-included";
 @import "../../common.blocks/list-of-product-categories/list-of-product-categories";
+@import "../../common.blocks/add-to-favorite/add-to-favorite";
+@import "../../common.blocks/added-to-cart-modal/added-to-cart-modal";
 
 .product__section {
   padding-top: 1.5rem;
@@ -67,18 +69,7 @@
   }
 }
 .product__section_type_complect-contents {
-  .product-size-box__collapse-container {
+  .list-of-products-included__collapse-container {
     margin-left: 3rem;
-  }
-}
-
-.add-to-favorite {
-  &:hover {
-    background-color: $white;
-  }
-  &.active {
-    .icon {
-      filter: brightness(0) invert(1);
-    }
   }
 }

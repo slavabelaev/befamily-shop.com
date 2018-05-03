@@ -19,6 +19,11 @@
     display: block;
     width: $tooltip-arrow-width;
     height: $tooltip-arrow-height;
+    border: $tooltip-border;
+    background-color: $tooltip-bg;
+    transform: rotate(45deg);
+    border-top-width: 0;
+    border-left-width: 0;
 
     &::before {
       position: absolute;
@@ -30,10 +35,10 @@
 }
 
 .bs-tooltip-top {
-  padding: $tooltip-arrow-height 0;
+  padding: 0;
 
   .arrow {
-    bottom: 0;
+    bottom: -.25rem;
 
     &::before {
       top: 0;
@@ -44,10 +49,10 @@
 }
 
 .bs-tooltip-right {
-  padding: 0 $tooltip-arrow-height;
+  padding: 0;
 
   .arrow {
-    left: 0;
+    left: -.25rem;
     width: $tooltip-arrow-height;
     height: $tooltip-arrow-width;
 
@@ -60,10 +65,10 @@
 }
 
 .bs-tooltip-bottom {
-  padding: $tooltip-arrow-height 0;
+  padding: 0;
 
   .arrow {
-    top: 0;
+    top: -.25rem;
 
     &::before {
       bottom: 0;
@@ -74,10 +79,10 @@
 }
 
 .bs-tooltip-left {
-  padding: 0 $tooltip-arrow-height;
+  padding: 0;
 
   .arrow {
-    right: 0;
+    right: -.25rem;
     width: $tooltip-arrow-height;
     height: $tooltip-arrow-width;
 
@@ -92,15 +97,19 @@
 .bs-tooltip-auto {
   &[x-placement^="top"] {
     @extend .bs-tooltip-top;
+    top: -.25rem;
   }
   &[x-placement^="right"] {
     @extend .bs-tooltip-right;
+    right: -.25rem;
   }
   &[x-placement^="bottom"] {
     @extend .bs-tooltip-bottom;
+    bottom: -.25rem;
   }
   &[x-placement^="left"] {
     @extend .bs-tooltip-left;
+    left: -.25rem;
   }
 }
 
@@ -111,5 +120,6 @@
   color: $tooltip-color;
   text-align: center;
   background-color: $tooltip-bg;
+  border: $tooltip-border;
   @include border-radius($tooltip-border-radius);
 }

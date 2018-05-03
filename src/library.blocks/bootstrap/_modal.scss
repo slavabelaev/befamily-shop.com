@@ -101,6 +101,9 @@
 
   .close {
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     top: 0;
     right: 0;
     bottom: 0;
@@ -114,7 +117,6 @@
 .modal-title {
   margin-bottom: 0;
   line-height: $modal-title-line-height;
-  font-weight: bold;
 }
 
 // Modal body

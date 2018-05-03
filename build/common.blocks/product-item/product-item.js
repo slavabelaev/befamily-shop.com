@@ -1,2 +1,10 @@
-jQuery(document).ready(function(e){e(".product-item")});
-//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbW1vbi5ibG9ja3MvcHJvZHVjdC1pdGVtL3Byb2R1Y3QtaXRlbS5qcyJdLCJuYW1lcyI6WyJqUXVlcnkiLCJkb2N1bWVudCIsInJlYWR5IiwiJCJdLCJtYXBwaW5ncyI6IkFBQUFBLE9BQU9DLFVBQVVDLE1BQU0sU0FBU0MsR0FDSEEsRUFBRSIsImZpbGUiOiJjb21tb24uYmxvY2tzL3Byb2R1Y3QtaXRlbS9wcm9kdWN0LWl0ZW0uanMiLCJzb3VyY2VzQ29udGVudCI6WyJqUXVlcnkoZG9jdW1lbnQpLnJlYWR5KGZ1bmN0aW9uKCQpIHtcclxuICAgIHZhciBwcm9kdWN0SXRlbUVsZW1lbnQgPSAkKCcucHJvZHVjdC1pdGVtJyk7XHJcbn0pOyJdfQ==
+jQuery(document).ready(function($) {
+    $('.product-item__collapse-size').on('click', function(e) {
+        e.preventDefault();
+        var closestProductItem = $(this).closest('.product-item');
+        closestProductItem.toggleClass('active');
+        closestProductItem.find('.product-item__size').toggleClass('show');
+        closestProductItem.find('.product-item__collapse-size').toggleClass('d-none');
+        closestProductItem.find('.product-item__added-to-cart').toggleClass('d-none');
+    });
+});

@@ -1,8 +1,9 @@
 @import "../../library.blocks/bootstrap/bootstrap-reboot";
-@import "../../common.blocks/complect-item-modal/complect-item-modal";
+@import "../added-to-cart-modal/added-to-cart-modal";
 
 .complect-item {
   position: relative;
+  min-width: 240px;
   .card-footer {
     background-color: $white;
     border-top-width: 0;
@@ -17,18 +18,27 @@
   left: 1.5rem;
   width: 2rem;
   height: 2rem;
+  padding: 0;
+  border-width: 0;
   background-color: $white;
   border-radius: 50%;
   z-index: 2;
   transition: $transition-base;
+  &.active,
   &:hover {
-    transform: scale(1.2);
     .icon {
-      filter: brightness(1);
       opacity: 1;
+      filter: brightness(1);
+    }
+  }
+  &.active {
+    .icon {
+      background-image: url(/common.blocks/icon/icon__heart_style_primary.svg);
     }
   }
   .icon {
+    width: 20px;
+    height: 20px;
     background-size: 20px;
     filter: brightness(0);
     opacity: .5;
@@ -69,7 +79,7 @@
   color: $gray-900;
 }
 
-.complect-item__add-to-shopping-bag {
+.complect-item__added-to-cart {
   .icon {
     &:hover {
       filter: brightness(1);

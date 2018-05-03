@@ -25,7 +25,7 @@ var path = {
         fonts: 'build'
     },
     src: {
-        html: 'src/**/*.{html,tpl,tmpl,svg}',
+        html: 'src/**/*.{html,tpl,tmpl,svg,js}',
         js: 'src/**/*.js',
         style: 'src/**/*.scss',
         //images: 'src/**/*.{jpg,jpeg,png,gif,svg}',
@@ -33,7 +33,7 @@ var path = {
         fonts: 'src/**/*.{ttf,otf,woff,woff2,svg,eot,jpg,jpeg,png,gif,svg}'
     },
     watch: {
-        html: 'src/**/*.{html,tpl,tmpl,svg}',
+        html: 'src/**/*.{html,tpl,tmpl,svg,js}',
         js: 'src/**/*.js',
         style: 'src/**/*.scss',
         //images: 'src/**/*.{jpg,jpeg,png,gif,svg}',
@@ -115,7 +115,7 @@ gulp.task('build', [
     'style:build',
     //'image:build',
     'fonts:build',
-    'js:build'
+    //'js:build'
 ]);
 
 

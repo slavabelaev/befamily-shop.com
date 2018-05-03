@@ -60,11 +60,15 @@
 
 @include media-breakpoint-only(xs) {
   .page-header__logo {
-    width: 130px;
+    width: 110px;
   }
 }
 
-@include media-breakpoint-up(sm) {}
+@include media-breakpoint-up(sm) {
+  .page-header__logo {
+    width: 130px;
+  }
+}
 
 @include media-breakpoint-between(xs, md) {
   .page-header__navbar-actions {

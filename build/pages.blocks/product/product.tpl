@@ -81,7 +81,7 @@
 </nav>
 <!-- /Breadcrumb -->
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-5 col-lg-6">
                 <!-- List of images -->
 <ul class="list-of-images">
     <li class="list-of-images__item">
@@ -112,7 +112,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
 <!-- /List of images -->
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-lg-6">
                 <!-- Product -->
                 <section class="product">
                     <h1>Комплект “Скандинавия”</h1>
@@ -124,36 +124,43 @@
                     <form action="" class="product__form">
                         <ul class="product__list-of-actions">
                             <li class="product__list-of-actions-item">
-                                <button type="submit"
-                                        class="btn btn-outline-primary btn-lg active"
-                                        data-toggle="button"
-                                        aria-pressed="true">Добавить в корзину</button>
+                                <a href="#"
+                                   class="btn btn-primary btn-lg"
+                                   data-toggle="modal"
+                                   data-target=".added-to-cart-modal">Добавить в корзину</a>
                             </li>
                             <li class="product__list-of-actions-item">
-                                <button type="button"
-                                        class="add-to-favorite btn btn-outline-primary btn-lg btn-x-y"
-                                        data-toggle="button"
-                                        aria-pressed="false"><i class="icon icon__heart"></i></button>
+                                <!-- Add to favorite -->
+<button type="button"
+        class="add-to-favorite btn btn-outline-primary btn-lg btn-x-y"
+        data-toggle="button"
+        aria-pressed="false">
+    <i class="icon"></i>
+    <div class="tooltip fade bs-tooltip-top show" role="tooltip" x-placement="top">
+        <div class="arrow"></div>
+        <div class="tooltip-inner">Добавленно в <span class="text-info">избранное</span></div>
+    </div>
+</button>
+<!-- /Add to favorite -->
                             </li>
                         </ul>
                         <section class="product__section product__section_type_complect-contents pb-0">
                             <h2>В комплект входит:</h2>
-                            <!-- Product size box -->
-<div class="product-size-box">
-    <section class="product-size-box__section">
-        <h3 class="product-size-box__title"
-            data-toggle="collapse"
-            data-target=".product-size-box__for-women"
-            aria-expanded="true">
-            <i class="product-size-box__collapse-icon"></i>Свитер “Скандинавия”</h3>
-        <div class="product-size-box__for-women collapse show">
-            <div class="product-size-box__collapse-container">
-                <a href="#" class="product-size-box__category">Женский</a>
-                <div class="row mb-4">
-                    <div class="col-md-7">
-                        <!-- Product size control -->
+                            <!-- List of products included -->
+<ul class="list-of-products-included">
+    <li class="list-of-products-included__item">
+        <section class="list-of-products-included-item">
+    <h3 class="list-of-products-included-item__title"
+        data-toggle="collapse">
+        <i class="icon icon__expand_style_primary"></i>Свитер “Скандинавия”</h3>
+    <div class="collapse show">
+        <div class="list-of-products-included-item__collapse-container">
+            <a href="#" class="list-of-products-included-item__category">Женский</a>
+            <div class="row mb-4">
+                <div class="list-of-products-included-item__size-control-box col mb-3 mb-lg-0">
+                    <!-- Product size control -->
 <div class="product-size-control">
-    <label for="" class="product-size-control__label">Выбрать размер:</label>
+    <h4 class="product-size-control__label">Выбрать размер:</h4>
     <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="XS">XS
@@ -167,12 +174,9 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
+        <label class="btn btn-outline-dark active">
             <input type="radio" name="size" value="XL"> XL
         </label>
-        <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL" checked> XXL
-        </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
             <option value="2">2</option>
@@ -181,21 +185,24 @@
     </div>
 </div>
 <!-- /Product size control -->
-                    </div>
-                    <div class="col-md-5">
-                        <!-- Product size table popup -->
+                </div>
+                <div class="list-of-products-included-item__size-popover-box col-lg-auto">
+                    <!-- Product size table popup -->
 <div class="product-size-popover">
     <a href="javascript: return false;"
        class="product-size-popover__link"
        role="button"
-       data-trigger="hover"
+       data-trigger="focus"
        data-toggle="popover"
-       data-placement="top"
+       data-placement="left"
        data-html="true"
-       data-content="
-<table class='product-size-popover__table table table-sm table-bordered'>
+       data-content='
+<div class="p-3 text-center">
+    <img src="/common.blocks/product-size-popover/product-size-popover__shirt.svg" alt="">
+</div>
+<table class="product-size-popover__table table table-sm table-bordered">
     <thead>
-    <tr>
+    <tr class="text-center">
         <th></th>
         <th>А</th>
         <th>Б</th>
@@ -241,42 +248,45 @@
     </tr>
     </tbody>
     </table>
-">
+'>
         <i class="icon icon__clothing-size"></i>Таблица размеров
     </a>
 </div>
 <!-- /Product size table popup -->
-                    </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="product-size-box__section">
-        <h3 class="product-size-box__title"
-            data-toggle="collapse"
-            data-target=".product-size-box__for-children"
-            aria-expanded="true"><i class="product-size-box__collapse-icon"></i>Свитер “Скандинавия”
-        </h3>
-        <div class="product-size-box__for-children collapse show">
-            <div class="product-size-box__collapse-container">
-                <a href="#" class="product-size-box__category">Детский</a>
-                <div class="row mb-4">
-                    <div class="col-md-7">
-                        <!-- Product size control -->
+    </div>
+</section>
+    </li>
+    <li class="list-of-products-included__item">
+        <section class="list-of-products-included-item">
+    <h3 class="list-of-products-included-item__title"
+        data-toggle="collapse">
+        <i class="icon icon__expand_style_primary"></i>Свитер “Скандинавия”</h3>
+    <div class="collapse show">
+        <div class="list-of-products-included-item__collapse-container">
+            <a href="#" class="list-of-products-included-item__category">Детский</a>
+            <div class="row mb-4">
+                <div class="list-of-products-included-item__size-control-box col mb-3 mb-lg-0">
+                    <!-- Product size control -->
 <div class="product-size-control">
-    <label for="" class="product-size-control__label">Выбрать размер:</label>
+    <h4 class="product-size-control__label">Выбрать размер:</h4>
     <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
         <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="86"> 86
+            <input type="radio" name="size" value="XS">XS
         </label>
         <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="92"> 92
+            <input type="radio" name="size" value="S"> S
         </label>
         <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="98"> 98
+            <input type="radio" name="size" value="M"> M
+        </label>
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="L"> L
         </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="103" checked> 103
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -286,21 +296,24 @@
     </div>
 </div>
 <!-- /Product size control -->
-                    </div>
-                    <div class="col-md-5">
-                        <!-- Product size table popup -->
+                </div>
+                <div class="list-of-products-included-item__size-popover-box col-lg-auto">
+                    <!-- Product size table popup -->
 <div class="product-size-popover">
     <a href="javascript: return false;"
        class="product-size-popover__link"
        role="button"
-       data-trigger="hover"
+       data-trigger="focus"
        data-toggle="popover"
-       data-placement="top"
+       data-placement="left"
        data-html="true"
-       data-content="
-<table class='product-size-popover__table table table-sm table-bordered'>
+       data-content='
+<div class="p-3 text-center">
+    <img src="/common.blocks/product-size-popover/product-size-popover__shirt.svg" alt="">
+</div>
+<table class="product-size-popover__table table table-sm table-bordered">
     <thead>
-    <tr>
+    <tr class="text-center">
         <th></th>
         <th>А</th>
         <th>Б</th>
@@ -346,21 +359,22 @@
     </tr>
     </tbody>
     </table>
-">
+'>
         <i class="icon icon__clothing-size"></i>Таблица размеров
     </a>
 </div>
 <!-- /Product size table popup -->
-                    </div>
                 </div>
             </div>
         </div>
-    </section>
-</div>
-<!-- Product size box -->
+    </div>
+</section>
+    </li>
+</ul>
+<!-- /List of products included -->
                         </section>
                     </form>
-                    <section class="product__section product__section_type_composition-of-goods pl-5">
+                    <section class="product__section product__section_type_composition-of-goods pl-md-5">
                         <h2 class="d-none">Состав товара</h2>
                         <table class="product__composition-table">
                             <tbody>
@@ -377,19 +391,19 @@
                     </section>
                     <section class="product__section product__section_type_product-description">
                         <h2>Описание товара</h2>
-                        <div class="product__description-text pl-5">Прекрасные уютные свитера со скандинавскими узорами для всей семьи. Каждый свитер - эксклюзивное изделие, созданное мастерами с любовью и теплотой. Состав: 60 % шерсть, 40 % акрил. Цвет: красно-белый. В стоимость комплекта входит 2 взрослых и один детский свитер.</div>
+                        <div class="product__description-text pl-md-5">Прекрасные уютные свитера со скандинавскими узорами для всей семьи. Каждый свитер - эксклюзивное изделие, созданное мастерами с любовью и теплотой. Состав: 60 % шерсть, 40 % акрил. Цвет: красно-белый. В стоимость комплекта входит 2 взрослых и один детский свитер.</div>
                     </section>
                     <section class="product__section product__section_type_co-equipment">
                         <h2>С этим товаром покупают</h2>
                         <!-- List of products -->
 <ul class="list-of-products row">
-    <li class="list-of-products__item col-md-6">
+    <li class="list-of-products__item col mb-3">
         <!-- Product item -->
-<form action="" class="product-item card">
+<form action="#" class="product-item card">
     <div class="card-body">
         <a href="#" class="product-item__image" style="background-image: url(content/images/products/sweater__Scandinavia/sweater__Scandinavia-1.jpg);"></a>
         <h3 class="product-item__title"><a href="#">Свитер “Скандинавия”</a></h3>
-        <ul class="product-item__details">
+        <ul class="product-item__details mb-2">
             <li class="product-item__detail product-item__category">Мальчик</li>
             <li class="product-item__detail product-item__uid text-right">Артикул: 0109</li>
             <li class="product-item__detail product-item__price">5860 ₽</li>
@@ -397,7 +411,7 @@
         <div class="product-item__size collapse">
             <!-- Product size control -->
 <div class="product-size-control">
-    <label for="" class="product-size-control__label">Выбрать размер:</label>
+    <h4 class="product-size-control__label">Выбрать размер:</h4>
     <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="XS">XS
@@ -411,11 +425,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL" checked> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -427,23 +438,24 @@
 <!-- /Product size control -->
         </div>
     </div>
-    <div class="card-footer text-center">
-        <button class="btn btn-outline-info"
-                data-toggle="collapse"
-                data-target=".collapse"
-                data-closest-parent=".product-item">Добавить</button>
+    <div class="card-footer">
+        <a href="#" class="product-item__collapse-size btn btn-outline-info"
+                data-toggle="collapse">Добавить</a>
+        <a href="#" class="product-item__added-to-cart btn btn-outline-primary d-none"
+                data-toggle="modal"
+                data-target=".added-to-cart-modal">В корзину</a>
     </div>
 </form>
 <!-- /Product item -->
 
     </li>
-    <li class="list-of-products__item col-md-6">
+    <li class="list-of-products__item col mb-3">
         <!-- Product item -->
-<form action="" class="product-item card">
+<form action="#" class="product-item card">
     <div class="card-body">
         <a href="#" class="product-item__image" style="background-image: url(content/images/products/sweater__Scandinavia/sweater__Scandinavia-2.jpg);"></a>
         <h3 class="product-item__title"><a href="#">Свитер “Скандинавия”</a></h3>
-        <ul class="product-item__details">
+        <ul class="product-item__details mb-2">
             <li class="product-item__detail product-item__category">Мальчик</li>
             <li class="product-item__detail product-item__uid text-right">Артикул: 0109</li>
             <li class="product-item__detail product-item__price">7790 ₽</li>
@@ -451,7 +463,7 @@
         <div class="product-item__size collapse">
             <!-- Product size control -->
 <div class="product-size-control">
-    <label for="" class="product-size-control__label">Выбрать размер:</label>
+    <h4 class="product-size-control__label">Выбрать размер:</h4>
     <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="XS">XS
@@ -465,11 +477,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL" checked> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -481,11 +490,12 @@
 <!-- /Product size control -->
         </div>
     </div>
-    <div class="card-footer text-center">
-        <button class="btn btn-outline-info"
-                data-toggle="collapse"
-                data-target=".collapse"
-                data-closest-parent=".product-item">Добавить</button>
+    <div class="card-footer">
+        <a href="#" class="product-item__collapse-size btn btn-outline-info"
+                data-toggle="collapse">Добавить</a>
+        <a href="#" class="product-item__added-to-cart btn btn-outline-primary d-none"
+                data-toggle="modal"
+                data-target=".added-to-cart-modal">В корзину</a>
     </div>
 </form>
 <!-- /Product item -->
@@ -569,9 +579,12 @@
         <!-- Complect item -->
 <form action="" class="complect-item card">
     <div class="card-body">
-        <a href="#" class="complect-item__add-to-favorite">
+        <button type="button"
+                class="complect-item__add-to-favorite btn"
+                data-toggle="button"
+                aria-pressed="false">
             <i class="icon icon__heart"></i>
-        </a>
+        </button>
         <a href="#" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-1.jpg);"></a>
         <h3 class="complect-item__title"><a href="#">Комплект платьев Мечта</a></h3>
         <ul class="complect-item__details">
@@ -579,9 +592,9 @@
             <li class="complect-item__detail complect-item__price">10890 ₽</li>
             <li class="complect-item__detail text-right">
                 <a href="#"
-                   class="complect-item__add-to-shopping-bag"
+                   class="complect-item__added-to-cart"
                    data-toggle="modal"
-                   data-target=".complect-item-modal">
+                   data-target=".product-item-modal">
                     <i class="icon icon__shopping-bag icon_style_dark"></i>
                 </a>
             </li>
@@ -595,9 +608,12 @@
         <!-- Complect item -->
 <form action="" class="complect-item card">
     <div class="card-body">
-        <a href="#" class="complect-item__add-to-favorite">
+        <button type="button"
+                class="complect-item__add-to-favorite btn"
+                data-toggle="button"
+                aria-pressed="false">
             <i class="icon icon__heart"></i>
-        </a>
+        </button>
         <a href="#" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-2.jpg);"></a>
         <h3 class="complect-item__title"><a href="#">Комплект платьев Мечта</a></h3>
         <ul class="complect-item__details">
@@ -605,9 +621,9 @@
             <li class="complect-item__detail complect-item__price">10890 ₽</li>
             <li class="complect-item__detail text-right">
                 <a href="#"
-                   class="complect-item__add-to-shopping-bag"
+                   class="complect-item__added-to-cart"
                    data-toggle="modal"
-                   data-target=".complect-item-modal">
+                   data-target=".product-item-modal">
                     <i class="icon icon__shopping-bag icon_style_dark"></i>
                 </a>
             </li>
@@ -621,9 +637,12 @@
         <!-- Complect item -->
 <form action="" class="complect-item card">
     <div class="card-body">
-        <a href="#" class="complect-item__add-to-favorite">
+        <button type="button"
+                class="complect-item__add-to-favorite btn"
+                data-toggle="button"
+                aria-pressed="false">
             <i class="icon icon__heart"></i>
-        </a>
+        </button>
         <a href="#" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-3.jpg);"></a>
         <h3 class="complect-item__title"><a href="#">Комплект платьев Мечта</a></h3>
         <ul class="complect-item__details">
@@ -631,9 +650,9 @@
             <li class="complect-item__detail complect-item__price">10890 ₽</li>
             <li class="complect-item__detail text-right">
                 <a href="#"
-                   class="complect-item__add-to-shopping-bag"
+                   class="complect-item__added-to-cart"
                    data-toggle="modal"
-                   data-target=".complect-item-modal">
+                   data-target=".product-item-modal">
                     <i class="icon icon__shopping-bag icon_style_dark"></i>
                 </a>
             </li>
@@ -647,9 +666,12 @@
         <!-- Complect item -->
 <form action="" class="complect-item card">
     <div class="card-body">
-        <a href="#" class="complect-item__add-to-favorite">
+        <button type="button"
+                class="complect-item__add-to-favorite btn"
+                data-toggle="button"
+                aria-pressed="false">
             <i class="icon icon__heart"></i>
-        </a>
+        </button>
         <a href="#" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-4.jpg);"></a>
         <h3 class="complect-item__title"><a href="#">Комплект платьев Мечта</a></h3>
         <ul class="complect-item__details">
@@ -657,9 +679,9 @@
             <li class="complect-item__detail complect-item__price">10890 ₽</li>
             <li class="complect-item__detail text-right">
                 <a href="#"
-                   class="complect-item__add-to-shopping-bag"
+                   class="complect-item__added-to-cart"
                    data-toggle="modal"
-                   data-target=".complect-item-modal">
+                   data-target=".product-item-modal">
                     <i class="icon icon__shopping-bag icon_style_dark"></i>
                 </a>
             </li>
@@ -673,9 +695,12 @@
         <!-- Complect item -->
 <form action="" class="complect-item card">
     <div class="card-body">
-        <a href="#" class="complect-item__add-to-favorite">
+        <button type="button"
+                class="complect-item__add-to-favorite btn"
+                data-toggle="button"
+                aria-pressed="false">
             <i class="icon icon__heart"></i>
-        </a>
+        </button>
         <a href="#" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-5.jpg);"></a>
         <h3 class="complect-item__title"><a href="#">Комплект платьев Мечта</a></h3>
         <ul class="complect-item__details">
@@ -683,9 +708,9 @@
             <li class="complect-item__detail complect-item__price">10890 ₽</li>
             <li class="complect-item__detail text-right">
                 <a href="#"
-                   class="complect-item__add-to-shopping-bag"
+                   class="complect-item__added-to-cart"
                    data-toggle="modal"
-                   data-target=".complect-item-modal">
+                   data-target=".product-item-modal">
                     <i class="icon icon__shopping-bag icon_style_dark"></i>
                 </a>
             </li>
@@ -699,9 +724,12 @@
         <!-- Complect item -->
 <form action="" class="complect-item card">
     <div class="card-body">
-        <a href="#" class="complect-item__add-to-favorite">
+        <button type="button"
+                class="complect-item__add-to-favorite btn"
+                data-toggle="button"
+                aria-pressed="false">
             <i class="icon icon__heart"></i>
-        </a>
+        </button>
         <a href="#" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-6.jpg);"></a>
         <h3 class="complect-item__title"><a href="#">Комплект платьев Мечта</a></h3>
         <ul class="complect-item__details">
@@ -709,9 +737,9 @@
             <li class="complect-item__detail complect-item__price">10890 ₽</li>
             <li class="complect-item__detail text-right">
                 <a href="#"
-                   class="complect-item__add-to-shopping-bag"
+                   class="complect-item__added-to-cart"
                    data-toggle="modal"
-                   data-target=".complect-item-modal">
+                   data-target=".product-item-modal">
                     <i class="icon icon__shopping-bag icon_style_dark"></i>
                 </a>
             </li>
@@ -725,9 +753,12 @@
         <!-- Complect item -->
 <form action="" class="complect-item card">
     <div class="card-body">
-        <a href="#" class="complect-item__add-to-favorite">
+        <button type="button"
+                class="complect-item__add-to-favorite btn"
+                data-toggle="button"
+                aria-pressed="false">
             <i class="icon icon__heart"></i>
-        </a>
+        </button>
         <a href="#" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-7.jpg);"></a>
         <h3 class="complect-item__title"><a href="#">Комплект платьев Мечта</a></h3>
         <ul class="complect-item__details">
@@ -735,9 +766,9 @@
             <li class="complect-item__detail complect-item__price">10890 ₽</li>
             <li class="complect-item__detail text-right">
                 <a href="#"
-                   class="complect-item__add-to-shopping-bag"
+                   class="complect-item__added-to-cart"
                    data-toggle="modal"
-                   data-target=".complect-item-modal">
+                   data-target=".product-item-modal">
                     <i class="icon icon__shopping-bag icon_style_dark"></i>
                 </a>
             </li>
@@ -751,9 +782,12 @@
         <!-- Complect item -->
 <form action="" class="complect-item card">
     <div class="card-body">
-        <a href="#" class="complect-item__add-to-favorite">
+        <button type="button"
+                class="complect-item__add-to-favorite btn"
+                data-toggle="button"
+                aria-pressed="false">
             <i class="icon icon__heart"></i>
-        </a>
+        </button>
         <a href="#" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-8.jpg);"></a>
         <h3 class="complect-item__title"><a href="#">Комплект платьев Мечта</a></h3>
         <ul class="complect-item__details">
@@ -761,9 +795,9 @@
             <li class="complect-item__detail complect-item__price">10890 ₽</li>
             <li class="complect-item__detail text-right">
                 <a href="#"
-                   class="complect-item__add-to-shopping-bag"
+                   class="complect-item__added-to-cart"
                    data-toggle="modal"
-                   data-target=".complect-item-modal">
+                   data-target=".product-item-modal">
                     <i class="icon icon__shopping-bag icon_style_dark"></i>
                 </a>
             </li>
@@ -774,261 +808,6 @@
 
     </li>
 </ul>
-
-<!-- Complect item modal -->
-<div class="complect-item-modal modal fade" tabindex="-1" role="dialog">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <form action="#" class="modal-content">
-            <div class="modal-header">
-                <h3 class="modal-title" id="exampleModalLongTitle">Выберите размер и количество</h3>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true" class="icon icon__close"></span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-md-4">
-                        <a data-fancybox="gallery"
-                           href="content/images/complects/scandinavia/scandinavia-1.jpg"
-                           class="list-of-images__link">
-                            <img src="content/images/complects/scandinavia/scandinavia-1.jpg" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="complect-item-modal__total-label">Итого:</div>
-                        <div class="complect-item-modal__price">10 890 ₽</div>
-                        <hr class="mb-0">
-                        <div class="mb-4">
-                            <!-- Product size box -->
-<div class="product-size-box">
-    <section class="product-size-box__section">
-        <h3 class="product-size-box__title"
-            data-toggle="collapse"
-            data-target=".product-size-box__for-women"
-            aria-expanded="true">
-            <i class="product-size-box__collapse-icon"></i>Свитер “Скандинавия”</h3>
-        <div class="product-size-box__for-women collapse show">
-            <div class="product-size-box__collapse-container">
-                <a href="#" class="product-size-box__category">Женский</a>
-                <div class="row mb-4">
-                    <div class="col-md-7">
-                        <!-- Product size control -->
-<div class="product-size-control">
-    <label for="" class="product-size-control__label">Выбрать размер:</label>
-    <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XS">XS
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="S"> S
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="M"> M
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="L"> L
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
-        <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL" checked> XXL
-        </label>
-        <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
-            <option selected value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-        </select>
-    </div>
-</div>
-<!-- /Product size control -->
-                    </div>
-                    <div class="col-md-5">
-                        <!-- Product size table popup -->
-<div class="product-size-popover">
-    <a href="javascript: return false;"
-       class="product-size-popover__link"
-       role="button"
-       data-trigger="hover"
-       data-toggle="popover"
-       data-placement="top"
-       data-html="true"
-       data-content="
-<table class='product-size-popover__table table table-sm table-bordered'>
-    <thead>
-    <tr>
-        <th></th>
-        <th>А</th>
-        <th>Б</th>
-        <th>В</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>XS</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>S</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>M</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>L</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>XL</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>XXL</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    </tbody>
-    </table>
-">
-        <i class="icon icon__clothing-size"></i>Таблица размеров
-    </a>
-</div>
-<!-- /Product size table popup -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="product-size-box__section">
-        <h3 class="product-size-box__title"
-            data-toggle="collapse"
-            data-target=".product-size-box__for-children"
-            aria-expanded="true"><i class="product-size-box__collapse-icon"></i>Свитер “Скандинавия”
-        </h3>
-        <div class="product-size-box__for-children collapse show">
-            <div class="product-size-box__collapse-container">
-                <a href="#" class="product-size-box__category">Детский</a>
-                <div class="row mb-4">
-                    <div class="col-md-7">
-                        <!-- Product size control -->
-<div class="product-size-control">
-    <label for="" class="product-size-control__label">Выбрать размер:</label>
-    <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="86"> 86
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="92"> 92
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="98"> 98
-        </label>
-        <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="103" checked> 103
-        </label>
-        <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
-            <option selected value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-        </select>
-    </div>
-</div>
-<!-- /Product size control -->
-                    </div>
-                    <div class="col-md-5">
-                        <!-- Product size table popup -->
-<div class="product-size-popover">
-    <a href="javascript: return false;"
-       class="product-size-popover__link"
-       role="button"
-       data-trigger="hover"
-       data-toggle="popover"
-       data-placement="top"
-       data-html="true"
-       data-content="
-<table class='product-size-popover__table table table-sm table-bordered'>
-    <thead>
-    <tr>
-        <th></th>
-        <th>А</th>
-        <th>Б</th>
-        <th>В</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>XS</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>S</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>M</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>L</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>XL</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>XXL</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    </tbody>
-    </table>
-">
-        <i class="icon icon__clothing-size"></i>Таблица размеров
-    </a>
-</div>
-<!-- /Product size table popup -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-</div>
-<!-- Product size box -->
-                        </div>
-
-                        <button type="submit" class="btn btn-primary btn-lg" data-dismiss="modal">Добавить в корзину</button>
-                    </div>
-                </div>
-            </div>
-        </form>
-    </div>
-</div>
-<!-- /Complect item modal -->
 <!-- /List of complects -->
             <div class="text-center p-5">
                 <a href="#" class="btn btn-outline-primary btn-lg">Посмотреть все</a>
@@ -1163,7 +942,531 @@
 </footer>
 <!-- Page footer -->
 
+<!-- Product item modal -->
+<div class="product-item-modal modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <form action="#" class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Выберите размер и количество</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="icon icon__close"></span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a data-fancybox="gallery"
+                           href="content/images/complects/scandinavia/scandinavia-1.jpg"
+                           class="list-of-images__link">
+                            <img src="content/images/complects/scandinavia/scandinavia-1.jpg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="product-item-modal__total-label">Итого:</div>
+                        <div class="product-item-modal__price">10 890 ₽</div>
+                        <hr class="mb-0">
+                        <div class="mb-4">
+                            <!-- List of products included -->
+<ul class="list-of-products-included">
+    <li class="list-of-products-included__item">
+        <section class="list-of-products-included-item">
+    <h3 class="list-of-products-included-item__title"
+        data-toggle="collapse">
+        <i class="icon icon__expand_style_primary"></i>Свитер “Скандинавия”</h3>
+    <div class="collapse show">
+        <div class="list-of-products-included-item__collapse-container">
+            <a href="#" class="list-of-products-included-item__category">Женский</a>
+            <div class="row mb-4">
+                <div class="list-of-products-included-item__size-control-box col mb-3 mb-lg-0">
+                    <!-- Product size control -->
+<div class="product-size-control">
+    <h4 class="product-size-control__label">Выбрать размер:</h4>
+    <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="XS">XS
+        </label>
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="S"> S
+        </label>
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="M"> M
+        </label>
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="L"> L
+        </label>
+        <label class="btn btn-outline-dark active">
+            <input type="radio" name="size" value="XL"> XL
+        </label>
+        <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
+            <option selected value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+    </div>
+</div>
+<!-- /Product size control -->
+                </div>
+                <div class="list-of-products-included-item__size-popover-box col-lg-auto">
+                    <!-- Product size table popup -->
+<div class="product-size-popover">
+    <a href="javascript: return false;"
+       class="product-size-popover__link"
+       role="button"
+       data-trigger="focus"
+       data-toggle="popover"
+       data-placement="left"
+       data-html="true"
+       data-content='
+<div class="p-3 text-center">
+    <img src="/common.blocks/product-size-popover/product-size-popover__shirt.svg" alt="">
+</div>
+<table class="product-size-popover__table table table-sm table-bordered">
+    <thead>
+    <tr class="text-center">
+        <th></th>
+        <th>А</th>
+        <th>Б</th>
+        <th>В</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>XS</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>S</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>M</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>L</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>XL</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>XXL</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    </tbody>
+    </table>
+'>
+        <i class="icon icon__clothing-size"></i>Таблица размеров
+    </a>
+</div>
+<!-- /Product size table popup -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    </li>
+    <li class="list-of-products-included__item">
+        <section class="list-of-products-included-item">
+    <h3 class="list-of-products-included-item__title"
+        data-toggle="collapse">
+        <i class="icon icon__expand_style_primary"></i>Свитер “Скандинавия”</h3>
+    <div class="collapse show">
+        <div class="list-of-products-included-item__collapse-container">
+            <a href="#" class="list-of-products-included-item__category">Детский</a>
+            <div class="row mb-4">
+                <div class="list-of-products-included-item__size-control-box col mb-3 mb-lg-0">
+                    <!-- Product size control -->
+<div class="product-size-control">
+    <h4 class="product-size-control__label">Выбрать размер:</h4>
+    <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="XS">XS
+        </label>
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="S"> S
+        </label>
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="M"> M
+        </label>
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="L"> L
+        </label>
+        <label class="btn btn-outline-dark active">
+            <input type="radio" name="size" value="XL"> XL
+        </label>
+        <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
+            <option selected value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+    </div>
+</div>
+<!-- /Product size control -->
+                </div>
+                <div class="list-of-products-included-item__size-popover-box col-lg-auto">
+                    <!-- Product size table popup -->
+<div class="product-size-popover">
+    <a href="javascript: return false;"
+       class="product-size-popover__link"
+       role="button"
+       data-trigger="focus"
+       data-toggle="popover"
+       data-placement="left"
+       data-html="true"
+       data-content='
+<div class="p-3 text-center">
+    <img src="/common.blocks/product-size-popover/product-size-popover__shirt.svg" alt="">
+</div>
+<table class="product-size-popover__table table table-sm table-bordered">
+    <thead>
+    <tr class="text-center">
+        <th></th>
+        <th>А</th>
+        <th>Б</th>
+        <th>В</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>XS</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>S</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>M</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>L</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>XL</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>XXL</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    </tbody>
+    </table>
+'>
+        <i class="icon icon__clothing-size"></i>Таблица размеров
+    </a>
+</div>
+<!-- /Product size table popup -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    </li>
+</ul>
+<!-- /List of products included -->
+                        </div>
+
+                        <button type="submit"
+                                class="btn btn-primary btn-lg"
+                                data-dismiss="modal"
+                                data-toggle="modal"
+                                data-target=".added-to-cart-modal">Добавить в корзину</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- /Product item modal -->
+<!-- Complect item modal -->
+<div class="added-to-cart-modal modal modal-md fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Комплект добавлен в корзину</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="icon icon__close"></span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a data-fancybox="gallery"
+                           href="content/images/complects/scandinavia/scandinavia-1.jpg"
+                           class="list-of-images__link">
+                            <img src="content/images/complects/scandinavia/scandinavia-1.jpg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="added-to-cart-modal__total-label">Итого:</div>
+                        <div class="added-to-cart-modal__price">10 890 ₽</div>
+                        <div class="mb-4">
+                            <!-- List of products included -->
+<ul class="list-of-products-included">
+    <li class="list-of-products-included__item">
+        <section class="list-of-products-included-item">
+    <h3 class="list-of-products-included-item__title"
+        data-toggle="collapse">
+        <i class="icon icon__expand_style_primary"></i>Свитер “Скандинавия”</h3>
+    <div class="collapse show">
+        <div class="list-of-products-included-item__collapse-container">
+            <a href="#" class="list-of-products-included-item__category">Женский</a>
+            <div class="row mb-4">
+                <div class="list-of-products-included-item__size-control-box col mb-3 mb-lg-0">
+                    <!-- Product size control -->
+<div class="product-size-control">
+    <h4 class="product-size-control__label">Выбрать размер:</h4>
+    <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="XS">XS
+        </label>
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="S"> S
+        </label>
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="M"> M
+        </label>
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="L"> L
+        </label>
+        <label class="btn btn-outline-dark active">
+            <input type="radio" name="size" value="XL"> XL
+        </label>
+        <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
+            <option selected value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+    </div>
+</div>
+<!-- /Product size control -->
+                </div>
+                <div class="list-of-products-included-item__size-popover-box col-lg-auto">
+                    <!-- Product size table popup -->
+<div class="product-size-popover">
+    <a href="javascript: return false;"
+       class="product-size-popover__link"
+       role="button"
+       data-trigger="focus"
+       data-toggle="popover"
+       data-placement="left"
+       data-html="true"
+       data-content='
+<div class="p-3 text-center">
+    <img src="/common.blocks/product-size-popover/product-size-popover__shirt.svg" alt="">
+</div>
+<table class="product-size-popover__table table table-sm table-bordered">
+    <thead>
+    <tr class="text-center">
+        <th></th>
+        <th>А</th>
+        <th>Б</th>
+        <th>В</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>XS</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>S</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>M</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>L</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>XL</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>XXL</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    </tbody>
+    </table>
+'>
+        <i class="icon icon__clothing-size"></i>Таблица размеров
+    </a>
+</div>
+<!-- /Product size table popup -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    </li>
+    <li class="list-of-products-included__item">
+        <section class="list-of-products-included-item">
+    <h3 class="list-of-products-included-item__title"
+        data-toggle="collapse">
+        <i class="icon icon__expand_style_primary"></i>Свитер “Скандинавия”</h3>
+    <div class="collapse show">
+        <div class="list-of-products-included-item__collapse-container">
+            <a href="#" class="list-of-products-included-item__category">Детский</a>
+            <div class="row mb-4">
+                <div class="list-of-products-included-item__size-control-box col mb-3 mb-lg-0">
+                    <!-- Product size control -->
+<div class="product-size-control">
+    <h4 class="product-size-control__label">Выбрать размер:</h4>
+    <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="XS">XS
+        </label>
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="S"> S
+        </label>
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="M"> M
+        </label>
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="L"> L
+        </label>
+        <label class="btn btn-outline-dark active">
+            <input type="radio" name="size" value="XL"> XL
+        </label>
+        <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
+            <option selected value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+    </div>
+</div>
+<!-- /Product size control -->
+                </div>
+                <div class="list-of-products-included-item__size-popover-box col-lg-auto">
+                    <!-- Product size table popup -->
+<div class="product-size-popover">
+    <a href="javascript: return false;"
+       class="product-size-popover__link"
+       role="button"
+       data-trigger="focus"
+       data-toggle="popover"
+       data-placement="left"
+       data-html="true"
+       data-content='
+<div class="p-3 text-center">
+    <img src="/common.blocks/product-size-popover/product-size-popover__shirt.svg" alt="">
+</div>
+<table class="product-size-popover__table table table-sm table-bordered">
+    <thead>
+    <tr class="text-center">
+        <th></th>
+        <th>А</th>
+        <th>Б</th>
+        <th>В</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>XS</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>S</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>M</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>L</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>XL</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>XXL</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    </tbody>
+    </table>
+'>
+        <i class="icon icon__clothing-size"></i>Таблица размеров
+    </a>
+</div>
+<!-- /Product size table popup -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    </li>
+</ul>
+<!-- /List of products included -->
+                        </div>
+                        <a href="#" class="btn btn-outline-primary">Перейти в корзину</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Complect item modal -->
+
 <!-- Block scripts -->
 <script src="common.blocks/product-size-popover/product-size-popover.js" defer></script>
 <script src="common.blocks/product-item/product-item.js" defer></script>
+<script src="common.blocks/list-of-products-included/list-of-products-included.js" defer></script>
 <script src="common.blocks/product-size-control/product-size-control.js" defer></script>

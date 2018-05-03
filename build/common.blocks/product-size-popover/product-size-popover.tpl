@@ -3,14 +3,17 @@
     <a href="javascript: return false;"
        class="product-size-popover__link"
        role="button"
-       data-trigger="hover"
+       data-trigger="focus"
        data-toggle="popover"
-       data-placement="top"
+       data-placement="left"
        data-html="true"
-       data-content="
-<table class='product-size-popover__table table table-sm table-bordered'>
+       data-content='
+<div class="p-3 text-center">
+    <img src="/common.blocks/product-size-popover/product-size-popover__shirt.svg" alt="">
+</div>
+<table class="product-size-popover__table table table-sm table-bordered">
     <thead>
-    <tr>
+    <tr class="text-center">
         <th></th>
         <th>А</th>
         <th>Б</th>
@@ -56,7 +59,7 @@
     </tr>
     </tbody>
     </table>
-">
+'>
         <i class="icon icon__clothing-size"></i>Таблица размеров
     </a>
 </div>
