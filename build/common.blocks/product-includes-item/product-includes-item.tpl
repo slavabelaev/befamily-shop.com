@@ -1,12 +1,15 @@
-<section class="list-of-products-included-item">
-    <h3 class="list-of-products-included-item__title"
-        data-toggle="collapse">
-        <i class="icon icon__expand_style_primary"></i>@@productTitle</h3>
-    <div class="collapse show">
-        <div class="list-of-products-included-item__collapse-container">
-            <a href="@@categoryUrl" class="list-of-products-included-item__category">@@categoryTitle</a>
+<!-- Product includes item -->
+<section class="product-includes-item" data-product-id="@@uid">
+    <h3 class="product-includes-item__title"
+        
+    >
+        
+        @@productTitle</h3>
+    <div class="product-includes-item__collapse collapse show">
+        <div class="product-includes-item__collapse-container">
+            <a href="@@categoryUrl" class="product-includes-item__category">@@categoryTitle</a>
             <div class="row mb-4">
-                <div class="list-of-products-included-item__size-control-box col mb-3 mb-lg-0">
+                <div class="product-includes-item__size-control-box col mb-3 mb-lg-0">
                     <!-- Product size control -->
 <div class="product-size-control">
     <h4 class="product-size-control__label">Выбрать размер:</h4>
@@ -35,7 +38,7 @@
 </div>
 <!-- /Product size control -->
                 </div>
-                <div class="list-of-products-included-item__size-popover-box col-lg-auto">
+                <div class="product-includes-item__size-popover-box col-lg-auto">
                     <!-- Product size table popup -->
 <div class="product-size-popover">
     <a href="javascript: return false;"
@@ -107,3 +110,4 @@
         </div>
     </div>
 </section>
+<!-- /Product includes item -->

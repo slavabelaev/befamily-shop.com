@@ -4,12 +4,14 @@
         <!-- Complect item -->
 <form action="" class="complect-item card">
     <div class="card-body">
-        <button type="button"
-                class="complect-item__add-to-favorite btn"
-                data-toggle="button"
-                aria-pressed="false">
-            <i class="icon icon__heart"></i>
-        </button>
+        <!-- Add to favorite -->
+<button type="button"
+        class="add-to-favorite btn"
+        data-toggle="button"
+        aria-pressed="false">
+    <i class="icon"></i>
+</button>
+<!-- /Add to favorite -->
         <a href="#" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-1.jpg);"></a>
         <h3 class="complect-item__title"><a href="#">Комплект платьев Мечта</a></h3>
         <ul class="complect-item__details">
@@ -33,12 +35,14 @@
         <!-- Complect item -->
 <form action="" class="complect-item card">
     <div class="card-body">
-        <button type="button"
-                class="complect-item__add-to-favorite btn"
-                data-toggle="button"
-                aria-pressed="false">
-            <i class="icon icon__heart"></i>
-        </button>
+        <!-- Add to favorite -->
+<button type="button"
+        class="add-to-favorite btn"
+        data-toggle="button"
+        aria-pressed="false">
+    <i class="icon"></i>
+</button>
+<!-- /Add to favorite -->
         <a href="#" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-2.jpg);"></a>
         <h3 class="complect-item__title"><a href="#">Комплект платьев Мечта</a></h3>
         <ul class="complect-item__details">
@@ -62,12 +66,14 @@
         <!-- Complect item -->
 <form action="" class="complect-item card">
     <div class="card-body">
-        <button type="button"
-                class="complect-item__add-to-favorite btn"
-                data-toggle="button"
-                aria-pressed="false">
-            <i class="icon icon__heart"></i>
-        </button>
+        <!-- Add to favorite -->
+<button type="button"
+        class="add-to-favorite btn"
+        data-toggle="button"
+        aria-pressed="false">
+    <i class="icon"></i>
+</button>
+<!-- /Add to favorite -->
         <a href="#" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-3.jpg);"></a>
         <h3 class="complect-item__title"><a href="#">Комплект платьев Мечта</a></h3>
         <ul class="complect-item__details">
@@ -91,12 +97,14 @@
         <!-- Complect item -->
 <form action="" class="complect-item card">
     <div class="card-body">
-        <button type="button"
-                class="complect-item__add-to-favorite btn"
-                data-toggle="button"
-                aria-pressed="false">
-            <i class="icon icon__heart"></i>
-        </button>
+        <!-- Add to favorite -->
+<button type="button"
+        class="add-to-favorite btn"
+        data-toggle="button"
+        aria-pressed="false">
+    <i class="icon"></i>
+</button>
+<!-- /Add to favorite -->
         <a href="#" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-4.jpg);"></a>
         <h3 class="complect-item__title"><a href="#">Комплект платьев Мечта</a></h3>
         <ul class="complect-item__details">
@@ -120,12 +128,14 @@
         <!-- Complect item -->
 <form action="" class="complect-item card">
     <div class="card-body">
-        <button type="button"
-                class="complect-item__add-to-favorite btn"
-                data-toggle="button"
-                aria-pressed="false">
-            <i class="icon icon__heart"></i>
-        </button>
+        <!-- Add to favorite -->
+<button type="button"
+        class="add-to-favorite btn"
+        data-toggle="button"
+        aria-pressed="false">
+    <i class="icon"></i>
+</button>
+<!-- /Add to favorite -->
         <a href="#" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-5.jpg);"></a>
         <h3 class="complect-item__title"><a href="#">Комплект платьев Мечта</a></h3>
         <ul class="complect-item__details">
@@ -149,12 +159,14 @@
         <!-- Complect item -->
 <form action="" class="complect-item card">
     <div class="card-body">
-        <button type="button"
-                class="complect-item__add-to-favorite btn"
-                data-toggle="button"
-                aria-pressed="false">
-            <i class="icon icon__heart"></i>
-        </button>
+        <!-- Add to favorite -->
+<button type="button"
+        class="add-to-favorite btn"
+        data-toggle="button"
+        aria-pressed="false">
+    <i class="icon"></i>
+</button>
+<!-- /Add to favorite -->
         <a href="#" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-6.jpg);"></a>
         <h3 class="complect-item__title"><a href="#">Комплект платьев Мечта</a></h3>
         <ul class="complect-item__details">
@@ -178,12 +190,14 @@
         <!-- Complect item -->
 <form action="" class="complect-item card">
     <div class="card-body">
-        <button type="button"
-                class="complect-item__add-to-favorite btn"
-                data-toggle="button"
-                aria-pressed="false">
-            <i class="icon icon__heart"></i>
-        </button>
+        <!-- Add to favorite -->
+<button type="button"
+        class="add-to-favorite btn"
+        data-toggle="button"
+        aria-pressed="false">
+    <i class="icon"></i>
+</button>
+<!-- /Add to favorite -->
         <a href="#" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-7.jpg);"></a>
         <h3 class="complect-item__title"><a href="#">Комплект платьев Мечта</a></h3>
         <ul class="complect-item__details">
@@ -207,12 +221,14 @@
         <!-- Complect item -->
 <form action="" class="complect-item card">
     <div class="card-body">
-        <button type="button"
-                class="complect-item__add-to-favorite btn"
-                data-toggle="button"
-                aria-pressed="false">
-            <i class="icon icon__heart"></i>
-        </button>
+        <!-- Add to favorite -->
+<button type="button"
+        class="add-to-favorite btn"
+        data-toggle="button"
+        aria-pressed="false">
+    <i class="icon"></i>
+</button>
+<!-- /Add to favorite -->
         <a href="#" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-8.jpg);"></a>
         <h3 class="complect-item__title"><a href="#">Комплект платьев Мечта</a></h3>
         <ul class="complect-item__details">

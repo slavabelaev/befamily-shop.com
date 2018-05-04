@@ -3,7 +3,6 @@ jQuery(document).ready(function($) {
         e.preventDefault();
         var closestProductItem = $(this).closest('.product-item');
         closestProductItem.toggleClass('active');
-        closestProductItem.find('.product-item__size').toggleClass('show');
         closestProductItem.find('.product-item__collapse-size').toggleClass('d-none');
         closestProductItem.find('.product-item__added-to-cart').toggleClass('d-none');
     });

@@ -3,7 +3,7 @@
     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <form action="#" class="modal-content">
             <div class="modal-header">
-                <h3 class="modal-title">Выберите размер и количество</h3>
+                <h2 class="modal-title">Выберите размер и количество</h2>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true" class="icon icon__close"></span>
                 </button>
@@ -22,18 +22,25 @@
                         <div class="product-item-modal__price">10 890 ₽</div>
                         <hr class="mb-0">
                         <div class="mb-4">
-                            <!-- List of products included -->
-<ul class="list-of-products-included">
-    <li class="list-of-products-included__item">
-        <section class="list-of-products-included-item">
-    <h3 class="list-of-products-included-item__title"
-        data-toggle="collapse">
-        <i class="icon icon__expand_style_primary"></i>Свитер “Скандинавия”</h3>
-    <div class="collapse show">
-        <div class="list-of-products-included-item__collapse-container">
-            <a href="#" class="list-of-products-included-item__category">Женский</a>
+                            <!-- List of product includes -->
+<ul class="list-of-product-includes">
+    <li class="list-of-product-includes__item">
+        <!-- Product includes item -->
+<section class="product-includes-item" data-product-id="0109">
+    <h3 class="product-includes-item__title"
+        
+            data-toggle="collapse"
+            data-target=".product-includes-item[data-product-id=0109]>.product-includes-item__collapse"
+            aria-expanded="true"
+        
+    >
+         <i class="icon icon__collapse_style_primary"></i> 
+        Свитер “Скандинавия”</h3>
+    <div class="product-includes-item__collapse collapse show">
+        <div class="product-includes-item__collapse-container">
+            <a href="#" class="product-includes-item__category">Женский</a>
             <div class="row mb-4">
-                <div class="list-of-products-included-item__size-control-box col mb-3 mb-lg-0">
+                <div class="product-includes-item__size-control-box col mb-3 mb-lg-0">
                     <!-- Product size control -->
 <div class="product-size-control">
     <h4 class="product-size-control__label">Выбрать размер:</h4>
@@ -62,7 +69,7 @@
 </div>
 <!-- /Product size control -->
                 </div>
-                <div class="list-of-products-included-item__size-popover-box col-lg-auto">
+                <div class="product-includes-item__size-popover-box col-lg-auto">
                     <!-- Product size table popup -->
 <div class="product-size-popover">
     <a href="javascript: return false;"
@@ -134,17 +141,25 @@
         </div>
     </div>
 </section>
+<!-- /Product includes item -->
     </li>
-    <li class="list-of-products-included__item">
-        <section class="list-of-products-included-item">
-    <h3 class="list-of-products-included-item__title"
-        data-toggle="collapse">
-        <i class="icon icon__expand_style_primary"></i>Свитер “Скандинавия”</h3>
-    <div class="collapse show">
-        <div class="list-of-products-included-item__collapse-container">
-            <a href="#" class="list-of-products-included-item__category">Детский</a>
+    <li class="list-of-product-includes__item">
+        <!-- Product includes item -->
+<section class="product-includes-item" data-product-id="0110">
+    <h3 class="product-includes-item__title"
+        
+            data-toggle="collapse"
+            data-target=".product-includes-item[data-product-id=0110]>.product-includes-item__collapse"
+            aria-expanded="true"
+        
+    >
+         <i class="icon icon__collapse_style_primary"></i> 
+        Свитер “Скандинавия”</h3>
+    <div class="product-includes-item__collapse collapse show">
+        <div class="product-includes-item__collapse-container">
+            <a href="#" class="product-includes-item__category">Детский</a>
             <div class="row mb-4">
-                <div class="list-of-products-included-item__size-control-box col mb-3 mb-lg-0">
+                <div class="product-includes-item__size-control-box col mb-3 mb-lg-0">
                     <!-- Product size control -->
 <div class="product-size-control">
     <h4 class="product-size-control__label">Выбрать размер:</h4>
@@ -173,7 +188,7 @@
 </div>
 <!-- /Product size control -->
                 </div>
-                <div class="list-of-products-included-item__size-popover-box col-lg-auto">
+                <div class="product-includes-item__size-popover-box col-lg-auto">
                     <!-- Product size table popup -->
 <div class="product-size-popover">
     <a href="javascript: return false;"
@@ -245,9 +260,10 @@
         </div>
     </div>
 </section>
+<!-- /Product includes item -->
     </li>
 </ul>
-<!-- /List of products included -->
+<!-- /List of product includes -->
                         </div>
 
                         <button type="submit"

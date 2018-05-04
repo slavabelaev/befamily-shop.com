@@ -35,13 +35,18 @@
       &:before { opacity: 1; }
       &:after { opacity: 0; }
     }
-    .tooltip { display: initial; }
+    &+.tooltip { opacity: 1; }
   }
+}
 
+.product__add-to-favorite-container {
+  position: relative;
   .tooltip {
-    display: none;
+    z-index: 1;
+    opacity: 0;
     top: -50px;
     left: -75px;
+    transition: $transition-base;
     .tooltip-inner {
       white-space: nowrap;
     }

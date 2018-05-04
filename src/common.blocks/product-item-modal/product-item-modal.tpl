@@ -3,7 +3,7 @@
     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <form action="#" class="modal-content">
             <div class="modal-header">
-                <h3 class="modal-title">Выберите размер и количество</h3>
+                <h2 class="modal-title">Выберите размер и количество</h2>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true" class="icon icon__close"></span>
                 </button>
@@ -22,7 +22,7 @@
                         <div class="product-item-modal__price">10 890 ₽</div>
                         <hr class="mb-0">
                         <div class="mb-4">
-                            @@include('../../common.blocks/list-of-products-included/list-of-products-included.tpl')
+                            @@include('../../common.blocks/list-of-product-includes/list-of-product-includes.tpl')
                         </div>
 
                         <button type="submit"

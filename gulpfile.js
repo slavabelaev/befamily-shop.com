@@ -7,7 +7,6 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     sass = require('gulp-sass'),
     sourcemaps = require('gulp-sourcemaps'),
-    rigger = require('gulp-rigger'),
     cssmin = require('gulp-clean-css'),
     image = require('gulp-image'),
     rimraf = require('rimraf'),
@@ -25,20 +24,20 @@ var path = {
         fonts: 'build'
     },
     src: {
-        html: 'src/**/*.{html,tpl,tmpl,svg,js}',
+        html: 'src/**/*.{html,tpl,tmpl,svg}',
         js: 'src/**/*.js',
         style: 'src/**/*.scss',
         //images: 'src/**/*.{jpg,jpeg,png,gif,svg}',
         //fonts: 'src/**/*.{ttf,otf,woff,woff2,svg,eot}'
-        fonts: 'src/**/*.{ttf,otf,woff,woff2,svg,eot,jpg,jpeg,png,gif,svg}'
+        fonts: 'src/**/*.{ttf,otf,woff,woff2,svg,eot,jpg,jpeg,png,gif}'
     },
     watch: {
-        html: 'src/**/*.{html,tpl,tmpl,svg,js}',
+        html: 'src/**/*.{html,tpl,tmpl,svg}',
         js: 'src/**/*.js',
         style: 'src/**/*.scss',
         //images: 'src/**/*.{jpg,jpeg,png,gif,svg}',
         //fonts: 'src/**/*.{ttf,otf,woff,woff2,svg,eot}'
-        fonts: 'src/**/*.{ttf,otf,woff,woff2,eot,jpg,jpeg,png,gif,svg}'
+        fonts: 'src/**/*.{ttf,otf,woff,woff2,eot,jpg,jpeg,png,gif}'
     },
     clean: './build'
 };
@@ -65,15 +64,13 @@ gulp.task('html:build', function () {
     gulp.src(path.src.html)
         .pipe(plumber())
         .pipe(fileinclude('@@'))
-        .pipe(rigger())
         .pipe(gulp.dest(path.build.html))
         .pipe(reload({stream: true}));
 });
 
 gulp.task('js:build', function () {
     gulp.src(path.src.js)
-        //.pipe(plumber())
-        .pipe(rigger()) 
+        .pipe(plumber())
         .pipe(sourcemaps.init()) 
         .pipe(uglify()) 
         .pipe(sourcemaps.write()) 
@@ -115,7 +112,7 @@ gulp.task('build', [
     'style:build',
     //'image:build',
     'fonts:build',
-    //'js:build'
+    'js:build'
 ]);
 
 

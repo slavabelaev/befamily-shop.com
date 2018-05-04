@@ -1,12 +1,7 @@
 @import "../../library.blocks/bootstrap/bootstrap-reboot";
 
-.product-item-modal {
-  .list-of-products-included-item__title {
-    .icon {
-      display: none;
-    }
-  }
-}
+@import "../list-of-product-includes/list-of-product-includes";
+
 .product-item-modal__total-label {
   color: $text-muted;
 }

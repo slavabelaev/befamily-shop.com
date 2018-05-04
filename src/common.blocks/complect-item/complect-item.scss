@@ -8,40 +8,40 @@
     background-color: $white;
     border-top-width: 0;
   }
-}
-.complect-item__add-to-favorite {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 1.5rem;
-  left: 1.5rem;
-  width: 2rem;
-  height: 2rem;
-  padding: 0;
-  border-width: 0;
-  background-color: $white;
-  border-radius: 50%;
-  z-index: 2;
-  transition: $transition-base;
-  &.active,
-  &:hover {
-    .icon {
-      opacity: 1;
-      filter: brightness(1);
+
+  .add-to-favorite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    width: 2rem;
+    height: 2rem;
+    padding: 0;
+    border-width: 0;
+    background-color: $white;
+    border-radius: 50%;
+    z-index: 2;
+    &.active,
+    &:hover {
+      .icon {
+        opacity: 1;
+        filter: brightness(1);
+      }
     }
-  }
-  &.active {
-    .icon {
-      background-image: url(/common.blocks/icon/icon__heart_style_primary.svg);
+    &.active {
+      .icon {
+        background-image: url(/common.blocks/icon/icon__heart_style_primary.svg);
+      }
     }
-  }
-  .icon {
-    width: 20px;
-    height: 20px;
-    background-size: 20px;
-    filter: brightness(0);
-    opacity: .5;
+    .icon {
+      width: 20px;
+      height: 20px;
+      background-size: 20px;
+      filter: brightness(0);
+      opacity: .5;
+    }
   }
 }
 .complect-item__title {

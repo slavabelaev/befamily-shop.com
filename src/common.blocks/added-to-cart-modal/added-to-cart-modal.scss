@@ -1,9 +1,9 @@
 @import "../../library.blocks/bootstrap/bootstrap-reboot";
 
 .added-to-cart-modal {
-  .list-of-products-included-item__title .icon,
+  .product-includes-item__title .icon,
   .product-size-control__label,
-  .list-of-products-included-item__size-popover-box {
+  .product-includes-item__size-popover-box {
     display: none;
   }
 }

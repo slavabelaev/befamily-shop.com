@@ -1,6 +1,7 @@
 @@include('../../common.blocks/page-header/page-header.tpl')
-
+<!-- Page styles -->
 <link rel="stylesheet" href="pages.blocks/product/product.css">
+
 <main>
     <div class="container">
         @@include('../../common.blocks/breadcrumb/breadcrumb.tpl')
@@ -8,7 +9,7 @@
             <div class="col-md-5 col-lg-6">
                 @@include('../../common.blocks/list-of-images/list-of-images.tpl')
             </div>
-            <div class="col-md-6 col-lg-6">
+            <aside class="col-md-6 col-lg-6">
                 <!-- Product -->
                 <section class="product">
                     <h1>Комплект “Скандинавия”</h1>
@@ -21,17 +22,23 @@
                         <ul class="product__list-of-actions">
                             <li class="product__list-of-actions-item">
                                 <a href="#"
-                                   class="btn btn-primary btn-lg"
+                                   class="product__add-to-cart btn btn-primary btn-lg"
                                    data-toggle="modal"
                                    data-target=".added-to-cart-modal">Добавить в корзину</a>
                             </li>
-                            <li class="product__list-of-actions-item">
+                            <li class="product__list-of-actions-item product__add-to-favorite-container ml-2 ml-lg-4">
                                 @@include('../../common.blocks/add-to-favorite/add-to-favorite.tpl')
+                                <!-- Add to favorite Tooltip -->
+                                <div class="tooltip fade bs-tooltip-top show" role="tooltip" x-placement="top">
+                                    <div class="arrow"></div>
+                                    <div class="tooltip-inner">Добавленно в <span class="text-info">избранное</span></div>
+                                </div>
+                                <!-- /Add to favorite Tooltip -->
                             </li>
                         </ul>
                         <section class="product__section product__section_type_complect-contents pb-0">
                             <h2>В комплект входит:</h2>
-                            @@include('../../common.blocks/list-of-products-included/list-of-products-included.tpl')
+                            @@include('../../common.blocks/list-of-product-includes/list-of-product-includes.tpl')
                         </section>
                     </form>
                     <section class="product__section product__section_type_composition-of-goods pl-md-5">
@@ -67,7 +74,7 @@
                     </section>
                 </section>
                 <!-- /Product -->
-            </div>
+            </aside>
         </div>
     </div>
     <section class="bg-light pt-3 pb-5">
@@ -89,5 +96,4 @@
 <!-- Block scripts -->
 <script src="common.blocks/product-size-popover/product-size-popover.js" defer></script>
 <script src="common.blocks/product-item/product-item.js" defer></script>
-<script src="common.blocks/list-of-products-included/list-of-products-included.js" defer></script>
 <script src="common.blocks/product-size-control/product-size-control.js" defer></script>

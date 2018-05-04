@@ -3,7 +3,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h3 class="modal-title">Комплект добавлен в корзину</h3>
+                <h2 class="modal-title">Комплект добавлен в корзину</h2>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true" class="icon icon__close"></span>
                 </button>
@@ -21,7 +21,28 @@
                         <div class="added-to-cart-modal__total-label">Итого:</div>
                         <div class="added-to-cart-modal__price">10 890 ₽</div>
                         <div class="mb-4">
-                            @@include('../../common.blocks/list-of-products-included/list-of-products-included.tpl')
+                            <!-- List of products included -->
+                            <ul class="list-of-product-includes">
+                                <li class="list-of-product-includes__item">
+                                    @@include('../../common.blocks/product-includes-item/product-includes-item.tpl', {
+                                        "uid": "0109",
+                                        "productTitle": "Свитер “Скандинавия”",
+                                        "categoryTitle": "Женский",
+                                        "categoryUrl": "#",
+                                        "collapsable": false
+                                    })
+                                </li>
+                                <li class="list-of-product-includes__item">
+                                    @@include('../../common.blocks/product-includes-item/product-includes-item.tpl', {
+                                        "uid": "0110",
+                                        "productTitle": "Свитер “Скандинавия”",
+                                        "categoryTitle": "Детский",
+                                        "categoryUrl": "#",
+                                        "collapsable": false
+                                    })
+                                </li>
+                            </ul>
+                            <!-- /List of products included -->
                         </div>
                         <a href="#" class="btn btn-outline-primary">Перейти в корзину</a>
                     </div>

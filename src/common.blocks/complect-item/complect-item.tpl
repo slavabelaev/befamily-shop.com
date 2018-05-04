@@ -1,12 +1,7 @@
 <!-- Complect item -->
 <form action="" class="complect-item card">
     <div class="card-body">
-        <button type="button"
-                class="complect-item__add-to-favorite btn"
-                data-toggle="button"
-                aria-pressed="false">
-            <i class="icon icon__heart"></i>
-        </button>
+        @@include('../../common.blocks/add-to-favorite/add-to-favorite.tpl')
         <a href="#" class="complect-item__image" style="background-image: url(@@imageUrl);"></a>
         <h3 class="complect-item__title"><a href="#">@@title</a></h3>
         <ul class="complect-item__details">

@@ -6,7 +6,7 @@
   margin: 0;
 }
 .list-of-images__item {
-  margin-bottom: 50px;
+  margin-bottom: 1.5rem;
 }
 .list-of-images__image {
   max-width: 100%;
@@ -14,4 +14,22 @@
   &:hover {
     opacity: .9;
   }
+}
+
+@include media-breakpoint-up(xs) {
+
+}
+@include media-breakpoint-up(sm) {
+
+}
+@include media-breakpoint-up(md) {
+
+}
+@include media-breakpoint-up(lg) {
+  .list-of-images__item {
+    margin-bottom: 50px;
+  }
+}
+@include media-breakpoint-up(xl) {
+
 }
