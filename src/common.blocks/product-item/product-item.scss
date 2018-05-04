@@ -4,7 +4,6 @@
 
 .product-item {
   position: relative;
-  min-width: 240px;
   transition: $transition-base;
   &.active {
     border-color: $primary !important;

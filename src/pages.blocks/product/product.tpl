@@ -9,7 +9,7 @@
             <div class="col-lg-5 col-xl-6">
                 @@include('../../common.blocks/list-of-images/list-of-images.tpl')
             </div>
-            <aside class="product__aside col-lg-6 col-xl-6">
+            <aside class="product__aside col-lg-7 col-xl-6">
                 <!-- Product -->
                 <section class="product__aside-container" data-sticked>
                     <h1>Комплект “Скандинавия”</h1>
@@ -95,10 +95,20 @@
 
 
 <!-- Block scripts -->
-<script src="common.blocks/list-of-images/list-of-images.js" defer></script>
 <script src="common.blocks/product-size-popover/product-size-popover.js" defer></script>
 <script src="common.blocks/product-item/product-item.js" defer></script>
 <script src="common.blocks/product-size-control/product-size-control.js" defer></script>
+<!-- List of images -->
+    <!-- FancyApp (photo gallery) — https://fancyapps.com/fancybox/3/ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js" defer></script>
+    <!-- Slick Carousel — http://kenwheeler.github.io/slick/ -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+    <script src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js" defer></script>
+    <script src="common.blocks/list-of-images/list-of-images.js" defer></script>
+<!-- /List of images -->
+
 <!-- Page Scripts -->
 <!-- Sticky Kit — http://leafo.net/sticky-kit/ -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-kit/1.1.3/sticky-kit.min.js" defer></script>
