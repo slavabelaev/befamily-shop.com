@@ -88,7 +88,11 @@
     }
   }
 }
-@include media-breakpoint-up(md) {}
+@include media-breakpoint-up(md) {
+  .page-header__logo {
+    width: 170px;
+  }
+}
 @include media-breakpoint-up(lg) {
   .page-header {
     min-height: 90px;
