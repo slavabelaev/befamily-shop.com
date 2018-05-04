@@ -1,6 +1,6 @@
 <!-- List of complects -->
 <ul class="list-of-complects row">
-    <li class="list-of-complect__item col-xl-3 col-lg-4 col-md-6 mb-3">
+    <li class="list-of-complect__item col-xl-3 col-md-4 col-sm-6 mb-3">
         <!-- Complect item -->
 <form action="" class="complect-item card">
     <div class="card-body">
@@ -31,7 +31,7 @@
 <!-- /Complect item -->
 
     </li>
-    <li class="list-of-complect__item col-xl-3 col-lg-4 col-md-6 mb-3">
+    <li class="list-of-complect__item col-xl-3 col-md-4 col-sm-6 mb-3">
         <!-- Complect item -->
 <form action="" class="complect-item card">
     <div class="card-body">
@@ -62,7 +62,7 @@
 <!-- /Complect item -->
 
     </li>
-    <li class="list-of-complect__item col-xl-3 col-lg-4 col-md-6 mb-3">
+    <li class="list-of-complect__item col-xl-3 col-md-4 col-sm-6 mb-3">
         <!-- Complect item -->
 <form action="" class="complect-item card">
     <div class="card-body">
@@ -93,7 +93,7 @@
 <!-- /Complect item -->
 
     </li>
-    <li class="list-of-complect__item col-xl-3 col-lg-4 col-md-6 mb-3">
+    <li class="list-of-complect__item col-xl-3 col-md-4 col-sm-6 mb-3">
         <!-- Complect item -->
 <form action="" class="complect-item card">
     <div class="card-body">
@@ -124,7 +124,7 @@
 <!-- /Complect item -->
 
     </li>
-    <li class="list-of-complect__item col-xl-3 col-lg-4 col-md-6 mb-3">
+    <li class="list-of-complect__item col-xl-3 col-md-4 col-sm-6 mb-3">
         <!-- Complect item -->
 <form action="" class="complect-item card">
     <div class="card-body">
@@ -155,7 +155,7 @@
 <!-- /Complect item -->
 
     </li>
-    <li class="list-of-complect__item col-xl-3 col-lg-4 col-md-6 mb-3">
+    <li class="list-of-complect__item col-xl-3 col-md-4 col-sm-6 mb-3">
         <!-- Complect item -->
 <form action="" class="complect-item card">
     <div class="card-body">
@@ -186,7 +186,7 @@
 <!-- /Complect item -->
 
     </li>
-    <li class="list-of-complect__item col-xl-3 col-lg-4 col-md-6 mb-3">
+    <li class="list-of-complect__item col-xl-3 col-md-4 col-sm-6 mb-3">
         <!-- Complect item -->
 <form action="" class="complect-item card">
     <div class="card-body">
@@ -217,7 +217,7 @@
 <!-- /Complect item -->
 
     </li>
-    <li class="list-of-complect__item col-xl-3 col-lg-4 col-md-6 mb-3">
+    <li class="list-of-complect__item col-xl-3 col-md-4 col-sm-6 mb-3">
         <!-- Complect item -->
 <form action="" class="complect-item card">
     <div class="card-body">

@@ -1,5 +1,7 @@
+// Library.Blocks
 @import "../../library.blocks/bootstrap/bootstrap-reboot";
 
+// Common.Blocks
 @import "../../common.blocks/page-header/page-header";
 @import "../../common.blocks/page-footer/page-footer";
 @import "../../common.blocks/list-of-images/list-of-images";
@@ -10,6 +12,7 @@
 @import "../../common.blocks/list-of-product-categories/list-of-product-categories";
 @import "../../common.blocks/add-to-favorite/add-to-favorite";
 @import "../../common.blocks/added-to-cart-modal/added-to-cart-modal";
+
 
 .product__section {
   padding-top: 1.5rem;

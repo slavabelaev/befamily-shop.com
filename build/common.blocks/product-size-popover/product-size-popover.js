@@ -1,2 +1,8 @@
-jQuery(document).ready(function(e){e(".product-size-popover").find(".product-size-popover__link").on("click",function(e){e.preventDefault()})});
-//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbW1vbi5ibG9ja3MvcHJvZHVjdC1zaXplLXBvcG92ZXIvcHJvZHVjdC1zaXplLXBvcG92ZXIuanMiXSwibmFtZXMiOlsialF1ZXJ5IiwiZG9jdW1lbnQiLCJyZWFkeSIsIiQiLCJmaW5kIiwib24iLCJlIiwicHJldmVudERlZmF1bHQiXSwibWFwcGluZ3MiOiJBQUFBQSxPQUFPQyxVQUFVQyxNQUFNLFNBQVNDLEdBQ1RBLEVBQUUseUJBQ2VDLEtBQUssK0JBRXhCQyxHQUFHLFFBQVMsU0FBU0MsR0FDbENBLEVBQUVDIiwiZmlsZSI6ImNvbW1vbi5ibG9ja3MvcHJvZHVjdC1zaXplLXBvcG92ZXIvcHJvZHVjdC1zaXplLXBvcG92ZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJqUXVlcnkoZG9jdW1lbnQpLnJlYWR5KGZ1bmN0aW9uKCQpIHtcclxuICAgIHZhciBwb3B1cEVsZW1lbnQgPSAkKCcucHJvZHVjdC1zaXplLXBvcG92ZXInKSxcclxuICAgICAgICBwb3B1cExpbmtFbGVtZW50ID0gcG9wdXBFbGVtZW50LmZpbmQoJy5wcm9kdWN0LXNpemUtcG9wb3Zlcl9fbGluaycpO1xyXG5cclxuICAgIHBvcHVwTGlua0VsZW1lbnQub24oJ2NsaWNrJywgZnVuY3Rpb24oZSkge1xyXG4gICAgICAgIGUucHJldmVudERlZmF1bHQoKTtcclxuICAgIH0pO1xyXG59KTsiXX0=
+jQuery(document).ready(function($) {
+    var popupElement = $('.product-size-popover'),
+        popupLinkElement = popupElement.find('.product-size-popover__link');
+
+    popupLinkElement.on('click', function(e) {
+        e.preventDefault();
+    });
+});

@@ -1,2 +1,4 @@
-
-//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJwYWdlcy5ibG9ja3MvcHJvZHVjdC9wcm9kdWN0LmpzIiwic291cmNlc0NvbnRlbnQiOltdfQ==
+jQuery(document).ready(function($) {
+    $("[data-sticked]").stick_in_parent();
+    console.log('1111111');
+});

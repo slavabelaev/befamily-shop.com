@@ -2,16 +2,16 @@
 <!-- Page styles -->
 <link rel="stylesheet" href="pages.blocks/product/product.css">
 
-<main>
+<main class="product">
     <div class="container">
         @@include('../../common.blocks/breadcrumb/breadcrumb.tpl')
         <div class="row">
-            <div class="col-md-5 col-lg-6">
+            <div class="col-lg-5 col-xl-6">
                 @@include('../../common.blocks/list-of-images/list-of-images.tpl')
             </div>
-            <aside class="col-md-6 col-lg-6">
+            <aside class="product__aside col-lg-6 col-xl-6">
                 <!-- Product -->
-                <section class="product">
+                <section class="product__aside-container" data-sticked>
                     <h1>Комплект “Скандинавия”</h1>
                     <ul class="product__list-of-details">
                         <li class="product__detail product__category"><a href="#">Мама и дочка</a></li>
@@ -93,7 +93,13 @@
 @@include('../../common.blocks/product-item-modal/product-item-modal.tpl')
 @@include('../../common.blocks/added-to-cart-modal/added-to-cart-modal.tpl')
 
+
 <!-- Block scripts -->
+<script src="common.blocks/list-of-images/list-of-images.js" defer></script>
 <script src="common.blocks/product-size-popover/product-size-popover.js" defer></script>
 <script src="common.blocks/product-item/product-item.js" defer></script>
 <script src="common.blocks/product-size-control/product-size-control.js" defer></script>
+<!-- Page Scripts -->
+<!-- Sticky Kit — http://leafo.net/sticky-kit/ -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-kit/1.1.3/sticky-kit.min.js" defer></script>
+<script src="pages.blocks/product/product.js" defer></script>
