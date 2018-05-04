@@ -412,7 +412,7 @@
                         <h2>С этим товаром покупают</h2>
                         <!-- List of products -->
 <ul class="list-of-products row">
-    <li class="list-of-products__item col-lg-6 mb-3">
+    <li class="list-of-products__item col-sm-6 mb-3">
         <!-- Product item -->
 <form action="#" class="product-item card" data-product-id="0109">
     <div class="card-body">
@@ -467,7 +467,7 @@
 <!-- /Product item -->
 
     </li>
-    <li class="list-of-products__item col-lg-6 mb-3">
+    <li class="list-of-products__item col-sm-6 mb-3">
         <!-- Product item -->
 <form action="#" class="product-item card" data-product-id="0110">
     <div class="card-body">
