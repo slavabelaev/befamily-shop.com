@@ -6,6 +6,7 @@ var gulp = require('gulp'),
     prefixer = require('gulp-autoprefixer'),
     uglify = require('gulp-uglify'),
     sass = require('gulp-sass'),
+    ts = require('gulp-typescript'),
     sourcemaps = require('gulp-sourcemaps'),
     cssmin = require('gulp-clean-css'),
     image = require('gulp-image'),
@@ -17,34 +18,32 @@ var gulp = require('gulp'),
 
 var path = {
     build: {
-        html: 'build',
-        js: 'build',
-        css: 'build',
-        images: 'build',
-        fonts: 'build'
+        html: 'dist',
+        ts: 'dist',
+        css: 'dist',
+        images: 'dist',
+        fonts: 'dist'
     },
     src: {
-        html: 'src/**/*.{html,tpl,tmpl,svg,js}',
-        js: 'src/**/*.js',
-        style: 'src/**/*.scss',
-        //images: 'src/**/*.{jpg,jpeg,png,gif,svg}',
-        //fonts: 'src/**/*.{ttf,otf,woff,woff2,svg,eot}'
-        fonts: 'src/**/*.{ttf,otf,woff,woff2,svg,eot,jpg,jpeg,png,gif}'
+        html: 'src/**/*.{html,tpl,tmpl}',
+        ts: 'src/**/*.{ts,js}',
+        style: 'src/**/*.{scss,sass}',
+        images: 'src/**/*.{jpg,jpeg,png,gif,svg}',
+        fonts: 'src/**/*.{ttf,otf,woff,woff2,svg,eot}'
     },
     watch: {
-        html: 'src/**/*.{html,tpl,tmpl,svg,js}',
-        js: 'src/**/*.js',
-        style: 'src/**/*.scss',
-        //images: 'src/**/*.{jpg,jpeg,png,gif,svg}',
-        //fonts: 'src/**/*.{ttf,otf,woff,woff2,svg,eot}'
-        fonts: 'src/**/*.{ttf,otf,woff,woff2,eot,jpg,jpeg,png,gif}'
+        html: 'src/**/*.{html,tpl,tmpl}',
+        ts: 'src/**/*.{ts,js}',
+        style: 'src/**/*.{scss,sass}',
+        images: 'src/**/*.{jpg,jpeg,png,gif,svg}',
+        fonts: 'src/**/*.{ttf,otf,woff,woff2,svg,eot}'
     },
-    clean: './build'
+    clean: './dist'
 };
 
 var config = {
     server: {
-        baseDir: "./build"
+        baseDir: "./dist"
     },
     tunnel: true,
     host: 'localhost',
@@ -68,13 +67,14 @@ gulp.task('html:build', function () {
         .pipe(reload({stream: true}));
 });
 
-gulp.task('js:build', function () {
-    gulp.src(path.src.js)
+gulp.task('ts:build', function () {
+    gulp.src(path.src.ts)
         .pipe(plumber())
-        .pipe(sourcemaps.init()) 
-        .pipe(uglify()) 
-        .pipe(sourcemaps.write()) 
-        .pipe(gulp.dest(path.build.js))
+        .pipe(sourcemaps.init())
+        .pipe(ts())
+        .pipe(uglify())
+        .pipe(sourcemaps.write())
+        .pipe(gulp.dest(path.build.ts))
         .pipe(reload({stream: true}));
 });
 
@@ -110,9 +110,9 @@ gulp.task('fonts:build', function() {
 gulp.task('build', [
     'html:build',
     'style:build',
-    //'image:build',
+    'image:build',
     'fonts:build',
-    'js:build'
+    'ts:build'
 ]);
 
 
@@ -129,10 +129,10 @@ gulp.task('watch', function() {
     watch(path.watch.fonts, function(event, cb) {
         gulp.start('fonts:build');
     });
-    watch(path.watch.js, function(event, cb) {
-        gulp.start('js:build');
+    watch(path.watch.ts, function(event, cb) {
+        gulp.start('ts:build');
     });
 });
 
-gulp.task('serve', ['build', 'webserver', 'watch']);
 gulp.task('default', ['build']);
+gulp.task('serve', ['build', 'webserver', 'watch']);
