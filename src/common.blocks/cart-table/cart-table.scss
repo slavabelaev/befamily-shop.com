@@ -1,0 +1,107 @@
+@import "../../library.blocks/bootstrap/bootstrap-reboot";
+
+.cart-table {
+  td {
+    vertical-align: middle;
+  }
+}
+.cart-table__thead {
+  text-align: center;
+}
+.cart-table__product-title {
+  margin-bottom: .75rem;
+  font-weight: normal;
+}
+.cart-table__product-category {
+  color: $text-muted;
+}
+.cart-table__price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.cart-table__total-cost-label {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+@include media-breakpoint-between(xs, sm) {
+  .cart-table__product-title {
+    font-weight: bold;
+  }
+  .cart-table {
+    display: block;
+    table, tbody, tfoot, tr, th, td {
+      display: block;
+    }
+    tbody tr {
+      display: flex;
+      flex-wrap: wrap;
+      position: relative;
+      padding: $card-spacer-x;
+      border: $border-color 1px solid;
+      border-radius: $border-radius;
+      margin-bottom: 1.5rem;
+      td {
+        flex-basis: 100%;
+        padding: 0;
+        &:not(:last-child) {
+          margin-bottom: 1rem;
+        }
+        &.cart-table__td-price,
+        &.cart-table__td-sum {
+          flex-basis: 50%;
+          align-items: center;
+          margin-bottom: 0;
+          &:before {
+            display: block;
+            width: 100%;
+            font-size: 1rem;
+            color: $dark;
+          }
+        }
+        &.cart-table__td-price:before {
+          content: "Цена:";
+        }
+        &.cart-table__td-sum:before {
+          content: "Сумма:";
+        }
+      }
+    }
+    tfoot {
+      position: relative;
+      td {
+        padding: 0;
+      }
+      .cart-table__td-action {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        .icon {
+          right: .5rem;
+        }
+      }
+    }
+    thead {
+      display: none;
+    }
+    .cart-table__td-action {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      .icon {
+        width: 2rem;
+        height: 2rem;
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+        right: ($card-spacer-x * 2);
+        top: ($card-spacer-x * 2);
+      }
+    }
+  }
+}

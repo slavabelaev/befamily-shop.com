@@ -15,12 +15,14 @@
             <div class="row mb-4">
                 <div class="product-includes-item__size-control-box col mb-3 mb-lg-0">
                     @@include('../../common.blocks/product-size-control/product-size-control.tpl', {
-                        "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
+                        "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+                        "showTitle": true
                     })
                 </div>
                 <div class="product-includes-item__size-popover-box col-lg-auto">
                     @@include('../../common.blocks/product-size-popover/product-size-popover.tpl', {
-                        "sizes": ["XS", "S", "M", "L", "XL", "XXL"]
+                        "sizes": ["1", "2", "3", "L", "XL", "XXL"],
+                        "showTitle": true
                     })
                 </div>
             </div>

@@ -1,4 +1,7 @@
+// Slick Carousel — http://kenwheeler.github.io/slick/
 @import "../../library.blocks/bootstrap/bootstrap-reboot";
+
+@import "../../common.blocks/image-item/image-item";
 
 .list-of-images {
   list-style: none;
@@ -7,13 +10,6 @@
 }
 .list-of-images__item {
   margin-bottom: 1.5rem;
-}
-.list-of-images__image {
-  max-width: 100%;
-  transition: $transition-fade;
-  &:hover {
-    opacity: .9;
-  }
 }
 
 @include media-breakpoint-up(xs) {

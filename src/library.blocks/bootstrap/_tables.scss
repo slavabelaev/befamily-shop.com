@@ -79,6 +79,16 @@
   tbody tr:nth-of-type(#{$table-striped-order}) {
     background-color: $table-accent-bg;
   }
+  th,
+  td {
+    border-width: 0;
+  }
+  thead {
+    background-color: $gray-200;
+    th {
+      border-width: 0;
+    }
+  }
 }
 
 

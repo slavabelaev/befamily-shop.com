@@ -1,0 +1,24 @@
+// Library.Blocks
+@import "../../library.blocks/bootstrap/bootstrap-reboot";
+
+// Common.Blocks
+@import "../../common.blocks/page-header/page-header";
+@import "../../common.blocks/page-footer/page-footer";
+@import "../../common.blocks/icon/icon";
+@import "../../common.blocks/list-of-purchase-process-steps/list-of-purchase-process-steps";
+
+@import "../../common.blocks/image-item/image-item";
+@import "../../common.blocks/product-size-control/product-size-control";
+@import "../../common.blocks/cart-table/cart-table";
+
+.cart-form__sum-box {
+  overflow: auto;
+  background-color: rgba($blue, .1);
+  padding: 1.5rem;
+  max-width: 475px;
+}
+.cart-form__price {
+  font-size: 1.25rem;
+  font-weight: bold;
+  white-space: nowrap;
+}

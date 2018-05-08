@@ -1,4 +1,4 @@
-<!-- List of product includes -->
+<!-- List of product-page includes -->
 <ul class="list-of-product-includes">
     <li class="list-of-product-includes__item">
         <!-- Product includes item -->
@@ -239,4 +239,4 @@
 <!-- /Product includes item -->
     </li>
 </ul>
-<!-- /List of product includes -->
+<!-- /List of product-page includes -->

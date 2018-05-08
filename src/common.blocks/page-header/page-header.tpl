@@ -1,7 +1,7 @@
 <!-- Page header -->
-<header class="page-header">
+<header class="page-header sticky-top">
 	<nav class="navbar navbar-expand-lg navbar-light container">
-		<a class="navbar-brand" href="#">
+		<a class="navbar-brand" href="/">
 			<img src="common.blocks/page-header/page-header__be-Family.svg" alt="be Family" class="page-header__logo">
 		</a>
 		<div class="page-header__contacts d-none d-xl-block">
@@ -52,7 +52,7 @@
         </div>
 		<ul class="page-header__navbar-actions">
 			<li class="nav-item">
-				<a class="nav-link" href="#">
+				<a class="nav-link" href="cart.html">
                     <span class="icon icon__heart icon_style_dark"></span>
 					<span class="page-header__number-of-favorites badge badge-primary">99</span>
                 </a>

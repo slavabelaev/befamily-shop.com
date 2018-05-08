@@ -1,3 +1,5 @@
+//import jQuery from '../../../node_modules/jquery/dist/jquery';
+
 jQuery(document).ready(function($) {
     $('.product-item__collapse-size').on('click', function(e) {
         e.preventDefault();

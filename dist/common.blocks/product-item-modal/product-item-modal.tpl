@@ -22,7 +22,7 @@
                         <div class="product-item-modal__price">10 890 ₽</div>
                         <hr class="mb-0">
                         <div class="mb-4">
-                            <!-- List of product includes -->
+                            <!-- List of product-page includes -->
 <ul class="list-of-product-includes">
     <li class="list-of-product-includes__item">
         <!-- Product includes item -->
@@ -263,7 +263,7 @@
 <!-- /Product includes item -->
     </li>
 </ul>
-<!-- /List of product includes -->
+<!-- /List of product-page includes -->
                         </div>
 
                         <button type="submit"

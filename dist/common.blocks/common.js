@@ -1,2 +1,5 @@
-$('[data-toggle="popover"]').popover(),$('[data-toggle="tooltip"]').tooltip();
-//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbW1vbi5ibG9ja3MvY29tbW9uLnRzIl0sIm5hbWVzIjpbIiQiLCJwb3BvdmVyIiwidG9vbHRpcCJdLCJtYXBwaW5ncyI6IkFBQUFBLEVBQUUsMkJBQTJCQyxVQUM3QkQsRUFBRSwyQkFBMkJFIiwiZmlsZSI6ImNvbW1vbi5ibG9ja3MvY29tbW9uLmpzIiwic291cmNlc0NvbnRlbnQiOlsiJCgnW2RhdGEtdG9nZ2xlPVwicG9wb3ZlclwiXScpLnBvcG92ZXIoKTtcclxuJCgnW2RhdGEtdG9nZ2xlPVwidG9vbHRpcFwiXScpLnRvb2x0aXAoKTsiXX0=
+//import jQuery from '../../node_modules/jquery/dist/jquery';
+jQuery.ready(function ($) {
+    $('[data-toggle="popover"]').popover();
+    $('[data-toggle="tooltip"]').tooltip();
+});

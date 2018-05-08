@@ -37,7 +37,7 @@
     border-color: $dropdown-border-color;
   }
 
-  .dropdown-item:not(:last-child) {
+  .dropdown-item {
     position: relative;
     &:after {
       content: "";
@@ -47,7 +47,6 @@
       right: 0;
       bottom: 0;
       margin: auto;
-      width: 90%;
       border-bottom: 1px solid $gray-300;
       transition: $transition-base;
     }
@@ -189,5 +188,13 @@
 @include media-breakpoint-up(lg) {
   .dropdown-menu {
     box-shadow: $dropdown-box-shadow;
+  }
+  .dropdown-item {
+    &:after {
+      width: 90%;
+    }
+    &:last-child:after {
+      border-width: 0;
+    }
   }
 }

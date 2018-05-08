@@ -237,7 +237,7 @@ $font-family-base:            $font-family-sans-serif !default;
 // stylelint-enable value-keyword-case
 
 $font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
-$font-size-lg:                ($font-size-base * 1.25) !default;
+$font-size-lg:                $font-size-base !default;
 $font-size-sm:                ($font-size-base * .875) !default;
 
 $font-weight-light:           300 !default;
@@ -247,8 +247,8 @@ $font-weight-bold:            700 !default;
 $font-weight-base:            $font-weight-normal !default;
 $line-height-base:            1.5 !default;
 
-$h1-font-size:                $font-size-base * 2.25 !default;
-$h2-font-size:                $font-size-base * 1.5 !default;
+$h1-font-size:                $font-size-base * 3 !default;
+$h2-font-size:                $font-size-base * 2 !default;
 $h3-font-size:                $font-size-base * 1.125 !default;
 $h4-font-size:                $font-size-base * 1 !default;
 $h5-font-size:                $font-size-base * .875 !default;
@@ -322,7 +322,7 @@ $table-dark-hover-bg:         rgba($white, .075) !default;
 $table-dark-border-color:     lighten($gray-900, 7.5%) !default;
 $table-dark-color:            $body-bg !default;
 
-$table-striped-order:         odd !default;
+$table-striped-order:         even !default;
 
 $table-caption-color:         $text-muted !default;
 
@@ -408,7 +408,7 @@ $input-padding-y-sm:                    $input-btn-padding-y-sm !default;
 $input-padding-x-sm:                    $input-btn-padding-x-sm !default;
 $input-line-height-sm:                  $input-btn-line-height-sm !default;
 
-$input-padding-y-lg:                    $input-btn-padding-y-lg !default;
+$input-padding-y-lg:                    .75rem !default;
 $input-padding-x-lg:                    $input-btn-padding-x-lg !default;
 $input-line-height-lg:                  $input-btn-line-height-lg !default;
 
@@ -464,9 +464,9 @@ $input-group-addon-border-color:        $input-border-color !default;
 $custom-control-gutter:                 1.5rem !default;
 $custom-control-spacer-x:               1rem !default;
 
-$custom-control-indicator-size:         1rem !default;
-$custom-control-indicator-bg:           $gray-300 !default;
-$custom-control-indicator-bg-size:      50% 50% !default;
+$custom-control-indicator-size:         1.125rem !default;
+$custom-control-indicator-bg:           $white !default;
+$custom-control-indicator-bg-size:      100% !default;
 $custom-control-indicator-box-shadow:   inset 0 .25rem .25rem rgba($black, .1) !default;
 
 $custom-control-indicator-disabled-bg:          $gray-200 !default;
@@ -591,7 +591,7 @@ $dropdown-item-padding-x:           1.25rem !default;
 $dropdown-header-color:             $gray-600 !default;
 
 
-// Z-product master list
+// Z-product-page master list
 //
 // Warning: Avoid customizing these values. They're used for a bird's eye view
 // of components dependent on the z-axis and are designed to all work together.

@@ -6,7 +6,7 @@ var gulp = require('gulp'),
     prefixer = require('gulp-autoprefixer'),
     uglify = require('gulp-uglify'),
     sass = require('gulp-sass'),
-    ts = require('gulp-typescript'),
+    typescript = require('gulp-typescript'),
     sourcemaps = require('gulp-sourcemaps'),
     cssmin = require('gulp-clean-css'),
     image = require('gulp-image'),
@@ -26,14 +26,14 @@ var path = {
     },
     src: {
         html: 'src/**/*.{html,tpl,tmpl}',
-        ts: 'src/**/*.{ts,js}',
+        ts: 'src/**/*.ts',
         style: 'src/**/*.{scss,sass}',
         images: 'src/**/*.{jpg,jpeg,png,gif,svg}',
         fonts: 'src/**/*.{ttf,otf,woff,woff2,svg,eot}'
     },
     watch: {
         html: 'src/**/*.{html,tpl,tmpl}',
-        ts: 'src/**/*.{ts,js}',
+        ts: 'src/**/*.ts',
         style: 'src/**/*.{scss,sass}',
         images: 'src/**/*.{jpg,jpeg,png,gif,svg}',
         fonts: 'src/**/*.{ttf,otf,woff,woff2,svg,eot}'
@@ -70,10 +70,10 @@ gulp.task('html:build', function () {
 gulp.task('ts:build', function () {
     gulp.src(path.src.ts)
         .pipe(plumber())
-        .pipe(sourcemaps.init())
-        .pipe(ts())
-        .pipe(uglify())
-        .pipe(sourcemaps.write())
+        //.pipe(sourcemaps.init())
+        .pipe(typescript())
+        //.pipe(uglify())
+        //.pipe(sourcemaps.write())
         .pipe(gulp.dest(path.build.ts))
         .pipe(reload({stream: true}));
 });
@@ -81,14 +81,11 @@ gulp.task('ts:build', function () {
 gulp.task('style:build', function () {
     gulp.src(path.src.style)
         .pipe(plumber())
-        .pipe(sourcemaps.init())
-        .pipe(sass({
-            sourceMap: true,
-            errLogToConsole: true
-        }))
-        .pipe(prefixer())
-        .pipe(cssmin())
-        .pipe(sourcemaps.write())
+        //.pipe(sourcemaps.init())
+        .pipe(sass())
+        //.pipe(prefixer())
+        //.pipe(cssmin())
+        //.pipe(sourcemaps.write())
         .pipe(gulp.dest(path.build.css))
         .pipe(reload({stream: true}));
 });
@@ -97,6 +94,12 @@ gulp.task('image:build', function () {
     gulp.src(path.src.images)
         .pipe(plumber())
         .pipe(image())
+        .pipe(gulp.dest(path.build.images))
+        .pipe(reload({stream: true}));
+});
+gulp.task('image:watch', function () {
+    gulp.src(path.src.images)
+        .pipe(plumber())
         .pipe(gulp.dest(path.build.images))
         .pipe(reload({stream: true}));
 });
@@ -124,7 +127,7 @@ gulp.task('watch', function() {
         gulp.start('style:build');
     });
     watch(path.watch.images, function(event, cb) {
-        gulp.start('image:build');
+        gulp.start('image:watch');
     });
     watch(path.watch.fonts, function(event, cb) {
         gulp.start('fonts:build');

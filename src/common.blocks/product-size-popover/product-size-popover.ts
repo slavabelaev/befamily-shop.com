@@ -1,8 +1,5 @@
-jQuery(document).ready(function($) {
-    var popupElement = $('.product-size-popover'),
-        popupLinkElement = popupElement.find('.product-size-popover__link');
+//import jQuery from '../../../node_modules/jquery/dist/jquery';
 
-    popupLinkElement.on('click', function(e) {
-        e.preventDefault();
-    });
+jQuery(document).ready(function($) {
+
 });
