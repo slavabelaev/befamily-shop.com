@@ -26,4 +26,7 @@
     </div>
 </main>
 
+<script src="common.blocks/cart-form/cart-form.js"></script>
+
+<script src="pages.blocks/cart-page/cart-page.js"></script>
 @@include('../../common.blocks/page-footer/page-footer.tpl')

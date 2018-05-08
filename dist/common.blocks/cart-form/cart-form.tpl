@@ -1,5 +1,5 @@
 <!-- Cart form -->
-<form action="#" class="cart-form">
+<form action="#" class="cart-form card-form__needs-validation" novalidate>
     <h2>Информация для оплаты и доставки заказа:</h2>
     <section class="mb-3">
         <h3>Личные даные:</h3>
@@ -10,6 +10,9 @@
                        required
                        class="form-control form-control-lg"
                        placeholder="Имя">
+                <div class="invalid-feedback">
+                    Пример: "Иван"
+                </div>
             </div>
             <div class="form-group col-md-6">
                 <input type="text"
@@ -17,6 +20,9 @@
                        required
                        class="form-control form-control-lg"
                        placeholder="Фамилия">
+                <div class="invalid-feedback">
+                    Пример: "Иванов"
+                </div>
             </div>
             <div class="form-group col-md-6">
                 <input type="email"
@@ -24,6 +30,9 @@
                        required
                        class="form-control form-control-lg"
                        placeholder="E-mail">
+                <div class="invalid-feedback">
+                    Пример: "ivan.ivanov@email.com"
+                </div>
             </div>
             <div class="form-group col-md-6">
                 <input type="tel"
@@ -32,6 +41,9 @@
                        required
                        class="form-control form-control-lg"
                        placeholder="Телефон">
+                <div class="invalid-feedback">
+                    Пример: "8 495 7777777"
+                </div>
             </div>
         </div>
     </section>
@@ -44,6 +56,9 @@
                        required
                        class="form-control form-control-lg"
                        placeholder="Город">
+                <div class="invalid-feedback">
+                    Пример: "Москва"
+                </div>
             </div>
             <div class="form-group col-lg-5 col-md-6">
                 <input type="text"
@@ -51,20 +66,33 @@
                        required
                        class="form-control form-control-lg"
                        placeholder="Улица">
+                <div class="invalid-feedback">
+                    Пример: "Покровка"
+                </div>
             </div>
             <div class="form-group col-lg-2 col-md-6">
-                <input type="email"
+                <input type="number"
                        name="houseNo"
+                       min="0"
+                       max="99999"
                        required
                        class="form-control form-control-lg"
                        placeholder="№ дома">
+                <div class="invalid-feedback">
+                    Пример: "12"
+                </div>
             </div>
             <div class="form-group col-lg-2 col-md-6">
-                <input type="text"
+                <input type="number"
                        name="apartmentNo"
+                       min="0"
+                       max="99999"
                        required
                        class="form-control form-control-lg"
                        placeholder="№ квартиры">
+                <div class="invalid-feedback">
+                    Пример: "12"
+                </div>
             </div>
         </div>
     </section>

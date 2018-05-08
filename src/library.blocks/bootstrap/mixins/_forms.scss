@@ -88,6 +88,9 @@
       ~ .custom-control-label {
         color: $color;
 
+        &::after {
+          border-color: $color;
+        }
         &::before {
           background-color: lighten($color, 25%);
         }

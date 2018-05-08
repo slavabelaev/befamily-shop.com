@@ -1474,6 +1474,8 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 
 .was-validated .custom-control-input:valid ~ .custom-control-label, .custom-control-input.is-valid ~ .custom-control-label {
   color: #28a745; }
+  .was-validated .custom-control-input:valid ~ .custom-control-label::after, .custom-control-input.is-valid ~ .custom-control-label::after {
+    border-color: #28a745; }
   .was-validated .custom-control-input:valid ~ .custom-control-label::before, .custom-control-input.is-valid ~ .custom-control-label::before {
     background-color: #71dd8a; }
 
@@ -1551,6 +1553,8 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 
 .was-validated .custom-control-input:invalid ~ .custom-control-label, .custom-control-input.is-invalid ~ .custom-control-label {
   color: #dc3545; }
+  .was-validated .custom-control-input:invalid ~ .custom-control-label::after, .custom-control-input.is-invalid ~ .custom-control-label::after {
+    border-color: #dc3545; }
   .was-validated .custom-control-input:invalid ~ .custom-control-label::before, .custom-control-input.is-invalid ~ .custom-control-label::before {
     background-color: #efa2a9; }
 
