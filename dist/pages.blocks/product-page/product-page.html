@@ -1,8 +1,22 @@
+<!-- Meta header -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/library.blocks/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="/common.blocks/common.css">
+</head>
+<body>
+<!-- /Meta header -->
 <!-- Page header -->
 <header class="page-header sticky-top">
 	<nav class="navbar navbar-expand-lg navbar-light container">
 		<a class="navbar-brand" href="/">
-			<img src="common.blocks/page-header/page-header__be-Family.svg" alt="be Family" class="page-header__logo">
+			<img src="/common.blocks/page-header/page-header__be-Family.svg" alt="be Family" class="page-header__logo">
 		</a>
 		<div class="page-header__contacts d-none d-xl-block">
 			<a href="tel:+88005551094" class="page-header__phone">8 (800) 555 - 10 - 94</a>
@@ -20,7 +34,7 @@
 			</ul>
 		</div>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".page-header__navbar">
-			<span class="navbar-toggler-icon"></span>
+			<i class="icon icon__menu"></i>
 		</button>
 
 		<div class="page-header__navbar collapse navbar-collapse">
@@ -52,13 +66,13 @@
         </div>
 		<ul class="page-header__navbar-actions">
 			<li class="nav-item">
-				<a class="nav-link" href="cart.html">
+				<a class="nav-link" href="/pages.blocks/favorites-page/favorites-page.html">
                     <span class="icon icon__heart icon_style_dark"></span>
 					<span class="page-header__number-of-favorites badge badge-primary">99</span>
                 </a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">
+				<a class="nav-link" href="/pages.blocks/cart-page/cart-page.html">
 					<span class="icon icon__shopping-bag icon_style_dark"></span>
 					<span class="page-header__number-of-products badge badge-primary">99</span>
 				</a>
@@ -68,7 +82,7 @@
 </header>
 <!-- /Page header -->
 <!-- Page styles -->
-<link rel="stylesheet" href="pages.blocks/product-page/product-page.css">
+<link rel="stylesheet" href="/pages.blocks/product-page/product-page.css">
 
 <main class="product-page">
     <div class="container">
@@ -76,8 +90,8 @@
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/">Главная</a></li>
-        <li class="breadcrumb-item"><a href="#">Каталог </a></li>
-        <li class="breadcrumb-item active" aria-current="page">Мама и дочка</li>
+         <li class="breadcrumb-item"><a href="#">Каталог</a></li> 
+         <li class="breadcrumb-item active" aria-current="page">Мама и дочка</li> 
     </ol>
 </nav>
 <!-- /Breadcrumb -->
@@ -88,27 +102,27 @@
     <li class="list-of-images__item">
         <!-- Image item -->
 <a  data-fancybox="gallery"
-    href="content/images/complects/scandinavia/scandinavia-1.jpg"
+    href="/content/images/complects/scandinavia/scandinavia-1.jpg"
     class="image-item__link">
-    <img src="content/images/complects/scandinavia/scandinavia-1.jpg" alt="" class="image-item__image">
+    <img src="/content/images/complects/scandinavia/scandinavia-1.jpg" alt="" class="image-item__image">
 </a>
 <!-- /Image item -->
     </li>
     <li class="list-of-images__item">
         <!-- Image item -->
 <a  data-fancybox="gallery"
-    href="content/images/complects/scandinavia/scandinavia-2.jpg"
+    href="/content/images/complects/scandinavia/scandinavia-2.jpg"
     class="image-item__link">
-    <img src="content/images/complects/scandinavia/scandinavia-2.jpg" alt="" class="image-item__image">
+    <img src="/content/images/complects/scandinavia/scandinavia-2.jpg" alt="" class="image-item__image">
 </a>
 <!-- /Image item -->
     </li>
     <li class="list-of-images__item">
         <!-- Image item -->
 <a  data-fancybox="gallery"
-    href="content/images/complects/scandinavia/scandinavia-3.jpg"
+    href="/content/images/complects/scandinavia/scandinavia-3.jpg"
     class="image-item__link">
-    <img src="content/images/complects/scandinavia/scandinavia-3.jpg" alt="" class="image-item__image">
+    <img src="/content/images/complects/scandinavia/scandinavia-3.jpg" alt="" class="image-item__image">
 </a>
 <!-- /Image item -->
     </li>
@@ -422,7 +436,7 @@
         <!-- Product item -->
 <form action="#" class="product-item card" data-product-id="0109">
     <div class="card-body">
-        <a href="#" class="product-item__image" style="background-image: url(content/images/products/sweater__Scandinavia/sweater__Scandinavia-1.jpg);"></a>
+        <a href="#" class="product-item__image" style="background-image: url(/content/images/products/sweater__Scandinavia/sweater__Scandinavia-1.jpg);"></a>
         <h3 class="product-item__title"><a href="#">Свитер “Скандинавия”</a></h3>
         <ul class="product-item__details mb-2">
             <li class="product-item__detail product-item__category">Мальчик</li>
@@ -477,7 +491,7 @@
         <!-- Product item -->
 <form action="#" class="product-item card" data-product-id="0110">
     <div class="card-body">
-        <a href="#" class="product-item__image" style="background-image: url(content/images/products/sweater__Scandinavia/sweater__Scandinavia-2.jpg);"></a>
+        <a href="#" class="product-item__image" style="background-image: url(/content/images/products/sweater__Scandinavia/sweater__Scandinavia-2.jpg);"></a>
         <h3 class="product-item__title"><a href="#">Свитер “Скандинавия”</a></h3>
         <ul class="product-item__details mb-2">
             <li class="product-item__detail product-item__category">Мальчик</li>
@@ -538,7 +552,7 @@
     <li class="list-of-reviews__item">
         <!-- Review -->
 <figure class="review-item figure">
-    <div class="review-item__avatar" style="background-image: url(content/images/reviews/review__Daria-Pynzar.jpg)"></div>
+    <div class="review-item__avatar" style="background-image: url(/content/images/reviews/review__Daria-Pynzar.jpg)"></div>
     <figcaption class="figure-caption">
         <h3 class="review-item__fullname">Дарья Пынзарь</h3>
         <address class="review-item__username">
@@ -554,7 +568,7 @@
     <li class="list-of-reviews__item">
         <!-- Review -->
 <figure class="review-item figure">
-    <div class="review-item__avatar" style="background-image: url(content/images/reviews/review__Ksenia-Borodina.jpg)"></div>
+    <div class="review-item__avatar" style="background-image: url(/content/images/reviews/review__Ksenia-Borodina.jpg)"></div>
     <figcaption class="figure-caption">
         <h3 class="review-item__fullname">Ксения Бородина</h3>
         <address class="review-item__username">
@@ -614,7 +628,7 @@
     <i class="icon"></i>
 </button>
 <!-- /Add to favorite -->
-        <a href="#" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-1.jpg);"></a>
+        <a href="#" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-1.jpg);"></a>
         <h3 class="complect-item__title"><a href="#">Комплект платьев Мечта</a></h3>
         <ul class="complect-item__details">
             <li class="complect-item__detail complect-item__uid">Артикул: 0109</li>
@@ -645,10 +659,10 @@
     <i class="icon"></i>
 </button>
 <!-- /Add to favorite -->
-        <a href="#" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-2.jpg);"></a>
+        <a href="#" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-2.jpg);"></a>
         <h3 class="complect-item__title"><a href="#">Комплект платьев Мечта</a></h3>
         <ul class="complect-item__details">
-            <li class="complect-item__detail complect-item__uid">Артикул: 0109</li>
+            <li class="complect-item__detail complect-item__uid">Артикул: 0110</li>
             <li class="complect-item__detail complect-item__price">10890 ₽</li>
             <li class="complect-item__detail text-right">
                 <a href="#"
@@ -676,10 +690,10 @@
     <i class="icon"></i>
 </button>
 <!-- /Add to favorite -->
-        <a href="#" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-3.jpg);"></a>
+        <a href="#" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-3.jpg);"></a>
         <h3 class="complect-item__title"><a href="#">Комплект платьев Мечта</a></h3>
         <ul class="complect-item__details">
-            <li class="complect-item__detail complect-item__uid">Артикул: 0109</li>
+            <li class="complect-item__detail complect-item__uid">Артикул: 0111</li>
             <li class="complect-item__detail complect-item__price">10890 ₽</li>
             <li class="complect-item__detail text-right">
                 <a href="#"
@@ -707,10 +721,10 @@
     <i class="icon"></i>
 </button>
 <!-- /Add to favorite -->
-        <a href="#" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-4.jpg);"></a>
+        <a href="#" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-4.jpg);"></a>
         <h3 class="complect-item__title"><a href="#">Комплект платьев Мечта</a></h3>
         <ul class="complect-item__details">
-            <li class="complect-item__detail complect-item__uid">Артикул: 0109</li>
+            <li class="complect-item__detail complect-item__uid">Артикул: 0112</li>
             <li class="complect-item__detail complect-item__price">10890 ₽</li>
             <li class="complect-item__detail text-right">
                 <a href="#"
@@ -738,10 +752,10 @@
     <i class="icon"></i>
 </button>
 <!-- /Add to favorite -->
-        <a href="#" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-5.jpg);"></a>
+        <a href="#" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-5.jpg);"></a>
         <h3 class="complect-item__title"><a href="#">Комплект платьев Мечта</a></h3>
         <ul class="complect-item__details">
-            <li class="complect-item__detail complect-item__uid">Артикул: 0109</li>
+            <li class="complect-item__detail complect-item__uid">Артикул: 0113</li>
             <li class="complect-item__detail complect-item__price">10890 ₽</li>
             <li class="complect-item__detail text-right">
                 <a href="#"
@@ -769,10 +783,10 @@
     <i class="icon"></i>
 </button>
 <!-- /Add to favorite -->
-        <a href="#" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-6.jpg);"></a>
+        <a href="#" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-6.jpg);"></a>
         <h3 class="complect-item__title"><a href="#">Комплект платьев Мечта</a></h3>
         <ul class="complect-item__details">
-            <li class="complect-item__detail complect-item__uid">Артикул: 0109</li>
+            <li class="complect-item__detail complect-item__uid">Артикул: 0114</li>
             <li class="complect-item__detail complect-item__price">10890 ₽</li>
             <li class="complect-item__detail text-right">
                 <a href="#"
@@ -800,10 +814,10 @@
     <i class="icon"></i>
 </button>
 <!-- /Add to favorite -->
-        <a href="#" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-7.jpg);"></a>
+        <a href="#" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-7.jpg);"></a>
         <h3 class="complect-item__title"><a href="#">Комплект платьев Мечта</a></h3>
         <ul class="complect-item__details">
-            <li class="complect-item__detail complect-item__uid">Артикул: 0109</li>
+            <li class="complect-item__detail complect-item__uid">Артикул: 0115</li>
             <li class="complect-item__detail complect-item__price">10890 ₽</li>
             <li class="complect-item__detail text-right">
                 <a href="#"
@@ -831,10 +845,10 @@
     <i class="icon"></i>
 </button>
 <!-- /Add to favorite -->
-        <a href="#" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-8.jpg);"></a>
+        <a href="#" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-8.jpg);"></a>
         <h3 class="complect-item__title"><a href="#">Комплект платьев Мечта</a></h3>
         <ul class="complect-item__details">
-            <li class="complect-item__detail complect-item__uid">Артикул: 0109</li>
+            <li class="complect-item__detail complect-item__uid">Артикул: 0116</li>
             <li class="complect-item__detail complect-item__price">10890 ₽</li>
             <li class="complect-item__detail text-right">
                 <a href="#"
@@ -872,9 +886,9 @@
                 <div class="row">
                     <div class="col-md-4">
                         <a data-fancybox="gallery"
-                           href="content/images/complects/scandinavia/scandinavia-1.jpg"
+                           href="/content/images/complects/scandinavia/scandinavia-1.jpg"
                            class="list-of-images__link">
-                            <img src="content/images/complects/scandinavia/scandinavia-1.jpg" alt="" class="img-fluid">
+                            <img src="/content/images/complects/scandinavia/scandinavia-1.jpg" alt="" class="img-fluid">
                         </a>
                     </div>
                     <div class="col-md-8">
@@ -1152,9 +1166,9 @@
                 <div class="row">
                     <div class="col-md-4">
                         <a data-fancybox="gallery"
-                           href="content/images/complects/scandinavia/scandinavia-1.jpg"
+                           href="/content/images/complects/scandinavia/scandinavia-1.jpg"
                            class="list-of-images__link">
-                            <img src="content/images/complects/scandinavia/scandinavia-1.jpg" alt="" class="img-fluid">
+                            <img src="/content/images/complects/scandinavia/scandinavia-1.jpg" alt="" class="img-fluid">
                         </a>
                     </div>
                     <div class="col-md-8">
@@ -1414,25 +1428,25 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-kit/1.1.3/sticky-kit.min.js" defer></script>
 
     <!-- Product Page -->
-    <script src="common.blocks/complect-item/complect-item.js" defer></script>
-    <script src="common.blocks/list-of-images/list-of-images.js" defer></script>
-    <script src="common.blocks/image-item/image-item.js" defer></script>
-    <script src="common.blocks/product-item/product-item.js" defer></script>
-    <script src="common.blocks/product-size-control/product-size-control.js" defer></script>
-    <script src="common.blocks/product-size-popover/product-size-popover.js" defer></script>
+    <script src="/common.blocks/complect-item/complect-item.js" defer></script>
+    <script src="/common.blocks/list-of-images/list-of-images.js" defer></script>
+    <script src="/common.blocks/image-item/image-item.js" defer></script>
+    <script src="/common.blocks/product-item/product-item.js" defer></script>
+    <script src="/common.blocks/product-size-control/product-size-control.js" defer></script>
+    <script src="/common.blocks/product-size-popover/product-size-popover.js" defer></script>
 
-    <script src="pages.blocks/product-page/product-page.js" defer></script>
+    <script src="/pages.blocks/product-page/product-page.js" defer></script>
 </main>
 
 <!-- Page footer -->
 <footer class="page-footer">
 	<div class="container">
 		<ul class="page-footer__list-of-sections row">
-			<li class="col-sm-6 col-lg-4">
+			<li class="col-sm-6 col-md">
 				<section class="page-footer__section">
 					<h3 class="page-footer__nav-title collapsed"
 						data-toggle="collapse"
-						data-target=".page-footer__nav_type_for-family">Для всей семьи</h3>
+						data-target=".page-footer__nav_type_for-family">Вся семья</h3>
 					<nav class="page-footer__nav page-footer__nav_type_for-family collapse">
 						<ul class="page-footer__list-of-links">
 							<li class="nav-item"><a href="#" class="page-footer__nav-link">Платья</a></li>
@@ -1446,11 +1460,11 @@
 					</nav>
 				</section>
 			</li>
-			<li class="col-sm-6 col-lg-4">
+			<li class="col-sm-6 col-md">
 				<section class="page-footer__section">
 					<h3 class="page-footer__nav-title collapsed"
 						data-toggle="collapse"
-						data-target=".page-footer__nav_type_moms-and-daughter">Мамы и дочки</h3>
+						data-target=".page-footer__nav_type_moms-and-daughter">Мамы и ребенок</h3>
 					<nav class="page-footer__nav page-footer__nav_type_moms-and-daughter collapse">
 						<ul class="page-footer__list-of-links">
 							<li class="nav-item"><a href="#" class="page-footer__nav-link">Платья</a></li>
@@ -1462,11 +1476,11 @@
 					</nav>
 				</section>
 			</li>
-			<li class="col-sm-6 col-lg-4">
+			<li class="col-sm-6 col-md">
 				<section class="page-footer__section">
 					<h3 class="page-footer__nav-title collapsed"
 						data-toggle="collapse"
-						data-target=".page-footer__nav_type_moms-and-sons">Мамы и сыновья</h3>
+						data-target=".page-footer__nav_type_moms-and-sons">Папа и ребенок</h3>
 					<nav class="page-footer__nav page-footer__nav_type_moms-and-sons collapse">
 						<ul class="page-footer__list-of-links">
 							<li class="nav-item"><a href="#" class="page-footer__nav-link">Футболки</a></li>
@@ -1477,11 +1491,11 @@
 					</nav>
 				</section>
 			</li>
-			<li class="col-sm-6 col-lg-4">
+			<li class="col-sm-6 col-md">
 				<section class="page-footer__section">
 					<h3 class="page-footer__nav-title collapsed"
 						data-toggle="collapse"
-						data-target=".page-footer__nav_type_dads-and-sons">Папы и сыновья</h3>
+						data-target=".page-footer__nav_type_dads-and-sons">Для двоих</h3>
 					<nav class="page-footer__nav page-footer__nav_type_dads-and-sons collapse">
 						<ul class="page-footer__list-of-links">
 							<li class="nav-item"><a href="#" class="page-footer__nav-link">Футболки</a></li>
@@ -1492,11 +1506,11 @@
 					</nav>
 				</section>
 			</li>
-			<li class="col-sm-6 col-lg-4">
+			<li class="col-sm-6 col-md">
 				<section class="page-footer__section">
 					<h3 class="page-footer__nav-title collapsed"
 						data-toggle="collapse"
-						data-target=".page-footer__nav_type_menu">Меню</h3>
+						data-target=".page-footer__nav_type_menu">Распродажа</h3>
 					<nav class="page-footer__nav page-footer__nav_type_menu collapse">
 						<ul class="page-footer__list-of-links">
 							<li class="nav-item"><a href="#" class="page-footer__nav-link">Каталог</a></li>
@@ -1534,14 +1548,14 @@
 				<section class="page-footer__section">
 					<h3 class="page-footer__title">Сайт разработан в</h3>
 					<a href="#" class="page-footer__link">
-						<img src="common.blocks/page-footer/page-footer__WEBDELO-STUDIO.svg" alt="WEBDELO STUDIO" class="page-footer__developed-by-logo">
+						<img src="/common.blocks/page-footer/page-footer__WEBDELO-STUDIO.svg" alt="WEBDELO STUDIO" class="page-footer__developed-by-logo">
 					</a>
 				</section>
 			</li>
 			<li class="page-footer__section-item_part_copyright col-lg-4">
 				<section class="page-footer__section">
 					<h3 class="d-none">be Family</h3>
-					<img src="common.blocks/page-footer/page-footer__be-Family.svg" alt="be Family" class="page-footer__logo">
+					<img src="/common.blocks/page-footer/page-footer__be-Family.svg" alt="be Family" class="page-footer__logo">
 					<div class="page-footer__copyright">© «be Family», 2000 - 2018 г.</div>
 				</section>
 			</li>
@@ -1549,3 +1563,13 @@
 	</div>
 </footer>
 <!-- Page footer -->
+<!-- Meta footer -->
+<!-- JS Global -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<!-- Global JS -->
+<script src="/common.blocks/common.js"></script>
+</body>
+</html>
+<!-- /Meta footer -->

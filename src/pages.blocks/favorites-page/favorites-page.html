@@ -1,0 +1,30 @@
+@@include('../../common.blocks/meta-header/meta-header.tpl')
+@@include('../../common.blocks/page-header/page-header.tpl')
+<!-- Page styles -->
+<link rel="stylesheet" href="/pages.blocks/favorites-page/favorites-page.css">
+
+<main class="favorites-page">
+    <div class="container">
+        @@include('../../common.blocks/breadcrumb/breadcrumb.tpl', {
+            "level2": "Каталог",
+            "activeItem": "Вся семья"
+        })
+        <div class="row">
+            <aside class="col-md-4 col-xl-3">
+                @@include('../../common.blocks/catalog-accordion/catalog-accordion.tpl')
+            </aside>
+            <section class="col-md-8 col-xl-9 mb-5">
+                @@include('../../common.blocks/list-of-favorites/list-of-favorites.tpl')
+            </section>
+        </div>
+    </div>
+</main>
+
+<script src="/common.blocks/complect-item/complect-item.js" defer></script>
+<script src="/common.blocks/product-size-control/product-size-control.js" defer></script>
+
+<script src="/pages.blocks/favorites-page/favorites-page.js" defer></script>
+
+@@include('../../common.blocks/product-item-modal/product-item-modal.tpl')
+@@include('../../common.blocks/page-footer/page-footer.tpl')
+@@include('../../common.blocks/meta-footer/meta-footer.tpl')

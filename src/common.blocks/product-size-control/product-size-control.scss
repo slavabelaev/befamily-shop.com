@@ -12,6 +12,9 @@
     border-bottom-left-radius: 0;
     border-left-width: 0;
   }
+  .btn-group-toggle {
+    flex-wrap: nowrap;
+  }
 }
 .product-size-control__quantity-select {
   display: none;

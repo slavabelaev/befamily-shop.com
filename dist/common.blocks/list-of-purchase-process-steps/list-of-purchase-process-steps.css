@@ -272,20 +272,6 @@ template {
   padding: 0;
   margin: 0; }
 
-.list-of-purchase-process-steps__item {
-  position: relative; }
-  .list-of-purchase-process-steps__item:not(:last-child):after {
-    content: "";
-    position: absolute;
-    bottom: -20px;
-    left: 17px;
-    margin: auto;
-    width: 16px;
-    height: 16px;
-    background-image: url(/common.blocks/icon/icon__arrow-down.svg);
-    background-position: center;
-    background-size: cover; }
-
 .list-of-purchase-process-steps__step {
   display: flex;
   align-items: center;
@@ -306,3 +292,20 @@ template {
   margin: 0;
   color: #444444;
   font-weight: normal; }
+
+@media (min-width: 992px) {
+  .list-of-purchase-process-steps__item {
+    position: relative; }
+    .list-of-purchase-process-steps__item:not(:last-child):after {
+      content: "";
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      transform: rotate(-90deg);
+      right: 0;
+      bottom: 40px;
+      left: initial;
+      margin: initial;
+      background-image: url(/common.blocks/icon/icon__arrow-down.svg);
+      background-position: center;
+      background-size: cover; } }

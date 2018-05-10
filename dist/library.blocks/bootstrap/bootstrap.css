@@ -323,8 +323,8 @@ h6, .h6 {
   font-size: 0.75rem; }
 
 .lead {
-  font-size: 1.25rem;
-  font-weight: 300; }
+  font-size: 1.5rem;
+  font-weight: 500; }
 
 .display-1 {
   font-size: 6rem;
@@ -389,6 +389,12 @@ mark,
   color: #777777; }
   .blockquote-footer::before {
     content: "\2014 \00A0"; }
+
+@media (max-width: 991.98px) {
+  h1, .h1 {
+    font-size: 2.4rem; }
+  h2, .h2 {
+    font-size: 1.6rem; } }
 
 .img-fluid {
   max-width: 100%;
@@ -1852,7 +1858,8 @@ fieldset:disabled a.btn {
   color: #F11F60;
   background-color: transparent;
   background-image: none;
-  border-color: #F11F60; }
+  border-color: #F11F60;
+  background-color: #fff; }
   .btn-outline-primary:hover {
     color: #fff;
     background-color: #F11F60;
@@ -1875,7 +1882,8 @@ fieldset:disabled a.btn {
   color: #4FBAD9;
   background-color: transparent;
   background-image: none;
-  border-color: #4FBAD9; }
+  border-color: #4FBAD9;
+  background-color: #fff; }
   .btn-outline-secondary:hover {
     color: #222222;
     background-color: #4FBAD9;
@@ -1898,7 +1906,8 @@ fieldset:disabled a.btn {
   color: #28a745;
   background-color: transparent;
   background-image: none;
-  border-color: #28a745; }
+  border-color: #28a745;
+  background-color: #fff; }
   .btn-outline-success:hover {
     color: #fff;
     background-color: #28a745;
@@ -1921,7 +1930,8 @@ fieldset:disabled a.btn {
   color: #098DB2;
   background-color: transparent;
   background-image: none;
-  border-color: #098DB2; }
+  border-color: #098DB2;
+  background-color: #fff; }
   .btn-outline-info:hover {
     color: #fff;
     background-color: #098DB2;
@@ -1944,7 +1954,8 @@ fieldset:disabled a.btn {
   color: #FFEE19;
   background-color: transparent;
   background-image: none;
-  border-color: #FFEE19; }
+  border-color: #FFEE19;
+  background-color: #fff; }
   .btn-outline-warning:hover {
     color: #222222;
     background-color: #FFEE19;
@@ -1967,7 +1978,8 @@ fieldset:disabled a.btn {
   color: #dc3545;
   background-color: transparent;
   background-image: none;
-  border-color: #dc3545; }
+  border-color: #dc3545;
+  background-color: #fff; }
   .btn-outline-danger:hover {
     color: #fff;
     background-color: #dc3545;
@@ -1990,7 +2002,8 @@ fieldset:disabled a.btn {
   color: #f8f9fa;
   background-color: transparent;
   background-image: none;
-  border-color: #f8f9fa; }
+  border-color: #f8f9fa;
+  background-color: #fff; }
   .btn-outline-light:hover {
     color: #222222;
     background-color: #f8f9fa;
@@ -2013,7 +2026,8 @@ fieldset:disabled a.btn {
   color: #444444;
   background-color: transparent;
   background-image: none;
-  border-color: #444444; }
+  border-color: #444444;
+  background-color: #fff; }
   .btn-outline-dark:hover {
     color: #fff;
     background-color: #444444;

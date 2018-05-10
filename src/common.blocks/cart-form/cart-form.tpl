@@ -1,5 +1,7 @@
 <!-- Cart form -->
-<form action="#" class="cart-form card-form__needs-validation" novalidate>
+<form action="/cart-form"
+      method="get"
+      class="cart-form card-form__needs-validation" novalidate>
     <h2>Информация для оплаты и доставки заказа:</h2>
     <section class="mb-3">
         <h3>Личные даные:</h3>

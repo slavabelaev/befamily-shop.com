@@ -271,6 +271,9 @@ template {
 .cart-table td {
   vertical-align: middle; }
 
+.cart-table .product-size-control__label {
+  display: none; }
+
 .cart-table__thead {
   text-align: center; }
 

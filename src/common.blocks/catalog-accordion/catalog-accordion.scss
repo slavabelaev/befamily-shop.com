@@ -1,0 +1,27 @@
+@import "../../library.blocks/bootstrap/bootstrap-reboot";
+
+.catalog-accordion {
+  .list-group-item {
+    position: relative;
+    font-weight: bold;
+    font-size: 1.125rem;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-radius: 0;
+    .icon__menu {
+      width: 1rem;
+      height: 1rem;
+      margin-right: 1rem;
+    }
+    .icon__expand {
+      position: absolute;
+      right: 1rem;
+    }
+  }
+  .catalog-accordion__title {
+    font-size: 1.25rem;
+  }
+}
+.catalog-accordion__content-body {
+  padding: $list-group-item-padding-y $list-group-item-padding-x;
+}

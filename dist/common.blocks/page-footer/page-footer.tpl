@@ -2,11 +2,11 @@
 <footer class="page-footer">
 	<div class="container">
 		<ul class="page-footer__list-of-sections row">
-			<li class="col-sm-6 col-lg-4">
+			<li class="col-sm-6 col-md">
 				<section class="page-footer__section">
 					<h3 class="page-footer__nav-title collapsed"
 						data-toggle="collapse"
-						data-target=".page-footer__nav_type_for-family">Для всей семьи</h3>
+						data-target=".page-footer__nav_type_for-family">Вся семья</h3>
 					<nav class="page-footer__nav page-footer__nav_type_for-family collapse">
 						<ul class="page-footer__list-of-links">
 							<li class="nav-item"><a href="#" class="page-footer__nav-link">Платья</a></li>
@@ -20,11 +20,11 @@
 					</nav>
 				</section>
 			</li>
-			<li class="col-sm-6 col-lg-4">
+			<li class="col-sm-6 col-md">
 				<section class="page-footer__section">
 					<h3 class="page-footer__nav-title collapsed"
 						data-toggle="collapse"
-						data-target=".page-footer__nav_type_moms-and-daughter">Мамы и дочки</h3>
+						data-target=".page-footer__nav_type_moms-and-daughter">Мамы и ребенок</h3>
 					<nav class="page-footer__nav page-footer__nav_type_moms-and-daughter collapse">
 						<ul class="page-footer__list-of-links">
 							<li class="nav-item"><a href="#" class="page-footer__nav-link">Платья</a></li>
@@ -36,11 +36,11 @@
 					</nav>
 				</section>
 			</li>
-			<li class="col-sm-6 col-lg-4">
+			<li class="col-sm-6 col-md">
 				<section class="page-footer__section">
 					<h3 class="page-footer__nav-title collapsed"
 						data-toggle="collapse"
-						data-target=".page-footer__nav_type_moms-and-sons">Мамы и сыновья</h3>
+						data-target=".page-footer__nav_type_moms-and-sons">Папа и ребенок</h3>
 					<nav class="page-footer__nav page-footer__nav_type_moms-and-sons collapse">
 						<ul class="page-footer__list-of-links">
 							<li class="nav-item"><a href="#" class="page-footer__nav-link">Футболки</a></li>
@@ -51,11 +51,11 @@
 					</nav>
 				</section>
 			</li>
-			<li class="col-sm-6 col-lg-4">
+			<li class="col-sm-6 col-md">
 				<section class="page-footer__section">
 					<h3 class="page-footer__nav-title collapsed"
 						data-toggle="collapse"
-						data-target=".page-footer__nav_type_dads-and-sons">Папы и сыновья</h3>
+						data-target=".page-footer__nav_type_dads-and-sons">Для двоих</h3>
 					<nav class="page-footer__nav page-footer__nav_type_dads-and-sons collapse">
 						<ul class="page-footer__list-of-links">
 							<li class="nav-item"><a href="#" class="page-footer__nav-link">Футболки</a></li>
@@ -66,11 +66,11 @@
 					</nav>
 				</section>
 			</li>
-			<li class="col-sm-6 col-lg-4">
+			<li class="col-sm-6 col-md">
 				<section class="page-footer__section">
 					<h3 class="page-footer__nav-title collapsed"
 						data-toggle="collapse"
-						data-target=".page-footer__nav_type_menu">Меню</h3>
+						data-target=".page-footer__nav_type_menu">Распродажа</h3>
 					<nav class="page-footer__nav page-footer__nav_type_menu collapse">
 						<ul class="page-footer__list-of-links">
 							<li class="nav-item"><a href="#" class="page-footer__nav-link">Каталог</a></li>
@@ -108,14 +108,14 @@
 				<section class="page-footer__section">
 					<h3 class="page-footer__title">Сайт разработан в</h3>
 					<a href="#" class="page-footer__link">
-						<img src="common.blocks/page-footer/page-footer__WEBDELO-STUDIO.svg" alt="WEBDELO STUDIO" class="page-footer__developed-by-logo">
+						<img src="/common.blocks/page-footer/page-footer__WEBDELO-STUDIO.svg" alt="WEBDELO STUDIO" class="page-footer__developed-by-logo">
 					</a>
 				</section>
 			</li>
 			<li class="page-footer__section-item_part_copyright col-lg-4">
 				<section class="page-footer__section">
 					<h3 class="d-none">be Family</h3>
-					<img src="common.blocks/page-footer/page-footer__be-Family.svg" alt="be Family" class="page-footer__logo">
+					<img src="/common.blocks/page-footer/page-footer__be-Family.svg" alt="be Family" class="page-footer__logo">
 					<div class="page-footer__copyright">© «be Family», 2000 - 2018 г.</div>
 				</section>
 			</li>

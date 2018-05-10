@@ -4,7 +4,7 @@
         <!-- Product item -->
 <form action="#" class="product-item card" data-product-id="0109">
     <div class="card-body">
-        <a href="#" class="product-item__image" style="background-image: url(content/images/products/sweater__Scandinavia/sweater__Scandinavia-1.jpg);"></a>
+        <a href="#" class="product-item__image" style="background-image: url(/content/images/products/sweater__Scandinavia/sweater__Scandinavia-1.jpg);"></a>
         <h3 class="product-item__title"><a href="#">Свитер “Скандинавия”</a></h3>
         <ul class="product-item__details mb-2">
             <li class="product-item__detail product-item__category">Мальчик</li>
@@ -59,7 +59,7 @@
         <!-- Product item -->
 <form action="#" class="product-item card" data-product-id="0110">
     <div class="card-body">
-        <a href="#" class="product-item__image" style="background-image: url(content/images/products/sweater__Scandinavia/sweater__Scandinavia-2.jpg);"></a>
+        <a href="#" class="product-item__image" style="background-image: url(/content/images/products/sweater__Scandinavia/sweater__Scandinavia-2.jpg);"></a>
         <h3 class="product-item__title"><a href="#">Свитер “Скандинавия”</a></h3>
         <ul class="product-item__details mb-2">
             <li class="product-item__detail product-item__category">Мальчик</li>

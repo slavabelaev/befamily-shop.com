@@ -15,8 +15,8 @@
         <tr>
             <td class="cart-table__td-photo">
                 @@include("../../common.blocks/image-item/image-item.tpl", {
-                    "previewImageUrl": "content/images/complects/scandinavia/scandinavia-1.jpg",
-                    "imageUrl": "content/images/complects/scandinavia/scandinavia-1.jpg",
+                    "previewImageUrl": "/content/images/complects/scandinavia/scandinavia-1.jpg",
+                    "imageUrl": "/content/images/complects/scandinavia/scandinavia-1.jpg",
                     "imageAltText": ""
                 })
             </td>
@@ -36,8 +36,8 @@
         <tr>
             <td class="cart-table__td-photo">
                 @@include("../../common.blocks/image-item/image-item.tpl", {
-                    "previewImageUrl": "content/images/complects/scandinavia/scandinavia-2.jpg",
-                    "imageUrl": "content/images/complects/scandinavia/scandinavia-2.jpg",
+                    "previewImageUrl": "/content/images/complects/scandinavia/scandinavia-2.jpg",
+                    "imageUrl": "/content/images/complects/scandinavia/scandinavia-2.jpg",
                     "imageAltText": ""
                 })
             </td>

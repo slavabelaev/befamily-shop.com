@@ -583,6 +583,9 @@ template {
 .icon__trash {
   background-image: url(/common.blocks/icon/icon__trash.svg); }
 
+.icon__menu {
+  background-image: url(/common.blocks/icon/icon__menu.svg); }
+
 .icon__vk {
   background-image: url(/common.blocks/icon/icon__vk.svg); }
 
@@ -607,6 +610,11 @@ template {
   align-items: stretch;
   border-bottom: 1px solid #E7E7E7;
   background-color: #fff; }
+  .page-header .navbar-toggler {
+    padding: .75rem; }
+    .page-header .navbar-toggler .icon {
+      width: 1rem;
+      height: 1rem; }
 
 .page-header__list-of-socials {
   list-style: none;

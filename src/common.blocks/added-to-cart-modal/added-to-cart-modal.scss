@@ -1,6 +1,7 @@
 @import "../../library.blocks/bootstrap/bootstrap-reboot";
 
 .added-to-cart-modal {
+  .product-size-control .btn:not(.active),
   .product-includes-item__title .icon,
   .product-size-control__label,
   .product-includes-item__size-popover-box {

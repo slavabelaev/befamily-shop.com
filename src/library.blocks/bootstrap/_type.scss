@@ -123,3 +123,9 @@ mark,
     content: "\2014 \00A0"; // em dash, nbsp
   }
 }
+
+
+@include media-breakpoint-between(xs, md) {
+  h1, .h1 { font-size: $h1-font-size / 1.25; }
+  h2, .h2 { font-size: $h2-font-size / 1.25; }
+}

@@ -1,8 +1,22 @@
+<!-- Meta header -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/library.blocks/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="/common.blocks/common.css">
+</head>
+<body>
+<!-- /Meta header -->
 <!-- Page header -->
 <header class="page-header sticky-top">
 	<nav class="navbar navbar-expand-lg navbar-light container">
 		<a class="navbar-brand" href="/">
-			<img src="common.blocks/page-header/page-header__be-Family.svg" alt="be Family" class="page-header__logo">
+			<img src="/common.blocks/page-header/page-header__be-Family.svg" alt="be Family" class="page-header__logo">
 		</a>
 		<div class="page-header__contacts d-none d-xl-block">
 			<a href="tel:+88005551094" class="page-header__phone">8 (800) 555 - 10 - 94</a>
@@ -20,7 +34,7 @@
 			</ul>
 		</div>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".page-header__navbar">
-			<span class="navbar-toggler-icon"></span>
+			<i class="icon icon__menu"></i>
 		</button>
 
 		<div class="page-header__navbar collapse navbar-collapse">
@@ -52,13 +66,13 @@
         </div>
 		<ul class="page-header__navbar-actions">
 			<li class="nav-item">
-				<a class="nav-link" href="cart.html">
+				<a class="nav-link" href="/pages.blocks/favorites-page/favorites-page.html">
                     <span class="icon icon__heart icon_style_dark"></span>
 					<span class="page-header__number-of-favorites badge badge-primary">99</span>
                 </a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">
+				<a class="nav-link" href="/pages.blocks/cart-page/cart-page.html">
 					<span class="icon icon__shopping-bag icon_style_dark"></span>
 					<span class="page-header__number-of-products badge badge-primary">99</span>
 				</a>
@@ -68,22 +82,24 @@
 </header>
 <!-- /Page header -->
 <!-- Page styles -->
-<link rel="stylesheet" href="pages.blocks/cart-page/cart-page.css">
+<link rel="stylesheet" href="/pages.blocks/cart-page/cart-page.css">
 
 <main class="cart-page">
-    <div class="container">
+    <section class="container cart-page__products-collapse collase show">
         <!-- Breadcrumb -->
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/">Главная</a></li>
-        <li class="breadcrumb-item"><a href="#">Каталог </a></li>
-        <li class="breadcrumb-item active" aria-current="page">Мама и дочка</li>
+        
+         <li class="breadcrumb-item active" aria-current="page">Корзина</li> 
     </ol>
 </nav>
 <!-- /Breadcrumb -->
         <h1>Товары в корзине</h1>
+
+        <!-- If (hasProductsInCart) -->
         <div class="row">
-            <div class="col-lg-9">
+            <div class="col-xl-9">
                 <!-- Cart table -->
 <div class="cart-table table-responsive">
     <table class="table table-striped">
@@ -102,9 +118,9 @@
             <td class="cart-table__td-photo">
                 <!-- Image item -->
 <a  data-fancybox="gallery"
-    href="content/images/complects/scandinavia/scandinavia-1.jpg"
+    href="/content/images/complects/scandinavia/scandinavia-1.jpg"
     class="image-item__link">
-    <img src="content/images/complects/scandinavia/scandinavia-1.jpg" alt="" class="image-item__image">
+    <img src="/content/images/complects/scandinavia/scandinavia-1.jpg" alt="" class="image-item__image">
 </a>
 <!-- /Image item -->
             </td>
@@ -149,9 +165,9 @@
             <td class="cart-table__td-photo">
                 <!-- Image item -->
 <a  data-fancybox="gallery"
-    href="content/images/complects/scandinavia/scandinavia-2.jpg"
+    href="/content/images/complects/scandinavia/scandinavia-2.jpg"
     class="image-item__link">
-    <img src="content/images/complects/scandinavia/scandinavia-2.jpg" alt="" class="image-item__image">
+    <img src="/content/images/complects/scandinavia/scandinavia-2.jpg" alt="" class="image-item__image">
 </a>
 <!-- /Image item -->
             </td>
@@ -203,14 +219,60 @@
     </table>
 </div>
 <!-- /Cart table -->
-                <div class="text-center mt-5 mb-5">
+            </div>
+            <div class="cart-page__purchase-process col-xl-3 mb-4">
+                <h2 class="text-center text-xl-left">Процесс покупки:</h2>
+                <!-- List of purchase process steps -->
+<ul class="list-of-purchase-process-steps row">
+    <li class="list-of-purchase-process-steps__item col">
+        <figure class="list-of-purchase-process-steps__step">
+            <i class="list-of-purchase-process-steps__step-icon icon__add-to-shopping-bag"></i>
+            <figcaption class="list-of-purchase-process-steps__step-caption">
+                <h3 class="list-of-purchase-process-steps__step-title">Добавляете товар <br>в корзину</h3>
+            </figcaption>
+        </figure>
+    </li>
+    <li class="list-of-purchase-process-steps__item col">
+        <figure class="list-of-purchase-process-steps__step">
+            <i class="list-of-purchase-process-steps__step-icon icon__choices"></i>
+            <figcaption class="list-of-purchase-process-steps__step-caption">
+                <h3 class="list-of-purchase-process-steps__step-title">Оформляете <br>заказ</h3>
+            </figcaption>
+        </figure>
+    </li>
+    <li class="list-of-purchase-process-steps__item col">
+        <figure class="list-of-purchase-process-steps__step">
+            <i class="list-of-purchase-process-steps__step-icon icon__rocket-ship"></i>
+            <figcaption class="list-of-purchase-process-steps__step-caption">
+                <h3 class="list-of-purchase-process-steps__step-title">Мы доставляем <br>заказ</h3>
+            </figcaption>
+        </figure>
+    </li>
+    <li class="list-of-purchase-process-steps__item col">
+        <figure class="list-of-purchase-process-steps__step">
+            <i class="list-of-purchase-process-steps__step-icon icon__wallet"></i>
+            <figcaption class="list-of-purchase-process-steps__step-caption">
+                <h3 class="list-of-purchase-process-steps__step-title">Вы оплачиваете</h3>
+            </figcaption>
+        </figure>
+    </li>
+</ul>
+<!-- /List of purchase process steps -->
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xl-9 mb-5">
+                <div class="text-center mt-md-5 mb-5">
                     <button class="btn btn-primary btn-lg"
                             data-toggle="collapse"
                             data-target=".cart-page__form-collapse">Оформить заказ</button>
                 </div>
-                <div class="cart-page__form-collapse collapse mb-5">
+                <div class="cart-page__form-collapse collapse">
                     <!-- Cart form -->
-<form action="#" class="cart-form card-form__needs-validation" novalidate>
+<form action="/cart-form"
+      method="get"
+      class="cart-form card-form__needs-validation" novalidate>
     <h2>Информация для оплаты и доставки заказа:</h2>
     <section class="mb-3">
         <h3>Личные даные:</h3>
@@ -396,11 +458,25 @@
 <!-- /Cart form -->
                 </div>
             </div>
-            <div class="col-lg-3 pl-4 d-none d-lg-block">
-                <h2>Процесс покупки:</h2>
+        </div>
+        <!-- If (hasProductsInCart) -->
+
+        <!-- If (!hasProductsInCart) -->
+        <div class="cart-page__no-products-wrapper pt-5 pb-5">
+            <div class="mb-5">
+                <!-- No products in cart -->
+<div class="no-products-in-cart">
+    <img src="/common.blocks/no-products-in-cart/no-products-in-cart__shopping-bag.svg" alt="" class="mb-3">
+    <p class="lead text-muted mb-5">В корзине пока нет  товаров</p>
+    <a href="#" class="btn btn-primary btn-lg">Перейти в каталог</a>
+</div>
+<!-- /No products in cart -->
+            </div>
+            <section>
+                <h2 class="text-center">Что бы купить:</h2>
                 <!-- List of purchase process steps -->
-<ul class="list-of-purchase-process-steps">
-    <li class="list-of-purchase-process-steps__item">
+<ul class="list-of-purchase-process-steps row">
+    <li class="list-of-purchase-process-steps__item col">
         <figure class="list-of-purchase-process-steps__step">
             <i class="list-of-purchase-process-steps__step-icon icon__add-to-shopping-bag"></i>
             <figcaption class="list-of-purchase-process-steps__step-caption">
@@ -408,7 +484,7 @@
             </figcaption>
         </figure>
     </li>
-    <li class="list-of-purchase-process-steps__item">
+    <li class="list-of-purchase-process-steps__item col">
         <figure class="list-of-purchase-process-steps__step">
             <i class="list-of-purchase-process-steps__step-icon icon__choices"></i>
             <figcaption class="list-of-purchase-process-steps__step-caption">
@@ -416,7 +492,7 @@
             </figcaption>
         </figure>
     </li>
-    <li class="list-of-purchase-process-steps__item">
+    <li class="list-of-purchase-process-steps__item col">
         <figure class="list-of-purchase-process-steps__step">
             <i class="list-of-purchase-process-steps__step-icon icon__rocket-ship"></i>
             <figcaption class="list-of-purchase-process-steps__step-caption">
@@ -424,7 +500,7 @@
             </figcaption>
         </figure>
     </li>
-    <li class="list-of-purchase-process-steps__item">
+    <li class="list-of-purchase-process-steps__item col">
         <figure class="list-of-purchase-process-steps__step">
             <i class="list-of-purchase-process-steps__step-icon icon__wallet"></i>
             <figcaption class="list-of-purchase-process-steps__step-caption">
@@ -434,23 +510,40 @@
     </li>
 </ul>
 <!-- /List of purchase process steps -->
-            </div>
+            </section>
         </div>
+        <!-- /If (!hasProductsInCart) -->
+    </section>
+    <div class="container cart-page__order-placed-collapse collapse pt-5 pb-5">
+        <!-- Order placed -->
+<section class="order-placed">
+    <img src="/common.blocks/order-placed/order-placed__package.svg" alt="" class="mb-3">
+    <h2>Спасибо за сделанный заказ, он уже пакуется</h2>
+    <p class="lead text-muted mb-4">В ближайшее время с вами свяжется наш менеджер, если у вас возникли вопросы вы можете связаться с нами по номеру
+        <br><strong>8 (800) 555 - 10 - 94</strong></p>
+    <a href="#" class="btn btn-outline-info btn-lg">Перейти на главную</a>
+</section>
+<!-- /Order placed -->
     </div>
 </main>
 
-<script src="common.blocks/cart-form/cart-form.js"></script>
+<!-- FancyApp (photo gallery) — https://fancyapps.com/fancybox/3/ -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js" defer></script>
 
-<script src="pages.blocks/cart-page/cart-page.js"></script>
+<script src="/common.blocks/cart-form/cart-form.js" defer></script>
+<script src="/common.blocks/product-size-control/product-size-control.js" defer></script>
+
+<script src="/pages.blocks/cart-page/cart-page.js" defer></script>
+
 <!-- Page footer -->
 <footer class="page-footer">
 	<div class="container">
 		<ul class="page-footer__list-of-sections row">
-			<li class="col-sm-6 col-lg-4">
+			<li class="col-sm-6 col-md">
 				<section class="page-footer__section">
 					<h3 class="page-footer__nav-title collapsed"
 						data-toggle="collapse"
-						data-target=".page-footer__nav_type_for-family">Для всей семьи</h3>
+						data-target=".page-footer__nav_type_for-family">Вся семья</h3>
 					<nav class="page-footer__nav page-footer__nav_type_for-family collapse">
 						<ul class="page-footer__list-of-links">
 							<li class="nav-item"><a href="#" class="page-footer__nav-link">Платья</a></li>
@@ -464,11 +557,11 @@
 					</nav>
 				</section>
 			</li>
-			<li class="col-sm-6 col-lg-4">
+			<li class="col-sm-6 col-md">
 				<section class="page-footer__section">
 					<h3 class="page-footer__nav-title collapsed"
 						data-toggle="collapse"
-						data-target=".page-footer__nav_type_moms-and-daughter">Мамы и дочки</h3>
+						data-target=".page-footer__nav_type_moms-and-daughter">Мамы и ребенок</h3>
 					<nav class="page-footer__nav page-footer__nav_type_moms-and-daughter collapse">
 						<ul class="page-footer__list-of-links">
 							<li class="nav-item"><a href="#" class="page-footer__nav-link">Платья</a></li>
@@ -480,11 +573,11 @@
 					</nav>
 				</section>
 			</li>
-			<li class="col-sm-6 col-lg-4">
+			<li class="col-sm-6 col-md">
 				<section class="page-footer__section">
 					<h3 class="page-footer__nav-title collapsed"
 						data-toggle="collapse"
-						data-target=".page-footer__nav_type_moms-and-sons">Мамы и сыновья</h3>
+						data-target=".page-footer__nav_type_moms-and-sons">Папа и ребенок</h3>
 					<nav class="page-footer__nav page-footer__nav_type_moms-and-sons collapse">
 						<ul class="page-footer__list-of-links">
 							<li class="nav-item"><a href="#" class="page-footer__nav-link">Футболки</a></li>
@@ -495,11 +588,11 @@
 					</nav>
 				</section>
 			</li>
-			<li class="col-sm-6 col-lg-4">
+			<li class="col-sm-6 col-md">
 				<section class="page-footer__section">
 					<h3 class="page-footer__nav-title collapsed"
 						data-toggle="collapse"
-						data-target=".page-footer__nav_type_dads-and-sons">Папы и сыновья</h3>
+						data-target=".page-footer__nav_type_dads-and-sons">Для двоих</h3>
 					<nav class="page-footer__nav page-footer__nav_type_dads-and-sons collapse">
 						<ul class="page-footer__list-of-links">
 							<li class="nav-item"><a href="#" class="page-footer__nav-link">Футболки</a></li>
@@ -510,11 +603,11 @@
 					</nav>
 				</section>
 			</li>
-			<li class="col-sm-6 col-lg-4">
+			<li class="col-sm-6 col-md">
 				<section class="page-footer__section">
 					<h3 class="page-footer__nav-title collapsed"
 						data-toggle="collapse"
-						data-target=".page-footer__nav_type_menu">Меню</h3>
+						data-target=".page-footer__nav_type_menu">Распродажа</h3>
 					<nav class="page-footer__nav page-footer__nav_type_menu collapse">
 						<ul class="page-footer__list-of-links">
 							<li class="nav-item"><a href="#" class="page-footer__nav-link">Каталог</a></li>
@@ -552,14 +645,14 @@
 				<section class="page-footer__section">
 					<h3 class="page-footer__title">Сайт разработан в</h3>
 					<a href="#" class="page-footer__link">
-						<img src="common.blocks/page-footer/page-footer__WEBDELO-STUDIO.svg" alt="WEBDELO STUDIO" class="page-footer__developed-by-logo">
+						<img src="/common.blocks/page-footer/page-footer__WEBDELO-STUDIO.svg" alt="WEBDELO STUDIO" class="page-footer__developed-by-logo">
 					</a>
 				</section>
 			</li>
 			<li class="page-footer__section-item_part_copyright col-lg-4">
 				<section class="page-footer__section">
 					<h3 class="d-none">be Family</h3>
-					<img src="common.blocks/page-footer/page-footer__be-Family.svg" alt="be Family" class="page-footer__logo">
+					<img src="/common.blocks/page-footer/page-footer__be-Family.svg" alt="be Family" class="page-footer__logo">
 					<div class="page-footer__copyright">© «be Family», 2000 - 2018 г.</div>
 				</section>
 			</li>
@@ -567,3 +660,13 @@
 	</div>
 </footer>
 <!-- Page footer -->
+<!-- Meta footer -->
+<!-- JS Global -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<!-- Global JS -->
+<script src="/common.blocks/common.js"></script>
+</body>
+</html>
+<!-- /Meta footer -->

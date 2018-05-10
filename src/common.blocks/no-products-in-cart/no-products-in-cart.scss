@@ -1,0 +1,9 @@
+@import "../../library.blocks/bootstrap/bootstrap-reboot";
+
+.no-products-in-cart {
+  max-width: 775px;
+  margin: auto;
+  background-color: $light;
+  padding: 3rem;
+  text-align: center;
+}

@@ -1,6 +1,6 @@
 <!-- List of purchase process steps -->
-<ul class="list-of-purchase-process-steps">
-    <li class="list-of-purchase-process-steps__item">
+<ul class="list-of-purchase-process-steps row">
+    <li class="list-of-purchase-process-steps__item col">
         <figure class="list-of-purchase-process-steps__step">
             <i class="list-of-purchase-process-steps__step-icon icon__add-to-shopping-bag"></i>
             <figcaption class="list-of-purchase-process-steps__step-caption">
@@ -8,7 +8,7 @@
             </figcaption>
         </figure>
     </li>
-    <li class="list-of-purchase-process-steps__item">
+    <li class="list-of-purchase-process-steps__item col">
         <figure class="list-of-purchase-process-steps__step">
             <i class="list-of-purchase-process-steps__step-icon icon__choices"></i>
             <figcaption class="list-of-purchase-process-steps__step-caption">
@@ -16,7 +16,7 @@
             </figcaption>
         </figure>
     </li>
-    <li class="list-of-purchase-process-steps__item">
+    <li class="list-of-purchase-process-steps__item col">
         <figure class="list-of-purchase-process-steps__step">
             <i class="list-of-purchase-process-steps__step-icon icon__rocket-ship"></i>
             <figcaption class="list-of-purchase-process-steps__step-caption">
@@ -24,7 +24,7 @@
             </figcaption>
         </figure>
     </li>
-    <li class="list-of-purchase-process-steps__item">
+    <li class="list-of-purchase-process-steps__item col">
         <figure class="list-of-purchase-process-steps__step">
             <i class="list-of-purchase-process-steps__step-icon icon__wallet"></i>
             <figcaption class="list-of-purchase-process-steps__step-caption">

@@ -2,7 +2,7 @@
 <header class="page-header sticky-top">
 	<nav class="navbar navbar-expand-lg navbar-light container">
 		<a class="navbar-brand" href="/">
-			<img src="common.blocks/page-header/page-header__be-Family.svg" alt="be Family" class="page-header__logo">
+			<img src="/common.blocks/page-header/page-header__be-Family.svg" alt="be Family" class="page-header__logo">
 		</a>
 		<div class="page-header__contacts d-none d-xl-block">
 			<a href="tel:+88005551094" class="page-header__phone">8 (800) 555 - 10 - 94</a>
@@ -20,7 +20,7 @@
 			</ul>
 		</div>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".page-header__navbar">
-			<span class="navbar-toggler-icon"></span>
+			<i class="icon icon__menu"></i>
 		</button>
 
 		<div class="page-header__navbar collapse navbar-collapse">
@@ -52,13 +52,13 @@
         </div>
 		<ul class="page-header__navbar-actions">
 			<li class="nav-item">
-				<a class="nav-link" href="cart.html">
+				<a class="nav-link" href="/pages.blocks/favorites-page/favorites-page.html">
                     <span class="icon icon__heart icon_style_dark"></span>
 					<span class="page-header__number-of-favorites badge badge-primary">99</span>
                 </a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="#">
+				<a class="nav-link" href="/pages.blocks/cart-page/cart-page.html">
 					<span class="icon icon__shopping-bag icon_style_dark"></span>
 					<span class="page-header__number-of-products badge badge-primary">99</span>
 				</a>

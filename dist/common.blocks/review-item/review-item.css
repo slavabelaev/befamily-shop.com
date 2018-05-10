@@ -583,6 +583,9 @@ template {
 .icon__trash {
   background-image: url(/common.blocks/icon/icon__trash.svg); }
 
+.icon__menu {
+  background-image: url(/common.blocks/icon/icon__menu.svg); }
+
 .icon__vk {
   background-image: url(/common.blocks/icon/icon__vk.svg); }
 

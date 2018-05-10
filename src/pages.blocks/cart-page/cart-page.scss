@@ -10,6 +10,8 @@
 @import "../../common.blocks/image-item/image-item";
 @import "../../common.blocks/product-size-control/product-size-control";
 @import "../../common.blocks/cart-table/cart-table";
+@import "../../common.blocks/cart-form/cart-form";
+@import "../../common.blocks/no-products-in-cart/no-products-in-cart";
 
 .cart-form__sum-box {
   overflow: auto;
@@ -21,4 +23,14 @@
   font-size: 1.25rem;
   font-weight: bold;
   white-space: nowrap;
+}
+
+@include media-breakpoint-only(xl) {
+  .cart-page__purchase-process {
+    .list-of-purchase-process-steps__item:not(:last-child):after {
+      bottom: 4px;
+      left: 28px;
+      transform: initial;
+    }
+  }
 }

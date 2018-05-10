@@ -816,6 +816,9 @@ template {
   border-bottom-left-radius: 0;
   border-left-width: 0; }
 
+.product-size-control .btn-group-toggle {
+  flex-wrap: nowrap; }
+
 .product-size-control__quantity-select {
   display: none;
   border-color: #F11F60;

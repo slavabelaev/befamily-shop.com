@@ -267,6 +267,7 @@ template {
 [hidden] {
   display: none !important; }
 
+.added-to-cart-modal .product-size-control .btn:not(.active),
 .added-to-cart-modal .product-includes-item__title .icon,
 .added-to-cart-modal .product-size-control__label,
 .added-to-cart-modal .product-includes-item__size-popover-box {

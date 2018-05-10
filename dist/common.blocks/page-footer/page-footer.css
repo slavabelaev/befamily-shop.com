@@ -285,12 +285,8 @@ template {
 
 .page-footer__list-of-links {
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
   padding: 0;
   margin-bottom: 1.25rem; }
-  .page-footer__list-of-links .nav-item {
-    flex: 1 50%; }
 
 .page-footer__list-of-contacts {
   list-style: none;
