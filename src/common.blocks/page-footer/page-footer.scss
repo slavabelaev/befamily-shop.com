@@ -3,7 +3,6 @@
 .page-footer {
   background-color: $dark;
   color: $white;
-  padding-top: 50px;
   padding-bottom: 50px;
 }
 .page-footer__nav-title,
@@ -19,7 +18,7 @@
 .page-footer__list-of-links {
   list-style: none;
   padding: 0;
-  margin-bottom: 1.25rem;
+  margin-bottom: 2rem;
 }
 .page-footer__list-of-contacts {
   list-style: none;
@@ -55,7 +54,18 @@
 
 .page-footer_delimiter {
   border-color: $gray-600;
-  margin: 0 0 50px 0;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+
+.page-footer__section-item_part_copyright,
+.page-footer__section-item_part_developed-by {
+  text-align: center;
+}
+.page-footer__copyright-section,
+.page-footer__developed-by-section {
+  display: inline-block;
+  text-align: left;
 }
 
 @include media-breakpoint-between(xs, md) {
@@ -94,7 +104,7 @@
   }
   .page-footer__list-of-contacts,
   .page-footer__list-of-links {
-    padding: 1rem;
+    padding: 1.5rem;
   }
   .page-footer__section-item_part_developed-by {
     margin-top: 2rem;
@@ -144,7 +154,22 @@
   }
 }
 @include media-breakpoint-up(md) {
-
 }
-@include media-breakpoint-up(lg) {}
+@include media-breakpoint-up(lg) {
+  .page-footer__main-list-of-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: $white;
+    .page-footer__nav-link {
+      padding: 1rem 0;
+      &:before {
+        display: none;
+      }
+    }
+  }
+}
 @include media-breakpoint-up(xl) {}

@@ -1,0 +1,18 @@
+@import "../../library.blocks/bootstrap/bootstrap-reboot";
+
+.favorites-filter {
+  border-bottom: $border-color 1px solid;
+  color: $dark;
+  .custom-select {
+    font-weight: bold;
+    transition: $transition-base;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .favorites-filter {
+    .custom-select:not(:focus):not(:hover) {
+      border-color: transparent;
+    }
+  }
+}

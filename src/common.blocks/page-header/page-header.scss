@@ -1,6 +1,7 @@
 @import "../../library.blocks/bootstrap/bootstrap-reboot";
 
 @import "../icon/icon";
+
 .page-header {
   display: flex;
   align-items: stretch;
@@ -13,6 +14,9 @@
       height: 1rem;
     }
   }
+}
+.page-header__logo {
+  margin-top: 5px;
 }
 .page-header__list-of-socials {
   list-style: none;

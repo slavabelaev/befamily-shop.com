@@ -25,6 +25,7 @@
 .icon__arrow-down { background-image: url(/common.blocks/icon/icon__arrow-down.svg); }
 .icon__trash { background-image: url(/common.blocks/icon/icon__trash.svg); }
 .icon__menu { background-image: url(/common.blocks/icon/icon__menu.svg); }
+.icon__cancel { background-image: url(/common.blocks/icon/icon__cancel.svg); }
 //.icon__ { background-image: url(/common.blocks/icon/icon__.svg); }
 
 .icon__vk { background-image: url(/common.blocks/icon/icon__vk.svg); }
@@ -39,12 +40,11 @@
 
 [data-toggle="collapse"] {
   .icon__expand {
-    transform: rotate(45deg);
     transition: $transition-base;
   }
 }
 .collapsed {
   .icon__expand {
-    transform: rotate(0);
+    transform: rotate(45deg);
   }
 }

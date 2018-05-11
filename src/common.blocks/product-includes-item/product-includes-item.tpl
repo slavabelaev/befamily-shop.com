@@ -1,13 +1,9 @@
 <!-- Product includes item -->
 <section class="product-includes-item" data-product-id="@@uid">
     <h3 class="product-includes-item__title"
-        @@if(context.collapsable) {
-            data-toggle="collapse"
-            data-target=".product-includes-item[data-product-id=@@uid]>.product-includes-item__collapse"
-            aria-expanded="true"
-        }
-    >
-        @@if(context.collapsable) { <i class="icon icon__collapse_style_primary"></i> }
+        data-toggle="collapse"
+        data-target="[data-product-id=@@uid]>.product-includes-item__collapse">
+        <i class="icon icon__collapse_style_primary"></i>
         @@productTitle</h3>
     <div class="product-includes-item__collapse collapse show">
         <div class="product-includes-item__collapse-container">

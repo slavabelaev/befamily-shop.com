@@ -7,3 +7,31 @@
 @import "../../common.blocks/list-of-favorites/list-of-favorites";
 @import "../../common.blocks/product-item-modal/product-item-modal";
 @import "../../common.blocks/catalog-accordion/catalog-accordion";
+@import "../../common.blocks/favorites-filter/favorites-filter";
+
+
+.favorites-page {
+  .complect-item {
+    .add-to-favorite.active .icon {
+      display: none;
+    }
+    .add-to-favorite .icon:after {
+      background-image: url(/common.blocks/icon/icon__cancel.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .add-to-favorite {
+      .icon {
+        width: .8rem;
+        height: .8rem;
+        opacity: 1;
+        filter: initial;
+        transition: $transition-base;
+        &:hover {
+          transform: rotate(90deg);
+        }
+      }
+    }
+  }
+}

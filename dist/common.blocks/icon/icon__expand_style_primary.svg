@@ -1,0 +1,18 @@
+<svg width="24" height="25" viewBox="0 0 24 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" fill="none">
+<g id="plus">
+<g id="Rectangle 9" transform="translate(0 0.081543)">
+<mask id="path-1-inside-1" fill="white">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M 0 12C 0 5.37258 5.37258 0 12 0C 18.6274 0 24 5.37258 24 12C 24 18.6274 18.6274 24 12 24C 5.37258 24 0 18.6274 0 12Z"/>
+</mask>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M 0 12C 0 5.37258 5.37258 0 12 0C 18.6274 0 24 5.37258 24 12C 24 18.6274 18.6274 24 12 24C 5.37258 24 0 18.6274 0 12Z" fill="white"/>
+<g mask="url(#path-1-inside-1)">
+<path d="M 12 23C 5.92487 23 1 18.0751 1 12L -1 12C -1 19.1797 4.8203 25 12 25L 12 23ZM 23 12C 23 18.0751 18.0751 23 12 23L 12 25C 19.1797 25 25 19.1797 25 12L 23 12ZM 12 1C 18.0751 1 23 5.92487 23 12L 25 12C 25 4.8203 19.1797 -1 12 -1L 12 1ZM 12 -1C 4.8203 -1 -1 4.8203 -1 12L 1 12C 1 5.92487 5.92487 1 12 1L 12 -1Z" fill="#F11F60"/>
+</g>
+</g>
+<path id="Rectangle 9_2" fill-rule="evenodd" clip-rule="evenodd" d="M 0 9.67656C 0 4.33234 4.33234 0 9.67656 0C 15.0208 0 19.3531 4.33234 19.3531 9.67656C 19.3531 15.0208 15.0208 19.3531 9.67656 19.3531C 4.33234 19.3531 0 15.0208 0 9.67656Z" transform="translate(2.32349 2.34753)" fill="#F11F60"/>
+<path id="Line 5" d="M 0.359719 1.07916L 8.27354 1.07916" transform="translate(7.91357 11.5139)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+<path id="Line 5.1" d="M 0.359719 1.07916L 8.27354 1.07916" transform="matrix(0 -1 1 0 11.1511 16.9097)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="white"/>
+</g>
+</g>
+</svg>
