@@ -4,7 +4,7 @@
         <a href="@@articleUrl" class="article-item__image" style="background-image: url(@@previewImageUrl);"></a>
     </div>
     <figcaption class="figure-caption col-lg-7 col-xl-8">
-        <a href="#" class="article-item__title">@@title</a>
+        <a href="@@articleUrl" class="article-item__title">@@title</a>
         <div class="article-item__text">
             <p>@@text</p>
         </div>

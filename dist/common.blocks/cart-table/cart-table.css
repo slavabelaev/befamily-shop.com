@@ -279,7 +279,8 @@ template {
 
 .cart-table__product-title {
   margin-bottom: .75rem;
-  font-weight: normal; }
+  font-weight: normal;
+  font-size: 1.125rem; }
 
 .cart-table__product-category {
   color: #777777; }

@@ -895,7 +895,8 @@ template {
 
 .review-item__fullname {
   color: #222222;
-  font-weight: 500; }
+  font-size: 1.125rem;
+  margin-bottom: .75rem; }
 
 .review-item__username {
   margin-bottom: .5rem; }

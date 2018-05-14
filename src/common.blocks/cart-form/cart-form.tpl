@@ -4,7 +4,7 @@
       class="cart-form card-form__needs-validation" novalidate>
     <h2>Информация для оплаты и доставки заказа:</h2>
     <section class="mb-3">
-        <h3>Личные даные:</h3>
+        <h3 class="h4">Личные даные:</h3>
         <div class="form-row">
             <div class="form-group col-md-6">
                 <input type="text"
@@ -50,7 +50,7 @@
         </div>
     </section>
     <section class="mb-3">
-        <h3>Адрес доставки:</h3>
+        <h3 class="h4">Адрес доставки:</h3>
         <div class="form-row">
             <div class="form-group col-lg-3 col-md-6">
                 <input type="text"
@@ -99,7 +99,7 @@
         </div>
     </section>
     <section class="mb-4">
-        <h3>Способ доставки:</h3>
+        <h3 class="h4">Способ доставки:</h3>
         <table class="cart-form__delivery-method-table">
             <tbody>
             <tr>
@@ -146,7 +146,7 @@
         </table>
     </section>
     <section class="form-group mb-4">
-        <h3>Коментарий к заказу:</h3>
+        <h3 class="h4">Коментарий к заказу:</h3>
         <textarea class="form-control" id="comment" rows="2"></textarea>
     </section>
     <div class="cart-form__sum-box mb-4">

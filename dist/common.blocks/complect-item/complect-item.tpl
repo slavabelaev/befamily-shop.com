@@ -9,13 +9,13 @@
     <i class="icon"></i>
 </button>
 <!-- /Add to favorite -->
-        <a href="#" class="complect-item__image" style="background-image: url(@@imageUrl);"></a>
-        <h3 class="complect-item__title"><a href="#">@@title</a></h3>
+        <a href="@@url" class="complect-item__image" style="background-image: url(@@imageUrl);"></a>
+        <h3 class="complect-item__title"><a href="@@url">@@title</a></h3>
         <ul class="complect-item__details">
             <li class="complect-item__detail complect-item__uid">Артикул: @@uid</li>
             <li class="complect-item__detail complect-item__price">@@price ₽</li>
             <li class="complect-item__detail text-right">
-                <a href="#"
+                <a href="@@url"
                    class="complect-item__added-to-cart"
                    data-toggle="modal"
                    data-target=".complect-item-modal">

@@ -1,0 +1,65 @@
+@@include('../../common.blocks/meta-header/meta-header.tpl')
+@@include('../../common.blocks/page-header/page-header.tpl')
+<!-- Page styles -->
+<link rel="stylesheet" href="/pages/blog-page/blog-page.css">
+
+<main class="blog-page">
+    <div class="container">
+        @@include('../../common.blocks/breadcrumb/breadcrumb.tpl', {
+            "level2": "Блог",
+            "level3": "Новости",
+            "activeItem": "Правила единого семейного образа"
+        })
+        <div class="row">
+            <aside class="col-md-4 col-xl-3">
+                <div class="blog-page__aside-navigation" data-sticked>
+                    @@include('../../common.blocks/aside-navigation/aside-navigation.tpl')
+                </div>
+            </aside>
+            <section class="col-md-8 col-xl-9 mb-5">
+                <article class="article">
+                    <!-- Article Header -->
+                    <header class="article__header">
+                        <h1 class="article__title">Правила единого семейного образа</h1>
+                        <p class="article__description">Family look  всё больше набирает обороты в России и уже многие задумываются о подборе единого образа для всей семьи. А знаете ли вы, что есть правила для создания семейного образа?</p>
+                    </header>
+                    <!-- /Article Header -->
+                    <!-- Article Content -->
+                    <section>
+                        <h2>Мы расскажем о них</h2>
+                        <ul>
+                            <li>Важно заранее перед выходом в свет продумать образ. Наспех подобранная одежда не всегда сочетается и, возможно, не будет смотреться.</li>
+                            <li>Не гонитесь за модой. Если вашим домочадцам не нравится стильная брендовая одежда, не надо их заставлять. Лучше выберите простую одежду, в которой всем будет удобно.</li>
+                            <li>Прежде чем нарядить семью в выбранные вами наряды, обсудите , что для вас единый образ, что для вас семейственность и чего вы пытаетесь добиться. Посоветуйтесь, что хочет носить каждый член семьи.</li>
+                            <li>Вы создали один семейный образ? Отлично! Не останавливайтесь! Придумывайте новые образы и воплощайте их в жизнь. Экспериментируйте с текстурами, тканями, цветами и фасоном одежды.</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h2>Мы расскажем о них</h2>
+                        <p>Важно заранее перед выходом в свет продумать образ. Наспех подобранная одежда не всегда сочетается и, возможно, не будет смотреться. Важно заранее перед выходом в свет продумать образ. Наспех подобранная одежда не всегда сочетается и, возможно, не будет смотреться. Важно заранее перед выходом в свет продумать образ. Наспех подобранная одежда не всегда сочетается и, возможно, не будет смотреться.</p>
+                        <p>Важно заранее перед выходом в свет продумать образ. Наспех подобранная одежда не всегда сочетается и, возможно, не будет смотреться. Важно заранее перед выходом в свет продумать образ. Наспех подобранная одежда не всегда сочетается и, возможно, не будет смотреться. Важно заранее перед выходом в свет продумать образ. Наспех подобранная одежда не всегда сочетается и, возможно, не будет смотреться.</p>
+                        <section>
+                            <h3>Мы расскажем о них</h3>
+                            <p>Важно заранее перед выходом в свет продумать образ. Наспех подобранная одежда не всегда сочетается и, возможно, не будет смотреться. Важно заранее перед выходом в свет продумать образ. Наспех подобранная одежда не всегда сочетается и, возможно, не будет смотреться. Важно заранее перед выходом в свет продумать образ. Наспех подобранная одежда не всегда сочетается и, возможно, не будет смотреться.</p>
+                        </section>
+                    </section>
+                    <!-- /Article content -->
+                </article>
+            </section>
+        </div>
+    </div>
+</main>
+
+
+<!-- Sticky Kit — http://leafo.net/sticky-kit/ -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-kit/1.1.3/sticky-kit.min.js" defer></script>
+
+<script src="/common.blocks/complect-item/complect-item.js" defer></script>
+<script src="/common.blocks/catalog-accordion/catalog-accordion.js" defer></script>
+<script src="/common.blocks/product-size-control/product-size-control.js" defer></script>
+
+<script src="/pages/favorites-page/favorites-page.js" defer></script>
+
+@@include('../../common.blocks/complect-item-modal/complect-item-modal.tpl')
+@@include('../../common.blocks/page-footer/page-footer.tpl')
+@@include('../../common.blocks/meta-footer/meta-footer.tpl')

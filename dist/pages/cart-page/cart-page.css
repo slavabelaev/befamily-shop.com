@@ -2033,7 +2033,8 @@ template {
 .list-of-purchase-process-steps__step-title {
   margin: 0;
   color: #444444;
-  font-weight: normal; }
+  font-weight: normal;
+  font-size: 1.125rem; }
 
 @media (min-width: 992px) {
   .list-of-purchase-process-steps__item {
@@ -3670,7 +3671,8 @@ template {
 
 .cart-table__product-title {
   margin-bottom: .75rem;
-  font-weight: normal; }
+  font-weight: normal;
+  font-size: 1.125rem; }
 
 .cart-table__product-category {
   color: #777777; }

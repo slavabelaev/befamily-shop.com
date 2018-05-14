@@ -4702,7 +4702,8 @@ template {
 
 .product-item__title {
   margin-bottom: .25rem;
-  font-weight: 600; }
+  font-weight: 600;
+  font-size: 1.125rem; }
 
 .product-item__category {
   margin-bottom: .5rem; }
@@ -5902,7 +5903,8 @@ template {
       opacity: .5; }
 
 .complect-item__title {
-  margin-bottom: .25rem; }
+  margin-bottom: .25rem;
+  font-size: 1.125rem; }
 
 .complect-item__image {
   display: block;
@@ -6839,7 +6841,8 @@ template {
 
 .review-item__fullname {
   color: #222222;
-  font-weight: 500; }
+  font-size: 1.125rem;
+  margin-bottom: .75rem; }
 
 .review-item__username {
   margin-bottom: .5rem; }
