@@ -2287,3 +2287,6 @@ template {
   margin-bottom: 60px;
   display: flex;
   justify-content: center; }
+
+.blog-page__aside-navigation {
+  margin-bottom: 1.5rem; }
