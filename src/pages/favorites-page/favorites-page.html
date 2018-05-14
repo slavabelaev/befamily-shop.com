@@ -17,10 +17,14 @@
             </aside>
             <section class="col-md-8 col-xl-9 mb-5">
                 <h1>Избранное</h1>
+                <!-- If (hasFavorites) -->
                 <div class="favorites-page__filter mb-3">
                     @@include('../../common.blocks/favorites-filter/favorites-filter.tpl')
                 </div>
                 @@include('../../common.blocks/list-of-favorites/list-of-favorites.tpl')
+                <!-- else -->
+                @@include('../../common.blocks/empty-favorites-message/empty-favorites-message.tpl')
+                <!-- end -->
             </section>
         </div>
     </div>
@@ -36,6 +40,6 @@
 
 <script src="/pages/favorites-page/favorites-page.js" defer></script>
 
-@@include('../../common.blocks/product-item-modal/product-item-modal.tpl')
+@@include('../../common.blocks/complect-item-modal/complect-item-modal.tpl')
 @@include('../../common.blocks/page-footer/page-footer.tpl')
 @@include('../../common.blocks/meta-footer/meta-footer.tpl')

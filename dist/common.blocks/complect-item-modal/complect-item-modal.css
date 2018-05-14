@@ -1417,9 +1417,9 @@ template {
   padding: 0;
   margin: 0; }
 
-.product-item-modal__total-label {
+.complect-item-modal__total-label {
   color: #777777; }
 
-.product-item-modal__price {
+.complect-item-modal__price {
   font-size: 2rem;
   font-weight: bold; }

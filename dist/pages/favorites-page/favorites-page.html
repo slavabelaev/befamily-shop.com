@@ -231,6 +231,7 @@
             </aside>
             <section class="col-md-8 col-xl-9 mb-5">
                 <h1>Избранное</h1>
+                <!-- If (hasFavorites) -->
                 <div class="favorites-page__filter mb-3">
                     <!-- Favorites filter -->
 <form action="#" class="favorites-filter form-inline row">
@@ -277,7 +278,7 @@
                 <a href="#"
                    class="complect-item__added-to-cart"
                    data-toggle="modal"
-                   data-target=".product-item-modal">
+                   data-target=".complect-item-modal">
                     <i class="icon icon__shopping-bag icon_style_dark"></i>
                 </a>
             </li>
@@ -308,7 +309,7 @@
                 <a href="#"
                    class="complect-item__added-to-cart"
                    data-toggle="modal"
-                   data-target=".product-item-modal">
+                   data-target=".complect-item-modal">
                     <i class="icon icon__shopping-bag icon_style_dark"></i>
                 </a>
             </li>
@@ -339,7 +340,7 @@
                 <a href="#"
                    class="complect-item__added-to-cart"
                    data-toggle="modal"
-                   data-target=".product-item-modal">
+                   data-target=".complect-item-modal">
                     <i class="icon icon__shopping-bag icon_style_dark"></i>
                 </a>
             </li>
@@ -370,7 +371,7 @@
                 <a href="#"
                    class="complect-item__added-to-cart"
                    data-toggle="modal"
-                   data-target=".product-item-modal">
+                   data-target=".complect-item-modal">
                     <i class="icon icon__shopping-bag icon_style_dark"></i>
                 </a>
             </li>
@@ -382,6 +383,15 @@
     </li>
 </ul>
 <!-- /List of favorites -->
+                <!-- else -->
+                <!-- Empty favorites message -->
+<div class="empty-favorites-message">
+    <img src="/common.blocks/empty-favorites-message/empty-favorites-message__icon.svg" alt="" class="mb-3">
+    <p class="lead text-muted mb-5">В корзине пока нет  товаров</p>
+    <a href="#" class="btn btn-primary btn-lg">Перейти в каталог</a>
+</div>
+<!-- /Empty favorites message-->
+                <!-- end -->
             </section>
         </div>
     </div>
@@ -397,8 +407,8 @@
 
 <script src="/pages/favorites-page/favorites-page.js" defer></script>
 
-<!-- Product item modal -->
-<div class="product-item-modal modal fade" tabindex="-1" role="dialog">
+<!-- Complect item modal -->
+<div class="complect-item-modal modal fade" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <form action="#" class="modal-content">
             <div class="modal-header">
@@ -417,8 +427,8 @@
                         </a>
                     </div>
                     <div class="col-md-8">
-                        <div class="product-item-modal__total-label">Итого:</div>
-                        <div class="product-item-modal__price">10 890 ₽</div>
+                        <div class="complect-item-modal__total-label">Итого:</div>
+                        <div class="complect-item-modal__price">10 890 ₽</div>
                         <hr class="mb-0">
                         <div class="mb-4">
                             <!-- List of product-page includes -->
@@ -668,7 +678,7 @@
         </form>
     </div>
 </div>
-<!-- /Product item modal -->
+<!-- /Complect item modal -->
 <!-- Page footer -->
 <footer class="page-footer">
 	<div class="container">

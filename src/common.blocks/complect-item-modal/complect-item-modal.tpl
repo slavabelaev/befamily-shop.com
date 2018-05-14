@@ -1,5 +1,5 @@
-<!-- Product item modal -->
-<div class="product-item-modal modal fade" tabindex="-1" role="dialog">
+<!-- Complect item modal -->
+<div class="complect-item-modal modal fade" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <form action="#" class="modal-content">
             <div class="modal-header">
@@ -18,8 +18,8 @@
                         </a>
                     </div>
                     <div class="col-md-8">
-                        <div class="product-item-modal__total-label">Итого:</div>
-                        <div class="product-item-modal__price">10 890 ₽</div>
+                        <div class="complect-item-modal__total-label">Итого:</div>
+                        <div class="complect-item-modal__price">10 890 ₽</div>
                         <hr class="mb-0">
                         <div class="mb-4">
                             @@include('../../common.blocks/list-of-product-includes/list-of-product-includes.tpl')
@@ -36,4 +36,4 @@
         </form>
     </div>
 </div>
-<!-- /Product item modal -->
+<!-- /Complect item modal -->

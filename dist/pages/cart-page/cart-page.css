@@ -4560,7 +4560,7 @@ template {
 [hidden] {
   display: none !important; }
 
-.no-products-in-cart {
+.empty-cart-message {
   max-width: 775px;
   margin: auto;
   background-color: #f8f9fa;

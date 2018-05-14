@@ -21,7 +21,7 @@
                 <a href="#"
                    class="complect-item__added-to-cart"
                    data-toggle="modal"
-                   data-target=".product-item-modal">
+                   data-target=".complect-item-modal">
                     <i class="icon icon__shopping-bag icon_style_dark"></i>
                 </a>
             </li>
@@ -52,7 +52,7 @@
                 <a href="#"
                    class="complect-item__added-to-cart"
                    data-toggle="modal"
-                   data-target=".product-item-modal">
+                   data-target=".complect-item-modal">
                     <i class="icon icon__shopping-bag icon_style_dark"></i>
                 </a>
             </li>
@@ -83,7 +83,7 @@
                 <a href="#"
                    class="complect-item__added-to-cart"
                    data-toggle="modal"
-                   data-target=".product-item-modal">
+                   data-target=".complect-item-modal">
                     <i class="icon icon__shopping-bag icon_style_dark"></i>
                 </a>
             </li>
@@ -114,7 +114,7 @@
                 <a href="#"
                    class="complect-item__added-to-cart"
                    data-toggle="modal"
-                   data-target=".product-item-modal">
+                   data-target=".complect-item-modal">
                     <i class="icon icon__shopping-bag icon_style_dark"></i>
                 </a>
             </li>
