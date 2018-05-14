@@ -4,6 +4,7 @@
   background-color: $dark;
   color: $white;
   padding-bottom: 50px;
+  padding-top: 50px;
 }
 .page-footer__nav-title,
 .page-footer__title {
@@ -152,11 +153,25 @@
   .page-footer__developed-by-logo {
     margin-top: .75rem;
   }
+  .page-footer__list-of-sections_type_bottom {
+    border-top: rgba($white, .1) 1px solid;
+    padding-top: 2rem;
+  }
 }
 @include media-breakpoint-up(md) {
 }
 @include media-breakpoint-up(lg) {
-  .page-footer__main-list-of-links {
+  .page-footer {
+    padding-top: 0;
+  }
+  .nav-item_type_social {
+    margin-left: 200px;
+  }
+  .page-footer__menu-section {
+    border-bottom: rgba($white, .1) 1px solid;
+    margin-bottom: 2rem;
+  }
+  .page-footer__menu-list-of-links {
     list-style: none;
     padding: 0;
     margin: 0;
