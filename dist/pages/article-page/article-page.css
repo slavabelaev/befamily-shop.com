@@ -1947,6 +1947,7 @@ template {
 .article-item__image {
   display: block;
   width: 100%;
+  min-width: 275px;
   min-height: 170px;
   background-color: #444444;
   background-size: cover;
@@ -1964,6 +1965,7 @@ template {
   display: block;
   font-weight: bold;
   font-size: 1.5rem;
+  line-height: 1.25;
   margin-bottom: 1rem; }
 
 .article-item__text {
@@ -1973,14 +1975,51 @@ template {
   color: #F11F60;
   font-weight: 600; }
 
+.article-item__caption {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.article-item__time-container {
+  flex: 1; }
+
+.article-item_style_vertical.article-item,
+.article-item_style_vertical .article-item {
+  flex-direction: column; }
+
+.article-item_style_vertical .article-item__caption {
+  padding-left: 0; }
+
+.article-item_style_vertical .article-item__image {
+  margin-bottom: 1rem; }
+
+@media (min-width: 992px) {
+  .article-item__caption {
+    padding-left: 1.5rem; } }
+
 @media (max-width: 991.98px) {
+  .article-item {
+    flex-direction: column; }
   .article-item__image {
     margin-bottom: 1rem; } }
 
-.list-of-articles {
+.list-of-other-articles {
   list-style: none;
   padding: 0;
   margin: 0; }
+  .list-of-other-articles .article-item {
+    border-bottom-width: 0; }
+  .list-of-other-articles .article-item__title {
+    order: -2;
+    font-size: 1.125rem; }
+  .list-of-other-articles .article-item__footer {
+    flex-direction: column; }
+  .list-of-other-articles .article-item__time-container {
+    order: -1;
+    margin-bottom: .5rem; }
+  .list-of-other-articles .article-item__actions {
+    flex: 1;
+    text-align: center; }
 
 /*!
  * Bootstrap Reboot v4.1.0 (https://getbootstrap.com/)
@@ -2282,11 +2321,5 @@ template {
     margin-left: -12px;
     margin-right: -12px; } }
 
-.blog-page__pagination-wrapper {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  display: flex;
-  justify-content: center; }
-
-.blog-page__aside-navigation {
+.article-page__aside-navigation {
   margin-bottom: 1.5rem; }

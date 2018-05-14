@@ -546,6 +546,7 @@ template {
 .article-item__image {
   display: block;
   width: 100%;
+  min-width: 275px;
   min-height: 170px;
   background-color: #444444;
   background-size: cover;
@@ -563,6 +564,7 @@ template {
   display: block;
   font-weight: bold;
   font-size: 1.5rem;
+  line-height: 1.25;
   margin-bottom: 1rem; }
 
 .article-item__text {
@@ -572,7 +574,31 @@ template {
   color: #F11F60;
   font-weight: 600; }
 
+.article-item__caption {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.article-item__time-container {
+  flex: 1; }
+
+.article-item_style_vertical.article-item,
+.article-item_style_vertical .article-item {
+  flex-direction: column; }
+
+.article-item_style_vertical .article-item__caption {
+  padding-left: 0; }
+
+.article-item_style_vertical .article-item__image {
+  margin-bottom: 1rem; }
+
+@media (min-width: 992px) {
+  .article-item__caption {
+    padding-left: 1.5rem; } }
+
 @media (max-width: 991.98px) {
+  .article-item {
+    flex-direction: column; }
   .article-item__image {
     margin-bottom: 1rem; } }
 
