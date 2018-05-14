@@ -13,6 +13,8 @@
   color: $pagination-color;
   background-color: $pagination-bg;
   border: $pagination-border-width solid $pagination-border-color;
+  border-left-width: 0;
+  border-right-width: 0;
 
   &:hover {
     z-index: 2;
@@ -37,12 +39,16 @@
 .page-item {
   &:first-child {
     .page-link {
+      border-left-width: $pagination-border-width;
       margin-left: 0;
+      color: $primary;
       @include border-left-radius($border-radius);
     }
   }
   &:last-child {
     .page-link {
+      border-right-width: $pagination-border-width;
+      color: $primary;
       @include border-right-radius($border-radius);
     }
   }

@@ -536,7 +536,7 @@ template {
 [hidden] {
   display: none !important; }
 
-.order-placed {
+.order-placed-message {
   background-color: rgba(9, 141, 178, 0.1);
   padding: 3rem;
   text-align: center;

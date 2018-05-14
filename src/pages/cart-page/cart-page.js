@@ -6,7 +6,7 @@ jQuery(document).ready(function ($) {
         e.stopPropagation();
         var form = this, $form = $(form), formAction = $form.attr('action'), formMethod = $form.attr('method'), formData;
         if (form.checkValidity() == true) {
-            var successMessage = $('.cart-page__order-placed-collapse'), cartProducts = $('.cart-page__products-collapse');
+            var successMessage = $('.cart-page__order-placed-message-collapse'), cartProducts = $('.cart-page__products-collapse');
             formData = $form.serialize();
             successMessage.collapse('show');
             cartProducts.addClass('d-none');

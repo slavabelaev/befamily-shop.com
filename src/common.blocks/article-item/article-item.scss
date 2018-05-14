@@ -1,0 +1,45 @@
+@import "../../library.blocks/bootstrap/bootstrap-reboot";
+
+.article-item {
+  display: flex;
+  border-bottom: $border-color 1px solid;
+  padding-top: 1.125rem;
+  padding-bottom: 1.125rem;
+  margin-bottom: 0;
+}
+.article-item__image {
+  display: block;
+  width: 100%;
+  min-height: 170px;
+  background-color: $dark;
+  background-size: cover;
+  background-position: center;
+  transition: $transition-base;
+  &:hover {
+    opacity: .9;
+  }
+}
+.article-item__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.article-item__title {
+  display: block;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.article-item__text {
+  font-size: 1rem;
+}
+.article-item__time {
+  color: $primary;
+  font-weight: 600;
+}
+
+@include media-breakpoint-between(xs, md) {
+  .article-item__image {
+    margin-bottom: 1rem;
+  }
+}

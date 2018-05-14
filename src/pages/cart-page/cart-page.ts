@@ -15,7 +15,7 @@ jQuery(document).ready(function($) {
             formData;
 
         if (form.checkValidity() == true) {
-            var successMessage = $('.cart-page__order-placed-collapse'),
+            var successMessage = $('.cart-page__order-placed-message-collapse'),
                 cartProducts = $('.cart-page__products-collapse');
 
             formData = $form.serialize();
