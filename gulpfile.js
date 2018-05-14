@@ -83,8 +83,8 @@ gulp.task('style:build', function () {
         .pipe(plumber())
         //.pipe(sourcemaps.init())
         .pipe(sass())
-        //.pipe(prefixer())
-        //.pipe(cssmin())
+        .pipe(prefixer())
+        .pipe(cssmin())
         //.pipe(sourcemaps.write())
         .pipe(gulp.dest(path.build.css))
         .pipe(reload({stream: true}));

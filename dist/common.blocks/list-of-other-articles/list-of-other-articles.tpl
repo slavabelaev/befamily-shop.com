@@ -1,6 +1,6 @@
 <!-- List of other articles -->
 <ul class="list-of-other-articles row article-item_style_vertical">
-    <li class="list-of-other-articles__item col-md-4">
+    <li class="list-of-other-articles__item col-xl-4 col-lg-6">
         <!-- Article item -->
 <figure class="article-item">
     <div class="article-item__image-container">
@@ -21,7 +21,7 @@
 </figure>
 <!-- /Article item -->
     </li>
-    <li class="list-of-other-articles__item col-md-4">
+    <li class="list-of-other-articles__item col-xl-4 col-lg-6">
         <!-- Article item -->
 <figure class="article-item">
     <div class="article-item__image-container">
@@ -42,7 +42,7 @@
 </figure>
 <!-- /Article item -->
     </li>
-    <li class="list-of-other-articles__item col-md-4">
+    <li class="list-of-other-articles__item col-xl-4 col-lg-6">
         <!-- Article item -->
 <figure class="article-item">
     <div class="article-item__image-container">
