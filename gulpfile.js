@@ -83,8 +83,8 @@ gulp.task('style:build', function () {
         .pipe(plumber())
         //.pipe(sourcemaps.init())
         .pipe(sass())
-        .pipe(prefixer())
-        .pipe(cssmin())
+        //.pipe(prefixer())
+        //.pipe(cssmin())
         //.pipe(sourcemaps.write())
         .pipe(gulp.dest(path.build.css))
         .pipe(reload({stream: true}));
@@ -93,7 +93,7 @@ gulp.task('style:build', function () {
 gulp.task('image:build', function () {
     gulp.src(path.src.images)
         .pipe(plumber())
-        .pipe(image())
+        //.pipe(image())
         .pipe(gulp.dest(path.build.images))
         .pipe(reload({stream: true}));
 });

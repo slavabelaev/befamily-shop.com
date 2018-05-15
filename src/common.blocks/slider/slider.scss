@@ -1,0 +1,15 @@
+@import "../../library.blocks/bootstrap/bootstrap-reboot";
+
+.slider {
+  list-style: none;
+  padding: 0;
+  background-color: $light;
+}
+.slider__item {
+  min-height: 450px;
+  display: flex;
+  align-items: center;
+}
+.slider__item-header {
+  margin-bottom: 70px;
+}

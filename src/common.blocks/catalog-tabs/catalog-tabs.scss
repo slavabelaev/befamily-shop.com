@@ -1,0 +1,21 @@
+@import "../../library.blocks/bootstrap/bootstrap-reboot";
+
+.catalog-tabs__nav-pills {
+  margin-bottom: 50px;
+  justify-content: center;
+  font-weight: bold;
+}
+.catalog-tabs__list-of-categories {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.catalog-tabs__category {
+  text-align: center;
+}
+.catalog-tabs__category-img {
+  margin-bottom: 1.25rem;
+}
+.catalog-tabs__category-caption {
+  line-height: 1.25;
+}

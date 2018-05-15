@@ -74,12 +74,18 @@
 .nav-pills {
   .nav-link {
     @include border-radius($nav-pills-border-radius);
+    border-bottom: 3px solid transparent;
+    transition: $transition-base;
+    &:hover {
+      color: $nav-pills-link-active-color;
+    }
   }
 
   .nav-link.active,
   .show > .nav-link {
     color: $nav-pills-link-active-color;
     background-color: $nav-pills-link-active-bg;
+    border-bottom-color: $nav-pills-link-active-color;
   }
 }
 
