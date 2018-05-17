@@ -10,14 +10,14 @@
             </div>
             <div class="modal-body">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-lg-4 mb-4 mb-lg-0">
                         <a data-fancybox="gallery"
                            href="/content/images/complects/scandinavia/scandinavia-1.jpg"
                            class="list-of-images__link">
                             <img src="/content/images/complects/scandinavia/scandinavia-1.jpg" alt="" class="img-fluid">
                         </a>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-lg-8">
                         <div class="complect-item-modal__total-label">Итого:</div>
                         <div class="complect-item-modal__price">10 890 ₽</div>
                         <hr class="mb-0">

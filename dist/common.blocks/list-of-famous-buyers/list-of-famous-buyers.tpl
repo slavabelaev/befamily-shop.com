@@ -1,6 +1,6 @@
 <!-- List of famous buyers-->
 <ul class="list-of-famous-buyers row" data-slick>
-    <li class="list-of-famous-buyers__item col">
+    <li class="list-of-famous-buyers__item col-lg-4 col-md-6">
         <figure class="list-of-famous-buyers__card card">
             <img src="/content/images/buyers/Ksenia-Borodina.png" alt="Ксения Бородина" class="list-of-famous-buyers__img">
             <figcaption class="list-of-famous-buyers__caption">
@@ -10,7 +10,7 @@
             </figcaption>
         </figure>
     </li>
-    <li class="list-of-famous-buyers__item col">
+    <li class="list-of-famous-buyers__item col-lg-4 col-md-6">
         <figure class="list-of-famous-buyers__card card">
             <img src="/content/images/buyers/Evelina-Bledans.png" alt="Блёданс, Эвелина" class="list-of-famous-buyers__img">
             <figcaption class="list-of-famous-buyers__caption">
@@ -20,7 +20,7 @@
             </figcaption>
         </figure>
     </li>
-    <li class="list-of-famous-buyers__item col">
+    <li class="list-of-famous-buyers__item col-lg-4 col-md-6">
         <figure class="list-of-famous-buyers__card card">
             <img src="/content/images/buyers/Karina-Zemcova.png" alt="Карина Земцова" class="list-of-famous-buyers__img">
             <figcaption class="list-of-famous-buyers__caption">

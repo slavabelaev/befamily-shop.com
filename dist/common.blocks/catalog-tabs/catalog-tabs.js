@@ -1,3 +1,32 @@
-
-
-//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbW1vbi5ibG9ja3MvY2F0YWxvZy10YWJzL2NhdGFsb2ctdGFicy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwiZmlsZSI6ImNvbW1vbi5ibG9ja3MvY2F0YWxvZy10YWJzL2NhdGFsb2ctdGFicy5qcyIsInNvdXJjZXNDb250ZW50IjpbIiJdfQ==
+jQuery(document).ready(function ($) {
+    var catalogTabsElement = $('.catalog-tabs');
+    function transfromTabsToAccordion() {
+        var accordionClassName = 'js-catalog-tabs__accordion';
+        var isInitialized = catalogTabsElement.hasClass(accordionClassName);
+        if (window.outerWidth < 768 && !isInitialized) {
+            catalogTabsElement
+                .addClass(accordionClassName)
+                .find('.tab-pane').each(function () {
+                var paneElement = $(this), paneNavItem = paneElement.attr('id'), paneNavItemElement = $('[href="#' + paneNavItem + '"]');
+                paneElement
+                    .removeClass('active')
+                    .removeClass('fade')
+                    .addClass('collapse');
+                paneNavItemElement
+                    .removeClass('active')
+                    .after(paneElement)
+                    .on('click', function (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    paneElement
+                        .toggleClass('active')
+                        .collapse('toggle');
+                });
+            });
+        }
+    }
+    transfromTabsToAccordion();
+    $(window).resize(function () {
+        transfromTabsToAccordion();
+    });
+});

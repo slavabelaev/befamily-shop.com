@@ -3,10 +3,14 @@
 @import "../icon/icon";
 
 .page-header {
+  top: 0;
+  position: fixed;
+  position: sticky;
   display: flex;
   align-items: stretch;
   border-bottom: 1px solid $border-color;
   background-color: $white;
+  z-index: 99;
   .navbar-toggler {
     padding: .75rem;
     .icon {

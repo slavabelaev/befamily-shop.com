@@ -1,8 +1,5 @@
 @import "../../library.blocks/bootstrap/bootstrap-reboot";
 
-.catalog-tabs {
-
-}
 .catalog-tabs__nav-pills {
   margin-bottom: 50px;
   justify-content: center;
@@ -21,4 +18,44 @@
 }
 .catalog-tabs__category-caption {
   line-height: 1.25;
+}
+
+.js-catalog-tabs__accordion {
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  .list-of-special-categories {
+    padding-top: $list-group-item-padding-y;
+    padding-bottom: $list-group-item-padding-y;
+  }
+  .catalog-tabs__nav-pills {
+    display: block;
+    margin-bottom: 0;
+    .nav-item:not(:last-child) {
+      border-bottom: 1px solid $border-color;
+    }
+    .nav-link {
+      position: relative;
+      border-bottom-width: 0;
+      padding: $list-group-item-padding-y $list-group-item-padding-x;
+      text-align: left;
+      cursor: pointer;
+      &:after {
+        content: "";
+        display: block;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 3rem;
+        position: absolute;
+        background-image: url(/common.blocks/icon/icon__expand.svg);
+        background-position: center;
+        background-size: 1.5rem;
+        background-repeat: no-repeat;
+        transition: $transition-base;
+      }
+      &.active:after {
+        transform: rotate(45deg);
+      }
+    }
+  }
 }

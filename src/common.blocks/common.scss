@@ -1,9 +1,7 @@
 // Plugins
-// FancyBox
-@import "../../node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css";
 // Slick Carousel
-@import "../../node_modules/slick-carousel/slick/slick.css";
-@import "../../node_modules/slick-carousel/slick/slick-theme.css";
+@import "../../node_modules/slick-carousel/slick/slick.scss";
+@import "../../node_modules/slick-carousel/slick/slick-theme.scss";
 
 @import "../library.blocks/bootstrap/bootstrap";
 @import "font/font";

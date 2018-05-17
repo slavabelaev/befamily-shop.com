@@ -3,17 +3,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Family Look - интернет магазин одинаковой одежды для всей семьи в стиле Фэмили Лук</title>
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="/library.blocks/bootstrap/bootstrap.css">
+    <meta name="description" content="BeFamily - интернет магазин по производству и продаже одинаковой одежды для всей семьи в стиле Family Look. Осуществляем доставку по всей России." />
+    <meta name='yandex-verification' content='4d1ca2853f5047c8' />
+    <meta name="google-site-verification" content="N2dYHT1lngqua6AoIMHCLsgs5x2GBTyUmeR2ZPULQRc" />
+    <meta name="google-site-verification" content="XyaPmAvu0V6uHCqCniXtIXlW5a4EcLlp1zgKKAXWkMY" />
+    <!-- Common bundled CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="/common.blocks/common.css">
 </head>
 <body>
 <!-- /Meta header -->
 <!-- Page header -->
-<header class="page-header sticky-top">
+<header class="page-header">
 	<nav class="navbar navbar-expand-lg navbar-light container">
 		<a class="navbar-brand" href="/">
 			<img src="/common.blocks/page-header/page-header__be-Family.svg" alt="be Family" class="page-header__logo">
@@ -81,8 +86,6 @@
 	</nav>
 </header>
 <!-- /Page header -->
-<!-- Plugins -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
 <!-- Page styles -->
 <link rel="stylesheet" href="/pages/index-page/index-page.css">
 
@@ -102,7 +105,7 @@
 </ul>
 <!-- /Page slider -->
     </section>
-    <section class="index-page__our-catalog pt-4 pb-4">
+    <section class="index-page__section index-page__our-catalog">
         <div class="container text-center">
             <h2>Наш каталог</h2>
             <!-- Catalog tabs -->
@@ -473,12 +476,12 @@
 <!-- Catalog tabs -->
         </div>
     </section>
-    <section class="index-page__our-customers bg-light index-page__shaped-bg-1 pt-4 pb-4">
+    <section class="index-page__section index-page__our-customers bg-light index-page__shaped-bg-1">
         <div class="container">
             <h2 class="text-center">Наши известные клиенты</h2>
             <!-- List of famous buyers-->
-<ul class="list-of-famous-buyers row">
-    <li class="list-of-famous-buyers__item col">
+<ul class="list-of-famous-buyers row" data-slick>
+    <li class="list-of-famous-buyers__item col-lg-4 col-md-6">
         <figure class="list-of-famous-buyers__card card">
             <img src="/content/images/buyers/Ksenia-Borodina.png" alt="Ксения Бородина" class="list-of-famous-buyers__img">
             <figcaption class="list-of-famous-buyers__caption">
@@ -488,7 +491,7 @@
             </figcaption>
         </figure>
     </li>
-    <li class="list-of-famous-buyers__item col">
+    <li class="list-of-famous-buyers__item col-lg-4 col-md-6">
         <figure class="list-of-famous-buyers__card card">
             <img src="/content/images/buyers/Evelina-Bledans.png" alt="Блёданс, Эвелина" class="list-of-famous-buyers__img">
             <figcaption class="list-of-famous-buyers__caption">
@@ -498,7 +501,7 @@
             </figcaption>
         </figure>
     </li>
-    <li class="list-of-famous-buyers__item col">
+    <li class="list-of-famous-buyers__item col-lg-4 col-md-6">
         <figure class="list-of-famous-buyers__card card">
             <img src="/content/images/buyers/Karina-Zemcova.png" alt="Карина Земцова" class="list-of-famous-buyers__img">
             <figcaption class="list-of-famous-buyers__caption">
@@ -512,7 +515,7 @@
 <!-- /List of famous buyers-->
         </div>
     </section>
-    <section class="index-page__lists-by-beFamily pt-4 pb-4">
+    <section class="index-page__section index-page__lists-by-beFamily pb-0">
         <div class="container">
             <h2 class="text-center mb-4">Подборки от be Family</h2>
             <!-- List of special categories -->
@@ -569,7 +572,7 @@
 <!-- List of special categories -->
         </div>
     </section>
-    <section class="index-page__list-of-popular-models pt-4 pb-4">
+    <section class="index-page__section index-page__list-of-popular-models">
         <div class="container">
             <h2 class="text-center">Популярные модели</h2>
             <!-- List of popular complects -->
@@ -826,7 +829,7 @@
 <!-- /List of popular complects -->
         </div>
     </section>
-    <section class="index-page__list-of-popular-models pt-4 pb-4 bg-light index-page__shaped-bg">
+    <section class="index-page__section index-page__list-of-popular-models bg-light index-page__shaped-bg">
         <div class="container">
             <header class="text-center mb-4">
                 <h2 class="mb-2"><img src="/pages/index-page/index-page__instagram.svg" alt="Instagram" class="mr-4"> #мывBefamily</h2>
@@ -916,6 +919,7 @@
 </main>
 
 <script src="/common.blocks/complect-item/complect-item.js" defer></script>
+<script src="/common.blocks/list-of-famous-buyers/list-of-famous-buyers.js" defer></script>
 
 <script src="/pages/index-page/index-page.js" defer></script>
 
@@ -931,14 +935,14 @@
             </div>
             <div class="modal-body">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-lg-4 mb-4 mb-lg-0">
                         <a data-fancybox="gallery"
                            href="/content/images/complects/scandinavia/scandinavia-1.jpg"
                            class="list-of-images__link">
                             <img src="/content/images/complects/scandinavia/scandinavia-1.jpg" alt="" class="img-fluid">
                         </a>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-lg-8">
                         <div class="complect-item-modal__total-label">Итого:</div>
                         <div class="complect-item-modal__price">10 890 ₽</div>
                         <hr class="mb-0">
