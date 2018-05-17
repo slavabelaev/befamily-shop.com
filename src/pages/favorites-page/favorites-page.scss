@@ -1,14 +1,4 @@
-// Library.Blocks
 @import "../../library.blocks/bootstrap/bootstrap-reboot";
-
-// Common.Blocks
-@import "../../common.blocks/page-header/page-header";
-@import "../../common.blocks/page-footer/page-footer";
-@import "../../common.blocks/list-of-favorites/list-of-favorites";
-@import "../../common.blocks/catalog-accordion/catalog-accordion";
-@import "../../common.blocks/favorites-filter/favorites-filter";
-@import "../../common.blocks/empty-favorites-message/empty-favorites-message";
-
 
 .favorites-page {
   min-height: 600px;

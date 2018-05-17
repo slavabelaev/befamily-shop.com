@@ -3,8 +3,9 @@
 @import "../../node_modules/slick-carousel/slick/slick.scss";
 @import "../../node_modules/slick-carousel/slick/slick-theme.scss";
 
-@import "../library.blocks/bootstrap/bootstrap";
-@import "font/font";
+@import "../library.blocks/bootstrap/bootstrap.scss";
+@import "../common.blocks/**/*.scss";
+@import "../pages/**/*.scss";
 
 .slick-dots li {
   width: initial;

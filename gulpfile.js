@@ -8,6 +8,7 @@ var gulp = require('gulp'),
 
     imagemin = require('gulp-imagemin'),
     sass = require('gulp-sass'),
+    sassGlob = require('gulp-sass-glob'),
     autoprefixer = require('gulp-autoprefixer'),
     cleanCss = require('gulp-clean-css'),
     typescript = require('gulp-typescript'),
@@ -69,6 +70,7 @@ gulp.task('style:build', function() {
         //.pipe(newer(path.build.html))
         .pipe(plumber())
         //.pipe(sourcemaps.init())
+        .pipe(sassGlob())
         .pipe(sass({errLogToConsole: true}))
         //.pipe(autoprefixer())
         //.pipe(cleanCss())

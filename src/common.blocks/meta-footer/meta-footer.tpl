@@ -10,7 +10,7 @@
 <!-- Sticky Kit — http://leafo.net/sticky-kit/ -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-kit/1.1.3/sticky-kit.min.js"></script>
 <!-- Global JS -->
-<script src="/common.blocks/common.js"></script>
+<script src="/bundles/bundle.js"></script>
 </body>
 </html>
 <!-- /Meta footer -->
