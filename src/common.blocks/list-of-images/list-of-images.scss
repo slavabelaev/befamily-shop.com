@@ -7,25 +7,32 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  .image-item__link {
+    display: block;
+  }
 }
 .list-of-images__item {
   margin-bottom: 1.5rem;
 }
 
-@include media-breakpoint-up(xs) {
-
+@include media-breakpoint-between(xs, md) {
+  .list-of-images {
+    overflow: hidden;
+    max-height: 450px;
+    margin-bottom: 1.5rem;
+  }
 }
-@include media-breakpoint-up(sm) {
-
-}
-@include media-breakpoint-up(md) {
-
+@include media-breakpoint-only(md) {
+  .list-of-images {
+    .image-item__image {
+      max-height: 450px;
+      width: initial;
+      max-width: 100%;
+    }
+  }
 }
 @include media-breakpoint-up(lg) {
   .list-of-images__item {
     margin-bottom: 50px;
   }
-}
-@include media-breakpoint-up(xl) {
-
 }

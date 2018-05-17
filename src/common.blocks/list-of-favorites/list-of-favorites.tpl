@@ -6,7 +6,7 @@
             "uid": "0109",
             "title": "Комплект платьев Морской Бриз",
             "price": 10890,
-            "url": "/pages/product-page/product-page.html"
+            "url": "/product.html"
         })
     </li>
     <li class="list-of-favorite__item col-xl-4 col-sm-6 mb-3">
@@ -15,7 +15,7 @@
             "uid": "0110",
             "title": "Комплект платьев Мечта",
             "price": 10890,
-            "url": "/pages/product-page/product-page.html"
+            "url": "/product.html"
         })
     </li>
     <li class="list-of-favorite__item col-xl-4 col-sm-6 mb-3">
@@ -24,7 +24,7 @@
             "uid": "0111",
             "title": "Комплект платьев Одри",
             "price": 10890,
-            "url": "/pages/product-page/product-page.html"
+            "url": "/product.html"
         })
     </li>
     <li class="list-of-favorite__item col-xl-4 col-sm-6 mb-3">
@@ -33,7 +33,7 @@
             "uid": "0112",
             "title": "Комплект платьев Мечта",
             "price": 10890,
-            "url": "/pages/product-page/product-page.html"
+            "url": "/product.html"
         })
     </li>
 </ul>

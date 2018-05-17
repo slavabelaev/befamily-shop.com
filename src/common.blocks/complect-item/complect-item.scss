@@ -1,6 +1,8 @@
 @import "../../library.blocks/bootstrap/bootstrap-reboot";
-@import "../added-to-cart-modal/added-to-cart-modal";
+
 @import "../add-to-favorite/add-to-favorite";
+@import "../complect-item-modal/complect-item-modal";
+@import "../added-to-cart-modal/added-to-cart-modal";
 
 .complect-item {
   position: relative;
@@ -52,6 +54,7 @@
   display: block;
   min-height: 300px;
   margin-bottom: .75rem;
+  background-color: $dark;
   background-size: cover;
   background-position: center;
   transition: $transition-fade;

@@ -1,6 +1,6 @@
 @import "../../library.blocks/bootstrap/bootstrap-reboot";
 
-@import "../../common.blocks/complect-item-modal/complect-item-modal";
+@import "../../common.blocks/added-to-cart-modal/added-to-cart-modal";
 
 .product-item {
   position: relative;
@@ -26,6 +26,7 @@
   display: block;
   min-height: 300px;
   margin-bottom: .75rem;
+  background-color: $dark;
   background-size: cover;
   background-position: center;
   transition: $transition-fade;

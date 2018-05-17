@@ -1,10 +1,28 @@
+// Library.Blocks
 @import "../../library.blocks/bootstrap/bootstrap-reboot";
-
 // Common.Blocks
 @import "../../common.blocks/page-header/page-header";
 @import "../../common.blocks/page-footer/page-footer";
-@import "../../common.blocks/catalog-tabs/catalog-tabs";
 @import "../../common.blocks/slider/slider";
+@import "../../common.blocks/catalog-tabs/catalog-tabs";
 @import "../../common.blocks/list-of-famous-buyers/list-of-famous-buyers";
 @import "../../common.blocks/list-of-special-categories/list-of-special-categories";
 @import "../../common.blocks/list-of-popular-complects/list-of-popular-complects";
+@import "../../common.blocks/list-of-gallery-images/list-of-gallery-images";
+
+.index-page__shaped-bg-1,
+.index-page__shaped-bg {
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.index-page__shaped-bg {
+  background-image: url(/pages/index-page/index-page__shaped-bg.svg);
+}
+.index-page__shaped-bg-1 {
+  background-image: url(/pages/index-page/index-page__shaped-bg-1.svg);
+}
+.index-page__section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}

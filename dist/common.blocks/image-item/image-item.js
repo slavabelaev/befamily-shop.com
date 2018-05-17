@@ -1,0 +1,4 @@
+//import jQuery from '../../../node_modules/jquery/dist/jquery';
+//import "../../../node_modules/@fancyapps/fancybox/dist/jquery.fancybox";
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbW1vbi5ibG9ja3MvaW1hZ2UtaXRlbS9pbWFnZS1pdGVtLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGdFQUFnRTtBQUNoRSwwRUFBMEUiLCJmaWxlIjoiY29tbW9uLmJsb2Nrcy9pbWFnZS1pdGVtL2ltYWdlLWl0ZW0uanMiLCJzb3VyY2VzQ29udGVudCI6WyIvL2ltcG9ydCBqUXVlcnkgZnJvbSAnLi4vLi4vLi4vbm9kZV9tb2R1bGVzL2pxdWVyeS9kaXN0L2pxdWVyeSc7XHJcbi8vaW1wb3J0IFwiLi4vLi4vLi4vbm9kZV9tb2R1bGVzL0BmYW5jeWFwcHMvZmFuY3lib3gvZGlzdC9qcXVlcnkuZmFuY3lib3hcIjsiXX0=
