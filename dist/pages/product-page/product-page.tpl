@@ -71,19 +71,28 @@
         </div>
 		<ul class="page-header__navbar-actions">
 			<li class="nav-item">
+				<a class="nav-link" href="#">
+                    <i class="icon icon__search icon_style_dark"></i>
+                </a>
+			</li>
+			<li class="nav-item">
 				<a class="nav-link" href="/favorites.html">
-                    <span class="icon icon__heart icon_style_dark"></span>
+                    <i class="icon icon__heart icon_style_dark"></i>
 					<span class="page-header__number-of-favorites badge badge-primary">66</span>
                 </a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="/cart.html">
-					<span class="icon icon__shopping-bag icon_style_dark"></span>
+					<i class="icon icon__shopping-bag icon_style_dark"></i>
 					<span class="page-header__number-of-products badge badge-primary">66</span>
 				</a>
 			</li>
 		</ul>
 	</nav>
+	<form class="page-header__search-form container">
+		<input class="page-header__search-control form-control form-control-lg" type="search" placeholder="Введите название товара" aria-label="Search">
+		<button class="page-header__search-btn btn btn-primary" type="submit">Искать</button>
+	</form>
 </header>
 <!-- /Page header -->
 <!-- Page styles -->

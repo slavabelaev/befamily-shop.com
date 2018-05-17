@@ -858,6 +858,9 @@ template {
 .icon__cancel {
   background-image: url(/common.blocks/icon/icon__cancel.svg); }
 
+.icon__search {
+  background-image: url(/common.blocks/icon/icon__search.svg); }
+
 .icon__vk {
   background-image: url(/common.blocks/icon/icon__vk.svg); }
 
@@ -880,8 +883,6 @@ template {
   top: 0;
   position: fixed;
   position: sticky;
-  display: flex;
-  align-items: stretch;
   border-bottom: 1px solid #E7E7E7;
   background-color: #fff;
   z-index: 99; }
@@ -890,6 +891,13 @@ template {
     .page-header .navbar-toggler .icon {
       width: 1rem;
       height: 1rem; }
+
+.page-header__search-form {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto; }
 
 .page-header__logo {
   margin-top: 5px; }
@@ -6328,6 +6336,9 @@ template {
 
 .icon__cancel {
   background-image: url(/common.blocks/icon/icon__cancel.svg); }
+
+.icon__search {
+  background-image: url(/common.blocks/icon/icon__search.svg); }
 
 .icon__vk {
   background-image: url(/common.blocks/icon/icon__vk.svg); }

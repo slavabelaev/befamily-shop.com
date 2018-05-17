@@ -274,4 +274,7 @@ template {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #444444; }
+  background-color: #444444;
+  transition: all 0.2s ease-in-out; }
+  .list-of-gallery-images__link:hover {
+    filter: brightness(1.1); }

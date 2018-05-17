@@ -8,4 +8,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-color: $dark;
+  transition: $transition-base;
+  &:hover {
+    filter: brightness(1.1);
+  }
 }

@@ -90,8 +90,8 @@ gulp.task('ts:build', function () {
 
 gulp.task('image:build', function () {
     gulp.src(path.src.images)
-        //.pipe(newer(path.build.images))
-        //.pipe(imagemin())
+        .pipe(newer(path.build.images))
+        .pipe(imagemin())
         .pipe(gulp.dest(path.build.images))
         .pipe(reload({stream: true}));
 });
