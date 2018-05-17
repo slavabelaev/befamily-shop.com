@@ -1,5 +1,5 @@
 <!-- List of famous buyers-->
-<ul class="list-of-famous-buyers row">
+<ul class="list-of-famous-buyers row" data-slick>
     <li class="list-of-famous-buyers__item col">
         <figure class="list-of-famous-buyers__card card">
             <img src="/content/images/buyers/Ksenia-Borodina.png" alt="Ксения Бородина" class="list-of-famous-buyers__img">

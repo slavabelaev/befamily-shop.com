@@ -46,6 +46,7 @@
 </main>
 
 <script src="/common.blocks/complect-item/complect-item.js" defer></script>
+<script src="/common.blocks/list-of-famous-buyers/list-of-famous-buyers.js" defer></script>
 
 <script src="/pages/index-page/index-page.js" defer></script>
 
