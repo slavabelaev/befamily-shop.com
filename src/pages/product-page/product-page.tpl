@@ -10,10 +10,10 @@
             "activeItem": "Мама и дочка"
         })
         <div class="row">
-            <div class="col-lg-5 col-xl-6">
+            <div class="col-md-4 col-lg-5 col-xl-6">
                 @@include('../../common.blocks/list-of-images/list-of-images.tpl')
             </div>
-            <aside class="product-page__aside col-lg-7 col-xl-6">
+            <aside class="product-page__aside col-md-8 col-lg-7 col-xl-6">
                 <!-- Product -->
                 <section class="product-page__aside-container" data-sticked>
                     <h1>Комплект “Скандинавия”</h1>

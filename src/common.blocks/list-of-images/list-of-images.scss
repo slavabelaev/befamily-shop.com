@@ -15,20 +15,11 @@
   margin-bottom: 1.5rem;
 }
 
-@include media-breakpoint-between(xs, md) {
+@include media-breakpoint-between(xs, sm) {
   .list-of-images {
     overflow: hidden;
     max-height: 450px;
     margin-bottom: 1.5rem;
-  }
-}
-@include media-breakpoint-only(md) {
-  .list-of-images {
-    .image-item__image {
-      max-height: 450px;
-      width: initial;
-      max-width: 100%;
-    }
   }
 }
 @include media-breakpoint-up(lg) {
