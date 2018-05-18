@@ -1,9 +1,11 @@
 @import "../../library.blocks/bootstrap/bootstrap-reboot";
 
 .catalog-tabs__nav-pills {
-  margin-bottom: 50px;
   justify-content: center;
   font-weight: bold;
+  &.nav {
+    margin-bottom: 50px;
+  }
 }
 .catalog-tabs__list-of-categories {
   list-style: none;
@@ -29,7 +31,9 @@
   }
   .catalog-tabs__nav-pills {
     display: block;
-    margin-bottom: 0;
+    &.nav {
+      margin-bottom: 0;
+    }
     .nav-item:not(:last-child) {
       border-bottom: 1px solid $border-color;
     }
