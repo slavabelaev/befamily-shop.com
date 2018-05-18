@@ -12,6 +12,8 @@ var gulp = require('gulp'),
     autoprefixer = require('gulp-autoprefixer'),
     cleanCss = require('gulp-clean-css'),
     typescript = require('gulp-typescript'),
+    babel = require('gulp-babel'),
+    concat = require('gulp-concat'),
     fileinclude = require('gulp-file-include'),
     sourcemaps = require('gulp-sourcemaps'),
 
@@ -19,6 +21,10 @@ var gulp = require('gulp'),
     reload = browserSync.reload;
 
 var path = {
+    bundles: {
+        js: 'bundles/bundle.js',
+        css: 'bundles/bundle.css'
+    },
     build: {
         html: 'dist',
         ts: 'dist',
@@ -74,6 +80,7 @@ gulp.task('style:build', function() {
         .pipe(sass({errLogToConsole: true}))
         //.pipe(autoprefixer())
         //.pipe(cleanCss())
+        //.pipe(concat(path.bundles.css))
         .pipe(gulp.dest(path.build.style))
         //.pipe(sourcemaps.write())
         .pipe(reload({stream: true}));
@@ -84,7 +91,11 @@ gulp.task('ts:build', function () {
         //.pipe(newer(path.build.html))
         .pipe(plumber())
         //.pipe(sourcemaps.init())
-        .pipe(typescript())
+        .pipe(typescript({
+            outFile: path.bundles.js
+        }))
+        //.pipe(babel())
+        //.pipe(concat(path.bundles.js))
         //.pipe(sourcemaps.write())
         .pipe(gulp.dest(path.build.ts))
         .pipe(reload({stream: true}));
