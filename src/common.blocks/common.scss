@@ -3,21 +3,24 @@
 @import "../../node_modules/slick-carousel/slick/slick.scss";
 @import "../../node_modules/slick-carousel/slick/slick-theme.scss";
 
-.slick-dots li {
-  width: initial;
-  height: initial;
-  button {
-    width: 30px;
-    height: 10px;
-    border: 1px solid $primary;
-    background-color: $white;
-    &:before {
-      display: none;
-    }
-  }
-  &.slick-active {
+.slick-dots {
+  bottom: -2rem;
+  li {
+    width: initial;
+    height: initial;
     button {
-      background-color: $primary;
+      width: 30px;
+      height: 10px;
+      border: 1px solid $primary;
+      background-color: $white;
+      &:before {
+        display: none;
+      }
+    }
+    &.slick-active {
+      button {
+        background-color: $primary;
+      }
     }
   }
 }
