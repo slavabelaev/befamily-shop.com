@@ -3,7 +3,9 @@
     <div class="card-body">
         @@include('../../common.blocks/add-to-favorite/add-to-favorite.tpl')
         <a href="@@url" class="complect-item__image" style="background-image: url(@@imageUrl);"></a>
-        <h3 class="complect-item__title"><a href="@@url">@@title</a></h3>
+        <h3 class="complect-item__title">
+            <a href="@@url" class="complect-item__title-link">@@title</a>
+        </h3>
         <ul class="complect-item__details">
             <li class="complect-item__detail complect-item__uid">Артикул: @@uid</li>
             <li class="complect-item__detail complect-item__price">@@price ₽</li>

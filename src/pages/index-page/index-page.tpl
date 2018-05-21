@@ -1,8 +1,7 @@
 @@include('../../common.blocks/meta-header/meta-header.tpl')
 @@include('../../common.blocks/page-header/page-header.tpl')
-<!-- Page styles -->
-<link rel="stylesheet" href="/pages/index-page/index-page.css">
 
+<!-- Index page -->
 <main class="index-page">
     <section class="index-page__slider">
         @@include('../../common.blocks/slider/slider.tpl')
@@ -44,12 +43,7 @@
         </div>
     </section>
 </main>
-
-<script src="/common.blocks/complect-item/complect-item.js" defer></script>
-<script src="/common.blocks/list-of-famous-buyers/list-of-famous-buyers.js" defer></script>
-<script src="/common.blocks/catalog-tabs/catalog-tabs.js" defer></script>
-
-<script src="/pages/index-page/index-page.js" defer></script>
+<!-- Index page -->
 
 @@include('../../common.blocks/complect-item-modal/complect-item-modal.tpl')
 @@include('../../common.blocks/page-footer/page-footer.tpl')

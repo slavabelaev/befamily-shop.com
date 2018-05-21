@@ -1,8 +1,7 @@
 <!-- Product size table popup -->
 <div class="product-size-popover">
-    <a href="javascript: return false;"
+    <a href="#"
        class="product-size-popover__link"
-       role="button"
        data-trigger="focus"
        data-toggle="popover"
        data-placement="left"

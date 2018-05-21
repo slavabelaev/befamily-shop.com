@@ -20,15 +20,6 @@ jQuery(document).ready(function($) {
                 breakpoint: 480,
                 settings: {
                     arrows: false,
-                    centerMode: true,
-                    dots: true,
-                    slidesToShow: 1,
-                }
-            },
-            {
-                breakpoint: 350,
-                settings: {
-                    arrows: false,
                     centerMode: false,
                     dots: true,
                     slidesToShow: 1,

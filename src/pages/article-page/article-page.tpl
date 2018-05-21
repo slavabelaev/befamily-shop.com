@@ -1,8 +1,7 @@
 @@include('../../common.blocks/meta-header/meta-header.tpl')
 @@include('../../common.blocks/page-header/page-header.tpl')
-<!-- Page styles -->
-<link rel="stylesheet" href="/pages/article-page/article-page.css">
 
+<!-- Article page -->
 <main class="article-page">
     <div class="container">
         @@include('../../common.blocks/breadcrumb/breadcrumb.tpl', {
@@ -37,16 +36,7 @@
         </div>
     </div>
 </main>
-
-
-<!-- Sticky Kit — http://leafo.net/sticky-kit/ -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-kit/1.1.3/sticky-kit.min.js" defer></script>
-
-<script src="/common.blocks/complect-item/complect-item.js" defer></script>
-<script src="/common.blocks/catalog-accordion/catalog-accordion.js" defer></script>
-<script src="/common.blocks/product-size-control/product-size-control.js" defer></script>
-
-<script src="/pages/favorites-page/favorites-page.js" defer></script>
+<!-- /Article page -->
 
 @@include('../../common.blocks/complect-item-modal/complect-item-modal.tpl')
 @@include('../../common.blocks/page-footer/page-footer.tpl')

@@ -28,21 +28,21 @@ var path = {
     build: {
         html: 'dist',
         ts: 'dist',
-        style: 'dist',
+        style: 'dist/bundles',
         images: 'dist',
         fonts: 'dist'
     },
     src: {
         html: 'src/**/*.{html,tpl,tmpl}',
         ts: 'src/**/*.{ts,js}',
-        style: 'src/**/*.{scss,sass}',
+        style: 'src/bundles/*.{scss,sass}',
         images: 'src/**/*.{jpg,jpeg,png,gif,svg}',
         fonts: 'src/**/*.{ttf,otf,woff,woff2,eot}'
     },
     watch: {
         html: 'src/**/*.{html,tpl,tmpl}',
         ts: 'src/**/*.{ts,js}',
-        style: 'src/**/*.{scss,sass}',
+        style: 'src/bundles/*.{scss,sass}',
         images: 'src/**/*.{jpg,jpeg,png,gif,svg}',
         fonts: 'src/**/*.{ttf,otf,woff,woff2,eot}'
     },

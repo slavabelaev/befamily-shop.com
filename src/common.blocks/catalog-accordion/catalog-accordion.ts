@@ -11,4 +11,8 @@ jQuery(document).ready(function($) {
             .closest('.catalog-accordion__item')
             .find('.catalog-accordion__content').collapse('toggle');
     });
+
+    $('.catalog-accordion__toogler').on('click', function() {
+        $(document.body).trigger("sticky_kit:recalc");
+    });
 });

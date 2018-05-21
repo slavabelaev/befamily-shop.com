@@ -1,0 +1,9 @@
+// Library.Blocks
+@import "../../library.blocks/bootstrap/bootstrap-reboot";
+
+.error-404-page {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-color: $yellow;
+}

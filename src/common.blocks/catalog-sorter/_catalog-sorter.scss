@@ -1,6 +1,6 @@
 @import "../../library.blocks/bootstrap/bootstrap-reboot";
 
-.favorites-filter {
+.catalog-sorter {
   border-bottom: $border-color 1px solid;
   color: $dark;
   .custom-select {
@@ -9,8 +9,8 @@
   }
 }
 
-@include media-breakpoint-up(md) {
-  .favorites-filter {
+@include media-breakpoint-up(xl) {
+  .catalog-sorter {
     .custom-select:not(:focus):not(:hover) {
       border-color: transparent;
     }

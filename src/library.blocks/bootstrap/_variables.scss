@@ -40,7 +40,7 @@ $purple:  #6f42c1 !default;
 $pink:    #F11F60 !default;
 $red:     #dc3545 !default;
 $orange:  #fd7e14 !default;
-$yellow:  #FFEE19 !default;
+$yellow:  #FFF68E !default;
 $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #098DB2 !default;
@@ -781,7 +781,7 @@ $modal-inner-padding:               2rem 1.5rem !default;
 $modal-dialog-margin:               .5rem !default;
 $modal-dialog-margin-y-sm-up:       1.75rem !default;
 
-$modal-title-line-height:           $line-height-base !default;
+$modal-title-line-height:           1 !default;
 
 $modal-content-bg:                  $white !default;
 $modal-content-border-color:        rgba($black, .2) !default;

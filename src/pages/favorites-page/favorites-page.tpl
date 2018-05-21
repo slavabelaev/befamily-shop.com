@@ -1,8 +1,7 @@
 @@include('../../common.blocks/meta-header/meta-header.tpl')
 @@include('../../common.blocks/page-header/page-header.tpl')
-<!-- Page styles -->
-<link rel="stylesheet" href="/pages/favorites-page/favorites-page.css">
 
+<!-- Favorites page -->
 <main class="favorites-page">
     <div class="container">
         @@include('../../common.blocks/breadcrumb/breadcrumb.tpl', {
@@ -19,7 +18,7 @@
                 <h1>Избранное</h1>
                 <!-- If (hasFavorites) -->
                 <div class="favorites-page__filter mb-3">
-                    @@include('../../common.blocks/favorites-filter/favorites-filter.tpl')
+                    @@include('../../common.blocks/catalog-sorter/catalog-sorter.tpl')
                 </div>
                 @@include('../../common.blocks/list-of-favorites/list-of-favorites.tpl')
                 <!-- else -->
@@ -29,16 +28,7 @@
         </div>
     </div>
 </main>
-
-
-<!-- Sticky Kit — http://leafo.net/sticky-kit/ -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-kit/1.1.3/sticky-kit.min.js" defer></script>
-
-<script src="/common.blocks/complect-item/complect-item.js" defer></script>
-<script src="/common.blocks/catalog-accordion/catalog-accordion.js" defer></script>
-<script src="/common.blocks/product-size-control/product-size-control.js" defer></script>
-
-<script src="/pages/favorites-page/favorites-page.js" defer></script>
+<!-- Favorites page -->
 
 @@include('../../common.blocks/complect-item-modal/complect-item-modal.tpl')
 @@include('../../common.blocks/page-footer/page-footer.tpl')

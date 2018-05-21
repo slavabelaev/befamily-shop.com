@@ -4,7 +4,9 @@
         <a href="/product.html"
            class="product-item__image"
            style="background-image: url(@@imageUrl);"></a>
-        <h3 class="product-item__title"><a href="/product.html">@@title</a></h3>
+        <h3 class="product-item__title">
+            <a href="/product.html" class="product-item__title-link">@@title</a>
+        </h3>
         <ul class="product-item__details mb-2">
             <li class="product-item__detail product-item__category">Мальчик</li>
             <li class="product-item__detail product-item__uid text-right">Артикул: @@uid</li>

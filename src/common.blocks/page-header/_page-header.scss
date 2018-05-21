@@ -105,6 +105,12 @@
   .page-header__logo {
     width: 110px;
   }
+  .page-header__navbar-actions .nav-link {
+    padding: 1rem .5rem;
+  }
+  .page-header__navbar-actions .badge {
+    right: 0;
+  }
 }
 
 @include media-breakpoint-up(sm) {

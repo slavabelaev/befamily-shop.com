@@ -50,6 +50,12 @@
   margin-bottom: .25rem;
   font-size: 1.125rem;
 }
+.complect-item__title-link {
+  white-space: nowrap;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .complect-item__image {
   display: block;
   min-height: 300px;

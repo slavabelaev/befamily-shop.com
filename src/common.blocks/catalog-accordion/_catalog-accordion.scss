@@ -72,4 +72,7 @@
     margin-left: -($grid-gutter-width / 2);
     margin-right: -($grid-gutter-width / 2);
   }
+  .catalog-accordion__item:last-child {
+    border-bottom: $border-color 1px solid;
+  }
 }

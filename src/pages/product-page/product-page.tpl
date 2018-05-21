@@ -1,8 +1,7 @@
 @@include('../../common.blocks/meta-header/meta-header.tpl')
 @@include('../../common.blocks/page-header/page-header.tpl')
-<!-- Page styles -->
-<link rel="stylesheet" href="/pages/product-page/product-page.css">
 
+<!-- Product page -->
 <main class="product-page">
     <div class="container">
         @@include('../../common.blocks/breadcrumb/breadcrumb.tpl', {
@@ -90,21 +89,10 @@
             </div>
         </div>
     </section>
-
-    @@include('../../common.blocks/complect-item-modal/complect-item-modal.tpl')
-    @@include('../../common.blocks/added-to-cart-modal/added-to-cart-modal.tpl')
-
-    <!-- Product Page -->
-    <script src="/common.blocks/complect-item/complect-item.js" defer></script>
-    <script src="/common.blocks/list-of-images/list-of-images.js" defer></script>
-    <script src="/common.blocks/image-item/image-item.js" defer></script>
-    <script src="/common.blocks/product-item/product-item.js" defer></script>
-    <script src="/common.blocks/product-includes-item/product-includes-item.js" defer></script>
-    <script src="/common.blocks/product-size-control/product-size-control.js" defer></script>
-    <script src="/common.blocks/product-size-popover/product-size-popover.js" defer></script>
-
-    <script src="/pages/product-page/product-page.js" defer></script>
 </main>
+<!-- /Product page -->
 
+@@include('../../common.blocks/complect-item-modal/complect-item-modal.tpl')
+@@include('../../common.blocks/added-to-cart-modal/added-to-cart-modal.tpl')
 @@include('../../common.blocks/page-footer/page-footer.tpl')
 @@include('../../common.blocks/meta-footer/meta-footer.tpl')

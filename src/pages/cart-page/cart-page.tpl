@@ -1,8 +1,7 @@
 @@include('../../common.blocks/meta-header/meta-header.tpl')
 @@include('../../common.blocks/page-header/page-header.tpl')
-<!-- Page styles -->
-<link rel="stylesheet" href="/pages/cart-page/cart-page.css">
 
+<!-- Cart page -->
 <main class="cart-page">
     <section class="container cart-page__products-collapse collase show">
         @@include('../../common.blocks/breadcrumb/breadcrumb.tpl', {
@@ -51,14 +50,7 @@
         @@include('../../common.blocks/order-placed-message/order-placed-message.tpl')
     </div>
 </main>
-
-<!-- FancyApp (photo gallery) — https://fancyapps.com/fancybox/3/ -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js" defer></script>
-
-<script src="/common.blocks/cart-form/cart-form.js" defer></script>
-<script src="/common.blocks/product-size-control/product-size-control.js" defer></script>
-
-<script src="/pages/cart-page/cart-page.js" defer></script>
+<!-- Cart page -->
 
 @@include('../../common.blocks/page-footer/page-footer.tpl')
 @@include('../../common.blocks/meta-footer/meta-footer.tpl')
