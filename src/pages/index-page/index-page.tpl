@@ -38,7 +38,9 @@
             </header>
             @@include('../../common.blocks/list-of-gallery-images/list-of-gallery-images.tpl')
             <div class="text-center">
-                <a href="#" class="btn btn-primary btn-lg">Подписаться</a>
+                <a target="_blank"
+                   href="https://www.instagram.com/befamily/"
+                   class="btn btn-primary btn-lg">Подписаться</a>
             </div>
         </div>
     </section>

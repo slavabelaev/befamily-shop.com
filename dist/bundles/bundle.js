@@ -180,6 +180,24 @@ jQuery(document).ready(function ($) {
     initializeCarousel();
     $(window).resize(initializeCarousel);
 });
+(function ($) {
+    $.getUrlParam = function (paramName) {
+        var result = new RegExp(paramName + "=([^&]*)", "i").exec(window.location.search);
+        return result && unescape(result[1]) || "";
+    };
+    $(document).ready(function () {
+        var paginationElement = $('.pagination');
+        var activePage = $.getUrlParam('page');
+        if (!activePage || activePage <= 1)
+            return false;
+        paginationElement
+            .find('.page-item.active')
+            .removeClass('active');
+        paginationElement
+            .find('.page-link[href*="page=' + activePage + '"]')
+            .parent().addClass('active');
+    });
+})(jQuery);
 jQuery(document).ready(function ($) {
     $('.product-includes-item [data-toggle=collapse]').on('click', function () {
         var toggler = $(this);
@@ -243,8 +261,26 @@ jQuery(document).ready(function ($) {
 jQuery(document).ready(function ($) {
 });
 jQuery(document).ready(function ($) {
-    var favoritePage = $('.favorites-page');
-    favoritePage.find('.list-of-favorite__item .add-to-favorite').on('click', function () {
-        $(this).closest('.list-of-favorite__item').fadeOut();
+    var favoritePage = $('.favorites-page'), listOfFavoritesElement = favoritePage.find('.list-of-favorites'), catalogSorterWrapperElement = favoritePage.find('.favorites-page__catalog-sorter'), emptyMessageWrapperElement = favoritePage.find('.favorites-page__empty-favorites-message');
+    updateFavoritePageOnEmptyFavorites();
+    favoritePage
+        .find('.list-of-favorite__item .add-to-favorite')
+        .on('click', function () {
+        $(this).closest('.list-of-favorite__item').fadeOut(null, function () {
+            $(this).remove();
+            updateFavoritePageOnEmptyFavorites();
+        });
     });
+    // Update state of page elements
+    function updateFavoritePageOnEmptyFavorites() {
+        var numberOfFavorites = listOfFavoritesElement.children().length;
+        if (numberOfFavorites > 0)
+            return false;
+        catalogSorterWrapperElement.addClass('d-none');
+        emptyMessageWrapperElement
+            .css({ opacity: 0 })
+            .removeClass('d-none')
+            .delay(200)
+            .animate({ opacity: 1 }, 700);
+    }
 });

@@ -7,13 +7,13 @@
                 <span class="sr-only">Предыдущая</span>
             </a>
         </li>
-        <li class="page-item active"><a class="page-link" href="#">1</a></li>
-        <li class="page-item"><a class="page-link" href="#">2</a></li>
-        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item active"><a class="page-link" href="?page=1">1</a></li>
+        <li class="page-item"><a class="page-link" href="?page=2">2</a></li>
+        <li class="page-item"><a class="page-link" href="?page=3">3</a></li>
         <li class="page-item"><a class="page-link" href="#">...</a></li>
-        <li class="page-item"><a class="page-link" href="#">10</a></li>
-        <li class="page-item"><a class="page-link" href="#">11</a></li>
-        <li class="page-item"><a class="page-link" href="#">12</a></li>
+        <li class="page-item"><a class="page-link" href="?page=10">10</a></li>
+        <li class="page-item"><a class="page-link" href="?page=11">11</a></li>
+        <li class="page-item"><a class="page-link" href="?page=12">12</a></li>
         <li class="page-item">
             <a class="page-link" href="#" aria-label="Next">
                 <span aria-hidden="true">&raquo;</span>

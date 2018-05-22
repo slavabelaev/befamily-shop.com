@@ -71,10 +71,12 @@
                         <td class="catalog-filter__multiple-col">
                             <select class="form-control catalog-filter__multiple-control"
                                     name="sizes[male][0]">
+                                <option value="XS">XS</option>
                                 <option value="S">S</option>
                                 <option value="M" selected>M</option>
                                 <option value="L">L</option>
                                 <option value="XL">XL</option>
+                                <option value="XXL">XXL</option>
                             </select>
                         </td>
                         <td class="catalog-filter__multiple-col">
@@ -104,10 +106,12 @@
                     <td class="catalog-filter__multiple-col">
                         <select class="form-control catalog-filter__multiple-control"
                                 name="sizes[female][0]">
+                            <option value="XS">XS</option>
                             <option value="S">S</option>
                             <option value="M" selected>M</option>
                             <option value="L">L</option>
                             <option value="XL">XL</option>
+                            <option value="XXL">XXL</option>
                         </select>
                     </td>
                     <td class="catalog-filter__multiple-col">
@@ -137,10 +141,12 @@
                     <td class="catalog-filter__multiple-col">
                         <select class="form-control catalog-filter__multiple-control"
                                 name="sizes[children][0]">
+                            <option value="XS">XS</option>
                             <option value="S">S</option>
                             <option value="M" selected>M</option>
                             <option value="L">L</option>
                             <option value="XL">XL</option>
+                            <option value="XXL">XXL</option>
                         </select>
                     </td>
                     <td class="catalog-filter__multiple-col">

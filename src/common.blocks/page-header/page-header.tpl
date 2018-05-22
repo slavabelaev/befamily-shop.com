@@ -2,24 +2,33 @@
 <header class="page-header">
 	<nav class="navbar navbar-expand-lg navbar-light container">
 		<a class="navbar-brand" href="/">
-			<img src="/common.blocks/page-header/page-header__be-Family.svg" alt="be Family" class="page-header__logo">
+			<img src="/common.blocks/page-header/page-header__be-Family.svg"
+				 alt="be Family"
+				 class="page-header__logo">
 		</a>
 		<div class="page-header__contacts d-none d-xl-block">
 			<a href="tel:+88005551094" class="page-header__phone">8 (800) 555 - 10 - 94</a>
 			<ul class="page-header__list-of-socials">
 				<li class="page-header__list-of-socials-item">
-					<a href="#" class="page-header__nav-link">
+					<a target="_blank"
+					   href="https://www.instagram.com/befamily/"
+					   class="page-header__nav-link">
 						<i class="icon icon__instagram icon_style_dark"></i>Instagram
 					</a>
 				</li>
 				<li class="page-header__list-of-socials-item">
-					<a href="#" class="page-header__nav-link">
+					<a target="_blank"
+					   href="https://vk.com/befamilyshop"
+					   class="page-header__nav-link">
 						<i class="icon icon__vk icon_style_dark"></i>Вконтакте
 					</a>
 				</li>
 			</ul>
 		</div>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".page-header__navbar">
+		<button class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target=".page-header__navbar">
 			<i class="icon icon__menu"></i>
 		</button>
 
@@ -30,10 +39,11 @@
 						Каталог товаров
 					</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="/catalog.html">Вся семья</a>
-						<a class="dropdown-item" href="/catalog.html">Мама и дочка</a>
-						<a class="dropdown-item" href="/catalog.html">Мама и сын</a>
-						<a class="dropdown-item" href="/catalog.html">Папа и сын</a>
+						<a class="dropdown-item" href="/catalog.html?filter[category]=whole_family">Вся семья</a>
+						<a class="dropdown-item" href="/catalog.html?filter[category]=mother_and_child">Мама и ребенок</a>
+						<a class="dropdown-item" href="/catalog.html?filter[category]=father_and_child">Папа и ребенок</a>
+						<a class="dropdown-item" href="/catalog.html?filter[category]=for_two">Для двоих</a>
+						<a class="dropdown-item" href="/catalog.html?filter[category]=sale">Распродажа</a>
 					</div>
 				</li>
 				<li class="nav-item">
@@ -75,7 +85,11 @@
 		</ul>
 	</nav>
 	<form action="/catalog.html" class="page-header__search-form container collapse">
-		<input class="page-header__search-control form-control form-control-lg" type="search" name="search" placeholder="Введите название товара" aria-label="Search">
+		<input class="page-header__search-control form-control form-control-lg"
+			   type="search"
+			   name="search"
+			   placeholder="Введите название товара"
+			   aria-label="Поиск">
 		<button class="page-header__search-btn btn btn-primary" type="submit">Искать</button>
 	</form>
 </header>

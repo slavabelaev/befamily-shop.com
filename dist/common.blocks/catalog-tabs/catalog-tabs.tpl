@@ -50,57 +50,73 @@
             <!-- List of special categories -->
             <ul class="list-of-special-categories row">
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__clothes.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__clothes.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Все товары</figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Футболки</figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__dress.svg" alt="" class="list-of-special-categories__category-img">
-                            <figcaption class="list-of-special-categories__category-caption">Наряды с<br>платьями</figcaption>
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__dress.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Наряды с<br>платьями
+                            </figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__shirt.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__shirt.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Рубашки</figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__pullover.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__pullover.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Свитера</figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt="" class="list-of-special-categories__category-img">
-                            <figcaption class="list-of-special-categories__category-caption">Свитшоты и<br>толстовки</figcaption>
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Свитшоты и<br>толстовки
+                            </figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Аксессуары</figcaption>
                         </figure>
                     </a>
@@ -115,57 +131,72 @@
             <!-- List of special categories -->
             <ul class="list-of-special-categories row">
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__clothes.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__clothes.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Все товары</figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Футболки</figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__dress.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__dress.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Платья</figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt="" class="list-of-special-categories__category-img">
-                            <figcaption class="list-of-special-categories__category-caption">Свитшоты и худи</figcaption>
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Свитшоты и худи
+                            </figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__shirt.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__shirt.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Рубашки</figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__pullover.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__pullover.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Свитера</figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Аксессуары</figcaption>
                         </figure>
                     </a>
@@ -180,49 +211,62 @@
             <!-- List of special categories -->
             <ul class="list-of-special-categories row">
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__clothes.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__clothes.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Все товары</figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Футболки</figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__shirt.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__shirt.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Рубашки</figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt="" class="list-of-special-categories__category-img">
-                            <figcaption class="list-of-special-categories__category-caption">Свитшоты и<br>толстовки</figcaption>
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Свитшоты и<br>толстовки
+                            </figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__pullover.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__pullover.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Свитера</figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Аксессуары</figcaption>
                         </figure>
                     </a>
@@ -237,57 +281,72 @@
             <!-- List of special categories -->
             <ul class="list-of-special-categories row">
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__clothes.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__clothes.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Все товары</figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Футболки</figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__dress.svg" alt="" class="list-of-special-categories__category-img">
-                            <figcaption class="list-of-special-categories__category-caption">Наряды с<br>платьями</figcaption>
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__dress.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Наряды с<br>платьями
+                            </figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Свитшоты</figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__shirt.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__shirt.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Рубашки</figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__pullover.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__pullover.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Свитера</figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Аксессуары</figcaption>
                         </figure>
                     </a>
@@ -303,57 +362,73 @@
             <!-- List of special categories -->
             <ul class="list-of-special-categories row">
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__pullover.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__pullover.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Свитера</figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt="" class="list-of-special-categories__category-img">
-                            <figcaption class="list-of-special-categories__category-caption">Свитшоты и<br>толстовки</figcaption>
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Свитшоты и<br>толстовки
+                            </figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Футболки</figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__dress.svg" alt="" class="list-of-special-categories__category-img">
-                            <figcaption class="list-of-special-categories__category-caption">Наряды с<br>платьями</figcaption>
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__dress.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Наряды с<br>платьями
+                            </figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Аксессуары</figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__clothes.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__clothes.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Все товары</figcaption>
                         </figure>
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="#" class="list-of-special-categories__link">
+                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                       class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="/common.blocks/catalog-tabs/catalog-tabs__shirt.svg" alt="" class="list-of-special-categories__category-img">
+                            <img src="/common.blocks/catalog-tabs/catalog-tabs__shirt.svg" alt=""
+                                 class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Рубашки</figcaption>
                         </figure>
                     </a>

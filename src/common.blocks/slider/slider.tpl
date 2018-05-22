@@ -6,7 +6,7 @@
                 <h2 class="h1 text-info">ОДЕЖДА FAMILY LOOK</h2>
                 <p class="lead">Широкий выбор комплектов одежды для <br>всей семьи</p>
             </header>
-            <a href="#" class="btn btn-primary btn-lg">Подобрать свой комплект</a>
+            <a href="/catalog.html?filter[category]=whole_family" class="btn btn-primary btn-lg">Подобрать свой комплект</a>
         </section>
     </li>
     <li class="slider__item" style="background-image: url(/content/images/slider/slide-1.jpg);">
@@ -15,7 +15,7 @@
                 <h2 class="h1 text-info">ОДЕЖДА FAMILY LOOK</h2>
                 <p class="lead">Широкий выбор комплектов одежды для <br>всей семьи</p>
             </header>
-            <a href="#" class="btn btn-primary btn-lg">Подобрать свой комплект</a>
+            <a href="/catalog.html?filter[category]=whole_family" class="btn btn-primary btn-lg">Подобрать свой комплект</a>
         </section>
     </li>
     <li class="slider__item" style="background-image: url(/content/images/slider/slide-1.jpg);">
@@ -24,7 +24,7 @@
                 <h2 class="h1 text-info">ОДЕЖДА FAMILY LOOK</h2>
                 <p class="lead">Широкий выбор комплектов одежды для <br>всей семьи</p>
             </header>
-            <a href="#" class="btn btn-primary btn-lg">Подобрать свой комплект</a>
+            <a href="/catalog.html?filter[category]=whole_family" class="btn btn-primary btn-lg">Подобрать свой комплект</a>
         </section>
     </li>
 </ul>

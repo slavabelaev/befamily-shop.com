@@ -16,14 +16,15 @@
             </aside>
             <section class="col-md-8 col-xl-9 mb-5">
                 <h1>Избранное</h1>
-                <!-- If (hasFavorites) -->
-                <div class="favorites-page__filter mb-3">
+                <div class="favorites-page__catalog-sorter mb-3">
                     @@include('../../common.blocks/catalog-sorter/catalog-sorter.tpl')
                 </div>
-                @@include('../../common.blocks/list-of-favorites/list-of-favorites.tpl')
-                <!-- else -->
-                @@include('../../common.blocks/empty-favorites-message/empty-favorites-message.tpl')
-                <!-- end -->
+                <div class="favorites-page__list-of-favorites">
+                    @@include('../../common.blocks/list-of-favorites/list-of-favorites.tpl')
+                </div>
+                <div class="favorites-page__empty-favorites-message d-none">
+                    @@include('../../common.blocks/empty-favorites-message/empty-favorites-message.tpl')
+                </div>
             </section>
         </div>
     </div>

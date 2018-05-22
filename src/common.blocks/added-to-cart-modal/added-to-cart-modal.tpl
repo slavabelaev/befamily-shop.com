@@ -44,7 +44,7 @@
                             </ul>
                             <!-- /List of products included -->
                         </div>
-                        <a href="#" class="btn btn-outline-primary">Перейти в корзину</a>
+                        <a href="/cart.html" class="btn btn-outline-primary">Перейти в корзину</a>
                     </div>
                 </div>
             </div>
