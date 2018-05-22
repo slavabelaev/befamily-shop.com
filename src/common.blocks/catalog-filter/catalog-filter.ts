@@ -39,16 +39,14 @@ jQuery(document).ready(function($) {
                tbody = $this.closest('tbody'),
                row = tbody.find('tr:last-child'),
                rowClone = row.clone(),
-               controlElement = rowClone.find('.form-control'),
-               countControlOptions = controlElement.find('*').length,
-               countControls = tbody.find('.form-control').length + 1,
+               clonedControlElement = rowClone.find('.form-control'),
+               countClonedControlOptions = clonedControlElement.find('*').length,
+               countControlsInGroup = tbody.find('.form-control').length + 1,
                controlGroupElement = $this.closest('.form-group');
 
-           if (countControls > countControlOptions) return false;
+           if (countControlsInGroup > countClonedControlOptions) return false;
 
-           controlElement
-               .find('option[selected]').removeAttr('selected')
-               .next().attr('selected', 'selected');
+           selectUniqueMultipleOption(controlGroupElement, clonedControlElement);
 
            rowClone
                .addClass('js-appended');
@@ -73,6 +71,32 @@ jQuery(document).ready(function($) {
             updateMultipleControlNames(controlGroupElement);
         });
 
+    // Select Unique option in "select" element
+    function selectUniqueMultipleOption(controlGroupElement, clonedControlElement) {
+        let selectedOptions = [],
+            uniqueIndex = 0,
+            countControlOptions = clonedControlElement.find('option').length + 1;
+
+        controlGroupElement
+            .find('option:selected').each(function(index, selectedOption) {
+                let elementIndex = $(selectedOption).index();
+                selectedOptions.push(elementIndex);
+            });
+
+        for(let i = 0; i < countControlOptions; i++) {
+            if ($.inArray(i, selectedOptions) === -1) {
+                uniqueIndex = i;
+                break;
+            }
+        }
+
+        clonedControlElement
+           .find('option[selected]').removeAttr('selected');
+        clonedControlElement
+           .find('option:eq(' + uniqueIndex + ')').attr('selected', 'selected');
+    }
+
+    // Set unique control names for cloned elements
     function updateMultipleControlNames(controlGroupElement) {
         controlGroupElement
             .find('.form-control')
