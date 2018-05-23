@@ -1,0 +1,16 @@
+@import "../../library.blocks/bootstrap/bootstrap-common";
+
+.for-wholesalers-page {
+  table, ul, p {
+    font-size: 1.125rem;
+  }
+  .figure-caption {
+    color: $black;
+    font-weight: bold;
+    font-size: 1.125rem;
+  }
+}
+.for-wholesalers-page__page-header {
+  background-color: #E39DB2;
+  background-image: url(/pages/for-wholesalers-page/for-wholesalers-page__header-bg.svg)
+}

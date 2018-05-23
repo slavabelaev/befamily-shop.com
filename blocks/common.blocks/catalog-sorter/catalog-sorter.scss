@@ -1,0 +1,18 @@
+@import "../../library.blocks/bootstrap/bootstrap-common";
+
+.catalog-sorter {
+  border-bottom: $border-color 1px solid;
+  color: $dark;
+  .custom-select {
+    font-weight: bold;
+    transition: $transition-base;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .catalog-sorter {
+    .custom-select:not(:focus):not(:hover) {
+      border-color: transparent;
+    }
+  }
+}

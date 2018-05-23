@@ -1,0 +1,27 @@
+@import "../../library.blocks/bootstrap/bootstrap-common";
+
+.product-size-control {
+  .btn.active {
+    margin-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .btn.active + .product-size-control__quantity-select {
+    display: initial;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left-width: 0;
+  }
+  .btn-group-toggle > .btn {
+    margin-bottom: .75rem;
+  }
+}
+.product-size-control__quantity-select {
+  display: none;
+  border-color: $primary;
+  max-width: 55px;
+}
+.product-size-control__label {
+  font-size: 1.125rem;
+  font-weight: initial;
+}

@@ -1,0 +1,12 @@
+@import "../../library.blocks/bootstrap/bootstrap-common";
+
+.about-page {
+  p {
+    font-size: 1.125rem;
+  }
+  .figure-caption {
+    color: $black;
+    font-weight: bold;
+    font-size: 1.125rem;
+  }
+}

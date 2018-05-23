@@ -3,7 +3,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h2 class="modal-title">Комплект добавлен в корзину</h2>
+                <h2 class="modal-title h3">Комплект добавлен в корзину</h2>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true" class="icon icon__close"></span>
                 </button>
@@ -12,7 +12,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <a data-fancybox="gallery"
-                           href="/content/images/complects/scandinavia/scandinavia-1.jpg"
+                           href="content/images/complects/scandinavia/scandinavia-1.jpg"
                            class="list-of-images__link">
                             <img src="/content/images/complects/scandinavia/scandinavia-1.jpg" alt="" class="img-fluid">
                         </a>
@@ -260,7 +260,7 @@
                             </ul>
                             <!-- /List of products included -->
                         </div>
-                        <a href="/cart.html" class="btn btn-outline-primary">Перейти в корзину</a>
+                        <a href="cart.html" class="btn btn-outline-primary">Перейти в корзину</a>
                     </div>
                 </div>
             </div>

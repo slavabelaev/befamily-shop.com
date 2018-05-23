@@ -1,0 +1,55 @@
+@import "../../library.blocks/bootstrap/bootstrap-common";
+
+.list-of-famous-buyers {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+.list-of-famous-buyers__img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 2rem;
+  border: 1px solid $primary;
+
+}
+.list-of-famous-buyers__card {
+  text-align: center;
+  padding: 1rem;
+}
+.list-of-famous-buyers__title {
+  margin-bottom: 0;
+  font-size: 1.125rem;
+}
+.list-of-famous-buyers__subtitle {
+  font-size: .875rem;
+  color: $text-muted;
+  margin-bottom: 3rem;
+}
+.list-of-famous-buyers__message {
+  position: relative;
+  font-size: .875rem;
+  color: $text-muted;
+  margin-bottom: 3rem;
+  padding-left: 1.5rem;
+  text-align: left;
+  &:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15px;
+    height: 12px;
+    background-image: url(/common.blocks/list-of-famous-buyers/list-of-famous-buyers__quote.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .list-of-famous-buyers__card {
+    padding: 1.5rem 3rem;
+  }
+}

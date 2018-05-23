@@ -12,12 +12,7 @@
     <meta name="google-site-verification" content="N2dYHT1lngqua6AoIMHCLsgs5x2GBTyUmeR2ZPULQRc" />
     <meta name="google-site-verification" content="XyaPmAvu0V6uHCqCniXtIXlW5a4EcLlp1zgKKAXWkMY" />
     <!-- Bundle CSS -->
-    <!-- noUiSlider — https://refreshless.com/nouislider/ -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/11.1.0/nouislider.min.css">
-    <!-- FancyApp (photo gallery) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
-    <link rel="stylesheet" href="/library.blocks/bootstrap/bootstrap.css">
-    <link rel="stylesheet" href="/bundles/bundle.css">
+    <link rel="stylesheet" href="/bundles/bundle.min.css">
 </head>
 <body>
 <!-- /Meta header -->
@@ -96,13 +91,13 @@
 			<li class="nav-item">
 				<a class="nav-link" href="/favorites.html">
                     <i class="icon icon__heart icon_style_dark"></i>
-					<span class="page-header__number-of-favorites badge badge-primary">66</span>
+					<span class="page-header__number-of-favorites badge badge-primary" data-favorites-count="0">0</span>
                 </a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="/cart.html">
 					<i class="icon icon__shopping-bag icon_style_dark"></i>
-					<span class="page-header__number-of-products badge badge-primary">66</span>
+					<span class="page-header__number-of-products badge badge-primary" data-cart-products-count="0">0</span>
 				</a>
 			</li>
 		</ul>
@@ -118,6 +113,7 @@
 </header>
 <!-- /Page header -->
 
+<link rel="stylesheet" href="pages/catalog-page/catalog-page.css">
 <!-- Catalog page -->
 <main class="catalog-page">
     <div class="container">
@@ -138,7 +134,7 @@
 <ul class="catalog-accordion">
     <li class="catalog-accordion__item catalog-accordion__title"><i class="icon icon__menu"></i>Каталог товаров</li>
     <li class="catalog-accordion__item">
-        <a href="catalog.html?filter[category]=" 
+        <a href="/catalog.html?filter[category]="
            class="catalog-accordion__link">Вся семья</a>
         <a href="#"
            class="catalog-accordion__toogler"
@@ -147,50 +143,50 @@
             <nav class="catalog-accordion__content-body">
                 <ul class="catalog-accordion__nav-list">
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]="
+                        <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Свитшоты</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]="
+                        <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Платья</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]="
+                        <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Рубашки</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]="
+                        <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Футболки</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]="
+                        <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Свитера</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]="
+                        <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Лонгсливы</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]="
+                        <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Худи</a>
                     </li>
                 </ul>
                 <hr class="catalog-accordion__delimiter">
                 <ul class="catalog-accordion__nav-list">
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Для фотосессии</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">В подарок</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">На праздник</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Теплые вещи</a>
                     </li>
                 </ul>
@@ -199,7 +195,7 @@
     </li>
 
     <li class="catalog-accordion__item">
-        <a href="catalog.html?filter[category]=&filter[type]="
+        <a href="/catalog.html?filter[category]="
            class="catalog-accordion__link">Мама и дочка</a>
         <a href="#"
            class="catalog-accordion__toogler"
@@ -208,50 +204,50 @@
             <nav class="catalog-accordion__content-body">
                 <ul class="catalog-accordion__nav-list">
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Свитшоты</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Платья</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Рубашки</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Футболки</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Свитера</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Лонгсливы</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Худи</a>
                     </li>
                 </ul>
                 <hr class="catalog-accordion__delimiter">
                 <ul class="catalog-accordion__nav-list">
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Для фотосессии</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">В подарок</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">На праздник</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Теплые вещи</a>
                     </li>
                 </ul>
@@ -260,7 +256,7 @@
     </li>
 
     <li class="catalog-accordion__item">
-        <a href="catalog.html?filter[category]=&filter[type]="
+        <a href="catalog.html?filter[category]="
            class="catalog-accordion__link">Мама и сын</a>
         <a href="#"
            class="catalog-accordion__toogler"
@@ -269,50 +265,50 @@
             <nav class="catalog-accordion__content-body">
                 <ul class="catalog-accordion__nav-list">
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Свитшоты</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Платья</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Рубашки</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Футболки</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Свитера</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Лонгсливы</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Худи</a>
                     </li>
                 </ul>
                 <hr class="catalog-accordion__delimiter">
                 <ul class="catalog-accordion__nav-list">
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Для фотосессии</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">В подарок</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">На праздник</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Теплые вещи</a>
                     </li>
                 </ul>
@@ -321,7 +317,7 @@
     </li>
 
     <li class="catalog-accordion__item">
-        <a href="catalog.html?filter[category]=&filter[type]="
+        <a href="catalog.html?filter[category]="
            class="catalog-accordion__link">Папа и сын</a>
         <a href="#"
            class="catalog-accordion__toogler"
@@ -330,23 +326,23 @@
             <nav class="catalog-accordion__content-body">
                 <ul class="catalog-accordion__nav-list">
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Свитшоты</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Платья</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Рубашки</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Футболки</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
-                        <a href="catalog.html?filter[category]=&filter[type]=" 
+                        <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                            class="catalog-accordion__nav-link">Свитера</a>
                     </li>
                     <li class="catalog-accordion__nav-list-item">
@@ -382,7 +378,7 @@
     </li>
 
     <li class="catalog-accordion__item">
-        <a href="catalog.html?filter[category]=&filter[type]="
+        <a href="catalog.html?filter[category]="
            class="catalog-accordion__link">Папа и дочка</a>
         <a href="#"
            class="catalog-accordion__toogler"
@@ -662,14 +658,12 @@
         <!-- Complect item -->
 <div class="complect-item card">
     <div class="card-body">
-        <!-- Add to favorite -->
-<button type="button"
-        class="add-to-favorite btn"
-        data-toggle="button"
-        aria-pressed="false">
-    <i class="icon"></i>
-</button>
-<!-- /Add to favorite -->
+        <button type="button"
+                class="complect-item__add-to-favorite"
+                data-toggle="favorite"
+                data-product-id="0109">
+            <i class="icon icon__heart"></i>
+        </button>
         <a href="/product.html?complectId=0109" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-1.jpg);"></a>
         <h3 class="complect-item__title">
             <a href="/product.html?complectId=0109" class="complect-item__title-link">Комплект платьев Морской Бриз</a>
@@ -695,14 +689,12 @@
         <!-- Complect item -->
 <div class="complect-item card">
     <div class="card-body">
-        <!-- Add to favorite -->
-<button type="button"
-        class="add-to-favorite btn"
-        data-toggle="button"
-        aria-pressed="false">
-    <i class="icon"></i>
-</button>
-<!-- /Add to favorite -->
+        <button type="button"
+                class="complect-item__add-to-favorite"
+                data-toggle="favorite"
+                data-product-id="0110">
+            <i class="icon icon__heart"></i>
+        </button>
         <a href="/product.html?complectId=0110" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-2.jpg);"></a>
         <h3 class="complect-item__title">
             <a href="/product.html?complectId=0110" class="complect-item__title-link">Комплект платьев Мечта</a>
@@ -728,14 +720,12 @@
         <!-- Complect item -->
 <div class="complect-item card">
     <div class="card-body">
-        <!-- Add to favorite -->
-<button type="button"
-        class="add-to-favorite btn"
-        data-toggle="button"
-        aria-pressed="false">
-    <i class="icon"></i>
-</button>
-<!-- /Add to favorite -->
+        <button type="button"
+                class="complect-item__add-to-favorite"
+                data-toggle="favorite"
+                data-product-id="0111">
+            <i class="icon icon__heart"></i>
+        </button>
         <a href="/product.html?complectId=0111" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-3.jpg);"></a>
         <h3 class="complect-item__title">
             <a href="/product.html?complectId=0111" class="complect-item__title-link">Комплект платьев Одри</a>
@@ -761,14 +751,12 @@
         <!-- Complect item -->
 <div class="complect-item card">
     <div class="card-body">
-        <!-- Add to favorite -->
-<button type="button"
-        class="add-to-favorite btn"
-        data-toggle="button"
-        aria-pressed="false">
-    <i class="icon"></i>
-</button>
-<!-- /Add to favorite -->
+        <button type="button"
+                class="complect-item__add-to-favorite"
+                data-toggle="favorite"
+                data-product-id="0112">
+            <i class="icon icon__heart"></i>
+        </button>
         <a href="/product.html?complectId=0112" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-4.jpg);"></a>
         <h3 class="complect-item__title">
             <a href="/product.html?complectId=0112" class="complect-item__title-link">Комплект платьев Мечта</a>
@@ -825,14 +813,14 @@
                     <section>
     <h2>Производитель одежды Family Look предлагает</h2>
     <p>Одинаковая одежда для семьи (Family Look) оптом на нашем сайте продается в коллекциях разных комплектаций. В каждой подборке от 3 до 10 моделей, которые гармонично выглядят рядом. Ассортимент составляют:</p>
-    <ul>
+    <ul class="list-colored">
         <li>вязаные свитера и джемперы;</li>
         <li><a href="#" class="text-info">туники</a> и <a href="#" class="text-info">платья;</a></li>
         <li>аксессуары под парно-семейные образы — шапки, повязки на голову, шарфы.</li>
     </ul>
     <p>Из предлагаемых вещей можно составлять комплекты Family Look для мамы и дочки, папы и сына, родителей и детей всех возрастов, влюбленной пары.</p>
     <p>В ассортименте представлен трикотаж:</p>
-    <ul>
+    <ul class="list-colored">
         <li>идентичных и похожих фасонов;</li>
         <li>разных типов и моделей, но одного цвета или с одинаковым принтом;</li>
         <li>разных цветов, но с одинаковыми или перекликающимися рисунками.</li>
@@ -841,7 +829,7 @@
         <h3>Кому подойдет Family Look</h3>
         <p>Из предлагаемых вещей можно составлять комплекты Family Look для мамы и дочки, папы и сына, родителей и детей всех возрастов, влюбленной пары.</p>
         <p>В ассортименте представлен трикотаж:</p>
-        <ul>
+        <ul class="list-colored">
             <li>идентичных и похожих фасонов;</li>
             <li>разных типов и моделей, но одного цвета или с одинаковым принтом;</li>
             <li>разных цветов, но с одинаковыми или перекликающимися рисунками.</li>
@@ -1144,13 +1132,13 @@
                     <nav class="page-footer__nav page-footer__nav_type_menu collapse">
                         <ul class="page-footer__list-of-links page-footer__menu-list-of-links">
                             <li class="nav-item">
-                                <a href="/catalog.html" class="page-footer__nav-link">Каталог</a>
+                                <a href="catalog.html" class="page-footer__nav-link">Каталог</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/about.html" class="page-footer__nav-link">О нас</a>
+                                <a href="about.html" class="page-footer__nav-link">О нас</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/for-wholesalers.html" class="page-footer__nav-link">Оптовикам</a>
+                                <a href="for-wholesalers.html" class="page-footer__nav-link">Оптовикам</a>
                             </li>
                             <li class="nav-item">
                                 <a href="/delivery.html" class="page-footer__nav-link">Доставка</a>
@@ -1185,27 +1173,27 @@
                     <nav class="page-footer__nav page-footer__nav_type_for-family collapse">
                         <ul class="page-footer__list-of-links">
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Футболки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Наряды с платьями</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитшоты и толстовки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Рубашки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитера</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Аксессуары</a>
                             </li>
                         </ul>
@@ -1220,27 +1208,27 @@
                     <nav class="page-footer__nav page-footer__nav_type_moms-and-daughter collapse">
                         <ul class="page-footer__list-of-links">
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Футболки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Платья</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитшоты и худи</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Рубашки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитера</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Аксессуары</a>
                             </li>
                         </ul>
@@ -1255,27 +1243,27 @@
                     <nav class="page-footer__nav page-footer__nav_type_moms-and-sons collapse">
                         <ul class="page-footer__list-of-links">
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Футболки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Рубашки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Комплекты</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитера</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитшоты и толстовки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Аксессуары</a>
                             </li>
                         </ul>
@@ -1290,27 +1278,27 @@
                     <nav class="page-footer__nav page-footer__nav_type_dads-and-sons collapse">
                         <ul class="page-footer__list-of-links">
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Футболки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Наряды с платьями</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Толстовки и свитшоты</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Рубашки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитера</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Аксессуары</a>
                             </li>
                         </ul>
@@ -1325,27 +1313,27 @@
                     <nav class="page-footer__nav page-footer__nav_type_menu collapse">
                         <ul class="page-footer__list-of-links">
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Футболки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Наряды с платьями</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитшоты</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Рубашки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитера</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Аксессуары</a>
                             </li>
                         </ul>
@@ -1425,7 +1413,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wnumb/1.1.0/wNumb.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/11.1.0/nouislider.min.js"></script>
 <!-- Global JS -->
-<script src="/bundles/bundle.js"></script>
+<script src="/bundles/bundle.min.js"></script>
 </body>
 </html>
 <!-- /Meta footer -->

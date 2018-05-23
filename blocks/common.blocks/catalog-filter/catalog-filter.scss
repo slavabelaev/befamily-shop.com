@@ -1,0 +1,49 @@
+@import "../../library.blocks/bootstrap/bootstrap-common";
+
+.catalog-filter {
+  border-top: $border-color 1px solid;
+  border-bottom: $border-color 1px solid;
+  padding-top: 1rem;
+  .form-control {
+    border-color: #CBE1EA;
+  }
+
+  .js-appended {
+    .icon {
+      transform: rotate(45deg);
+    }
+  }
+
+  .catalog-filter__submit {
+    margin-bottom: 1rem;
+  }
+}
+.catalog-filter__group-label {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+.catalog-filter__multiple-control {
+  &.form-control {
+    padding-left: $input-padding-y;
+    padding-right: $input-padding-y;
+  }
+}
+.catalog-filter__list-of-controls {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.catalog-filter__multiple-label {
+  margin-right: .75rem;
+  margin-bottom: 0;
+}
+.catalog-filter__multiple-toggle {
+  margin-left: .75rem;
+}
+
+@include media-breakpoint-between(xs, sm) {
+  .catalog-filter__multiple-col-label,
+  .catalog-filter__multiple-row {
+    display: block;
+  }
+}

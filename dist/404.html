@@ -12,16 +12,12 @@
     <meta name="google-site-verification" content="N2dYHT1lngqua6AoIMHCLsgs5x2GBTyUmeR2ZPULQRc" />
     <meta name="google-site-verification" content="XyaPmAvu0V6uHCqCniXtIXlW5a4EcLlp1zgKKAXWkMY" />
     <!-- Bundle CSS -->
-    <!-- noUiSlider — https://refreshless.com/nouislider/ -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/11.1.0/nouislider.min.css">
-    <!-- FancyApp (photo gallery) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
-    <link rel="stylesheet" href="/library.blocks/bootstrap/bootstrap.css">
-    <link rel="stylesheet" href="/bundles/bundle.css">
+    <link rel="stylesheet" href="/bundles/bundle.min.css">
 </head>
 <body>
 <!-- /Meta header -->
 
+<link rel="stylesheet" href="pages/error-404-page/error-404-page.css">
 <!-- 404 page -->
 <main class="error-404-page">
     <div class="container text-center">
@@ -30,7 +26,7 @@
             <h1>Страница не найдена</h1>
             <p class="lead">Ввели неверный адрес или страница была удалена. Перейдите <br class="d-none d-md-block">на главную страницу и начните свой поиск с начала</p>
         </header>
-        <a href="/" class="btn btn-primary btn-lg mt-3">Главная страница</a>
+        <a href="" class="btn btn-primary btn-lg mt-3">Главная страница</a>
     </div>
 </main>
 <!-- /404 page -->
@@ -52,7 +48,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wnumb/1.1.0/wNumb.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/11.1.0/nouislider.min.js"></script>
 <!-- Global JS -->
-<script src="/bundles/bundle.js"></script>
+<script src="/bundles/bundle.min.js"></script>
 </body>
 </html>
 <!-- /Meta footer -->

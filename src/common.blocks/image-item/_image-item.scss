@@ -1,9 +1,0 @@
-@import "../../library.blocks/bootstrap/bootstrap-reboot";
-
-.image-item__image {
-  width: 100%;
-  transition: $transition-fade;
-  &:hover {
-    opacity: .9;
-  }
-}

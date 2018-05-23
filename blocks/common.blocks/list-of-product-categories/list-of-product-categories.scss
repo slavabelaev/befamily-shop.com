@@ -1,0 +1,13 @@
+@import "../../library.blocks/bootstrap/bootstrap-common";
+
+.list-of-product-categories {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-of-product-categories__item {
+  margin-right: .5rem;
+  margin-bottom: .5rem;
+}

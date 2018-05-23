@@ -33,11 +33,8 @@
     "gulp-newer": "^1.4.0",
     "gulp-plumber": "^1.2.0",
     "gulp-sass": "^4.0.1",
-    "gulp-sass-glob": "^1.0.9",
     "gulp-sourcemaps": "^2.6.4",
-    "gulp-typescript": "^4.0.2",
     "gulp-uglify": "^3.0.0",
-    "gulp-watch": "^5.0.0",
-    "typescript": "^2.8.3"
+    "gulp-watch": "^5.0.0"
   }
 }

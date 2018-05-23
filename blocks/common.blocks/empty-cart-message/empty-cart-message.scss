@@ -1,0 +1,9 @@
+@import "../../library.blocks/bootstrap/bootstrap-common";
+
+.empty-cart-message {
+  max-width: 775px;
+  margin: auto;
+  background-color: $light;
+  padding: 3rem;
+  text-align: center;
+}

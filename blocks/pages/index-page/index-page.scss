@@ -1,0 +1,19 @@
+// Library.Blocks
+@import "../../library.blocks/bootstrap/bootstrap-common";
+
+.index-page__shaped-bg-1,
+.index-page__shaped-bg {
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.index-page__shaped-bg {
+  background-image: url(/pages/index-page/index-page__shaped-bg.svg);
+}
+.index-page__shaped-bg-1 {
+  background-image: url(/pages/index-page/index-page__shaped-bg-1.svg);
+}
+.index-page__section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}

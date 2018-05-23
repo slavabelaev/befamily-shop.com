@@ -12,12 +12,7 @@
     <meta name="google-site-verification" content="N2dYHT1lngqua6AoIMHCLsgs5x2GBTyUmeR2ZPULQRc" />
     <meta name="google-site-verification" content="XyaPmAvu0V6uHCqCniXtIXlW5a4EcLlp1zgKKAXWkMY" />
     <!-- Bundle CSS -->
-    <!-- noUiSlider — https://refreshless.com/nouislider/ -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/11.1.0/nouislider.min.css">
-    <!-- FancyApp (photo gallery) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
-    <link rel="stylesheet" href="/library.blocks/bootstrap/bootstrap.css">
-    <link rel="stylesheet" href="/bundles/bundle.css">
+    <link rel="stylesheet" href="/bundles/bundle.min.css">
 </head>
 <body>
 <!-- /Meta header -->
@@ -96,13 +91,13 @@
 			<li class="nav-item">
 				<a class="nav-link" href="/favorites.html">
                     <i class="icon icon__heart icon_style_dark"></i>
-					<span class="page-header__number-of-favorites badge badge-primary">66</span>
+					<span class="page-header__number-of-favorites badge badge-primary" data-favorites-count="0">0</span>
                 </a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link" href="/cart.html">
 					<i class="icon icon__shopping-bag icon_style_dark"></i>
-					<span class="page-header__number-of-products badge badge-primary">66</span>
+					<span class="page-header__number-of-products badge badge-primary" data-cart-products-count="0">0</span>
 				</a>
 			</li>
 		</ul>
@@ -118,6 +113,7 @@
 </header>
 <!-- /Page header -->
 
+<link rel="stylesheet" href="pages/index-page/index-page.css">
 <!-- Index page -->
 <main class="index-page">
     <section class="index-page__slider">
@@ -129,7 +125,7 @@
                 <h2 class="h1 text-info">ОДЕЖДА FAMILY LOOK</h2>
                 <p class="lead">Широкий выбор комплектов одежды для <br>всей семьи</p>
             </header>
-            <a href="/catalog.html?filter[category]=whole_family" class="btn btn-primary btn-lg">Подобрать свой комплект</a>
+            <a href="catalog.html?filter[category]=whole_family" class="btn btn-primary btn-lg">Подобрать свой комплект</a>
         </section>
     </li>
     <li class="slider__item" style="background-image: url(/content/images/slider/slide-1.jpg);">
@@ -138,7 +134,7 @@
                 <h2 class="h1 text-info">ОДЕЖДА FAMILY LOOK</h2>
                 <p class="lead">Широкий выбор комплектов одежды для <br>всей семьи</p>
             </header>
-            <a href="/catalog.html?filter[category]=whole_family" class="btn btn-primary btn-lg">Подобрать свой комплект</a>
+            <a href="catalog.html?filter[category]=whole_family" class="btn btn-primary btn-lg">Подобрать свой комплект</a>
         </section>
     </li>
     <li class="slider__item" style="background-image: url(/content/images/slider/slide-1.jpg);">
@@ -147,7 +143,7 @@
                 <h2 class="h1 text-info">ОДЕЖДА FAMILY LOOK</h2>
                 <p class="lead">Широкий выбор комплектов одежды для <br>всей семьи</p>
             </header>
-            <a href="/catalog.html?filter[category]=whole_family" class="btn btn-primary btn-lg">Подобрать свой комплект</a>
+            <a href="catalog.html?filter[category]=whole_family" class="btn btn-primary btn-lg">Подобрать свой комплект</a>
         </section>
     </li>
 </ul>
@@ -208,7 +204,7 @@
             <!-- List of special categories -->
             <ul class="list-of-special-categories row">
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__clothes.svg" alt=""
@@ -218,7 +214,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt=""
@@ -228,7 +224,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__dress.svg" alt=""
@@ -239,7 +235,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__shirt.svg" alt=""
@@ -249,7 +245,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__pullover.svg" alt=""
@@ -259,7 +255,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt=""
@@ -270,7 +266,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt=""
@@ -289,7 +285,7 @@
             <!-- List of special categories -->
             <ul class="list-of-special-categories row">
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__clothes.svg" alt=""
@@ -299,7 +295,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt=""
@@ -309,7 +305,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__dress.svg" alt=""
@@ -319,7 +315,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt=""
@@ -330,7 +326,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__shirt.svg" alt=""
@@ -340,7 +336,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__pullover.svg" alt=""
@@ -350,7 +346,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt=""
@@ -369,7 +365,7 @@
             <!-- List of special categories -->
             <ul class="list-of-special-categories row">
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__clothes.svg" alt=""
@@ -379,7 +375,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt=""
@@ -389,7 +385,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__shirt.svg" alt=""
@@ -399,7 +395,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt=""
@@ -410,7 +406,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__pullover.svg" alt=""
@@ -420,7 +416,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt=""
@@ -439,7 +435,7 @@
             <!-- List of special categories -->
             <ul class="list-of-special-categories row">
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__clothes.svg" alt=""
@@ -449,7 +445,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt=""
@@ -459,7 +455,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__dress.svg" alt=""
@@ -470,7 +466,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt=""
@@ -480,7 +476,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__shirt.svg" alt=""
@@ -490,7 +486,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__pullover.svg" alt=""
@@ -500,7 +496,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt=""
@@ -520,7 +516,7 @@
             <!-- List of special categories -->
             <ul class="list-of-special-categories row">
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__pullover.svg" alt=""
@@ -530,7 +526,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt=""
@@ -541,7 +537,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt=""
@@ -551,7 +547,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__dress.svg" alt=""
@@ -562,7 +558,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt=""
@@ -572,7 +568,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__clothes.svg" alt=""
@@ -582,7 +578,7 @@
                     </a>
                 </li>
                 <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-                    <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
                             <img src="/common.blocks/catalog-tabs/catalog-tabs__shirt.svg" alt=""
@@ -644,7 +640,7 @@
             <!-- List of special categories -->
 <ul class="list-of-special-categories row">
     <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-        <a href="/catalog.html?filter[category]=photosession"
+        <a href="catalog.html?filter[category]=photosession"
            class="list-of-special-categories__link">
             <figure class="list-of-special-categories__category">
                 <img src="../../common.blocks/list-of-special-categories/list-of-special-categories__cinema.svg" alt=""
@@ -654,7 +650,7 @@
         </a>
     </li>
     <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-        <a href="/catalog.html?filter[category]=for_a_present"
+        <a href="catalog.html?filter[category]=for_a_present"
            class="list-of-special-categories__link">
             <figure class="list-of-special-categories__category">
                 <img src="../../common.blocks/list-of-special-categories/list-of-special-categories__present.svg" alt=""
@@ -664,7 +660,7 @@
         </a>
     </li>
     <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-        <a href="/catalog.html?filter[category]=first_birthday"
+        <a href="catalog.html?filter[category]=first_birthday"
            class="list-of-special-categories__link">
             <figure class="list-of-special-categories__category">
                 <img src="../../common.blocks/list-of-special-categories/list-of-special-categories__cake.svg" alt=""
@@ -674,7 +670,7 @@
         </a>
     </li>
     <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-        <a href="/catalog.html?filter[category]=warm_clothes"
+        <a href="catalog.html?filter[category]=warm_clothes"
            class="list-of-special-categories__link">
             <figure class="list-of-special-categories__category">
                 <img src="../../common.blocks/list-of-special-categories/list-of-special-categories__clothes.svg" alt=""
@@ -684,7 +680,7 @@
         </a>
     </li>
     <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-        <a href="/catalog.html?filter[category]=summer_rest"
+        <a href="catalog.html?filter[category]=summer_rest"
            class="list-of-special-categories__link">
             <figure class="list-of-special-categories__category">
                 <img src="../../common.blocks/list-of-special-categories/list-of-special-categories__sun-umbrella.svg"
@@ -694,7 +690,7 @@
         </a>
     </li>
     <li class="list-of-special-categories__item col-md col-sm-4 col-6">
-        <a href="/catalog.html?filter[category]=on_holiday"
+        <a href="catalog.html?filter[category]=on_holiday"
            class="list-of-special-categories__link">
             <figure class="list-of-special-categories__category">
                 <img src="../../common.blocks/list-of-special-categories/list-of-special-categories__confetti.svg"
@@ -716,14 +712,12 @@
         <!-- Complect item -->
 <div class="complect-item card">
     <div class="card-body">
-        <!-- Add to favorite -->
-<button type="button"
-        class="add-to-favorite btn"
-        data-toggle="button"
-        aria-pressed="false">
-    <i class="icon"></i>
-</button>
-<!-- /Add to favorite -->
+        <button type="button"
+                class="complect-item__add-to-favorite"
+                data-toggle="favorite"
+                data-product-id="0109">
+            <i class="icon icon__heart"></i>
+        </button>
         <a href="/product.html?complectId=0109" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-1.jpg);"></a>
         <h3 class="complect-item__title">
             <a href="/product.html?complectId=0109" class="complect-item__title-link">Комплект платьев Мечта</a>
@@ -749,14 +743,12 @@
         <!-- Complect item -->
 <div class="complect-item card">
     <div class="card-body">
-        <!-- Add to favorite -->
-<button type="button"
-        class="add-to-favorite btn"
-        data-toggle="button"
-        aria-pressed="false">
-    <i class="icon"></i>
-</button>
-<!-- /Add to favorite -->
+        <button type="button"
+                class="complect-item__add-to-favorite"
+                data-toggle="favorite"
+                data-product-id="0110">
+            <i class="icon icon__heart"></i>
+        </button>
         <a href="/product.html?complectId=0110" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-2.jpg);"></a>
         <h3 class="complect-item__title">
             <a href="/product.html?complectId=0110" class="complect-item__title-link">Комплект платьев Мечта</a>
@@ -782,14 +774,12 @@
         <!-- Complect item -->
 <div class="complect-item card">
     <div class="card-body">
-        <!-- Add to favorite -->
-<button type="button"
-        class="add-to-favorite btn"
-        data-toggle="button"
-        aria-pressed="false">
-    <i class="icon"></i>
-</button>
-<!-- /Add to favorite -->
+        <button type="button"
+                class="complect-item__add-to-favorite"
+                data-toggle="favorite"
+                data-product-id="0111">
+            <i class="icon icon__heart"></i>
+        </button>
         <a href="/product.html?complectId=0111" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-3.jpg);"></a>
         <h3 class="complect-item__title">
             <a href="/product.html?complectId=0111" class="complect-item__title-link">Комплект платьев Мечта</a>
@@ -815,14 +805,12 @@
         <!-- Complect item -->
 <div class="complect-item card">
     <div class="card-body">
-        <!-- Add to favorite -->
-<button type="button"
-        class="add-to-favorite btn"
-        data-toggle="button"
-        aria-pressed="false">
-    <i class="icon"></i>
-</button>
-<!-- /Add to favorite -->
+        <button type="button"
+                class="complect-item__add-to-favorite"
+                data-toggle="favorite"
+                data-product-id="0112">
+            <i class="icon icon__heart"></i>
+        </button>
         <a href="/product.html?complectId=0112" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-4.jpg);"></a>
         <h3 class="complect-item__title">
             <a href="/product.html?complectId=0112" class="complect-item__title-link">Комплект платьев Мечта</a>
@@ -848,14 +836,12 @@
         <!-- Complect item -->
 <div class="complect-item card">
     <div class="card-body">
-        <!-- Add to favorite -->
-<button type="button"
-        class="add-to-favorite btn"
-        data-toggle="button"
-        aria-pressed="false">
-    <i class="icon"></i>
-</button>
-<!-- /Add to favorite -->
+        <button type="button"
+                class="complect-item__add-to-favorite"
+                data-toggle="favorite"
+                data-product-id="0113">
+            <i class="icon icon__heart"></i>
+        </button>
         <a href="/product.html?complectId=0113" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-5.jpg);"></a>
         <h3 class="complect-item__title">
             <a href="/product.html?complectId=0113" class="complect-item__title-link">Комплект платьев Мечта</a>
@@ -881,14 +867,12 @@
         <!-- Complect item -->
 <div class="complect-item card">
     <div class="card-body">
-        <!-- Add to favorite -->
-<button type="button"
-        class="add-to-favorite btn"
-        data-toggle="button"
-        aria-pressed="false">
-    <i class="icon"></i>
-</button>
-<!-- /Add to favorite -->
+        <button type="button"
+                class="complect-item__add-to-favorite"
+                data-toggle="favorite"
+                data-product-id="0114">
+            <i class="icon icon__heart"></i>
+        </button>
         <a href="/product.html?complectId=0114" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-6.jpg);"></a>
         <h3 class="complect-item__title">
             <a href="/product.html?complectId=0114" class="complect-item__title-link">Комплект платьев Мечта</a>
@@ -914,14 +898,12 @@
         <!-- Complect item -->
 <div class="complect-item card">
     <div class="card-body">
-        <!-- Add to favorite -->
-<button type="button"
-        class="add-to-favorite btn"
-        data-toggle="button"
-        aria-pressed="false">
-    <i class="icon"></i>
-</button>
-<!-- /Add to favorite -->
+        <button type="button"
+                class="complect-item__add-to-favorite"
+                data-toggle="favorite"
+                data-product-id="0115">
+            <i class="icon icon__heart"></i>
+        </button>
         <a href="/product.html?complectId=0115" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-7.jpg);"></a>
         <h3 class="complect-item__title">
             <a href="/product.html?complectId=0115" class="complect-item__title-link">Комплект платьев Мечта</a>
@@ -947,14 +929,12 @@
         <!-- Complect item -->
 <div class="complect-item card">
     <div class="card-body">
-        <!-- Add to favorite -->
-<button type="button"
-        class="add-to-favorite btn"
-        data-toggle="button"
-        aria-pressed="false">
-    <i class="icon"></i>
-</button>
-<!-- /Add to favorite -->
+        <button type="button"
+                class="complect-item__add-to-favorite"
+                data-toggle="favorite"
+                data-product-id="0116">
+            <i class="icon icon__heart"></i>
+        </button>
         <a href="/product.html?complectId=0116" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-8.jpg);"></a>
         <h3 class="complect-item__title">
             <a href="/product.html?complectId=0116" class="complect-item__title-link">Комплект платьев Мечта</a>
@@ -1360,13 +1340,13 @@
                     <nav class="page-footer__nav page-footer__nav_type_menu collapse">
                         <ul class="page-footer__list-of-links page-footer__menu-list-of-links">
                             <li class="nav-item">
-                                <a href="/catalog.html" class="page-footer__nav-link">Каталог</a>
+                                <a href="catalog.html" class="page-footer__nav-link">Каталог</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/about.html" class="page-footer__nav-link">О нас</a>
+                                <a href="about.html" class="page-footer__nav-link">О нас</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/for-wholesalers.html" class="page-footer__nav-link">Оптовикам</a>
+                                <a href="for-wholesalers.html" class="page-footer__nav-link">Оптовикам</a>
                             </li>
                             <li class="nav-item">
                                 <a href="/delivery.html" class="page-footer__nav-link">Доставка</a>
@@ -1401,27 +1381,27 @@
                     <nav class="page-footer__nav page-footer__nav_type_for-family collapse">
                         <ul class="page-footer__list-of-links">
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Футболки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Наряды с платьями</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитшоты и толстовки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Рубашки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитера</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Аксессуары</a>
                             </li>
                         </ul>
@@ -1436,27 +1416,27 @@
                     <nav class="page-footer__nav page-footer__nav_type_moms-and-daughter collapse">
                         <ul class="page-footer__list-of-links">
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Футболки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Платья</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитшоты и худи</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Рубашки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитера</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Аксессуары</a>
                             </li>
                         </ul>
@@ -1471,27 +1451,27 @@
                     <nav class="page-footer__nav page-footer__nav_type_moms-and-sons collapse">
                         <ul class="page-footer__list-of-links">
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Футболки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Рубашки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Комплекты</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитера</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитшоты и толстовки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Аксессуары</a>
                             </li>
                         </ul>
@@ -1506,27 +1486,27 @@
                     <nav class="page-footer__nav page-footer__nav_type_dads-and-sons collapse">
                         <ul class="page-footer__list-of-links">
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Футболки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Наряды с платьями</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Толстовки и свитшоты</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Рубашки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитера</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Аксессуары</a>
                             </li>
                         </ul>
@@ -1541,27 +1521,27 @@
                     <nav class="page-footer__nav page-footer__nav_type_menu collapse">
                         <ul class="page-footer__list-of-links">
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Футболки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Наряды с платьями</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитшоты</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Рубашки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитера</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[category]=&filter[categoryType]="
+                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Аксессуары</a>
                             </li>
                         </ul>
@@ -1641,7 +1621,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wnumb/1.1.0/wNumb.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/11.1.0/nouislider.min.js"></script>
 <!-- Global JS -->
-<script src="/bundles/bundle.js"></script>
+<script src="/bundles/bundle.min.js"></script>
 </body>
 </html>
 <!-- /Meta footer -->
