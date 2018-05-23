@@ -63,7 +63,7 @@
 		<ul class="page-header__navbar-actions">
 			<li class="nav-item">
 				<a href="#"
-				   class="nav-link"
+				   class="nav-link page-header__search-toggle"
 				   data-toggle="collapse"
 				   data-target=".page-header__search-form"
 				   aria-expanded="false">

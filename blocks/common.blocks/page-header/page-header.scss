@@ -101,6 +101,12 @@
   line-height: 1;
 }
 
+.page-header__search-toggle:not(.collapsed) {
+  .icon {
+    filter: brightness(1);
+  }
+}
+
 @include media-breakpoint-only(xs) {
   .page-header__logo {
     width: 110px;

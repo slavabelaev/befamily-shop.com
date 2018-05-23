@@ -121,8 +121,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6 order-md-1 py-5 text-center text-md-left">
-                        <p class="lead">Идея Family look очень популярна во всем мире, и сегодня набирает обороты и в нашей стране.
-                            <br class="d-none d-md-block">Такие звёзды как Мадонна, Виктория Бэкхем, Анжелина Джоли, предпочитают Family look!</p>
+                        <p class="lead">Идея Family look очень популярна во всем мире, и сегодня набирает обороты и в нашей стране. Такие звёзды как Мадонна, Виктория Бэкхем, Анжелина Джоли, предпочитают Family look!</p>
                     </div>
                     <div class="col-md-6 text-center">
                         <img src="pages/for-wholesalers-page/for-wholesalers-page__header-image.png" alt="" class="mw-100">
@@ -174,31 +173,33 @@
                             <li class="mb-2">Возможна доставка в Казахстан и в Беларусь.</li>
                         </ul>
                     </section>
-                    <section class="col-lg-6 d-flex justify-content-center mb-5">
+                    <section class="col-lg-6 mb-5">
                         <div>
                             <h2 class="text-center">Контакты для оптовиков</h2>
-                            <table>
-                                <tbody>
-                                <tr>
-                                    <td class="pb-3">Электронная почта:</td>
-                                    <td class="pb-3"><a href="mailto:an.semeryanova@yandex.ru" class="text-info">an.semeryanova@yandex.ru</a></td>
-                                </tr>
-                                <tr>
-                                    <td class="pr-4 pb-3">Контактные телефоны:</td>
-                                    <td class="pb-3"><a href="tel:88005551094"><b>8-800-555-10-94</b></a></td>
-                                </tr>
-                                <tr>
-                                    <td class="pb-3">Социальные сети:</td>
-                                    <td class="pb-3">
-                                        <ul class="list-unstyled">
-                                            <li><a target="_blank" href="//instagram.com/befamily" class="text-info">instagram.com/befamily</a></li>
-                                            <li><a target="_blank" href="//vk.com/befamilyshop" class="text-info">vk.com/befamilyshop</a></li>
-                                            <li><a target="_blank" href="//www.facebook.com/befamilyshop" class="text-info">www.facebook.com/befamilyshop</a></li>
-                                        </ul>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
+                            <div class="table-responsive">
+                                <table class="m-auto">
+                                    <tbody>
+                                    <tr>
+                                        <td class="pb-3">Электронная почта:</td>
+                                        <td class="pb-3"><a href="mailto:an.semeryanova@yandex.ru" class="text-info">an.semeryanova@yandex.ru</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pr-4 pb-3">Контактные телефоны:</td>
+                                        <td class="pb-3"><a href="tel:88005551094"><b>8-800-555-10-94</b></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pb-3">Социальные сети:</td>
+                                        <td class="pb-3">
+                                            <ul class="list-unstyled">
+                                                <li><a target="_blank" href="//instagram.com/befamily" class="text-info">instagram.com/befamily</a></li>
+                                                <li><a target="_blank" href="//vk.com/befamilyshop" class="text-info">vk.com/befamilyshop</a></li>
+                                                <li><a target="_blank" href="//www.facebook.com/befamilyshop" class="text-info">www.facebook.com/befamilyshop</a></li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </section>
                 </div>

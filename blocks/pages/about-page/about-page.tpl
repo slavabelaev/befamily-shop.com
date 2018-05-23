@@ -5,11 +5,11 @@
 <!-- About page -->
 <main class="about-page">
     <article>
-        <header class="article__page-header text-white mb-5" style="background-color: #4FBAD9;background-image: url(pages/about-page/about-page__header-bg.svg)">
+        <header class="about-page__page-header text-white mb-5" style="background-color: #4FBAD9;background-image: url(pages/about-page/about-page__header-bg.svg)">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6 order-md-1 py-5 text-center text-md-left">
-                        <p class="lead">Befamily – авторский проект, посвященный <br class="d-none d-md-block">одежде в семейном стиле, стоящий у истоков <br class="d-none d-md-block">направления Family look в России</p>
+                        <p class="lead">Befamily – авторский проект, посвященный одежде в семейном стиле, стоящий у истоков направления Family look в России</p>
                     </div>
                     <div class="col-md-6">
                         <img src="pages/about-page/about-page__header-image.png" alt="" class="mw-100 mt-md-4">

@@ -12,5 +12,14 @@
 }
 .for-wholesalers-page__page-header {
   background-color: #E39DB2;
-  background-image: url(/pages/for-wholesalers-page/for-wholesalers-page__header-bg.svg)
+  background-image: url(/pages/for-wholesalers-page/for-wholesalers-page__header-bg.svg);
+  .lead {
+    font-size: 1.5rem;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .for-wholesalers-page__has-border-left {
+    border-left: $border-color 1px solid;
+  }
 }
