@@ -126,7 +126,7 @@
     <section class="index-page__slider">
         <!-- Page slider -->
 <ul class="slider" data-slick>
-    <li class="slider__item" style="background-image: url(../content/images/slider/slide-1.jpg);">
+    <li class="slider__item" style="background-image: url(/content/images/slider/slide-1.jpg);">
         <section class="container">
             <header class="slider__item-header">
                 <h2 class="h1 text-info">ОДЕЖДА FAMILY LOOK</h2>
@@ -135,7 +135,7 @@
             <a href="catalog.html?filter[category]=whole_family" class="btn btn-primary btn-lg">Подобрать свой комплект</a>
         </section>
     </li>
-    <li class="slider__item" style="background-image: url(../content/images/slider/slide-1.jpg);">
+    <li class="slider__item" style="background-image: url(/content/images/slider/slide-1.jpg);">
         <section class="container">
             <header class="slider__item-header">
                 <h2 class="h1 text-info">ОДЕЖДА FAMILY LOOK</h2>
@@ -144,7 +144,7 @@
             <a href="catalog.html?filter[category]=whole_family" class="btn btn-primary btn-lg">Подобрать свой комплект</a>
         </section>
     </li>
-    <li class="slider__item" style="background-image: url(../content/images/slider/slide-1.jpg);">
+    <li class="slider__item" style="background-image: url(/content/images/slider/slide-1.jpg);">
         <section class="container">
             <header class="slider__item-header">
                 <h2 class="h1 text-info">ОДЕЖДА FAMILY LOOK</h2>
@@ -979,73 +979,73 @@
         <a data-fancybox="gallery"
            class="list-of-gallery-images__link"
            href="content/images/we-are-in-socials/image-1.jpg"
-           style="background-image: url(../content/images/we-are-in-socials/image-1.jpg);"></a>
+           style="background-image: url(/content/images/we-are-in-socials/image-1.jpg);"></a>
     </li>
     <li class="list-of-gallery-images__item col-6 col-sm-4 col-md-3 col-lg-2">
         <a data-fancybox="gallery"
            class="list-of-gallery-images__link"
            href="content/images/we-are-in-socials/image-2.jpg"
-           style="background-image: url(../content/images/we-are-in-socials/image-2.jpg);"></a>
+           style="background-image: url(/content/images/we-are-in-socials/image-2.jpg);"></a>
     </li>
     <li class="list-of-gallery-images__item col-6 col-sm-4 col-md-3 col-lg-2">
         <a data-fancybox="gallery"
            class="list-of-gallery-images__link"
            href="content/images/we-are-in-socials/image-3.jpg"
-           style="background-image: url(../content/images/we-are-in-socials/image-3.jpg);"></a>
+           style="background-image: url(/content/images/we-are-in-socials/image-3.jpg);"></a>
     </li>
     <li class="list-of-gallery-images__item col-6 col-sm-4 col-md-3 col-lg-2">
         <a data-fancybox="gallery"
            class="list-of-gallery-images__link"
            href="content/images/we-are-in-socials/image-4.jpg"
-           style="background-image: url(../content/images/we-are-in-socials/image-4.jpg);"></a>
+           style="background-image: url(/content/images/we-are-in-socials/image-4.jpg);"></a>
     </li>
     <li class="list-of-gallery-images__item col-6 col-sm-4 col-md-3 col-lg-2">
         <a data-fancybox="gallery"
            class="list-of-gallery-images__link"
            href="content/images/we-are-in-socials/image-5.jpg"
-           style="background-image: url(../content/images/we-are-in-socials/image-5.jpg);"></a>
+           style="background-image: url(/content/images/we-are-in-socials/image-5.jpg);"></a>
     </li>
     <li class="list-of-gallery-images__item col-6 col-sm-4 col-md-3 col-lg-2">
         <a data-fancybox="gallery"
            class="list-of-gallery-images__link"
            href="content/images/we-are-in-socials/image-6.jpg"
-           style="background-image: url(../content/images/we-are-in-socials/image-6.jpg);"></a>
+           style="background-image: url(/content/images/we-are-in-socials/image-6.jpg);"></a>
     </li>
     <li class="list-of-gallery-images__item col-6 col-sm-4 col-md-3 col-lg-2">
         <a data-fancybox="gallery"
            class="list-of-gallery-images__link"
            href="content/images/we-are-in-socials/image-7.jpg"
-           style="background-image: url(../content/images/we-are-in-socials/image-7.jpg);"></a>
+           style="background-image: url(/content/images/we-are-in-socials/image-7.jpg);"></a>
     </li>
     <li class="list-of-gallery-images__item col-6 col-sm-4 col-md-3 col-lg-2">
         <a data-fancybox="gallery"
            class="list-of-gallery-images__link"
            href="content/images/we-are-in-socials/image-8.jpg"
-           style="background-image: url(../content/images/we-are-in-socials/image-8.jpg);"></a>
+           style="background-image: url(/content/images/we-are-in-socials/image-8.jpg);"></a>
     </li>
     <li class="list-of-gallery-images__item col-6 col-sm-4 col-md-3 col-lg-2">
         <a data-fancybox="gallery"
            class="list-of-gallery-images__link"
            href="content/images/we-are-in-socials/image-9.jpg"
-           style="background-image: url(../content/images/we-are-in-socials/image-9.jpg);"></a>
+           style="background-image: url(/content/images/we-are-in-socials/image-9.jpg);"></a>
     </li>
     <li class="list-of-gallery-images__item col-6 col-sm-4 col-md-3 col-lg-2">
         <a data-fancybox="gallery"
            class="list-of-gallery-images__link"
            href="content/images/we-are-in-socials/image-10.jpg"
-           style="background-image: url(../content/images/we-are-in-socials/image-10.jpg);"></a>
+           style="background-image: url(/content/images/we-are-in-socials/image-10.jpg);"></a>
     </li>
     <li class="list-of-gallery-images__item col-6 col-sm-4 col-md-3 col-lg-2">
         <a data-fancybox="gallery"
            class="list-of-gallery-images__link"
            href="content/images/we-are-in-socials/image-11.jpg"
-           style="background-image: url(../content/images/we-are-in-socials/image-11.jpg);"></a>
+           style="background-image: url(/content/images/we-are-in-socials/image-11.jpg);"></a>
     </li>
     <li class="list-of-gallery-images__item col-6 col-sm-4 col-md-3 col-lg-2">
         <a data-fancybox="gallery"
            class="list-of-gallery-images__link"
            href="content/images/we-are-in-socials/image-12.jpg"
-           style="background-image: url(../content/images/we-are-in-socials/image-12.jpg);"></a>
+           style="background-image: url(/content/images/we-are-in-socials/image-12.jpg);"></a>
     </li>
 </ul>
 <!-- /List of gallery images -->
