@@ -5,6 +5,7 @@ var gulp = require('gulp'),
     plumber = require('gulp-plumber'),
     cache = require('gulp-cache'),
     newer = require('gulp-newer'),
+    gulpCopy = require('gulp-copy'),
 
     imagemin = require('gulp-imagemin'),
     sass = require('gulp-sass'),
@@ -34,14 +35,33 @@ var path = {
         fonts: './dist'
     },
     src: {
-        html: './blocks/**/*.{html,tpl,tmpl}',
+        html: [
+            './blocks/**/*.html',
+            './blocks/**/*.tpl',
+            './blocks/**/*.tmpl',
+        ],
         scripts: './blocks/common.blocks/**/*.js',
         pageScripts: './blocks/pages/**/*.js',
-        styles: ['./blocks/library.blocks/bootstrap/bootstrap.scss', 'blocks/common.blocks/**/*.scss'],
+        styles: [
+            './blocks/library.blocks/bootstrap/bootstrap.scss',
+            'blocks/common.blocks/**/*.scss'
+        ],
         pageStyles: './blocks/pages/**/*.scss',
         libraryStyles: './blocks/library.blocks/**/*.scss',
-        images: './blocks/**/*.{jpg,jpeg,png,gif,svg}',
-        fonts: './blocks/**/*.{ttf,otf,woff,woff2,eot}'
+        images: [
+            './blocks/**/*.jpg',
+            './blocks/**/*.jpeg',
+            './blocks/**/*.png',
+            './blocks/**/*.gif',
+            './blocks/**/*.svg'
+        ],
+        fonts: [
+            './blocks/**/*.ttf',
+            './blocks/**/*.otf',
+            './blocks/**/*.woff',
+            './blocks/**/*.woff2',
+            './blocks/**/*.eot',
+        ]
     },
     clean: './dist'
 };
@@ -121,13 +141,17 @@ gulp.task('pageScripts:build', function () {
 
 gulp.task('images:build', function () {
     gulp.src(path.src.images)
+        .pipe(plumber())
+        //.pipe(gulpCopy(path.build.images))
         .pipe(imagemin())
         .pipe(gulp.dest(path.build.images))
         .pipe(reload({stream: true}));
 });
 gulp.task('images:watch', function () {
     gulp.src(path.src.images)
-        //.pipe(newer(path.build.images))
+        .pipe(newer(path.build.images))
+        .pipe(plumber())
+        //.pipe(gulpCopy(path.build.images))
         .pipe(imagemin())
         .pipe(gulp.dest(path.build.images))
         .pipe(reload({stream: true}));
