@@ -2,27 +2,14 @@
 
 .favorites-page {
   min-height: 600px;
-  .complect-item {
-    .add-to-favorite.active .icon {
-      display: none;
-    }
-    .add-to-favorite .icon:after {
+  .complect-item__add-to-favorite {
+    .icon {
       background-image: url(/common.blocks/icon/icon__cancel.svg);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
+      background-size: .875rem;
     }
-    .add-to-favorite {
-      .icon {
-        width: .8rem;
-        height: .8rem;
-        opacity: 1;
-        filter: initial;
-        transition: $transition-base;
-        &:hover {
-          transform: rotate(90deg);
-        }
-      }
+    &:hover .icon {
+      transform: rotate(90deg);
     }
   }
+
 }

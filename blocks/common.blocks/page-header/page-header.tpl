@@ -1,7 +1,7 @@
 <!-- Page header -->
 <header class="page-header">
 	<nav class="navbar navbar-expand-lg navbar-light container">
-		<a class="navbar-brand" href="/">
+		<a class="navbar-brand" href="/index.html">
 			<img src="/common.blocks/page-header/page-header__be-Family.svg"
 				 alt="be Family"
 				 class="page-header__logo">
@@ -63,7 +63,7 @@
 		<ul class="page-header__navbar-actions">
 			<li class="nav-item">
 				<a href="#"
-				   class="nav-link page-header__search-toggle"
+				   class="nav-link page-header__search-toggle collapsed"
 				   data-toggle="collapse"
 				   data-target=".page-header__search-form"
 				   aria-expanded="false">

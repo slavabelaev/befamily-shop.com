@@ -10,7 +10,7 @@
         Свитер “Скандинавия”</h3>
     <div class="product-includes-item__collapse collapse show">
         <div class="product-includes-item__collapse-container">
-            <a href="#" class="product-includes-item__category">Женский</a>
+            <a href="catalog.html?filter[parentCaterory]=&filter[category]=#" class="product-includes-item__category">Женский</a>
             <div class="row mb-4">
                 <div class="product-includes-item__size-control-box col mb-3 mb-lg-0">
                     <!-- Product size control -->
@@ -127,7 +127,7 @@
         Свитер “Скандинавия”</h3>
     <div class="product-includes-item__collapse collapse show">
         <div class="product-includes-item__collapse-container">
-            <a href="#" class="product-includes-item__category">Детский</a>
+            <a href="catalog.html?filter[parentCaterory]=&filter[category]=#" class="product-includes-item__category">Детский</a>
             <div class="row mb-4">
                 <div class="product-includes-item__size-control-box col mb-3 mb-lg-0">
                     <!-- Product size control -->

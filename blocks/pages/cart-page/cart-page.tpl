@@ -52,6 +52,7 @@
     </div>
 </main>
 <!-- Cart page -->
+<script src="pages/cart-page/cart-page.js" defer></script>
 
 @@include('../../common.blocks/page-footer/page-footer.tpl')
 @@include('../../common.blocks/meta-footer/meta-footer.tpl')

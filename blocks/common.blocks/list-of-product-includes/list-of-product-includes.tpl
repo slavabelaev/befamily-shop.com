@@ -5,7 +5,7 @@
             "uid": "0109",
             "productTitle": "Свитер “Скандинавия”",
             "categoryTitle": "Женский",
-            "categoryUrl": "#",
+            "categoryId": "#",
             "collapsable": true
         })
     </li>
@@ -14,7 +14,7 @@
             "uid": "0110",
             "productTitle": "Свитер “Скандинавия”",
             "categoryTitle": "Детский",
-            "categoryUrl": "#",
+            "categoryId": "#",
             "collapsable": true
         })
     </li>

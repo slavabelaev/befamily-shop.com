@@ -19,7 +19,7 @@
 <!-- Page header -->
 <header class="page-header">
 	<nav class="navbar navbar-expand-lg navbar-light container">
-		<a class="navbar-brand" href="/">
+		<a class="navbar-brand" href="/index.html">
 			<img src="/common.blocks/page-header/page-header__be-Family.svg"
 				 alt="be Family"
 				 class="page-header__logo">
@@ -81,7 +81,7 @@
 		<ul class="page-header__navbar-actions">
 			<li class="nav-item">
 				<a href="#"
-				   class="nav-link"
+				   class="nav-link page-header__search-toggle collapsed"
 				   data-toggle="collapse"
 				   data-target=".page-header__search-form"
 				   aria-expanded="false">
@@ -142,12 +142,10 @@
             </aside>
             <section class="col-md-8 col-xl-9 mb-5">
                 <article class="article">
-                    <!-- Article Header -->
                     <header class="article__header">
                         <h1 class="article__title">Правила единого семейного образа</h1>
                         <p class="article__description">Family look  всё больше набирает обороты в России и уже многие задумываются о подборе единого образа для всей семьи. А знаете ли вы, что есть правила для создания семейного образа?</p>
                     </header>
-                    <!-- /Article Header -->
                     <div class="article__content">
                         <!-- Article Content -->
 <section>
@@ -247,6 +245,7 @@
     </div>
 </main>
 <!-- /Article page -->
+<script src="pages/article-page/article-page.js" defer></script>
 
 <!-- Page footer -->
 <footer class="page-footer">

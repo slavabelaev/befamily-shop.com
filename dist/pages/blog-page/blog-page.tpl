@@ -19,7 +19,7 @@
 <!-- Page header -->
 <header class="page-header">
 	<nav class="navbar navbar-expand-lg navbar-light container">
-		<a class="navbar-brand" href="/">
+		<a class="navbar-brand" href="/index.html">
 			<img src="/common.blocks/page-header/page-header__be-Family.svg"
 				 alt="be Family"
 				 class="page-header__logo">
@@ -81,7 +81,7 @@
 		<ul class="page-header__navbar-actions">
 			<li class="nav-item">
 				<a href="#"
-				   class="nav-link"
+				   class="nav-link page-header__search-toggle collapsed"
 				   data-toggle="collapse"
 				   data-target=".page-header__search-form"
 				   aria-expanded="false">
@@ -264,6 +264,7 @@
     </div>
 </main>
 <!-- Blog page -->
+<script src="pages/blog-page/blog-page.js" defer></script>
 
 <!-- Complect item modal -->
 <div class="complect-item-modal modal fade" tabindex="-1" role="dialog">
@@ -301,7 +302,7 @@
         Свитер “Скандинавия”</h3>
     <div class="product-includes-item__collapse collapse show">
         <div class="product-includes-item__collapse-container">
-            <a href="#" class="product-includes-item__category">Женский</a>
+            <a href="catalog.html?filter[parentCaterory]=&filter[category]=#" class="product-includes-item__category">Женский</a>
             <div class="row mb-4">
                 <div class="product-includes-item__size-control-box col mb-3 mb-lg-0">
                     <!-- Product size control -->
@@ -418,7 +419,7 @@
         Свитер “Скандинавия”</h3>
     <div class="product-includes-item__collapse collapse show">
         <div class="product-includes-item__collapse-container">
-            <a href="#" class="product-includes-item__category">Детский</a>
+            <a href="catalog.html?filter[parentCaterory]=&filter[category]=#" class="product-includes-item__category">Детский</a>
             <div class="row mb-4">
                 <div class="product-includes-item__size-control-box col mb-3 mb-lg-0">
                     <!-- Product size control -->

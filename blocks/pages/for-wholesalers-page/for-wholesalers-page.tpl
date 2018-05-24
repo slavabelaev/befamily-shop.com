@@ -9,7 +9,8 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6 order-md-1 py-5 text-center text-md-left">
-                        <p class="lead">Идея Family look очень популярна во всем мире, и сегодня набирает обороты и в нашей стране. Такие звёзды как Мадонна, Виктория Бэкхем, Анжелина Джоли, предпочитают Family look!</p>
+                        <p class="lead">Идея Family look очень популярна во всем мире, и сегодня набирает обороты и в нашей стране.
+                            <br class="d-none d-lg-block">Такие звёзды как Мадонна, Виктория Бэкхем, Анжелина Джоли, предпочитают Family look!</p>
                     </div>
                     <div class="col-md-6 text-center">
                         <img src="pages/for-wholesalers-page/for-wholesalers-page__header-image.png" alt="" class="mw-100">
@@ -96,6 +97,7 @@
     </article>
 </main>
 <!-- /For wholesalers page -->
+<script src="pages/for-wholesalers-page/for-wholesalers-page.js" defer></script>
 
 @@include('../../common.blocks/page-footer/page-footer.tpl')
 @@include('../../common.blocks/meta-footer/meta-footer.tpl')

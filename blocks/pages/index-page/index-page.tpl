@@ -47,6 +47,7 @@
     </section>
 </main>
 <!-- Index page -->
+<script src="pages/index-page/index-page.js" defer></script>
 
 @@include('../../common.blocks/complect-item-modal/complect-item-modal.tpl')
 @@include('../../common.blocks/page-footer/page-footer.tpl')

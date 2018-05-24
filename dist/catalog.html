@@ -19,7 +19,7 @@
 <!-- Page header -->
 <header class="page-header">
 	<nav class="navbar navbar-expand-lg navbar-light container">
-		<a class="navbar-brand" href="/">
+		<a class="navbar-brand" href="/index.html">
 			<img src="/common.blocks/page-header/page-header__be-Family.svg"
 				 alt="be Family"
 				 class="page-header__logo">
@@ -81,7 +81,7 @@
 		<ul class="page-header__navbar-actions">
 			<li class="nav-item">
 				<a href="#"
-				   class="nav-link page-header__search-toggle"
+				   class="nav-link page-header__search-toggle collapsed"
 				   data-toggle="collapse"
 				   data-target=".page-header__search-form"
 				   aria-expanded="false">
@@ -617,15 +617,18 @@
 <!-- /Catalog filter -->
                 </div>
                 <div class="catalog-page__catalog-sorter mb-3">
-                    <!-- Favorites filter -->
-<form action="#" class="catalog-sorter row">
+                    <!-- Favorites sorter -->
+<form action="" class="catalog-sorter row">
     <div class="form-group col-sm-6">
         <div class="row align-items-center">
             <div class="col-xl-4">
-                <label for="sortByPrice" class="catalog-sorter__label mb-xl-0">Сортировать по:</label>
+                <label for="sortByPrice"
+                       class="catalog-sorter__label mb-xl-0">Сортировать по:</label>
             </div>
             <div class="col-xl-8">
-                <select class="custom-select w-100" name="sortByPrice" id="sortByPrice">
+                <select class="custom-select w-100"
+                        name="favoritesSort[byPrice]"
+                        id="sortByPrice">
                     <option value="LOW_TO_HIGHT" selected>Цене (Низкая > Высокая)</option>
                     <option value="HIGHT_TO_LOW">Цене (Высокая > Низкая)</option>
                 </select>
@@ -635,10 +638,13 @@
     <div class="form-group col-sm-6">
         <div class="row align-items-center">
             <div class="col-xl-4">
-                <label for="maxFavoriteElements" class="catalog-sorter__label mb-xl-0">Показывать по:</label>
+                <label for="maxFavoriteElements"
+                       class="catalog-sorter__label mb-xl-0">Показывать по:</label>
             </div>
             <div class="col-xl-8">
-                <select class="custom-select w-100" name="maxFavoriteElements" id="maxFavoriteElements">
+                <select class="custom-select w-100"
+                        name="favoritesSort[maxElementsOnPage]"
+                        id="maxFavoriteElements">
                     <option value="10" selected>10 шт.</option>
                     <option value="20">20 шт.</option>
                     <option value="30">30 шт.</option>
@@ -649,7 +655,7 @@
         </div>
     </div>
 </form>
-<!-- /Favorites filter -->
+<!-- /Favorites sorter -->
                 </div>
                 <div class="catalog-page__list-of-products">
                     <!-- List of favorites -->
@@ -843,6 +849,7 @@
     </div>
 </main>
 <!-- Catalog page -->
+<script src="pages/catalog-page/catalog-page.js" defer></script>
 
 <!-- Complect item modal -->
 <div class="complect-item-modal modal fade" tabindex="-1" role="dialog">
@@ -880,7 +887,7 @@
         Свитер “Скандинавия”</h3>
     <div class="product-includes-item__collapse collapse show">
         <div class="product-includes-item__collapse-container">
-            <a href="#" class="product-includes-item__category">Женский</a>
+            <a href="catalog.html?filter[parentCaterory]=&filter[category]=#" class="product-includes-item__category">Женский</a>
             <div class="row mb-4">
                 <div class="product-includes-item__size-control-box col mb-3 mb-lg-0">
                     <!-- Product size control -->
@@ -997,7 +1004,7 @@
         Свитер “Скандинавия”</h3>
     <div class="product-includes-item__collapse collapse show">
         <div class="product-includes-item__collapse-container">
-            <a href="#" class="product-includes-item__category">Детский</a>
+            <a href="catalog.html?filter[parentCaterory]=&filter[category]=#" class="product-includes-item__category">Детский</a>
             <div class="row mb-4">
                 <div class="product-includes-item__size-control-box col mb-3 mb-lg-0">
                     <!-- Product size control -->

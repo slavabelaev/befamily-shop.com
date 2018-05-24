@@ -31,6 +31,7 @@
     </div>
 </main>
 <!-- Favorites page -->
+<script src="pages/favorites-page/favorites-page.js" defer></script>
 
 @@include('../../common.blocks/complect-item-modal/complect-item-modal.tpl')
 @@include('../../common.blocks/page-footer/page-footer.tpl')

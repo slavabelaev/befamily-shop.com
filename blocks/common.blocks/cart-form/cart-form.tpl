@@ -1,6 +1,5 @@
 <!-- Cart form -->
-<form action="/cart-form"
-      method="get"
+<form action=""
       class="cart-form card-form__needs-validation" novalidate>
     <h2>Информация для оплаты и доставки заказа:</h2>
     <section class="mb-3">
@@ -8,7 +7,7 @@
         <div class="form-row">
             <div class="form-group col-md-6">
                 <input type="text"
-                       name="firstName"
+                       name="cartForm[firstName]"
                        required
                        class="form-control form-control-lg"
                        placeholder="Имя">
@@ -18,7 +17,7 @@
             </div>
             <div class="form-group col-md-6">
                 <input type="text"
-                       name="secondName"
+                       name="cartForm[secondName]"
                        required
                        class="form-control form-control-lg"
                        placeholder="Фамилия">
@@ -28,7 +27,7 @@
             </div>
             <div class="form-group col-md-6">
                 <input type="email"
-                       name="email"
+                       name="cartForm[email]"
                        required
                        class="form-control form-control-lg"
                        placeholder="E-mail">
@@ -38,7 +37,7 @@
             </div>
             <div class="form-group col-md-6">
                 <input type="tel"
-                       name="phone"
+                       name="cartForm[phone]"
                        pattern="(\+?\d[- .]*){7,13}"
                        required
                        class="form-control form-control-lg"
@@ -54,7 +53,7 @@
         <div class="form-row">
             <div class="form-group col-lg-3 col-md-6">
                 <input type="text"
-                       name="city"
+                       name="cartForm[city]"
                        required
                        class="form-control form-control-lg"
                        placeholder="Город">
@@ -64,7 +63,7 @@
             </div>
             <div class="form-group col-lg-5 col-md-6">
                 <input type="text"
-                       name="street"
+                       name="cartForm[street]"
                        required
                        class="form-control form-control-lg"
                        placeholder="Улица">
@@ -74,7 +73,7 @@
             </div>
             <div class="form-group col-lg-2 col-md-6">
                 <input type="number"
-                       name="houseNo"
+                       name="cartForm[houseNo]"
                        min="0"
                        max="99999"
                        required
@@ -86,7 +85,7 @@
             </div>
             <div class="form-group col-lg-2 col-md-6">
                 <input type="number"
-                       name="apartmentNo"
+                       name="cartForm[apartmentNo]"
                        min="0"
                        max="99999"
                        required
@@ -107,7 +106,7 @@
                     <div class="custom-control custom-radio">
                         <input type="radio"
                                id="deliveryMethod--CourierWithinMKAD"
-                               name="deliveryMethod"
+                               name="cartForm[deliveryMethod]"
                                checked
                                class="custom-control-input">
                         <label class="custom-control-label"
@@ -121,7 +120,7 @@
                     <div class="custom-control custom-radio">
                         <input type="radio"
                                id="deliveryMethod--CourierForMKAD"
-                               name="deliveryMethod"
+                               name="cartForm[deliveryMethod]"
                                class="custom-control-input">
                         <label class="custom-control-label"
                                for="deliveryMethod--CourierForMKAD">Доставка курьером за МКАД (в пределах Москвы)</label>
@@ -134,7 +133,7 @@
                     <div class="custom-control custom-radio">
                         <input type="radio"
                                id="deliveryMethod--PostOfRussia"
-                               name="deliveryMethod"
+                               name="cartForm[deliveryMethod]"
                                class="custom-control-input">
                         <label class="custom-control-label"
                                for="deliveryMethod--PostOfRussia">Почта России (предоплата 50%)</label>
@@ -173,12 +172,12 @@
     </div>
     <div class="custom-control custom-checkbox mb-5">
         <input type="checkbox"
-               name="AgreeWithTermsAndConditions"
+               name="cartForm[isAgreeWithTermsAndConditions]"
                class="custom-control-input"
                required
-               id="AgreeWithTermsAndConditions">
+               id="isAgreeWithTermsAndConditions">
         <label class="custom-control-label"
-               for="AgreeWithTermsAndConditions">Согласен с <a href="#" class="text-info">условиями передачи и обработки персональных данных</a>.</label>
+               for="isAgreeWithTermsAndConditions">Согласен с <a href="#" class="text-info">условиями передачи и обработки персональных данных</a>.</label>
     </div>
     <div class="text-center text-md-left">
         <button type="submit" class="btn btn-primary btn-lg">Отправить заказ</button>

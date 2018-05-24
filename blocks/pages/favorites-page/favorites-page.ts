@@ -6,9 +6,9 @@ jQuery(document).ready(function($) {
 
     updateFavoritePageOnEmptyFavorites();
 
-    favoritePage
-        .find('.list-of-favorite__item .add-to-favorite')
+    listOfFavoritesElement.find('.complect-item__add-to-favorite')
         .on('click', function() {
+            console.log('removed!')
             $(this).closest('.list-of-favorite__item').fadeOut(null, function() {
                 $(this).remove();
                 updateFavoritePageOnEmptyFavorites();

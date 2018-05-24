@@ -7,7 +7,7 @@
         @@productTitle</h3>
     <div class="product-includes-item__collapse collapse show">
         <div class="product-includes-item__collapse-container">
-            <a href="@@categoryUrl" class="product-includes-item__category">@@categoryTitle</a>
+            <a href="catalog.html?filter[parentCaterory]=&filter[category]=@@categoryId" class="product-includes-item__category">@@categoryTitle</a>
             <div class="row mb-4">
                 <div class="product-includes-item__size-control-box col mb-3 mb-lg-0">
                     <!-- Product size control -->

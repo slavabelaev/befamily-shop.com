@@ -18,12 +18,10 @@
             </aside>
             <section class="col-md-8 col-xl-9 mb-5">
                 <article class="article">
-                    <!-- Article Header -->
                     <header class="article__header">
                         <h1 class="article__title">Правила единого семейного образа</h1>
                         <p class="article__description">Family look  всё больше набирает обороты в России и уже многие задумываются о подборе единого образа для всей семьи. А знаете ли вы, что есть правила для создания семейного образа?</p>
                     </header>
-                    <!-- /Article Header -->
                     <div class="article__content">
                         @@include('../../content/articles/the-rules-of-a-single-family-image.html')
                     </div>
@@ -38,6 +36,7 @@
     </div>
 </main>
 <!-- /Article page -->
+<script src="pages/article-page/article-page.js" defer></script>
 
 @@include('../../common.blocks/page-footer/page-footer.tpl')
 @@include('../../common.blocks/meta-footer/meta-footer.tpl')

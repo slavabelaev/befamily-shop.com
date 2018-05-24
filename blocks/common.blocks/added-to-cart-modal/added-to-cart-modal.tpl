@@ -28,7 +28,7 @@
                                         "uid": "0109",
                                         "productTitle": "Свитер “Скандинавия”",
                                         "categoryTitle": "Женский",
-                                        "categoryUrl": "#",
+                                        "categoryId": "#",
                                         "collapsable": false
                                     })
                                 </li>
@@ -37,7 +37,7 @@
                                         "uid": "0110",
                                         "productTitle": "Свитер “Скандинавия”",
                                         "categoryTitle": "Детский",
-                                        "categoryUrl": "#",
+                                        "categoryId": "#",
                                         "collapsable": false
                                     })
                                 </li>

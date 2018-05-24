@@ -30,6 +30,7 @@
     </div>
 </main>
 <!-- /404 page -->
+<script src="pages/error-404-page/error-404-page.js" defer></script>
 
 <!-- Meta footer -->
 <!-- jQuery — https://jquery.com/ -->

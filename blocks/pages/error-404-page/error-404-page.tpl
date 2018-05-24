@@ -13,5 +13,6 @@
     </div>
 </main>
 <!-- /404 page -->
+<script src="pages/error-404-page/error-404-page.js" defer></script>
 
 @@include('../../common.blocks/meta-footer/meta-footer.tpl')

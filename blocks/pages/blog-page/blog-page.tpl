@@ -28,6 +28,7 @@
     </div>
 </main>
 <!-- Blog page -->
+<script src="pages/blog-page/blog-page.js" defer></script>
 
 @@include('../../common.blocks/complect-item-modal/complect-item-modal.tpl')
 @@include('../../common.blocks/page-footer/page-footer.tpl')

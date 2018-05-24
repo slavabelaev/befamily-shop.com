@@ -76,6 +76,7 @@
     </article>
 </main>
 <!-- /About page -->
+<script src="pages/about-page/about-page.js" defer></script>
 
 @@include('../../common.blocks/page-footer/page-footer.tpl')
 @@include('../../common.blocks/meta-footer/meta-footer.tpl')

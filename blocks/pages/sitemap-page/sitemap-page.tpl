@@ -51,6 +51,7 @@
     </div>
 </main>
 <!-- Sitemap page -->
+<script src="pages/sitemap-page/sitemap-page.js" defer></script>
 
 @@include('../../common.blocks/page-footer/page-footer.tpl')
 @@include('../../common.blocks/meta-footer/meta-footer.tpl')

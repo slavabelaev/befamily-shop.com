@@ -39,6 +39,7 @@
     </div>
 </main>
 <!-- Catalog page -->
+<script src="pages/catalog-page/catalog-page.js" defer></script>
 
 @@include('../../common.blocks/complect-item-modal/complect-item-modal.tpl')
 @@include('../../common.blocks/page-footer/page-footer.tpl')

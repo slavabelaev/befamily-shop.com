@@ -39,6 +39,7 @@ var path = {
         pageScripts: 'blocks/pages/**/*.js',
         styles: ['blocks/library.blocks/bootstrap/bootstrap.scss', 'blocks/common.blocks/**/*.scss'],
         pageStyles: 'blocks/pages/**/*.scss',
+        libraryStyles: 'blocks/library.blocks/**/*.scss',
         images: 'blocks/**/*.{jpg,jpeg,png,gif,svg}',
         fonts: 'blocks/**/*.{ttf,otf,woff,woff2,eot}'
     },
@@ -155,6 +156,9 @@ gulp.task('watch', function() {
     });
 
     watch(path.src.styles, function(event, cb) {
+        gulp.start('styles:build');
+    });
+    watch(path.src.libraryStyles, function(event, cb) {
         gulp.start('styles:build');
     });
     watch(path.src.pageStyles, function(event, cb) {

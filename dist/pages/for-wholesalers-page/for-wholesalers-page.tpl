@@ -19,7 +19,7 @@
 <!-- Page header -->
 <header class="page-header">
 	<nav class="navbar navbar-expand-lg navbar-light container">
-		<a class="navbar-brand" href="/">
+		<a class="navbar-brand" href="/index.html">
 			<img src="/common.blocks/page-header/page-header__be-Family.svg"
 				 alt="be Family"
 				 class="page-header__logo">
@@ -81,7 +81,7 @@
 		<ul class="page-header__navbar-actions">
 			<li class="nav-item">
 				<a href="#"
-				   class="nav-link"
+				   class="nav-link page-header__search-toggle collapsed"
 				   data-toggle="collapse"
 				   data-target=".page-header__search-form"
 				   aria-expanded="false">
@@ -121,7 +121,8 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6 order-md-1 py-5 text-center text-md-left">
-                        <p class="lead">Идея Family look очень популярна во всем мире, и сегодня набирает обороты и в нашей стране. Такие звёзды как Мадонна, Виктория Бэкхем, Анжелина Джоли, предпочитают Family look!</p>
+                        <p class="lead">Идея Family look очень популярна во всем мире, и сегодня набирает обороты и в нашей стране.
+                            <br class="d-none d-lg-block">Такие звёзды как Мадонна, Виктория Бэкхем, Анжелина Джоли, предпочитают Family look!</p>
                     </div>
                     <div class="col-md-6 text-center">
                         <img src="pages/for-wholesalers-page/for-wholesalers-page__header-image.png" alt="" class="mw-100">
@@ -173,7 +174,7 @@
                             <li class="mb-2">Возможна доставка в Казахстан и в Беларусь.</li>
                         </ul>
                     </section>
-                    <section class="col-lg-6 mb-5">
+                    <section class="col-lg-6 mb-5 for-wholesalers-page__has-border-left">
                         <div>
                             <h2 class="text-center">Контакты для оптовиков</h2>
                             <div class="table-responsive">
@@ -208,6 +209,7 @@
     </article>
 </main>
 <!-- /For wholesalers page -->
+<script src="pages/for-wholesalers-page/for-wholesalers-page.js" defer></script>
 
 <!-- Page footer -->
 <footer class="page-footer">

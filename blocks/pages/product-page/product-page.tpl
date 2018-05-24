@@ -92,6 +92,7 @@
     </section>
 </main>
 <!-- /Product page -->
+<script src="pages/product-page/product-page.js" defer></script>
 
 @@include('../../common.blocks/complect-item-modal/complect-item-modal.tpl')
 @@include('../../common.blocks/added-to-cart-modal/added-to-cart-modal.tpl')
