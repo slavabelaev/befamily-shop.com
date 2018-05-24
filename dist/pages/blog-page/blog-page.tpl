@@ -120,104 +120,435 @@
 </header>
 <!-- /Page header -->
 
-<link rel="stylesheet" href="pages/for-wholesalers-page/for-wholesalers-page.css">
-<!-- For wholesalers page -->
-<main class="for-wholesalers-page">
-    <article>
-        <header class="for-wholesalers-page__page-header text-white mb-5">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6 order-md-1 py-5 text-center text-md-left">
-                        <p class="lead">Идея Family look очень популярна во всем мире, и сегодня набирает обороты и в нашей стране.
-                            <br class="d-none d-lg-block">Такие звёзды как Мадонна, Виктория Бэкхем, Анжелина Джоли, предпочитают Family look!</p>
-                    </div>
-                    <div class="col-md-6 text-center">
-                        <img src="pages/for-wholesalers-page/for-wholesalers-page__header-image.png" alt="" class="mw-100">
-                    </div>
+<link rel="stylesheet" href="pages/blog-page/blog-page.css">
+<!-- Blog page -->
+<main class="blog-page">
+    <div class="container">
+        <!-- Breadcrumb -->
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+         <li class="breadcrumb-item"><a href="#">Блог</a></li> 
+        
+         <li class="breadcrumb-item active" aria-current="page">Новости</li> 
+    </ol>
+</nav>
+<!-- /Breadcrumb -->
+        <div class="row">
+            <aside class="col-md-4 col-xl-3">
+                <div class="blog-page__aside-navigation" data-sticked>
+                    <!-- Aside navigation -->
+<ul class="aside-navigation">
+    <li class="aside-navigation__item aside-navigation__title"><i class="icon icon__menu"></i>Разделы блога</li>
+    <li class="aside-navigation__item active"><a href="?pageType=news" class="aside-navigation__link">Новости</a></li>
+    <li class="aside-navigation__item"><a href="?pageType=advices" class="aside-navigation__link">Советы</a></li>
+    <li class="aside-navigation__item"><a href="?pageType=stories" class="aside-navigation__link">Истории</a></li>
+</ul>
+<!-- /Aside navigation -->
                 </div>
-            </div>
-        </header>
-        <div class="container">
-            <section class="about-page__section">
-                <h1 class="text-center">Сотрудничество с оптовыми покупателями</h1>
-                <div class="mb-5 mw-975">
-                    <p>Мы открыты для сотрудничества и работаем как с юридическими, так и с физическими лицами, в том числе с совместными покупками. Мы уверены, что Вы с удовольствием поддержите идею нашего бренда - объединение семьи и укрепление семейных ценностей, с помощью Family look!</p>
+            </aside>
+            <section class="col-md-8 col-xl-9 mb-5">
+                <h1>Новости</h1>
+                <div class="blog-page__list-of-articles-wrapper">
+                    <!-- List of articles -->
+<ul class="list-of-articles">
+    <li class="list-of-articles__item">
+        <!-- Article item -->
+<figure class="article-item">
+    <div class="article-item__image-container">
+        <a href="article.html?articleId=4" class="article-item__image" style="background-image: url(..//content/images/blog/image-1.jpg);"></a>
+    </div>
+    <figcaption class="article-item__caption">
+        <a href="article.html?articleId=4" class="article-item__title">Правила единого семейного образа</a>
+        <div class="article-item__text">
+            <p>Family look  всё больше набирает обороты в России и уже многие задумываются о подборе единого образа для всей семьи. А знаете ли вы, что есть правила для создания семейного образа?</p>
+        </div>
+        <div class="article-item__time-container">
+            <time class="article-item__time">08.11.2016</time>
+        </div>
+        <div class="article-item__actions">
+            <a href="article.html?articleId=4" class="btn btn-outline-primary btn-sm">Читать подробно</a>
+        </div>
+    </figcaption>
+</figure>
+<!-- /Article item -->
+    </li>
+    <li class="list-of-articles__item">
+        <!-- Article item -->
+<figure class="article-item">
+    <div class="article-item__image-container">
+        <a href="article.html?articleId=5" class="article-item__image" style="background-image: url(..//content/images/blog/image-2.jpg);"></a>
+    </div>
+    <figcaption class="article-item__caption">
+        <a href="article.html?articleId=5" class="article-item__title">Осенний family look</a>
+        <div class="article-item__text">
+            <p>Золотая осень - невероятно красивое и яркое время для фотосессии. Но подготовка к ней может показаться делом трудоёмким и сложным.</p>
+        </div>
+        <div class="article-item__time-container">
+            <time class="article-item__time">14.10.2016</time>
+        </div>
+        <div class="article-item__actions">
+            <a href="article.html?articleId=5" class="btn btn-outline-primary btn-sm">Читать подробно</a>
+        </div>
+    </figcaption>
+</figure>
+<!-- /Article item -->
+    </li>
+    <li class="list-of-articles__item">
+        <!-- Article item -->
+<figure class="article-item">
+    <div class="article-item__image-container">
+        <a href="article.html?articleId=6" class="article-item__image" style="background-image: url(..//content/images/blog/image-3.jpg);"></a>
+    </div>
+    <figcaption class="article-item__caption">
+        <a href="article.html?articleId=6" class="article-item__title">Что такое Family Look?</a>
+        <div class="article-item__text">
+            <p>«Family Look» — это уникальный семейный стиль, который олицетворяет собой единство и сплоченность семьи. Данный стиль подразумевает одинаковую одежду (или ее элементы) у каждого члена семьи.</p>
+        </div>
+        <div class="article-item__time-container">
+            <time class="article-item__time">28.03.2016</time>
+        </div>
+        <div class="article-item__actions">
+            <a href="article.html?articleId=6" class="btn btn-outline-primary btn-sm">Читать подробно</a>
+        </div>
+    </figcaption>
+</figure>
+<!-- /Article item -->
+    </li>
+    <li class="list-of-articles__item">
+        <!-- Article item -->
+<figure class="article-item">
+    <div class="article-item__image-container">
+        <a href="article.html?articleId=7" class="article-item__image" style="background-image: url(..//content/images/blog/image-4.jpg);"></a>
+    </div>
+    <figcaption class="article-item__caption">
+        <a href="article.html?articleId=7" class="article-item__title">Правила единого семейного образа</a>
+        <div class="article-item__text">
+            <p>Family look  всё больше набирает обороты в России и уже многие задумываются о подборе единого образа для всей семьи. А знаете ли вы, что есть правила для создания семейного образа?</p>
+        </div>
+        <div class="article-item__time-container">
+            <time class="article-item__time">08.11.2016</time>
+        </div>
+        <div class="article-item__actions">
+            <a href="article.html?articleId=7" class="btn btn-outline-primary btn-sm">Читать подробно</a>
+        </div>
+    </figcaption>
+</figure>
+<!-- /Article item -->
+    </li>
+</ul>
+<!-- /List of articles -->
                 </div>
-                <section class="mb-5">
-                    <h2 class="text-center mb-5">Почему сотрудничать с нами выгодно и приятно?</h2>
-                    <ul class="row list-unstyled text-center mb-0">
-                        <li class="col-6 col-lg-3">
-                            <figure class="figure">
-                                <img src="pages/for-wholesalers-page/for-wholesalers-page__coin.svg" alt="" class="figure-img">
-                                <figcaption class="figure-caption">Опт от 15 000 рублей</figcaption>
-                            </figure>
-                        </li>
-                        <li class="col-6 col-lg-3">
-                            <figure class="figure">
-                                <img src="pages/for-wholesalers-page/for-wholesalers-page__Moscow.svg" alt="" class="figure-img">
-                                <figcaption class="figure-caption">Производство в <br>России</figcaption>
-                            </figure>
-                        </li>
-                        <li class="col-6 col-lg-3">
-                            <figure class="figure">
-                                <img src="pages/for-wholesalers-page/for-wholesalers-page__box.svg" alt="" class="figure-img">
-                                <figcaption class="figure-caption">Все товары, в наличии на <br>складе в Москве</figcaption>
-                            </figure>
-                        </li>
-                        <li class="col-6 col-lg-3">
-                            <figure class="figure">
-                                <img src="pages/for-wholesalers-page/for-wholesalers-page__label.svg" alt="" class="figure-img">
-                                <figcaption class="figure-caption">Низкие оптовые цены</figcaption>
-                            </figure>
-                        </li>
-                    </ul>
-                </section>
-                <div class="row">
-                    <section class="col-lg-6 mb-5">
-                        <h2 class="text-center">Доставка</h2>
-                        <ul class="list-colored">
-                            <li class="mb-2">Доставку осуществляем по всей России транспортными компаниями.</li>
-                            <li class="mb-2">Доставка до указанных ТК осуществляется БЕСПЛАТНО!</li>
-                            <li class="mb-2">Возможна доставка в Казахстан и в Беларусь.</li>
-                        </ul>
-                    </section>
-                    <section class="col-lg-6 mb-5 for-wholesalers-page__has-border-left">
-                        <div>
-                            <h2 class="text-center">Контакты для оптовиков</h2>
-                            <div class="table-responsive">
-                                <table class="m-auto">
-                                    <tbody>
-                                    <tr>
-                                        <td class="pb-3">Электронная почта:</td>
-                                        <td class="pb-3"><a href="mailto:an.semeryanova@yandex.ru" class="text-info">an.semeryanova@yandex.ru</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="pr-4 pb-3">Контактные телефоны:</td>
-                                        <td class="pb-3"><a href="tel:88005551094"><b>8-800-555-10-94</b></a></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="pb-3">Социальные сети:</td>
-                                        <td class="pb-3">
-                                            <ul class="list-unstyled">
-                                                <li><a target="_blank" href="//instagram.com/befamily" class="text-info">instagram.com/befamily</a></li>
-                                                <li><a target="_blank" href="//vk.com/befamilyshop" class="text-info">vk.com/befamilyshop</a></li>
-                                                <li><a target="_blank" href="//www.facebook.com/befamilyshop" class="text-info">www.facebook.com/befamilyshop</a></li>
-                                            </ul>
-                                        </td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </section>
+                <div class="blog-page__pagination pagination-wrapper">
+                    <!-- Pagination -->
+<nav aria-label="Навигация по страницам">
+    <ul class="pagination">
+        <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+                <span class="sr-only">Предыдущая</span>
+            </a>
+        </li>
+        <li class="page-item active"><a class="page-link" href="?page=1">1</a></li>
+        <li class="page-item"><a class="page-link" href="?page=2">2</a></li>
+        <li class="page-item"><a class="page-link" href="?page=3">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">...</a></li>
+        <li class="page-item"><a class="page-link" href="?page=10">10</a></li>
+        <li class="page-item"><a class="page-link" href="?page=11">11</a></li>
+        <li class="page-item"><a class="page-link" href="?page=12">12</a></li>
+        <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+                <span class="sr-only">Следующая</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+<!-- /Pagination -->
                 </div>
             </section>
         </div>
-    </article>
+    </div>
 </main>
-<!-- /For wholesalers page -->
-<script src="pages/for-wholesalers-page/for-wholesalers-page.js" defer></script>
+<!-- Blog page -->
+<script src="pages/blog-page/blog-page.js" defer></script>
 
+<!-- Complect item modal -->
+<div class="complect-item-modal modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <form action="#" class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">Выберите размер и количество</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="icon icon__close"></span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                        <a data-fancybox="gallery"
+                           href="content/images/complects/scandinavia/scandinavia-1.jpg"
+                           class="list-of-images__link">
+                            <img src="content/images/complects/scandinavia/scandinavia-1.jpg" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="complect-item-modal__total-label">Итого:</div>
+                        <div class="complect-item-modal__price">10 890 ₽</div>
+                        <hr class="mb-0">
+                        <div class="mb-4">
+                            <!-- List of product-page includes -->
+<ul class="list-of-product-includes">
+    <li class="list-of-product-includes__item">
+        <!-- Product includes item -->
+<section class="product-includes-item" data-product-id="0109">
+    <h3 class="product-includes-item__title"
+        data-toggle="collapse"
+        data-target="[data-product-id=0109]>.product-includes-item__collapse">
+        <i class="icon icon__collapse_style_primary"></i>
+        Свитер “Скандинавия”</h3>
+    <div class="product-includes-item__collapse collapse show">
+        <div class="product-includes-item__collapse-container">
+            <a href="catalog.html?filter[parentCaterory]=&filter[category]=#" class="product-includes-item__category">Женский</a>
+            <div class="row mb-4">
+                <div class="product-includes-item__size-control-box col mb-3 mb-lg-0">
+                    <!-- Product size control -->
+<div class="product-size-control">
+    <h4 class="product-size-control__label">Выбрать размер:</h4>
+    <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="XS">XS
+        </label>
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="S"> S
+        </label>
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="M"> M
+        </label>
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="L"> L
+        </label>
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="XL"> XL
+        </label>
+        <label class="btn btn-outline-dark active">
+            <input type="radio" name="size" value="XXL"> XXL
+        </label>
+        <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
+            <option selected value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+    </div>
+</div>
+<!-- /Product size control -->
+                </div>
+                <div class="product-includes-item__size-popover-box col-lg-auto">
+                    <!-- Product size table popup -->
+<div class="product-size-popover">
+    <a href="#"
+       class="product-size-popover__link"
+       data-trigger="focus"
+       data-toggle="popover"
+       data-placement="left"
+       data-html="true"
+       data-content='
+<div class="p-3 text-center">
+    <img src="common.blocks/product-size-popover/product-size-popover__shirt.svg" alt="">
+</div>
+<table class="product-size-popover__table table table-sm table-bordered">
+    <thead>
+    <tr class="text-center">
+        <th></th>
+        <th>А</th>
+        <th>Б</th>
+        <th>В</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>XS</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>S</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>M</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>L</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>XL</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>XXL</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    </tbody>
+    </table>
+'>
+        <i class="icon icon__clothing-size"></i>Таблица размеров
+    </a>
+</div>
+<!-- /Product size table popup -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /Product includes item -->
+    </li>
+    <li class="list-of-product-includes__item">
+        <!-- Product includes item -->
+<section class="product-includes-item" data-product-id="0110">
+    <h3 class="product-includes-item__title"
+        data-toggle="collapse"
+        data-target="[data-product-id=0110]>.product-includes-item__collapse">
+        <i class="icon icon__collapse_style_primary"></i>
+        Свитер “Скандинавия”</h3>
+    <div class="product-includes-item__collapse collapse show">
+        <div class="product-includes-item__collapse-container">
+            <a href="catalog.html?filter[parentCaterory]=&filter[category]=#" class="product-includes-item__category">Детский</a>
+            <div class="row mb-4">
+                <div class="product-includes-item__size-control-box col mb-3 mb-lg-0">
+                    <!-- Product size control -->
+<div class="product-size-control">
+    <h4 class="product-size-control__label">Выбрать размер:</h4>
+    <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="XS">XS
+        </label>
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="S"> S
+        </label>
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="M"> M
+        </label>
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="L"> L
+        </label>
+        <label class="btn btn-outline-dark">
+            <input type="radio" name="size" value="XL"> XL
+        </label>
+        <label class="btn btn-outline-dark active">
+            <input type="radio" name="size" value="XXL"> XXL
+        </label>
+        <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
+            <option selected value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+    </div>
+</div>
+<!-- /Product size control -->
+                </div>
+                <div class="product-includes-item__size-popover-box col-lg-auto">
+                    <!-- Product size table popup -->
+<div class="product-size-popover">
+    <a href="#"
+       class="product-size-popover__link"
+       data-trigger="focus"
+       data-toggle="popover"
+       data-placement="left"
+       data-html="true"
+       data-content='
+<div class="p-3 text-center">
+    <img src="common.blocks/product-size-popover/product-size-popover__shirt.svg" alt="">
+</div>
+<table class="product-size-popover__table table table-sm table-bordered">
+    <thead>
+    <tr class="text-center">
+        <th></th>
+        <th>А</th>
+        <th>Б</th>
+        <th>В</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>XS</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>S</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>M</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>L</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>XL</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    <tr>
+        <td>XXL</td>
+        <td>100 см</td>
+        <td>80 см</td>
+        <td>120 см</td>
+    </tr>
+    </tbody>
+    </table>
+'>
+        <i class="icon icon__clothing-size"></i>Таблица размеров
+    </a>
+</div>
+<!-- /Product size table popup -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /Product includes item -->
+    </li>
+</ul>
+<!-- /List of product-page includes -->
+                        </div>
+
+                        <button type="submit"
+                                class="btn btn-primary btn-lg"
+                                data-dismiss="modal"
+                                data-toggle="modal"
+                                data-target=".added-to-cart-modal">Добавить в корзину</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- /Complect item modal -->
 <!-- Page footer -->
 <footer class="page-footer">
     <div class="container">

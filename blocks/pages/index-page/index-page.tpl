@@ -34,7 +34,7 @@
     <section class="index-page__section index-page__list-of-popular-models bg-light index-page__shaped-bg">
         <div class="container">
             <header class="text-center mb-4">
-                <h2 class="mb-2"><img src="/pages/index-page/index-page__instagram.svg" alt="Instagram" class="mr-4"> #мывBefamily</h2>
+                <h2 class="mb-2"><img src="pages/index-page/index-page__instagram.svg" alt="Instagram" class="mr-4"> #мывBefamily</h2>
                 <p class="lead text-muted">У нас очень большое комьюнити и мы этим гордимся. Всех их можно <br>увидеть по нашему хэштегу.</p>
             </header>
             @@include('../../common.blocks/list-of-gallery-images/list-of-gallery-images.tpl')

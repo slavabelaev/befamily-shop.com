@@ -120,552 +120,602 @@
 </header>
 <!-- /Page header -->
 
-<link rel="stylesheet" href="pages/product-page/product-page.css">
-<!-- Product page -->
-<main class="product-page">
-    <div class="container">
-        <!-- Breadcrumb -->
-<nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
-         <li class="breadcrumb-item"><a href="#">Каталог</a></li> 
-        
-         <li class="breadcrumb-item active" aria-current="page">Мама и дочка</li> 
-    </ol>
-</nav>
-<!-- /Breadcrumb -->
-        <div class="row">
-            <div class="col-md-4 col-lg-5 col-xl-6">
-                <!-- List of images -->
-<ul class="list-of-images" data-slick-carousel>
-    <li class="list-of-images__item">
-        <!-- Image item -->
-<a  data-fancybox="gallery"
-    href="/content/images/complects/scandinavia/scandinavia-1.jpg"
-    class="image-item__link">
-    <img src="/content/images/complects/scandinavia/scandinavia-1.jpg" alt="" class="image-item__image">
-</a>
-<!-- /Image item -->
+<link rel="stylesheet" href="pages/index-page/index-page.css">
+<!-- Index page -->
+<main class="index-page">
+    <section class="index-page__slider">
+        <!-- Page slider -->
+<ul class="slider" data-slick>
+    <li class="slider__item" style="background-image: url(../content/images/slider/slide-1.jpg);">
+        <section class="container">
+            <header class="slider__item-header">
+                <h2 class="h1 text-info">ОДЕЖДА FAMILY LOOK</h2>
+                <p class="lead">Широкий выбор комплектов одежды для <br>всей семьи</p>
+            </header>
+            <a href="catalog.html?filter[category]=whole_family" class="btn btn-primary btn-lg">Подобрать свой комплект</a>
+        </section>
     </li>
-    <li class="list-of-images__item">
-        <!-- Image item -->
-<a  data-fancybox="gallery"
-    href="/content/images/complects/scandinavia/scandinavia-2.jpg"
-    class="image-item__link">
-    <img src="/content/images/complects/scandinavia/scandinavia-2.jpg" alt="" class="image-item__image">
-</a>
-<!-- /Image item -->
+    <li class="slider__item" style="background-image: url(../content/images/slider/slide-1.jpg);">
+        <section class="container">
+            <header class="slider__item-header">
+                <h2 class="h1 text-info">ОДЕЖДА FAMILY LOOK</h2>
+                <p class="lead">Широкий выбор комплектов одежды для <br>всей семьи</p>
+            </header>
+            <a href="catalog.html?filter[category]=whole_family" class="btn btn-primary btn-lg">Подобрать свой комплект</a>
+        </section>
     </li>
-    <li class="list-of-images__item">
-        <!-- Image item -->
-<a  data-fancybox="gallery"
-    href="/content/images/complects/scandinavia/scandinavia-3.jpg"
-    class="image-item__link">
-    <img src="/content/images/complects/scandinavia/scandinavia-3.jpg" alt="" class="image-item__image">
-</a>
-<!-- /Image item -->
+    <li class="slider__item" style="background-image: url(../content/images/slider/slide-1.jpg);">
+        <section class="container">
+            <header class="slider__item-header">
+                <h2 class="h1 text-info">ОДЕЖДА FAMILY LOOK</h2>
+                <p class="lead">Широкий выбор комплектов одежды для <br>всей семьи</p>
+            </header>
+            <a href="catalog.html?filter[category]=whole_family" class="btn btn-primary btn-lg">Подобрать свой комплект</a>
+        </section>
     </li>
 </ul>
-<!-- /List of images -->
-            </div>
-            <aside class="product-page__aside col-md-8 col-lg-7 col-xl-6">
-                <!-- Product -->
-                <section class="product-page__aside-container" data-sticked>
-                    <h1>Комплект “Скандинавия”</h1>
-                    <ul class="product-page__list-of-details">
-                        <li class="product-page__detail product-page__category"><a href="#">Мама и дочка</a></li>
-                        <li class="product-page__detail product-page__uid">Артикул: 0109</li>
-                        <li class="product-page__detail product-page__price">10 890 ₽</li>
-                    </ul>
-                    <form action="" class="product-page__form">
-                        <ul class="product-page__list-of-actions">
-                            <li class="product-page__list-of-actions-item">
-                                <a href="#"
-                                   class="product-page__add-to-cart btn btn-primary btn-lg"
-                                   data-toggle="modal"
-                                   data-target=".added-to-cart-modal">Добавить в корзину</a>
-                            </li>
-                            <li class="product-page__list-of-actions-item product-page__add-to-favorite-container ml-2 ml-lg-4">
-                                <!-- Add to favorite -->
-<button type="button"
-        class="add-to-favorite"
-        data-toggle="favorite"
-        data-product-id="122">
-    <i class="icon"></i>
-</button>
-<!-- /Add to favorite -->
-                                <!-- Add to favorite Tooltip -->
-                                <div class="tooltip fade bs-tooltip-top show" role="tooltip" x-placement="top">
-                                    <div class="arrow"></div>
-                                    <div class="tooltip-inner">Добавленно в <span class="text-info">избранное</span></div>
-                                </div>
-                                <!-- /Add to favorite Tooltip -->
-                            </li>
-                        </ul>
-                        <section class="product-page__section product-page__section_type_complect-contents pb-0">
-                            <h2>В комплект входит:</h2>
-                            <!-- List of product-page includes -->
-<ul class="list-of-product-includes">
-    <li class="list-of-product-includes__item">
-        <!-- Product includes item -->
-<section class="product-includes-item" data-product-id="0109">
-    <h3 class="product-includes-item__title"
-        data-toggle="collapse"
-        data-target="[data-product-id=0109]>.product-includes-item__collapse">
-        <i class="icon icon__collapse_style_primary"></i>
-        Свитер “Скандинавия”</h3>
-    <div class="product-includes-item__collapse collapse show">
-        <div class="product-includes-item__collapse-container">
-            <a href="catalog.html?filter[parentCaterory]=&filter[category]=#" class="product-includes-item__category">Женский</a>
-            <div class="row mb-4">
-                <div class="product-includes-item__size-control-box col mb-3 mb-lg-0">
-                    <!-- Product size control -->
-<div class="product-size-control">
-    <h4 class="product-size-control__label">Выбрать размер:</h4>
-    <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XS">XS
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="S"> S
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="M"> M
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="L"> L
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
-        <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
-        </label>
-        <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
-            <option selected value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-        </select>
-    </div>
-</div>
-<!-- /Product size control -->
-                </div>
-                <div class="product-includes-item__size-popover-box col-lg-auto">
-                    <!-- Product size table popup -->
-<div class="product-size-popover">
-    <a href="#"
-       class="product-size-popover__link"
-       data-trigger="focus"
-       data-toggle="popover"
-       data-placement="left"
-       data-html="true"
-       data-content='
-<div class="p-3 text-center">
-    <img src="common.blocks/product-size-popover/product-size-popover__shirt.svg" alt="">
-</div>
-<table class="product-size-popover__table table table-sm table-bordered">
-    <thead>
-    <tr class="text-center">
-        <th></th>
-        <th>А</th>
-        <th>Б</th>
-        <th>В</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>XS</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>S</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>M</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>L</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>XL</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>XXL</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    </tbody>
-    </table>
-'>
-        <i class="icon icon__clothing-size"></i>Таблица размеров
-    </a>
-</div>
-<!-- /Product size table popup -->
-                </div>
-            </div>
+<!-- /Page slider -->
+    </section>
+    <section class="index-page__section index-page__our-catalog">
+        <div class="container text-center">
+            <h2>Наш каталог</h2>
+            <!-- Catalog tabs -->
+<div class="catalog-tabs">
+    <ul class="nav nav-pills catalog-tabs__nav-pills" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active"
+               data-toggle="pill"
+               href="#catalog-tabs__for-family"
+               role="tab"
+               aria-controls="catalog-tabs__for-family"
+               aria-selected="true">Вся семья</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link"
+               data-toggle="pill"
+               href="#catalog-tabs__for-mother-and-children"
+               role="tab"
+               aria-controls="catalog-tabs__for-mother-and-children"
+               aria-selected="false">Мама и ребенок</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link"
+               data-toggle="pill"
+               href="#catalog-tabs__for-father-and-children"
+               role="tab"
+               aria-controls="catalog-tabs__for-father-and-children"
+               aria-selected="false">Папа и ребенок</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link"
+               data-toggle="pill"
+               href="#catalog-tabs__for-two"
+               role="tab"
+               aria-controls="catalog-tabs__for-two"
+               aria-selected="false">Для двоих</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link"
+               data-toggle="pill"
+               href="#catalog-tabs__for-sale"
+               role="tab"
+               aria-controls="catalog-tabs__for-sale"
+               aria-selected="false">Распродажа</a>
+        </li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane fade show active"
+             id="catalog-tabs__for-family"
+             role="tabpanel"
+             aria-labelledby="catalog-tabs__for-family-tab">
+            <!-- List of special categories -->
+            <ul class="list-of-special-categories row">
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__clothes.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Все товары</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Футболки</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__dress.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Наряды с<br>платьями
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__shirt.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Рубашки</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__pullover.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Свитера</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Свитшоты и<br>толстовки
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Аксессуары</figcaption>
+                        </figure>
+                    </a>
+                </li>
+            </ul>
+            <!-- List of special categories -->
         </div>
-    </div>
-</section>
-<!-- /Product includes item -->
-    </li>
-    <li class="list-of-product-includes__item">
-        <!-- Product includes item -->
-<section class="product-includes-item" data-product-id="0110">
-    <h3 class="product-includes-item__title"
-        data-toggle="collapse"
-        data-target="[data-product-id=0110]>.product-includes-item__collapse">
-        <i class="icon icon__collapse_style_primary"></i>
-        Свитер “Скандинавия”</h3>
-    <div class="product-includes-item__collapse collapse show">
-        <div class="product-includes-item__collapse-container">
-            <a href="catalog.html?filter[parentCaterory]=&filter[category]=#" class="product-includes-item__category">Детский</a>
-            <div class="row mb-4">
-                <div class="product-includes-item__size-control-box col mb-3 mb-lg-0">
-                    <!-- Product size control -->
-<div class="product-size-control">
-    <h4 class="product-size-control__label">Выбрать размер:</h4>
-    <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XS">XS
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="S"> S
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="M"> M
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="L"> L
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
-        <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
-        </label>
-        <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
-            <option selected value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-        </select>
-    </div>
-</div>
-<!-- /Product size control -->
-                </div>
-                <div class="product-includes-item__size-popover-box col-lg-auto">
-                    <!-- Product size table popup -->
-<div class="product-size-popover">
-    <a href="#"
-       class="product-size-popover__link"
-       data-trigger="focus"
-       data-toggle="popover"
-       data-placement="left"
-       data-html="true"
-       data-content='
-<div class="p-3 text-center">
-    <img src="common.blocks/product-size-popover/product-size-popover__shirt.svg" alt="">
-</div>
-<table class="product-size-popover__table table table-sm table-bordered">
-    <thead>
-    <tr class="text-center">
-        <th></th>
-        <th>А</th>
-        <th>Б</th>
-        <th>В</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>XS</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>S</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>M</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>L</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>XL</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>XXL</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    </tbody>
-    </table>
-'>
-        <i class="icon icon__clothing-size"></i>Таблица размеров
-    </a>
-</div>
-<!-- /Product size table popup -->
-                </div>
-            </div>
+        <div class="tab-pane fade"
+             id="catalog-tabs__for-mother-and-children"
+             role="tabpanel"
+             aria-labelledby="catalog-tabs__for-mother-and-children-tab">
+            <!-- List of special categories -->
+            <ul class="list-of-special-categories row">
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__clothes.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Все товары</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Футболки</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__dress.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Платья</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Свитшоты и худи
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__shirt.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Рубашки</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__pullover.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Свитера</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Аксессуары</figcaption>
+                        </figure>
+                    </a>
+                </li>
+            </ul>
+            <!-- List of special categories -->
         </div>
-    </div>
-</section>
-<!-- /Product includes item -->
-    </li>
-</ul>
-<!-- /List of product-page includes -->
-                        </section>
-                    </form>
-                    <section class="product-page__section product-page__section_type_composition-of-goods pl-md-5">
-                        <h2 class="d-none">Состав товара</h2>
-                        <table class="product-page__composition-table">
-                            <tbody>
-                            <tr>
-                                <td>Хлопок:</td>
-                                <td class="text-muted">80%</td>
-                            </tr>
-                            <tr>
-                                <td>Полиестер:</td>
-                                <td class="text-muted">20%</td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </section>
-                    <section class="product-page__section product-page__section_type_product-description">
-                        <h2>Описание товара</h2>
-                        <div class="product-page__description-text pl-md-5">Прекрасные уютные свитера со скандинавскими узорами для всей семьи. Каждый свитер - эксклюзивное изделие, созданное мастерами с любовью и теплотой. Состав: 60 % шерсть, 40 % акрил. Цвет: красно-белый. В стоимость комплекта входит 2 взрослых и один детский свитер.</div>
-                    </section>
-                    <section class="product-page__section product-page__section_type_co-equipment">
-                        <h2>С этим товаром покупают</h2>
-                        <!-- List of products -->
-<ul class="list-of-products row">
-    <li class="list-of-products__item col-sm-6 mb-3">
-        <!-- Product item -->
-<form action="#" class="product-item card" data-product-id="0109">
-    <div class="card-body">
-        <a href="product.html"
-           class="product-item__image"
-           style="background-image: url(/content/images/products/sweater__Scandinavia/sweater__Scandinavia-1.jpg);"></a>
-        <h3 class="product-item__title">
-            <a href="product.html" class="product-item__title-link">Свитер “Скандинавия”</a>
-        </h3>
-        <ul class="product-item__details mb-2">
-            <li class="product-item__detail product-item__category">Мальчик</li>
-            <li class="product-item__detail product-item__uid text-right">Артикул: 0109</li>
-            <li class="product-item__detail product-item__price">5860 ₽</li>
-        </ul>
-        <div class="product-item__size collapse">
-            <!-- Product size control -->
-<div class="product-size-control">
-    <h4 class="product-size-control__label">Выбрать размер:</h4>
-    <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XS">XS
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="S"> S
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="M"> M
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="L"> L
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
-        <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
-        </label>
-        <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
-            <option selected value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-        </select>
-    </div>
-</div>
-<!-- /Product size control -->
+        <div class="tab-pane fade"
+             id="catalog-tabs__for-father-and-children"
+             role="tabpanel"
+             aria-labelledby="catalog-tabs__for-father-and-children-tab">
+            <!-- List of special categories -->
+            <ul class="list-of-special-categories row">
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__clothes.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Все товары</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Футболки</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__shirt.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Рубашки</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Свитшоты и<br>толстовки
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__pullover.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Свитера</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Аксессуары</figcaption>
+                        </figure>
+                    </a>
+                </li>
+            </ul>
+            <!-- List of special categories -->
         </div>
-    </div>
-    <div class="card-footer">
-        <a  href="product.html"
-            class="product-item__collapse-size btn btn-outline-info"
-            data-toggle="collapse"
-            data-target="[data-product-id=0109] .product-item__size">Добавить</a>
-        <a  href="product.html"
-            class="product-item__added-to-cart btn btn-outline-primary d-none"
-            data-toggle="modal"
-            data-target=".added-to-cart-modal">В корзину</a>
-    </div>
-</form>
-<!-- /Product item -->
+        <div class="tab-pane fade"
+             id="catalog-tabs__for-two"
+             role="tabpanel"
+             aria-labelledby="catalog-tabs__for-two-tab">
+            <!-- List of special categories -->
+            <ul class="list-of-special-categories row">
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__clothes.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Все товары</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Футболки</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__dress.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Наряды с<br>платьями
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Свитшоты</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__shirt.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Рубашки</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__pullover.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Свитера</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Аксессуары</figcaption>
+                        </figure>
+                    </a>
+                </li>
+            </ul>
+            <!-- List of special categories -->
+        </div>
+        <div class="tab-pane fade"
+             id="catalog-tabs__for-sale"
+             role="tabpanel"
+             aria-labelledby="catalog-tabs__for-sale-tab">
 
-    </li>
-    <li class="list-of-products__item col-sm-6 mb-3">
-        <!-- Product item -->
-<form action="#" class="product-item card" data-product-id="0110">
-    <div class="card-body">
-        <a href="product.html"
-           class="product-item__image"
-           style="background-image: url(/content/images/products/sweater__Scandinavia/sweater__Scandinavia-2.jpg);"></a>
-        <h3 class="product-item__title">
-            <a href="product.html" class="product-item__title-link">Свитер “Скандинавия”</a>
-        </h3>
-        <ul class="product-item__details mb-2">
-            <li class="product-item__detail product-item__category">Мальчик</li>
-            <li class="product-item__detail product-item__uid text-right">Артикул: 0110</li>
-            <li class="product-item__detail product-item__price">7790 ₽</li>
-        </ul>
-        <div class="product-item__size collapse">
-            <!-- Product size control -->
-<div class="product-size-control">
-    <h4 class="product-size-control__label">Выбрать размер:</h4>
-    <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XS">XS
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="S"> S
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="M"> M
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="L"> L
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
-        <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
-        </label>
-        <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
-            <option selected value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-        </select>
+            <!-- List of special categories -->
+            <ul class="list-of-special-categories row">
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__pullover.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Свитера</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Свитшоты и<br>толстовки
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Футболки</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__dress.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Наряды с<br>платьями
+                            </figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Аксессуары</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__clothes.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Все товары</figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+                    <a href="catalog.html?filter[parentCaterory]=&filter[category]="
+                       class="list-of-special-categories__link">
+                        <figure class="list-of-special-categories__category">
+                            <img src="common.blocks/catalog-tabs/catalog-tabs__shirt.svg" alt=""
+                                 class="list-of-special-categories__category-img">
+                            <figcaption class="list-of-special-categories__category-caption">Рубашки</figcaption>
+                        </figure>
+                    </a>
+                </li>
+            </ul>
+            <!-- List of special categories -->
+        </div>
     </div>
 </div>
-<!-- /Product size control -->
+<!-- Catalog tabs -->
         </div>
-    </div>
-    <div class="card-footer">
-        <a  href="product.html"
-            class="product-item__collapse-size btn btn-outline-info"
-            data-toggle="collapse"
-            data-target="[data-product-id=0110] .product-item__size">Добавить</a>
-        <a  href="product.html"
-            class="product-item__added-to-cart btn btn-outline-primary d-none"
-            data-toggle="modal"
-            data-target=".added-to-cart-modal">В корзину</a>
-    </div>
-</form>
-<!-- /Product item -->
-
-    </li>
-</ul>
-<!-- /List of products -->
-                    </section>
-                    <section class="product-page__section product-page__section_type_reviews">
-                        <h2>Отзывы о нас в соцсетях</h2>
-                        <!-- List of reviews -->
-<ul class="list-of-reviews">
-    <li class="list-of-reviews__item">
-        <!-- Review -->
-<figure class="review-item figure">
-    <div class="review-item__avatar" style="background-image: url(/content/images/reviews/review__Daria-Pynzar.jpg)"></div>
-    <figcaption class="figure-caption">
-        <h3 class="review-item__fullname">Дарья Пынзарь</h3>
-        <address class="review-item__username">
-            <a href="#" class="review-item__username-link">
-                <i class="icon icon__instagram"></i>@darya_pinzar86
-            </a>
-        </address>
-        <div class="review-item__message">Мы с Темиком в худи от @befamily теперь настоящий отряд ми-мишности! К отдыху всей семьей готовы! #Mylove #familylook”</div>
-    </figcaption>
-</figure>
-<!-- /Review -->
-    </li>
-    <li class="list-of-reviews__item">
-        <!-- Review -->
-<figure class="review-item figure">
-    <div class="review-item__avatar" style="background-image: url(/content/images/reviews/review__Ksenia-Borodina.jpg)"></div>
-    <figcaption class="figure-caption">
-        <h3 class="review-item__fullname">Ксения Бородина</h3>
-        <address class="review-item__username">
-            <a href="#" class="review-item__username-link">
-                <i class="icon icon__instagram"></i>@borodylia
-            </a>
-        </address>
-        <div class="review-item__message">На нас с Мару классные свитера в стиле Family look от @befamily</div>
-    </figcaption>
-</figure>
-<!-- /Review -->
-    </li>
-</ul>
-<!-- /List of reviews -->
-                    </section>
-                    <section class="product-page__section product-page__section_type_complect-categories">
-                        <h2>Категории комплекта</h2>
-                        <!-- List of product-page categories -->
-<ul class="list-of-product-categories">
-    <li class="list-of-product-categories__item">
-        <a href="#" class="btn btn-outline-primary btn-sm">Свитера</a>
-    </li>
-    <li class="list-of-product-categories__item">
-        <a href="#" class="btn btn-outline-primary btn-sm">Женщины</a>
-    </li>
-    <li class="list-of-product-categories__item">
-        <a href="#" class="btn btn-outline-primary btn-sm">Девочки</a>
-    </li>
-    <li class="list-of-product-categories__item">
-        <a href="#" class="btn btn-outline-primary btn-sm">Для фотосессии</a>
-    </li>
-    <li class="list-of-product-categories__item">
-        <a href="#" class="btn btn-outline-primary btn-sm">Зимние коллекции</a>
-    </li>
-</ul>
-<!-- /List of product-page categories -->
-                    </section>
-                </section>
-                <!-- /Product -->
-            </aside>
-        </div>
-    </div>
-    <section class="bg-light pt-3 pb-5">
+    </section>
+    <section class="index-page__section index-page__our-customers bg-light index-page__shaped-bg-1">
         <div class="container">
-            <h2>Другие комплекты из категориии “Мама и дочка”</h2>
-            <!-- List of complects -->
-<ul class="list-of-complects row">
-    <li class="list-of-complect__item col-xl-3 col-md-4 col-sm-6 mb-3">
+            <h2 class="text-center">Наши известные клиенты</h2>
+            <!-- List of famous buyers-->
+<ul class="list-of-famous-buyers row" data-slick>
+    <li class="list-of-famous-buyers__item col-lg-4 col-md-6">
+        <figure class="list-of-famous-buyers__card card">
+            <img src="content/images/buyers/Ksenia-Borodina.png" alt="Ксения Бородина" class="list-of-famous-buyers__img">
+            <figcaption class="list-of-famous-buyers__caption">
+                <h3 class="list-of-famous-buyers__title">Ксения Бородина</h3>
+                <div class="list-of-famous-buyers__subtitle">Россия, Москва</div>
+                <blockquote class="list-of-famous-buyers__message">Отличный выбор товаров. Подобрала для моей девочки отличный наряд</blockquote>
+            </figcaption>
+        </figure>
+    </li>
+    <li class="list-of-famous-buyers__item col-lg-4 col-md-6">
+        <figure class="list-of-famous-buyers__card card">
+            <img src="content/images/buyers/Evelina-Bledans.png" alt="Блёданс, Эвелина" class="list-of-famous-buyers__img">
+            <figcaption class="list-of-famous-buyers__caption">
+                <h3 class="list-of-famous-buyers__title">Блёданс, Эвелина</h3>
+                <div class="list-of-famous-buyers__subtitle">Россия, Москва</div>
+                <blockquote class="list-of-famous-buyers__message">Горжусь своей девочкой! Часовой спектакль сегодня показали нам в саду!</blockquote>
+            </figcaption>
+        </figure>
+    </li>
+    <li class="list-of-famous-buyers__item col-lg-4 col-md-6">
+        <figure class="list-of-famous-buyers__card card">
+            <img src="content/images/buyers/Karina-Zemcova.png" alt="Карина Земцова" class="list-of-famous-buyers__img">
+            <figcaption class="list-of-famous-buyers__caption">
+                <h3 class="list-of-famous-buyers__title">Карина Земцова</h3>
+                <div class="list-of-famous-buyers__subtitle">Россия, С-Петербург</div>
+                <blockquote class="list-of-famous-buyers__message">Спасибо beFamily за хорошее настроение. Фотосессия прошла на ура.</blockquote>
+            </figcaption>
+        </figure>
+    </li>
+</ul>
+<!-- /List of famous buyers-->
+        </div>
+    </section>
+    <section class="index-page__section index-page__lists-by-beFamily pb-0">
+        <div class="container">
+            <h2 class="text-center mb-4">Подборки от be Family</h2>
+            <!-- List of special categories -->
+<ul class="list-of-special-categories row">
+    <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+        <a href="catalog.html?filter[category]=photosession"
+           class="list-of-special-categories__link">
+            <figure class="list-of-special-categories__category">
+                <img src="common.blocks/list-of-special-categories/list-of-special-categories__cinema.svg" alt=""
+                     class="list-of-special-categories__category-img">
+                <figcaption class="list-of-special-categories__category-caption">Фотосессия</figcaption>
+            </figure>
+        </a>
+    </li>
+    <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+        <a href="catalog.html?filter[category]=for_a_present"
+           class="list-of-special-categories__link">
+            <figure class="list-of-special-categories__category">
+                <img src="common.blocks/list-of-special-categories/list-of-special-categories__present.svg" alt=""
+                     class="list-of-special-categories__category-img">
+                <figcaption class="list-of-special-categories__category-caption">В подарок</figcaption>
+            </figure>
+        </a>
+    </li>
+    <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+        <a href="catalog.html?filter[category]=first_birthday"
+           class="list-of-special-categories__link">
+            <figure class="list-of-special-categories__category">
+                <img src="common.blocks/list-of-special-categories/list-of-special-categories__cake.svg" alt=""
+                     class="list-of-special-categories__category-img">
+                <figcaption class="list-of-special-categories__category-caption">Первый День Рождения</figcaption>
+            </figure>
+        </a>
+    </li>
+    <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+        <a href="catalog.html?filter[category]=warm_clothes"
+           class="list-of-special-categories__link">
+            <figure class="list-of-special-categories__category">
+                <img src="common.blocks/list-of-special-categories/list-of-special-categories__clothes.svg" alt=""
+                     class="list-of-special-categories__category-img">
+                <figcaption class="list-of-special-categories__category-caption">Теплые вещи</figcaption>
+            </figure>
+        </a>
+    </li>
+    <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+        <a href="catalog.html?filter[category]=summer_rest"
+           class="list-of-special-categories__link">
+            <figure class="list-of-special-categories__category">
+                <img src="common.blocks/list-of-special-categories/list-of-special-categories__sun-umbrella.svg"
+                     alt="" class="list-of-special-categories__category-img">
+                <figcaption class="list-of-special-categories__category-caption">Летний отдых</figcaption>
+            </figure>
+        </a>
+    </li>
+    <li class="list-of-special-categories__item col-md col-sm-4 col-6">
+        <a href="catalog.html?filter[category]=on_holiday"
+           class="list-of-special-categories__link">
+            <figure class="list-of-special-categories__category">
+                <img src="common.blocks/list-of-special-categories/list-of-special-categories__confetti.svg"
+                     alt="" class="list-of-special-categories__category-img">
+                <figcaption class="list-of-special-categories__category-caption">На праздник</figcaption>
+            </figure>
+        </a>
+    </li>
+</ul>
+<!-- List of special categories -->
+        </div>
+    </section>
+    <section class="index-page__section index-page__list-of-popular-models">
+        <div class="container">
+            <h2 class="text-center">Популярные модели</h2>
+            <!-- List of popular complects -->
+<ul class="list-of-popular-complects row">
+    <li class="list-of-popular-complects__item col-xl-3 col-md-4 col-sm-6 mb-3">
         <!-- Complect item -->
 <div class="complect-item card">
     <div class="card-body">
@@ -696,7 +746,7 @@
 <!-- /Complect item -->
 
     </li>
-    <li class="list-of-complect__item col-xl-3 col-md-4 col-sm-6 mb-3">
+    <li class="list-of-popular-complects__item col-xl-3 col-md-4 col-sm-6 mb-3">
         <!-- Complect item -->
 <div class="complect-item card">
     <div class="card-body">
@@ -727,7 +777,7 @@
 <!-- /Complect item -->
 
     </li>
-    <li class="list-of-complect__item col-xl-3 col-md-4 col-sm-6 mb-3">
+    <li class="list-of-popular-complects__item col-xl-3 col-md-4 col-sm-6 mb-3">
         <!-- Complect item -->
 <div class="complect-item card">
     <div class="card-body">
@@ -758,7 +808,7 @@
 <!-- /Complect item -->
 
     </li>
-    <li class="list-of-complect__item col-xl-3 col-md-4 col-sm-6 mb-3">
+    <li class="list-of-popular-complects__item col-xl-3 col-md-4 col-sm-6 mb-3">
         <!-- Complect item -->
 <div class="complect-item card">
     <div class="card-body">
@@ -789,7 +839,7 @@
 <!-- /Complect item -->
 
     </li>
-    <li class="list-of-complect__item col-xl-3 col-md-4 col-sm-6 mb-3">
+    <li class="list-of-popular-complects__item col-xl-3 col-md-4 col-sm-6 mb-3">
         <!-- Complect item -->
 <div class="complect-item card">
     <div class="card-body">
@@ -820,7 +870,7 @@
 <!-- /Complect item -->
 
     </li>
-    <li class="list-of-complect__item col-xl-3 col-md-4 col-sm-6 mb-3">
+    <li class="list-of-popular-complects__item col-xl-3 col-md-4 col-sm-6 mb-3">
         <!-- Complect item -->
 <div class="complect-item card">
     <div class="card-body">
@@ -851,7 +901,7 @@
 <!-- /Complect item -->
 
     </li>
-    <li class="list-of-complect__item col-xl-3 col-md-4 col-sm-6 mb-3">
+    <li class="list-of-popular-complects__item col-xl-3 col-md-4 col-sm-6 mb-3">
         <!-- Complect item -->
 <div class="complect-item card">
     <div class="card-body">
@@ -882,7 +932,7 @@
 <!-- /Complect item -->
 
     </li>
-    <li class="list-of-complect__item col-xl-3 col-md-4 col-sm-6 mb-3">
+    <li class="list-of-popular-complects__item col-xl-3 col-md-4 col-sm-6 mb-3">
         <!-- Complect item -->
 <div class="complect-item card">
     <div class="card-body">
@@ -914,15 +964,101 @@
 
     </li>
 </ul>
-<!-- /List of complects -->
-            <div class="text-center p-5">
-                <a href="#" class="btn btn-outline-primary btn-lg">Посмотреть все</a>
+<!-- /List of popular complects -->
+        </div>
+    </section>
+    <section class="index-page__section index-page__list-of-popular-models bg-light index-page__shaped-bg">
+        <div class="container">
+            <header class="text-center mb-4">
+                <h2 class="mb-2"><img src="pages/index-page/index-page__instagram.svg" alt="Instagram" class="mr-4"> #мывBefamily</h2>
+                <p class="lead text-muted">У нас очень большое комьюнити и мы этим гордимся. Всех их можно <br>увидеть по нашему хэштегу.</p>
+            </header>
+            <!-- List of gallery images -->
+<ul class="list-of-gallery-images row list-unstyled">
+    <li class="list-of-gallery-images__item col-6 col-sm-4 col-md-3 col-lg-2">
+        <a data-fancybox="gallery"
+           class="list-of-gallery-images__link"
+           href="content/images/we-are-in-socials/image-1.jpg"
+           style="background-image: url(../content/images/we-are-in-socials/image-1.jpg);"></a>
+    </li>
+    <li class="list-of-gallery-images__item col-6 col-sm-4 col-md-3 col-lg-2">
+        <a data-fancybox="gallery"
+           class="list-of-gallery-images__link"
+           href="content/images/we-are-in-socials/image-2.jpg"
+           style="background-image: url(../content/images/we-are-in-socials/image-2.jpg);"></a>
+    </li>
+    <li class="list-of-gallery-images__item col-6 col-sm-4 col-md-3 col-lg-2">
+        <a data-fancybox="gallery"
+           class="list-of-gallery-images__link"
+           href="content/images/we-are-in-socials/image-3.jpg"
+           style="background-image: url(../content/images/we-are-in-socials/image-3.jpg);"></a>
+    </li>
+    <li class="list-of-gallery-images__item col-6 col-sm-4 col-md-3 col-lg-2">
+        <a data-fancybox="gallery"
+           class="list-of-gallery-images__link"
+           href="content/images/we-are-in-socials/image-4.jpg"
+           style="background-image: url(../content/images/we-are-in-socials/image-4.jpg);"></a>
+    </li>
+    <li class="list-of-gallery-images__item col-6 col-sm-4 col-md-3 col-lg-2">
+        <a data-fancybox="gallery"
+           class="list-of-gallery-images__link"
+           href="content/images/we-are-in-socials/image-5.jpg"
+           style="background-image: url(../content/images/we-are-in-socials/image-5.jpg);"></a>
+    </li>
+    <li class="list-of-gallery-images__item col-6 col-sm-4 col-md-3 col-lg-2">
+        <a data-fancybox="gallery"
+           class="list-of-gallery-images__link"
+           href="content/images/we-are-in-socials/image-6.jpg"
+           style="background-image: url(../content/images/we-are-in-socials/image-6.jpg);"></a>
+    </li>
+    <li class="list-of-gallery-images__item col-6 col-sm-4 col-md-3 col-lg-2">
+        <a data-fancybox="gallery"
+           class="list-of-gallery-images__link"
+           href="content/images/we-are-in-socials/image-7.jpg"
+           style="background-image: url(../content/images/we-are-in-socials/image-7.jpg);"></a>
+    </li>
+    <li class="list-of-gallery-images__item col-6 col-sm-4 col-md-3 col-lg-2">
+        <a data-fancybox="gallery"
+           class="list-of-gallery-images__link"
+           href="content/images/we-are-in-socials/image-8.jpg"
+           style="background-image: url(../content/images/we-are-in-socials/image-8.jpg);"></a>
+    </li>
+    <li class="list-of-gallery-images__item col-6 col-sm-4 col-md-3 col-lg-2">
+        <a data-fancybox="gallery"
+           class="list-of-gallery-images__link"
+           href="content/images/we-are-in-socials/image-9.jpg"
+           style="background-image: url(../content/images/we-are-in-socials/image-9.jpg);"></a>
+    </li>
+    <li class="list-of-gallery-images__item col-6 col-sm-4 col-md-3 col-lg-2">
+        <a data-fancybox="gallery"
+           class="list-of-gallery-images__link"
+           href="content/images/we-are-in-socials/image-10.jpg"
+           style="background-image: url(../content/images/we-are-in-socials/image-10.jpg);"></a>
+    </li>
+    <li class="list-of-gallery-images__item col-6 col-sm-4 col-md-3 col-lg-2">
+        <a data-fancybox="gallery"
+           class="list-of-gallery-images__link"
+           href="content/images/we-are-in-socials/image-11.jpg"
+           style="background-image: url(../content/images/we-are-in-socials/image-11.jpg);"></a>
+    </li>
+    <li class="list-of-gallery-images__item col-6 col-sm-4 col-md-3 col-lg-2">
+        <a data-fancybox="gallery"
+           class="list-of-gallery-images__link"
+           href="content/images/we-are-in-socials/image-12.jpg"
+           style="background-image: url(../content/images/we-are-in-socials/image-12.jpg);"></a>
+    </li>
+</ul>
+<!-- /List of gallery images -->
+            <div class="text-center">
+                <a target="_blank"
+                   href="https://www.instagram.com/befamily/"
+                   class="btn btn-primary btn-lg">Подписаться</a>
             </div>
         </div>
     </section>
 </main>
-<!-- /Product page -->
-<script src="pages/product-page/product-page.js" defer></script>
+<!-- Index page -->
+<script src="pages/index-page/index-page.js" defer></script>
 
 <!-- Complect item modal -->
 <div class="complect-item-modal modal fade" tabindex="-1" role="dialog">
@@ -1197,276 +1333,6 @@
                 </div>
             </div>
         </form>
-    </div>
-</div>
-<!-- /Complect item modal -->
-<!-- Complect item modal -->
-<div class="added-to-cart-modal modal modal-md fade" tabindex="-1" role="dialog">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2 class="modal-title h3">Комплект добавлен в корзину</h2>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true" class="icon icon__close"></span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-md-4">
-                        <a data-fancybox="gallery"
-                           href="content/images/complects/scandinavia/scandinavia-1.jpg"
-                           class="list-of-images__link">
-                            <img src="content/images/complects/scandinavia/scandinavia-1.jpg" alt="" class="img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="added-to-cart-modal__total-label">Итого:</div>
-                        <div class="added-to-cart-modal__price">10 890 ₽</div>
-                        <div class="mb-4">
-                            <!-- List of products included -->
-                            <ul class="list-of-product-includes">
-                                <li class="list-of-product-includes__item">
-                                    <!-- Product includes item -->
-<section class="product-includes-item" data-product-id="0109">
-    <h3 class="product-includes-item__title"
-        data-toggle="collapse"
-        data-target="[data-product-id=0109]>.product-includes-item__collapse">
-        <i class="icon icon__collapse_style_primary"></i>
-        Свитер “Скандинавия”</h3>
-    <div class="product-includes-item__collapse collapse show">
-        <div class="product-includes-item__collapse-container">
-            <a href="catalog.html?filter[parentCaterory]=&filter[category]=#" class="product-includes-item__category">Женский</a>
-            <div class="row mb-4">
-                <div class="product-includes-item__size-control-box col mb-3 mb-lg-0">
-                    <!-- Product size control -->
-<div class="product-size-control">
-    <h4 class="product-size-control__label">Выбрать размер:</h4>
-    <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XS">XS
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="S"> S
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="M"> M
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="L"> L
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
-        <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
-        </label>
-        <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
-            <option selected value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-        </select>
-    </div>
-</div>
-<!-- /Product size control -->
-                </div>
-                <div class="product-includes-item__size-popover-box col-lg-auto">
-                    <!-- Product size table popup -->
-<div class="product-size-popover">
-    <a href="#"
-       class="product-size-popover__link"
-       data-trigger="focus"
-       data-toggle="popover"
-       data-placement="left"
-       data-html="true"
-       data-content='
-<div class="p-3 text-center">
-    <img src="common.blocks/product-size-popover/product-size-popover__shirt.svg" alt="">
-</div>
-<table class="product-size-popover__table table table-sm table-bordered">
-    <thead>
-    <tr class="text-center">
-        <th></th>
-        <th>А</th>
-        <th>Б</th>
-        <th>В</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>XS</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>S</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>M</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>L</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>XL</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>XXL</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    </tbody>
-    </table>
-'>
-        <i class="icon icon__clothing-size"></i>Таблица размеров
-    </a>
-</div>
-<!-- /Product size table popup -->
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- /Product includes item -->
-                                </li>
-                                <li class="list-of-product-includes__item">
-                                    <!-- Product includes item -->
-<section class="product-includes-item" data-product-id="0110">
-    <h3 class="product-includes-item__title"
-        data-toggle="collapse"
-        data-target="[data-product-id=0110]>.product-includes-item__collapse">
-        <i class="icon icon__collapse_style_primary"></i>
-        Свитер “Скандинавия”</h3>
-    <div class="product-includes-item__collapse collapse show">
-        <div class="product-includes-item__collapse-container">
-            <a href="catalog.html?filter[parentCaterory]=&filter[category]=#" class="product-includes-item__category">Детский</a>
-            <div class="row mb-4">
-                <div class="product-includes-item__size-control-box col mb-3 mb-lg-0">
-                    <!-- Product size control -->
-<div class="product-size-control">
-    <h4 class="product-size-control__label">Выбрать размер:</h4>
-    <div class="btn-group-sm btn-group-toggle" data-toggle="buttons">
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XS">XS
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="S"> S
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="M"> M
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="L"> L
-        </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
-        <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
-        </label>
-        <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
-            <option selected value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-        </select>
-    </div>
-</div>
-<!-- /Product size control -->
-                </div>
-                <div class="product-includes-item__size-popover-box col-lg-auto">
-                    <!-- Product size table popup -->
-<div class="product-size-popover">
-    <a href="#"
-       class="product-size-popover__link"
-       data-trigger="focus"
-       data-toggle="popover"
-       data-placement="left"
-       data-html="true"
-       data-content='
-<div class="p-3 text-center">
-    <img src="common.blocks/product-size-popover/product-size-popover__shirt.svg" alt="">
-</div>
-<table class="product-size-popover__table table table-sm table-bordered">
-    <thead>
-    <tr class="text-center">
-        <th></th>
-        <th>А</th>
-        <th>Б</th>
-        <th>В</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>XS</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>S</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>M</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>L</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>XL</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    <tr>
-        <td>XXL</td>
-        <td>100 см</td>
-        <td>80 см</td>
-        <td>120 см</td>
-    </tr>
-    </tbody>
-    </table>
-'>
-        <i class="icon icon__clothing-size"></i>Таблица размеров
-    </a>
-</div>
-<!-- /Product size table popup -->
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- /Product includes item -->
-                                </li>
-                            </ul>
-                            <!-- /List of products included -->
-                        </div>
-                        <a href="cart.html" class="btn btn-outline-primary">Перейти в корзину</a>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 <!-- /Complect item modal -->

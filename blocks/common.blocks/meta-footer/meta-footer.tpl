@@ -15,7 +15,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wnumb/1.1.0/wNumb.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/11.1.0/nouislider.min.js"></script>
 <!-- Global JS -->
-<script src="/bundles/bundle.min.js"></script>
+<script src="bundles/bundle.min.js"></script>
 </body>
 </html>
 <!-- /Meta footer -->

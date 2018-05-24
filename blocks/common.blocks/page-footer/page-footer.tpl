@@ -252,7 +252,7 @@
                     <a target="_blank"
                        href="http://webdelo.org/"
                        class="page-footer__link">
-                        <img src="/common.blocks/page-footer/page-footer__WEBDELO-STUDIO.svg"
+                        <img src="common.blocks/page-footer/page-footer__WEBDELO-STUDIO.svg"
                              alt="WEBDELO STUDIO"
                              class="page-footer__developed-by-logo">
                     </a>
@@ -263,7 +263,7 @@
                     <h3 class="d-none">be Family</h3>
                     <a href="index.html"
                        class="page-footer__link">
-                        <img src="/common.blocks/page-footer/page-footer__be-Family.svg"
+                        <img src="common.blocks/page-footer/page-footer__be-Family.svg"
                              alt="be Family"
                              class="page-footer__logo">
                     </a>

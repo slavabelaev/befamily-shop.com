@@ -1,7 +1,7 @@
 <!-- Article item -->
 <figure class="article-item">
     <div class="article-item__image-container">
-        <a href="article.html?articleId=@@articleId" class="article-item__image" style="background-image: url(/@@previewImageUrl);"></a>
+        <a href="article.html?articleId=@@articleId" class="article-item__image" style="background-image: url(@@previewImageUrl);"></a>
     </div>
     <figcaption class="article-item__caption">
         <a href="article.html?articleId=@@articleId" class="article-item__title">@@title</a>

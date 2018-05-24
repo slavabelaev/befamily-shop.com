@@ -120,103 +120,139 @@
 </header>
 <!-- /Page header -->
 
-<link rel="stylesheet" href="pages/for-wholesalers-page/for-wholesalers-page.css">
-<!-- For wholesalers page -->
-<main class="for-wholesalers-page">
-    <article>
-        <header class="for-wholesalers-page__page-header text-white mb-5">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6 order-md-1 py-5 text-center text-md-left">
-                        <p class="lead">Идея Family look очень популярна во всем мире, и сегодня набирает обороты и в нашей стране.
-                            <br class="d-none d-lg-block">Такие звёзды как Мадонна, Виктория Бэкхем, Анжелина Джоли, предпочитают Family look!</p>
+<link rel="stylesheet" href="pages/article-page/article-page.css">
+<!-- Article page -->
+<main class="article-page">
+    <div class="container">
+        <!-- Breadcrumb -->
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+         <li class="breadcrumb-item"><a href="#">Блог</a></li> 
+         <li class="breadcrumb-item"><a href="#">Новости</a></li> 
+         <li class="breadcrumb-item active" aria-current="page">Правила единого семейного образа</li> 
+    </ol>
+</nav>
+<!-- /Breadcrumb -->
+        <div class="row">
+            <aside class="col-md-4 col-xl-3">
+                <div class="article-page__aside-navigation" data-sticked>
+                    <!-- Aside navigation -->
+<ul class="aside-navigation">
+    <li class="aside-navigation__item aside-navigation__title"><i class="icon icon__menu"></i>Разделы блога</li>
+    <li class="aside-navigation__item active"><a href="?pageType=news" class="aside-navigation__link">Новости</a></li>
+    <li class="aside-navigation__item"><a href="?pageType=advices" class="aside-navigation__link">Советы</a></li>
+    <li class="aside-navigation__item"><a href="?pageType=stories" class="aside-navigation__link">Истории</a></li>
+</ul>
+<!-- /Aside navigation -->
+                </div>
+            </aside>
+            <section class="col-md-8 col-xl-9 mb-5">
+                <article class="article">
+                    <header class="article__header">
+                        <h1 class="article__title">Правила единого семейного образа</h1>
+                        <p class="article__description">Family look  всё больше набирает обороты в России и уже многие задумываются о подборе единого образа для всей семьи. А знаете ли вы, что есть правила для создания семейного образа?</p>
+                    </header>
+                    <div class="article__content">
+                        <!-- Article Content -->
+<section>
+    <h2>Мы расскажем о них</h2>
+    <ul class="list-colored">
+        <li>Важно заранее перед выходом в свет продумать образ. Наспех подобранная одежда не всегда сочетается и, возможно, не будет смотреться.</li>
+        <li>Не гонитесь за модой. Если вашим домочадцам не нравится стильная брендовая одежда, не надо их заставлять. Лучше выберите простую одежду, в которой всем будет удобно.</li>
+        <li>Прежде чем нарядить семью в выбранные вами наряды, обсудите , что для вас единый образ, что для вас семейственность и чего вы пытаетесь добиться. Посоветуйтесь, что хочет носить каждый член семьи.</li>
+        <li>Вы создали один семейный образ? Отлично! Не останавливайтесь! Придумывайте новые образы и воплощайте их в жизнь. Экспериментируйте с текстурами, тканями, цветами и фасоном одежды.</li>
+    </ul>
+</section>
+<section>
+    <h2>Мы расскажем о них</h2>
+    <p>Важно заранее перед выходом в свет продумать образ. Наспех подобранная одежда не всегда сочетается и, возможно, не будет смотреться. Важно заранее перед выходом в свет продумать образ. Наспех подобранная одежда не всегда сочетается и, возможно, не будет смотреться. Важно заранее перед выходом в свет продумать образ. Наспех подобранная одежда не всегда сочетается и, возможно, не будет смотреться.</p>
+    <p>Важно заранее перед выходом в свет продумать образ. Наспех подобранная одежда не всегда сочетается и, возможно, не будет смотреться. Важно заранее перед выходом в свет продумать образ. Наспех подобранная одежда не всегда сочетается и, возможно, не будет смотреться. Важно заранее перед выходом в свет продумать образ. Наспех подобранная одежда не всегда сочетается и, возможно, не будет смотреться.</p>
+    <section>
+        <h3>Мы расскажем о них</h3>
+        <p>Важно заранее перед выходом в свет продумать образ. Наспех подобранная одежда не всегда сочетается и, возможно, не будет смотреться. Важно заранее перед выходом в свет продумать образ. Наспех подобранная одежда не всегда сочетается и, возможно, не будет смотреться. Важно заранее перед выходом в свет продумать образ. Наспех подобранная одежда не всегда сочетается и, возможно, не будет смотреться.</p>
+    </section>
+</section>
+<!-- /Article content -->
                     </div>
-                    <div class="col-md-6 text-center">
-                        <img src="pages/for-wholesalers-page/for-wholesalers-page__header-image.png" alt="" class="mw-100">
-                    </div>
-                </div>
-            </div>
-        </header>
-        <div class="container">
-            <section class="about-page__section">
-                <h1 class="text-center">Сотрудничество с оптовыми покупателями</h1>
-                <div class="mb-5 mw-975">
-                    <p>Мы открыты для сотрудничества и работаем как с юридическими, так и с физическими лицами, в том числе с совместными покупками. Мы уверены, что Вы с удовольствием поддержите идею нашего бренда - объединение семьи и укрепление семейных ценностей, с помощью Family look!</p>
-                </div>
-                <section class="mb-5">
-                    <h2 class="text-center mb-5">Почему сотрудничать с нами выгодно и приятно?</h2>
-                    <ul class="row list-unstyled text-center mb-0">
-                        <li class="col-6 col-lg-3">
-                            <figure class="figure">
-                                <img src="pages/for-wholesalers-page/for-wholesalers-page__coin.svg" alt="" class="figure-img">
-                                <figcaption class="figure-caption">Опт от 15 000 рублей</figcaption>
-                            </figure>
-                        </li>
-                        <li class="col-6 col-lg-3">
-                            <figure class="figure">
-                                <img src="pages/for-wholesalers-page/for-wholesalers-page__Moscow.svg" alt="" class="figure-img">
-                                <figcaption class="figure-caption">Производство в <br>России</figcaption>
-                            </figure>
-                        </li>
-                        <li class="col-6 col-lg-3">
-                            <figure class="figure">
-                                <img src="pages/for-wholesalers-page/for-wholesalers-page__box.svg" alt="" class="figure-img">
-                                <figcaption class="figure-caption">Все товары, в наличии на <br>складе в Москве</figcaption>
-                            </figure>
-                        </li>
-                        <li class="col-6 col-lg-3">
-                            <figure class="figure">
-                                <img src="pages/for-wholesalers-page/for-wholesalers-page__label.svg" alt="" class="figure-img">
-                                <figcaption class="figure-caption">Низкие оптовые цены</figcaption>
-                            </figure>
-                        </li>
-                    </ul>
-                </section>
-                <div class="row">
-                    <section class="col-lg-6 mb-5">
-                        <h2 class="text-center">Доставка</h2>
-                        <ul class="list-colored">
-                            <li class="mb-2">Доставку осуществляем по всей России транспортными компаниями.</li>
-                            <li class="mb-2">Доставка до указанных ТК осуществляется БЕСПЛАТНО!</li>
-                            <li class="mb-2">Возможна доставка в Казахстан и в Беларусь.</li>
-                        </ul>
+                    <hr>
+                    <section class="article__other-articles">
+                        <h2 class="mb-1">Другие статьи</h2>
+                        <!-- List of other articles -->
+<ul class="list-of-other-articles row article-item_style_vertical">
+    <li class="list-of-other-articles__item col-xl-4 col-lg-6">
+        <!-- Article item -->
+<figure class="article-item">
+    <div class="article-item__image-container">
+        <a href="article.html?articleId=1" class="article-item__image" style="background-image: url(..//content/images/blog/image-1.jpg);"></a>
+    </div>
+    <figcaption class="article-item__caption">
+        <a href="article.html?articleId=1" class="article-item__title">Правила единого семейного образа</a>
+        <div class="article-item__text">
+            <p>Family look  всё больше набирает обороты в России и уже многие задумываются о подборе единого образа для всей семьи. А знаете ли вы, что есть правила для создания семейного образа?</p>
+        </div>
+        <div class="article-item__time-container">
+            <time class="article-item__time">08.11.2016</time>
+        </div>
+        <div class="article-item__actions">
+            <a href="article.html?articleId=1" class="btn btn-outline-primary btn-sm">Читать подробно</a>
+        </div>
+    </figcaption>
+</figure>
+<!-- /Article item -->
+    </li>
+    <li class="list-of-other-articles__item col-xl-4 col-lg-6">
+        <!-- Article item -->
+<figure class="article-item">
+    <div class="article-item__image-container">
+        <a href="article.html?articleId=2" class="article-item__image" style="background-image: url(..//content/images/blog/image-2.jpg);"></a>
+    </div>
+    <figcaption class="article-item__caption">
+        <a href="article.html?articleId=2" class="article-item__title">Правила единого семейного образа</a>
+        <div class="article-item__text">
+            <p>Family look  всё больше набирает обороты в России и уже многие задумываются о подборе единого образа для всей семьи. А знаете ли вы, что есть правила для создания семейного образа?</p>
+        </div>
+        <div class="article-item__time-container">
+            <time class="article-item__time">08.11.2016</time>
+        </div>
+        <div class="article-item__actions">
+            <a href="article.html?articleId=2" class="btn btn-outline-primary btn-sm">Читать подробно</a>
+        </div>
+    </figcaption>
+</figure>
+<!-- /Article item -->
+    </li>
+    <li class="list-of-other-articles__item col-xl-4 col-lg-6">
+        <!-- Article item -->
+<figure class="article-item">
+    <div class="article-item__image-container">
+        <a href="article.html?articleId=3" class="article-item__image" style="background-image: url(..//content/images/blog/image-3.jpg);"></a>
+    </div>
+    <figcaption class="article-item__caption">
+        <a href="article.html?articleId=3" class="article-item__title">Правила единого семейного образа</a>
+        <div class="article-item__text">
+            <p>Family look  всё больше набирает обороты в России и уже многие задумываются о подборе единого образа для всей семьи. А знаете ли вы, что есть правила для создания семейного образа?</p>
+        </div>
+        <div class="article-item__time-container">
+            <time class="article-item__time">08.11.2016</time>
+        </div>
+        <div class="article-item__actions">
+            <a href="article.html?articleId=3" class="btn btn-outline-primary btn-sm">Читать подробно</a>
+        </div>
+    </figcaption>
+</figure>
+<!-- /Article item -->
+    </li>
+</ul>
+<!-- /List of other articles -->
                     </section>
-                    <section class="col-lg-6 mb-5 for-wholesalers-page__has-border-left">
-                        <div>
-                            <h2 class="text-center">Контакты для оптовиков</h2>
-                            <div class="table-responsive">
-                                <table class="m-auto">
-                                    <tbody>
-                                    <tr>
-                                        <td class="pb-3">Электронная почта:</td>
-                                        <td class="pb-3"><a href="mailto:an.semeryanova@yandex.ru" class="text-info">an.semeryanova@yandex.ru</a></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="pr-4 pb-3">Контактные телефоны:</td>
-                                        <td class="pb-3"><a href="tel:88005551094"><b>8-800-555-10-94</b></a></td>
-                                    </tr>
-                                    <tr>
-                                        <td class="pb-3">Социальные сети:</td>
-                                        <td class="pb-3">
-                                            <ul class="list-unstyled">
-                                                <li><a target="_blank" href="//instagram.com/befamily" class="text-info">instagram.com/befamily</a></li>
-                                                <li><a target="_blank" href="//vk.com/befamilyshop" class="text-info">vk.com/befamilyshop</a></li>
-                                                <li><a target="_blank" href="//www.facebook.com/befamilyshop" class="text-info">www.facebook.com/befamilyshop</a></li>
-                                            </ul>
-                                        </td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </section>
-                </div>
+                </article>
             </section>
         </div>
-    </article>
+    </div>
 </main>
-<!-- /For wholesalers page -->
-<script src="pages/for-wholesalers-page/for-wholesalers-page.js" defer></script>
+<!-- /Article page -->
+<script src="pages/article-page/article-page.js" defer></script>
 
 <!-- Page footer -->
 <footer class="page-footer">

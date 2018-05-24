@@ -14,7 +14,7 @@
                         <a data-fancybox="gallery"
                            href="content/images/complects/scandinavia/scandinavia-1.jpg"
                            class="list-of-images__link">
-                            <img src="/content/images/complects/scandinavia/scandinavia-1.jpg" alt="" class="img-fluid">
+                            <img src="content/images/complects/scandinavia/scandinavia-1.jpg" alt="" class="img-fluid">
                         </a>
                     </div>
                     <div class="col-md-8">
@@ -78,7 +78,7 @@
        data-html="true"
        data-content='
 <div class="p-3 text-center">
-    <img src="/common.blocks/product-size-popover/product-size-popover__shirt.svg" alt="">
+    <img src="common.blocks/product-size-popover/product-size-popover__shirt.svg" alt="">
 </div>
 <table class="product-size-popover__table table table-sm table-bordered">
     <thead>
@@ -195,7 +195,7 @@
        data-html="true"
        data-content='
 <div class="p-3 text-center">
-    <img src="/common.blocks/product-size-popover/product-size-popover__shirt.svg" alt="">
+    <img src="common.blocks/product-size-popover/product-size-popover__shirt.svg" alt="">
 </div>
 <table class="product-size-popover__table table table-sm table-bordered">
     <thead>
