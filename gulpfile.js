@@ -25,23 +25,23 @@ var bundleNames = {
 
 var path = {
     build: {
-        html: 'dist',
-        scripts: 'dist/bundles',
-        pageScripts: 'dist/pages',
-        styles: 'dist/bundles',
-        pageStyles: 'dist/pages',
-        images: 'dist',
-        fonts: 'dist'
+        html: './dist',
+        scripts: './dist/bundles',
+        pageScripts: './dist/pages',
+        styles: './dist/bundles',
+        pageStyles: './dist/pages',
+        images: './dist',
+        fonts: './dist'
     },
     src: {
-        html: 'blocks/**/*.{html,tpl,tmpl}',
-        scripts: 'blocks/common.blocks/**/*.js',
-        pageScripts: 'blocks/pages/**/*.js',
-        styles: ['blocks/library.blocks/bootstrap/bootstrap.scss', 'blocks/common.blocks/**/*.scss'],
-        pageStyles: 'blocks/pages/**/*.scss',
-        libraryStyles: 'blocks/library.blocks/**/*.scss',
-        images: 'blocks/**/*.{jpg,jpeg,png,gif,svg}',
-        fonts: 'blocks/**/*.{ttf,otf,woff,woff2,eot}'
+        html: './blocks/**/*.{html,tpl,tmpl}',
+        scripts: './blocks/common.blocks/**/*.js',
+        pageScripts: './blocks/pages/**/*.js',
+        styles: ['./blocks/library.blocks/bootstrap/bootstrap.scss', 'blocks/common.blocks/**/*.scss'],
+        pageStyles: './blocks/pages/**/*.scss',
+        libraryStyles: './blocks/library.blocks/**/*.scss',
+        images: './blocks/**/*.{jpg,jpeg,png,gif,svg}',
+        fonts: './blocks/**/*.{ttf,otf,woff,woff2,eot}'
     },
     clean: './dist'
 };
@@ -121,7 +121,13 @@ gulp.task('pageScripts:build', function () {
 
 gulp.task('images:build', function () {
     gulp.src(path.src.images)
-        .pipe(newer(path.build.images))
+        .pipe(imagemin())
+        .pipe(gulp.dest(path.build.images))
+        .pipe(reload({stream: true}));
+});
+gulp.task('images:watch', function () {
+    gulp.src(path.src.images)
+        //.pipe(newer(path.build.images))
         .pipe(imagemin())
         .pipe(gulp.dest(path.build.images))
         .pipe(reload({stream: true}));
@@ -173,7 +179,7 @@ gulp.task('watch', function() {
     });
 
     watch(path.src.images, function(event, cb) {
-        gulp.start('images:build');
+        gulp.start('images:watch');
     });
     watch(path.src.fonts, function(event, cb) {
         gulp.start('fonts:build');
