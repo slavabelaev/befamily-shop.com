@@ -10,10 +10,10 @@
   }
 }
 .slider__item {
-  min-height: 450px;
   align-items: center;
   &.slick-slide {
     display: flex;
+    min-height: 450px;
   }
 }
 .slider__item-header {
