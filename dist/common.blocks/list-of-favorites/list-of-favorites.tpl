@@ -10,9 +10,9 @@
                 data-product-id="0109">
             <i class="icon icon__heart"></i>
         </button>
-        <a href="/product.html?complectId=0109" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-1.jpg);"></a>
+        <a href="product.html?complectId=0109" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-1.jpg);"></a>
         <h3 class="complect-item__title">
-            <a href="/product.html?complectId=0109" class="complect-item__title-link">Комплект платьев Морской Бриз</a>
+            <a href="product.html?complectId=0109" class="complect-item__title-link">Комплект платьев Морской Бриз</a>
         </h3>
         <ul class="complect-item__details">
             <li class="complect-item__detail complect-item__uid">Артикул: 0109</li>
@@ -41,9 +41,9 @@
                 data-product-id="0110">
             <i class="icon icon__heart"></i>
         </button>
-        <a href="/product.html?complectId=0110" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-2.jpg);"></a>
+        <a href="product.html?complectId=0110" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-2.jpg);"></a>
         <h3 class="complect-item__title">
-            <a href="/product.html?complectId=0110" class="complect-item__title-link">Комплект платьев Мечта</a>
+            <a href="product.html?complectId=0110" class="complect-item__title-link">Комплект платьев Мечта</a>
         </h3>
         <ul class="complect-item__details">
             <li class="complect-item__detail complect-item__uid">Артикул: 0110</li>
@@ -72,9 +72,9 @@
                 data-product-id="0111">
             <i class="icon icon__heart"></i>
         </button>
-        <a href="/product.html?complectId=0111" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-3.jpg);"></a>
+        <a href="product.html?complectId=0111" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-3.jpg);"></a>
         <h3 class="complect-item__title">
-            <a href="/product.html?complectId=0111" class="complect-item__title-link">Комплект платьев Одри</a>
+            <a href="product.html?complectId=0111" class="complect-item__title-link">Комплект платьев Одри</a>
         </h3>
         <ul class="complect-item__details">
             <li class="complect-item__detail complect-item__uid">Артикул: 0111</li>
@@ -103,9 +103,9 @@
                 data-product-id="0112">
             <i class="icon icon__heart"></i>
         </button>
-        <a href="/product.html?complectId=0112" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-4.jpg);"></a>
+        <a href="product.html?complectId=0112" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-4.jpg);"></a>
         <h3 class="complect-item__title">
-            <a href="/product.html?complectId=0112" class="complect-item__title-link">Комплект платьев Мечта</a>
+            <a href="product.html?complectId=0112" class="complect-item__title-link">Комплект платьев Мечта</a>
         </h3>
         <ul class="complect-item__details">
             <li class="complect-item__detail complect-item__uid">Артикул: 0112</li>

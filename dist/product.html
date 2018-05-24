@@ -12,14 +12,14 @@
     <meta name="google-site-verification" content="N2dYHT1lngqua6AoIMHCLsgs5x2GBTyUmeR2ZPULQRc" />
     <meta name="google-site-verification" content="XyaPmAvu0V6uHCqCniXtIXlW5a4EcLlp1zgKKAXWkMY" />
     <!-- Bundle CSS -->
-    <link rel="stylesheet" href="/bundles/bundle.min.css">
+    <link rel="stylesheet" href="bundles/bundle.min.css">
 </head>
 <body>
 <!-- /Meta header -->
 <!-- Page header -->
 <header class="page-header">
 	<nav class="navbar navbar-expand-lg navbar-light container">
-		<a class="navbar-brand" href="/index.html">
+		<a class="navbar-brand" href="index.html">
 			<img src="/common.blocks/page-header/page-header__be-Family.svg"
 				 alt="be Family"
 				 class="page-header__logo">
@@ -57,24 +57,24 @@
 						Каталог товаров
 					</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="/catalog.html?filter[category]=whole_family">Вся семья</a>
-						<a class="dropdown-item" href="/catalog.html?filter[category]=mother_and_child">Мама и ребенок</a>
-						<a class="dropdown-item" href="/catalog.html?filter[category]=father_and_child">Папа и ребенок</a>
-						<a class="dropdown-item" href="/catalog.html?filter[category]=for_two">Для двоих</a>
-						<a class="dropdown-item" href="/catalog.html?filter[category]=sale">Распродажа</a>
+						<a class="dropdown-item" href="catalog.html?filter[category]=whole_family">Вся семья</a>
+						<a class="dropdown-item" href="catalog.html?filter[category]=mother_and_child">Мама и ребенок</a>
+						<a class="dropdown-item" href="catalog.html?filter[category]=father_and_child">Папа и ребенок</a>
+						<a class="dropdown-item" href="catalog.html?filter[category]=for_two">Для двоих</a>
+						<a class="dropdown-item" href="catalog.html?filter[category]=sale">Распродажа</a>
 					</div>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/about.html">О нас</a>
+					<a class="nav-link" href="about.html">О нас</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/for-wholesalers.html">Оптовикам</a>
+					<a class="nav-link" href="for-wholesalers.html">Оптовикам</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/blog.html">Блог</a>
+					<a class="nav-link" href="blog.html">Блог</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/contacts.html">Контакты</a>
+					<a class="nav-link" href="contacts.html">Контакты</a>
 				</li>
             </ul>
         </div>
@@ -89,13 +89,13 @@
                 </a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="/favorites.html">
+				<a class="nav-link" href="favorites.html">
                     <i class="icon icon__heart icon_style_dark"></i>
 					<span class="page-header__number-of-favorites badge badge-primary" data-favorites-count="0">0</span>
                 </a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="/cart.html">
+				<a class="nav-link" href="cart.html">
 					<i class="icon icon__shopping-bag icon_style_dark"></i>
 					<span class="page-header__number-of-products badge badge-primary" data-cart-products-count="0">0</span>
 				</a>
@@ -120,7 +120,7 @@
         <!-- Breadcrumb -->
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="/">Главная</a></li>
+        <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
          <li class="breadcrumb-item"><a href="#">Каталог</a></li> 
         
          <li class="breadcrumb-item active" aria-current="page">Мама и дочка</li> 
@@ -464,11 +464,11 @@
         <!-- Product item -->
 <form action="#" class="product-item card" data-product-id="0109">
     <div class="card-body">
-        <a href="/product.html"
+        <a href="product.html"
            class="product-item__image"
            style="background-image: url(/content/images/products/sweater__Scandinavia/sweater__Scandinavia-1.jpg);"></a>
         <h3 class="product-item__title">
-            <a href="/product.html" class="product-item__title-link">Свитер “Скандинавия”</a>
+            <a href="product.html" class="product-item__title-link">Свитер “Скандинавия”</a>
         </h3>
         <ul class="product-item__details mb-2">
             <li class="product-item__detail product-item__category">Мальчик</li>
@@ -509,11 +509,11 @@
         </div>
     </div>
     <div class="card-footer">
-        <a  href="/product.html"
+        <a  href="product.html"
             class="product-item__collapse-size btn btn-outline-info"
             data-toggle="collapse"
             data-target="[data-product-id=0109] .product-item__size">Добавить</a>
-        <a  href="/product.html"
+        <a  href="product.html"
             class="product-item__added-to-cart btn btn-outline-primary d-none"
             data-toggle="modal"
             data-target=".added-to-cart-modal">В корзину</a>
@@ -526,11 +526,11 @@
         <!-- Product item -->
 <form action="#" class="product-item card" data-product-id="0110">
     <div class="card-body">
-        <a href="/product.html"
+        <a href="product.html"
            class="product-item__image"
            style="background-image: url(/content/images/products/sweater__Scandinavia/sweater__Scandinavia-2.jpg);"></a>
         <h3 class="product-item__title">
-            <a href="/product.html" class="product-item__title-link">Свитер “Скандинавия”</a>
+            <a href="product.html" class="product-item__title-link">Свитер “Скандинавия”</a>
         </h3>
         <ul class="product-item__details mb-2">
             <li class="product-item__detail product-item__category">Мальчик</li>
@@ -571,11 +571,11 @@
         </div>
     </div>
     <div class="card-footer">
-        <a  href="/product.html"
+        <a  href="product.html"
             class="product-item__collapse-size btn btn-outline-info"
             data-toggle="collapse"
             data-target="[data-product-id=0110] .product-item__size">Добавить</a>
-        <a  href="/product.html"
+        <a  href="product.html"
             class="product-item__added-to-cart btn btn-outline-primary d-none"
             data-toggle="modal"
             data-target=".added-to-cart-modal">В корзину</a>
@@ -668,9 +668,9 @@
                 data-product-id="0109">
             <i class="icon icon__heart"></i>
         </button>
-        <a href="/product.html?complectId=0109" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-1.jpg);"></a>
+        <a href="product.html?complectId=0109" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-1.jpg);"></a>
         <h3 class="complect-item__title">
-            <a href="/product.html?complectId=0109" class="complect-item__title-link">Комплект платьев Мечта</a>
+            <a href="product.html?complectId=0109" class="complect-item__title-link">Комплект платьев Мечта</a>
         </h3>
         <ul class="complect-item__details">
             <li class="complect-item__detail complect-item__uid">Артикул: 0109</li>
@@ -699,9 +699,9 @@
                 data-product-id="0110">
             <i class="icon icon__heart"></i>
         </button>
-        <a href="/product.html?complectId=0110" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-2.jpg);"></a>
+        <a href="product.html?complectId=0110" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-2.jpg);"></a>
         <h3 class="complect-item__title">
-            <a href="/product.html?complectId=0110" class="complect-item__title-link">Комплект платьев Мечта</a>
+            <a href="product.html?complectId=0110" class="complect-item__title-link">Комплект платьев Мечта</a>
         </h3>
         <ul class="complect-item__details">
             <li class="complect-item__detail complect-item__uid">Артикул: 0110</li>
@@ -730,9 +730,9 @@
                 data-product-id="0111">
             <i class="icon icon__heart"></i>
         </button>
-        <a href="/product.html?complectId=0111" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-3.jpg);"></a>
+        <a href="product.html?complectId=0111" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-3.jpg);"></a>
         <h3 class="complect-item__title">
-            <a href="/product.html?complectId=0111" class="complect-item__title-link">Комплект платьев Мечта</a>
+            <a href="product.html?complectId=0111" class="complect-item__title-link">Комплект платьев Мечта</a>
         </h3>
         <ul class="complect-item__details">
             <li class="complect-item__detail complect-item__uid">Артикул: 0111</li>
@@ -761,9 +761,9 @@
                 data-product-id="0112">
             <i class="icon icon__heart"></i>
         </button>
-        <a href="/product.html?complectId=0112" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-4.jpg);"></a>
+        <a href="product.html?complectId=0112" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-4.jpg);"></a>
         <h3 class="complect-item__title">
-            <a href="/product.html?complectId=0112" class="complect-item__title-link">Комплект платьев Мечта</a>
+            <a href="product.html?complectId=0112" class="complect-item__title-link">Комплект платьев Мечта</a>
         </h3>
         <ul class="complect-item__details">
             <li class="complect-item__detail complect-item__uid">Артикул: 0112</li>
@@ -792,9 +792,9 @@
                 data-product-id="0113">
             <i class="icon icon__heart"></i>
         </button>
-        <a href="/product.html?complectId=0113" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-5.jpg);"></a>
+        <a href="product.html?complectId=0113" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-5.jpg);"></a>
         <h3 class="complect-item__title">
-            <a href="/product.html?complectId=0113" class="complect-item__title-link">Комплект платьев Мечта</a>
+            <a href="product.html?complectId=0113" class="complect-item__title-link">Комплект платьев Мечта</a>
         </h3>
         <ul class="complect-item__details">
             <li class="complect-item__detail complect-item__uid">Артикул: 0113</li>
@@ -823,9 +823,9 @@
                 data-product-id="0114">
             <i class="icon icon__heart"></i>
         </button>
-        <a href="/product.html?complectId=0114" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-6.jpg);"></a>
+        <a href="product.html?complectId=0114" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-6.jpg);"></a>
         <h3 class="complect-item__title">
-            <a href="/product.html?complectId=0114" class="complect-item__title-link">Комплект платьев Мечта</a>
+            <a href="product.html?complectId=0114" class="complect-item__title-link">Комплект платьев Мечта</a>
         </h3>
         <ul class="complect-item__details">
             <li class="complect-item__detail complect-item__uid">Артикул: 0114</li>
@@ -854,9 +854,9 @@
                 data-product-id="0115">
             <i class="icon icon__heart"></i>
         </button>
-        <a href="/product.html?complectId=0115" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-7.jpg);"></a>
+        <a href="product.html?complectId=0115" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-7.jpg);"></a>
         <h3 class="complect-item__title">
-            <a href="/product.html?complectId=0115" class="complect-item__title-link">Комплект платьев Мечта</a>
+            <a href="product.html?complectId=0115" class="complect-item__title-link">Комплект платьев Мечта</a>
         </h3>
         <ul class="complect-item__details">
             <li class="complect-item__detail complect-item__uid">Артикул: 0115</li>
@@ -885,9 +885,9 @@
                 data-product-id="0116">
             <i class="icon icon__heart"></i>
         </button>
-        <a href="/product.html?complectId=0116" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-8.jpg);"></a>
+        <a href="product.html?complectId=0116" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-8.jpg);"></a>
         <h3 class="complect-item__title">
-            <a href="/product.html?complectId=0116" class="complect-item__title-link">Комплект платьев Мечта</a>
+            <a href="product.html?complectId=0116" class="complect-item__title-link">Комплект платьев Мечта</a>
         </h3>
         <ul class="complect-item__details">
             <li class="complect-item__detail complect-item__uid">Артикул: 0116</li>
@@ -931,7 +931,7 @@
                 <div class="row">
                     <div class="col-lg-4 mb-4 mb-lg-0">
                         <a data-fancybox="gallery"
-                           href="/content/images/complects/scandinavia/scandinavia-1.jpg"
+                           href="content/images/complects/scandinavia/scandinavia-1.jpg"
                            class="list-of-images__link">
                             <img src="/content/images/complects/scandinavia/scandinavia-1.jpg" alt="" class="img-fluid">
                         </a>
@@ -1484,13 +1484,13 @@
                                 <a href="for-wholesalers.html" class="page-footer__nav-link">Оптовикам</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/delivery.html" class="page-footer__nav-link">Доставка</a>
+                                <a href="delivery.html" class="page-footer__nav-link">Доставка</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/blog.html" class="page-footer__nav-link">Блог</a>
+                                <a href="blog.html" class="page-footer__nav-link">Блог</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/contacts.html" class="page-footer__nav-link">Контакты</a>
+                                <a href="contacts.html" class="page-footer__nav-link">Контакты</a>
                             </li>
                             <li class="nav-item nav-item_type_social">
                                 <a target="_blank"
@@ -1516,27 +1516,27 @@
                     <nav class="page-footer__nav page-footer__nav_type_for-family collapse">
                         <ul class="page-footer__list-of-links">
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Футболки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Наряды с платьями</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитшоты и толстовки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Рубашки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитера</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Аксессуары</a>
                             </li>
                         </ul>
@@ -1551,27 +1551,27 @@
                     <nav class="page-footer__nav page-footer__nav_type_moms-and-daughter collapse">
                         <ul class="page-footer__list-of-links">
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Футболки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Платья</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитшоты и худи</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Рубашки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитера</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Аксессуары</a>
                             </li>
                         </ul>
@@ -1586,27 +1586,27 @@
                     <nav class="page-footer__nav page-footer__nav_type_moms-and-sons collapse">
                         <ul class="page-footer__list-of-links">
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Футболки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Рубашки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Комплекты</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитера</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитшоты и толстовки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Аксессуары</a>
                             </li>
                         </ul>
@@ -1621,27 +1621,27 @@
                     <nav class="page-footer__nav page-footer__nav_type_dads-and-sons collapse">
                         <ul class="page-footer__list-of-links">
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Футболки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Наряды с платьями</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Толстовки и свитшоты</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Рубашки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитера</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Аксессуары</a>
                             </li>
                         </ul>
@@ -1656,27 +1656,27 @@
                     <nav class="page-footer__nav page-footer__nav_type_menu collapse">
                         <ul class="page-footer__list-of-links">
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Футболки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Наряды с платьями</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитшоты</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Рубашки</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Свитера</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/catalog.html?filter[parentCaterory]=&filter[category]="
+                                <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                                    class="page-footer__nav-link">Аксессуары</a>
                             </li>
                         </ul>
@@ -1726,7 +1726,7 @@
             <li class="page-footer__section-item_part_copyright col-md-4">
                 <section class="page-footer__section page-footer__copyright-section">
                     <h3 class="d-none">be Family</h3>
-                    <a href="/"
+                    <a href="index.html"
                        class="page-footer__link">
                         <img src="/common.blocks/page-footer/page-footer__be-Family.svg"
                              alt="be Family"

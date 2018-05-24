@@ -1,7 +1,7 @@
 <!-- Page header -->
 <header class="page-header">
 	<nav class="navbar navbar-expand-lg navbar-light container">
-		<a class="navbar-brand" href="/index.html">
+		<a class="navbar-brand" href="index.html">
 			<img src="/common.blocks/page-header/page-header__be-Family.svg"
 				 alt="be Family"
 				 class="page-header__logo">
@@ -39,24 +39,24 @@
 						Каталог товаров
 					</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="/catalog.html?filter[category]=whole_family">Вся семья</a>
-						<a class="dropdown-item" href="/catalog.html?filter[category]=mother_and_child">Мама и ребенок</a>
-						<a class="dropdown-item" href="/catalog.html?filter[category]=father_and_child">Папа и ребенок</a>
-						<a class="dropdown-item" href="/catalog.html?filter[category]=for_two">Для двоих</a>
-						<a class="dropdown-item" href="/catalog.html?filter[category]=sale">Распродажа</a>
+						<a class="dropdown-item" href="catalog.html?filter[category]=whole_family">Вся семья</a>
+						<a class="dropdown-item" href="catalog.html?filter[category]=mother_and_child">Мама и ребенок</a>
+						<a class="dropdown-item" href="catalog.html?filter[category]=father_and_child">Папа и ребенок</a>
+						<a class="dropdown-item" href="catalog.html?filter[category]=for_two">Для двоих</a>
+						<a class="dropdown-item" href="catalog.html?filter[category]=sale">Распродажа</a>
 					</div>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/about.html">О нас</a>
+					<a class="nav-link" href="about.html">О нас</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/for-wholesalers.html">Оптовикам</a>
+					<a class="nav-link" href="for-wholesalers.html">Оптовикам</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/blog.html">Блог</a>
+					<a class="nav-link" href="blog.html">Блог</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="/contacts.html">Контакты</a>
+					<a class="nav-link" href="contacts.html">Контакты</a>
 				</li>
             </ul>
         </div>
@@ -71,13 +71,13 @@
                 </a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="/favorites.html">
+				<a class="nav-link" href="favorites.html">
                     <i class="icon icon__heart icon_style_dark"></i>
 					<span class="page-header__number-of-favorites badge badge-primary" data-favorites-count="0">0</span>
                 </a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="/cart.html">
+				<a class="nav-link" href="cart.html">
 					<i class="icon icon__shopping-bag icon_style_dark"></i>
 					<span class="page-header__number-of-products badge badge-primary" data-cart-products-count="0">0</span>
 				</a>

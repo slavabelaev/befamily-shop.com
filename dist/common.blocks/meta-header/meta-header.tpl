@@ -12,7 +12,7 @@
     <meta name="google-site-verification" content="N2dYHT1lngqua6AoIMHCLsgs5x2GBTyUmeR2ZPULQRc" />
     <meta name="google-site-verification" content="XyaPmAvu0V6uHCqCniXtIXlW5a4EcLlp1zgKKAXWkMY" />
     <!-- Bundle CSS -->
-    <link rel="stylesheet" href="/bundles/bundle.min.css">
+    <link rel="stylesheet" href="bundles/bundle.min.css">
 </head>
 <body>
 <!-- /Meta header -->

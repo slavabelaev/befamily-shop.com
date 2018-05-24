@@ -12,7 +12,7 @@
                 <div class="row">
                     <div class="col-lg-4 mb-4 mb-lg-0">
                         <a data-fancybox="gallery"
-                           href="/content/images/complects/scandinavia/scandinavia-1.jpg"
+                           href="content/images/complects/scandinavia/scandinavia-1.jpg"
                            class="list-of-images__link">
                             <img src="/content/images/complects/scandinavia/scandinavia-1.jpg" alt="" class="img-fluid">
                         </a>

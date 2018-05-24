@@ -7,9 +7,9 @@
                 data-product-id="@@uid">
             <i class="icon icon__heart"></i>
         </button>
-        <a href="/product.html?complectId=@@uid" class="complect-item__image" style="background-image: url(@@imageUrl);"></a>
+        <a href="product.html?complectId=@@uid" class="complect-item__image" style="background-image: url(@@imageUrl);"></a>
         <h3 class="complect-item__title">
-            <a href="/product.html?complectId=@@uid" class="complect-item__title-link">@@title</a>
+            <a href="product.html?complectId=@@uid" class="complect-item__title-link">@@title</a>
         </h3>
         <ul class="complect-item__details">
             <li class="complect-item__detail complect-item__uid">Артикул: @@uid</li>
