@@ -1,9 +1,3 @@
-if (location.host.match('github.io')) {
-    let baseElement = document.createElement('base');
-    baseElement.href = 'https://belaevslava.github.io/befamily-shop.com/dist/';
-    document.head.appendChild(baseElement);
-}
-
 jQuery(document).ready(function($) {
     $('[data-toggle="popover"]').popover();
     $('[data-toggle="tooltip"]').tooltip();
