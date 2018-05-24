@@ -617,15 +617,18 @@
 <!-- /Catalog filter -->
                 </div>
                 <div class="catalog-page__catalog-sorter mb-3">
-                    <!-- Favorites filter -->
-<form action="#" class="catalog-sorter row">
+                    <!-- Favorites sorter -->
+<form action="" class="catalog-sorter row">
     <div class="form-group col-sm-6">
         <div class="row align-items-center">
             <div class="col-xl-4">
-                <label for="sortByPrice" class="catalog-sorter__label mb-xl-0">Сортировать по:</label>
+                <label for="sortByPrice"
+                       class="catalog-sorter__label mb-xl-0">Сортировать по:</label>
             </div>
             <div class="col-xl-8">
-                <select class="custom-select w-100" name="sortByPrice" id="sortByPrice">
+                <select class="custom-select w-100"
+                        name="favoritesSort[byPrice]"
+                        id="sortByPrice">
                     <option value="LOW_TO_HIGHT" selected>Цене (Низкая > Высокая)</option>
                     <option value="HIGHT_TO_LOW">Цене (Высокая > Низкая)</option>
                 </select>
@@ -635,10 +638,13 @@
     <div class="form-group col-sm-6">
         <div class="row align-items-center">
             <div class="col-xl-4">
-                <label for="maxFavoriteElements" class="catalog-sorter__label mb-xl-0">Показывать по:</label>
+                <label for="maxFavoriteElements"
+                       class="catalog-sorter__label mb-xl-0">Показывать по:</label>
             </div>
             <div class="col-xl-8">
-                <select class="custom-select w-100" name="maxFavoriteElements" id="maxFavoriteElements">
+                <select class="custom-select w-100"
+                        name="favoritesSort[maxElementsOnPage]"
+                        id="maxFavoriteElements">
                     <option value="10" selected>10 шт.</option>
                     <option value="20">20 шт.</option>
                     <option value="30">30 шт.</option>
@@ -649,7 +655,7 @@
         </div>
     </div>
 </form>
-<!-- /Favorites filter -->
+<!-- /Favorites sorter -->
                 </div>
                 <div class="catalog-page__list-of-products">
                     <!-- List of favorites -->

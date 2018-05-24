@@ -113,109 +113,63 @@
 </header>
 <!-- /Page header -->
 
-<link rel="stylesheet" href="pages/contacts-page/contacts-page.css">
-<!-- Contacts page -->
-<main class="contacts-page">
+<link rel="stylesheet" href="pages/sitemap-page/sitemap-page.css">
+<!-- Sitemap page -->
+<main class="sitemap-page">
     <div class="container">
-        <section class="row">
-            <div class="col-md-6 col-xl-5">
-                <h1 class="mt-5">Контакты</h1>
-                <div class="mb-5">
-                    <dl class="contacts-page__contacts">
-                        <dt class="text-dark">Телефон:</dt>
-                        <dd class="mb-4"><a target="_blank" href="tel:88005551094" class="contacts-page__phone">8 (800) 555 - 10 - 94</a></dd>
-
-                        <dt class="text-dark">Адрес (Пункт самовывоза):</dt>
-                        <dd class="mb-4">
-                            <address>
-                                <a target="_blank" href="https://yandex.ru/maps/-/CBqo6LDu-A" class="contacts-page__address">Москва, ул. Тверская 12 стр. 8</a>
-                            </address>
-                        </dd>
-
-                        <dt class="text-dark">Режим работы:</dt>
-                        <dd class="mb-4"><span class="contacts-page__working-hours">С 10 до 20</span></dd>
-
-                        <dt class="text-dark">Мы в соцсетях:</dt>
-                        <dd class="mb-4">
-                            <ul class="page-header__list-of-socials">
-                                <li class="page-header__list-of-socials-item">
-                                    <a target="_blank" href="https://www.instagram.com/befamily/" class="page-header__nav-link">
-                                        <i class="icon icon__instagram icon_style_dark"></i>Instagram
-                                    </a>
-                                </li>
-                                <li class="page-header__list-of-socials-item">
-                                    <a target="_blank" href="https://vk.com/befamilyshop" class="page-header__nav-link">
-                                        <i class="icon icon__vk icon_style_dark"></i>Вконтакте
-                                    </a>
-                                </li>
-                            </ul>
-                        </dd>
-                    </dl>
-                </div>
-
-                <div class="contacts-page__contact-form mb-5 pt-5">
-                    <!-- Contact form -->
-<form class="contact-form">
-    <h2 class="contact-form__title">Написать нам:</h2>
-    <div class="form-group row">
-        <div class="col-lg-9 offset-lg-3">
-            <div class="alert alert-primary" role="alert"><i class="icon icon__paper-plane icon_style_light mr-3"></i>Сообщение было отправленно</div>
-        </div>
-    </div>
-    <div class="form-group row">
-        <label for="contact-form__field-name"
-               class="col-lg-3 col-form-label text-lg-right">Имя</label>
-        <div class="col-lg-9">
-            <input type="text"
-                   name="contactForm[name]"
-                   class="form-control form-control-lg"
-                   id="contact-form__field-name"
-                   required>
-        </div>
-    </div>
-    <div class="form-group row">
-        <label for="contact-form__field-email"
-               class="col-lg-3 col-form-label text-lg-right">E-mail</label>
-        <div class="col-lg-9">
-            <input type="email"
-                   name="contactForm[email]"
-                   class="form-control form-control-lg"
-                   id="contact-form__field-email"
-                   required>
-        </div>
-    </div>
-    <div class="form-group row">
-        <label for="contact-form__field-message"
-               class="col-lg-3 col-form-label text-lg-right">Сообщение</label>
-        <div class="col-lg-9">
-            <textarea class="form-control form-control-lg"
-                      name="contactForm[message]"
-                      id="contact-form__field-message"
-                      required></textarea>
-        </div>
-    </div>
-    <div class="form-group row">
-        <div class="col-lg-9 offset-lg-3">
-            <button type="submit"
-                    class="btn btn-outline-primary btn-lg">Отправить сообщение</button>
-        </div>
-    </div>
-</form>
-<!-- /Contact form -->
-                </div>
-            </div>
-            <div class="col-md-6 offset-xl-1 contacts-page__map-wrapper">
-                <iframe src="https://yandex.ru/map-widget/v1/-/CBq1a8aWCB"
-                        width="100%"
-                        height="100%"
-                        frameborder="0"
-                        class="contacts-page__map"></iframe>
-            </div>
-        </section>
+        <!-- Breadcrumb -->
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Главная</a></li>
+         <li class="breadcrumb-item"><a href="#">Блог</a></li> 
+        
+         <li class="breadcrumb-item active" aria-current="page">Новости</li> 
+    </ol>
+</nav>
+<!-- /Breadcrumb -->
+        <h1>Карта сайта</h1>
+        <ul class="sitemap-list">
+            <li class="sitemap-list__item">
+                <a href="#" class="sitemap-list__link">Главная страница</a>
+                <ul class="sitemap-list">
+                    <li class="sitemap-list__item">
+                        <a href="#" class="sitemap-list__link">Страница второго уровня</a>
+                    </li>
+                    <li class="sitemap-list__item">
+                        <a href="#" class="sitemap-list__link">Страница второго уровня</a>
+                    </li>
+                    <li class="sitemap-list__item">
+                        <a href="#" class="sitemap-list__link">Страница второго уровня</a>
+                        <ul class="sitemap-list">
+                            <li class="sitemap-list__item">
+                                <a href="#" class="sitemap-list__link">Страница третьего уровня</a>
+                            </li>
+                            <li class="sitemap-list__item">
+                                <a href="#" class="sitemap-list__link">Страница третьего уровня</a>
+                            </li>
+                            <li class="sitemap-list__item">
+                                <a href="#" class="sitemap-list__link">Страница четвертого уровня</a>
+                                <ul class="sitemap-list">
+                                    <li class="sitemap-list__item">
+                                        <a href="#" class="sitemap-list__link">Страница четвертого уровня</a>
+                                    </li>
+                                    <li class="sitemap-list__item">
+                                        <a href="#" class="sitemap-list__link">Страница четвертого уровня</a>
+                                    </li>
+                                    <li class="sitemap-list__item">
+                                        <a href="#" class="sitemap-list__link">Страница четвертого уровня</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
     </div>
 </main>
-<!-- Contacts page -->
-<script src="pages/contacts-page/contacts-page.js" defer></script>
+<!-- Sitemap page -->
+<script src="pages/sitemap-page/sitemap-page.js" defer></script>
 
 <!-- Page footer -->
 <footer class="page-footer">

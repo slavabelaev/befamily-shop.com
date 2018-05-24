@@ -5,7 +5,7 @@
 <!-- About page -->
 <main class="about-page">
     <article>
-        <header class="about-page__page-header text-white mb-5" style="background-color: #4FBAD9;background-image: url(pages/about-page/about-page__header-bg.svg)">
+        <header class="about-page__page-header text-white mb-5">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6 order-md-1 py-5 text-center text-md-left">
