@@ -141,27 +141,27 @@
     <li class="list-of-images__item">
         <!-- Image item -->
 <a  data-fancybox="gallery"
-    href="/content/images/complects/scandinavia/scandinavia-1.jpg"
+    href="content/images/complects/scandinavia/scandinavia-1.jpg"
     class="image-item__link">
-    <img src="/content/images/complects/scandinavia/scandinavia-1.jpg" alt="" class="image-item__image">
+    <img src="content/images/complects/scandinavia/scandinavia-1.jpg" alt="" class="image-item__image">
 </a>
 <!-- /Image item -->
     </li>
     <li class="list-of-images__item">
         <!-- Image item -->
 <a  data-fancybox="gallery"
-    href="/content/images/complects/scandinavia/scandinavia-2.jpg"
+    href="content/images/complects/scandinavia/scandinavia-2.jpg"
     class="image-item__link">
-    <img src="/content/images/complects/scandinavia/scandinavia-2.jpg" alt="" class="image-item__image">
+    <img src="content/images/complects/scandinavia/scandinavia-2.jpg" alt="" class="image-item__image">
 </a>
 <!-- /Image item -->
     </li>
     <li class="list-of-images__item">
         <!-- Image item -->
 <a  data-fancybox="gallery"
-    href="/content/images/complects/scandinavia/scandinavia-3.jpg"
+    href="content/images/complects/scandinavia/scandinavia-3.jpg"
     class="image-item__link">
-    <img src="/content/images/complects/scandinavia/scandinavia-3.jpg" alt="" class="image-item__image">
+    <img src="content/images/complects/scandinavia/scandinavia-3.jpg" alt="" class="image-item__image">
 </a>
 <!-- /Image item -->
     </li>
@@ -473,7 +473,7 @@
     <div class="card-body">
         <a href="product.html"
            class="product-item__image"
-           style="background-image: url(/content/images/products/sweater__Scandinavia/sweater__Scandinavia-1.jpg);"></a>
+           style="background-image: url(content/images/products/sweater__Scandinavia/sweater__Scandinavia-1.jpg);"></a>
         <h3 class="product-item__title">
             <a href="product.html" class="product-item__title-link">Свитер “Скандинавия”</a>
         </h3>
@@ -535,7 +535,7 @@
     <div class="card-body">
         <a href="product.html"
            class="product-item__image"
-           style="background-image: url(/content/images/products/sweater__Scandinavia/sweater__Scandinavia-2.jpg);"></a>
+           style="background-image: url(content/images/products/sweater__Scandinavia/sweater__Scandinavia-2.jpg);"></a>
         <h3 class="product-item__title">
             <a href="product.html" class="product-item__title-link">Свитер “Скандинавия”</a>
         </h3>
@@ -601,7 +601,7 @@
     <li class="list-of-reviews__item">
         <!-- Review -->
 <figure class="review-item figure">
-    <div class="review-item__avatar" style="background-image: url(/content/images/reviews/review__Daria-Pynzar.jpg)"></div>
+    <div class="review-item__avatar" style="background-image: url(content/images/reviews/review__Daria-Pynzar.jpg)"></div>
     <figcaption class="figure-caption">
         <h3 class="review-item__fullname">Дарья Пынзарь</h3>
         <address class="review-item__username">
@@ -617,7 +617,7 @@
     <li class="list-of-reviews__item">
         <!-- Review -->
 <figure class="review-item figure">
-    <div class="review-item__avatar" style="background-image: url(/content/images/reviews/review__Ksenia-Borodina.jpg)"></div>
+    <div class="review-item__avatar" style="background-image: url(content/images/reviews/review__Ksenia-Borodina.jpg)"></div>
     <figcaption class="figure-caption">
         <h3 class="review-item__fullname">Ксения Бородина</h3>
         <address class="review-item__username">
@@ -675,7 +675,7 @@
                 data-product-id="0109">
             <i class="icon icon__heart"></i>
         </button>
-        <a href="product.html?complectId=0109" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-1.jpg);"></a>
+        <a href="product.html?complectId=0109" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-1.jpg);"></a>
         <h3 class="complect-item__title">
             <a href="product.html?complectId=0109" class="complect-item__title-link">Комплект платьев Мечта</a>
         </h3>
@@ -706,7 +706,7 @@
                 data-product-id="0110">
             <i class="icon icon__heart"></i>
         </button>
-        <a href="product.html?complectId=0110" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-2.jpg);"></a>
+        <a href="product.html?complectId=0110" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-2.jpg);"></a>
         <h3 class="complect-item__title">
             <a href="product.html?complectId=0110" class="complect-item__title-link">Комплект платьев Мечта</a>
         </h3>
@@ -737,7 +737,7 @@
                 data-product-id="0111">
             <i class="icon icon__heart"></i>
         </button>
-        <a href="product.html?complectId=0111" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-3.jpg);"></a>
+        <a href="product.html?complectId=0111" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-3.jpg);"></a>
         <h3 class="complect-item__title">
             <a href="product.html?complectId=0111" class="complect-item__title-link">Комплект платьев Мечта</a>
         </h3>
@@ -768,7 +768,7 @@
                 data-product-id="0112">
             <i class="icon icon__heart"></i>
         </button>
-        <a href="product.html?complectId=0112" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-4.jpg);"></a>
+        <a href="product.html?complectId=0112" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-4.jpg);"></a>
         <h3 class="complect-item__title">
             <a href="product.html?complectId=0112" class="complect-item__title-link">Комплект платьев Мечта</a>
         </h3>
@@ -799,7 +799,7 @@
                 data-product-id="0113">
             <i class="icon icon__heart"></i>
         </button>
-        <a href="product.html?complectId=0113" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-5.jpg);"></a>
+        <a href="product.html?complectId=0113" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-5.jpg);"></a>
         <h3 class="complect-item__title">
             <a href="product.html?complectId=0113" class="complect-item__title-link">Комплект платьев Мечта</a>
         </h3>
@@ -830,7 +830,7 @@
                 data-product-id="0114">
             <i class="icon icon__heart"></i>
         </button>
-        <a href="product.html?complectId=0114" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-6.jpg);"></a>
+        <a href="product.html?complectId=0114" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-6.jpg);"></a>
         <h3 class="complect-item__title">
             <a href="product.html?complectId=0114" class="complect-item__title-link">Комплект платьев Мечта</a>
         </h3>
@@ -861,7 +861,7 @@
                 data-product-id="0115">
             <i class="icon icon__heart"></i>
         </button>
-        <a href="product.html?complectId=0115" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-7.jpg);"></a>
+        <a href="product.html?complectId=0115" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-7.jpg);"></a>
         <h3 class="complect-item__title">
             <a href="product.html?complectId=0115" class="complect-item__title-link">Комплект платьев Мечта</a>
         </h3>
@@ -892,7 +892,7 @@
                 data-product-id="0116">
             <i class="icon icon__heart"></i>
         </button>
-        <a href="product.html?complectId=0116" class="complect-item__image" style="background-image: url(/content/images/complects/complect__example-8.jpg);"></a>
+        <a href="product.html?complectId=0116" class="complect-item__image" style="background-image: url(content/images/complects/complect__example-8.jpg);"></a>
         <h3 class="complect-item__title">
             <a href="product.html?complectId=0116" class="complect-item__title-link">Комплект платьев Мечта</a>
         </h3>

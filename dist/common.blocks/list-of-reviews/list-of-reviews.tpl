@@ -3,7 +3,7 @@
     <li class="list-of-reviews__item">
         <!-- Review -->
 <figure class="review-item figure">
-    <div class="review-item__avatar" style="background-image: url(/content/images/reviews/review__Daria-Pynzar.jpg)"></div>
+    <div class="review-item__avatar" style="background-image: url(content/images/reviews/review__Daria-Pynzar.jpg)"></div>
     <figcaption class="figure-caption">
         <h3 class="review-item__fullname">Дарья Пынзарь</h3>
         <address class="review-item__username">
@@ -19,7 +19,7 @@
     <li class="list-of-reviews__item">
         <!-- Review -->
 <figure class="review-item figure">
-    <div class="review-item__avatar" style="background-image: url(/content/images/reviews/review__Ksenia-Borodina.jpg)"></div>
+    <div class="review-item__avatar" style="background-image: url(content/images/reviews/review__Ksenia-Borodina.jpg)"></div>
     <figcaption class="figure-caption">
         <h3 class="review-item__fullname">Ксения Бородина</h3>
         <address class="review-item__username">

@@ -6,7 +6,7 @@
     <div class="card-body">
         <a href="product.html"
            class="product-item__image"
-           style="background-image: url(/content/images/products/sweater__Scandinavia/sweater__Scandinavia-1.jpg);"></a>
+           style="background-image: url(content/images/products/sweater__Scandinavia/sweater__Scandinavia-1.jpg);"></a>
         <h3 class="product-item__title">
             <a href="product.html" class="product-item__title-link">Свитер “Скандинавия”</a>
         </h3>
@@ -68,7 +68,7 @@
     <div class="card-body">
         <a href="product.html"
            class="product-item__image"
-           style="background-image: url(/content/images/products/sweater__Scandinavia/sweater__Scandinavia-2.jpg);"></a>
+           style="background-image: url(content/images/products/sweater__Scandinavia/sweater__Scandinavia-2.jpg);"></a>
         <h3 class="product-item__title">
             <a href="product.html" class="product-item__title-link">Свитер “Скандинавия”</a>
         </h3>

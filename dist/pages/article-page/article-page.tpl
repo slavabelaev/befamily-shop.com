@@ -184,7 +184,7 @@
         <!-- Article item -->
 <figure class="article-item">
     <div class="article-item__image-container">
-        <a href="article.html?articleId=1" class="article-item__image" style="background-image: url(/content/images/blog/image-1.jpg);"></a>
+        <a href="article.html?articleId=1" class="article-item__image" style="background-image: url(content/images/blog/image-1.jpg);"></a>
     </div>
     <figcaption class="article-item__caption">
         <a href="article.html?articleId=1" class="article-item__title">Правила единого семейного образа</a>
@@ -205,7 +205,7 @@
         <!-- Article item -->
 <figure class="article-item">
     <div class="article-item__image-container">
-        <a href="article.html?articleId=2" class="article-item__image" style="background-image: url(/content/images/blog/image-2.jpg);"></a>
+        <a href="article.html?articleId=2" class="article-item__image" style="background-image: url(content/images/blog/image-2.jpg);"></a>
     </div>
     <figcaption class="article-item__caption">
         <a href="article.html?articleId=2" class="article-item__title">Правила единого семейного образа</a>
@@ -226,7 +226,7 @@
         <!-- Article item -->
 <figure class="article-item">
     <div class="article-item__image-container">
-        <a href="article.html?articleId=3" class="article-item__image" style="background-image: url(/content/images/blog/image-3.jpg);"></a>
+        <a href="article.html?articleId=3" class="article-item__image" style="background-image: url(content/images/blog/image-3.jpg);"></a>
     </div>
     <figcaption class="article-item__caption">
         <a href="article.html?articleId=3" class="article-item__title">Правила единого семейного образа</a>
