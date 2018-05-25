@@ -8,7 +8,9 @@ var gulp = require('gulp'),
     gulpCopy = require('gulp-copy'),
 
     imagemin = require('gulp-imagemin'),
+    image = require('gulp-image'),
     sass = require('gulp-sass'),
+    csso = require('gulp-csso'),
     autoprefixer = require('gulp-autoprefixer'),
     cleanCss = require('gulp-clean-css'),
     babel = require('gulp-babel'),
@@ -44,16 +46,15 @@ var path = {
         pageScripts: './blocks/pages/**/*.js',
         styles: [
             './blocks/library.blocks/bootstrap/bootstrap.scss',
-            'blocks/common.blocks/**/*.scss'
+            './blocks/common.blocks/**/*.scss'
         ],
         pageStyles: './blocks/pages/**/*.scss',
         libraryStyles: './blocks/library.blocks/**/*.scss',
         images: [
+            './blocks/**/*.svg',
             './blocks/**/*.jpg',
-            './blocks/**/*.jpeg',
             './blocks/**/*.png',
             './blocks/**/*.gif',
-            './blocks/**/*.svg'
         ],
         fonts: [
             './blocks/**/*.ttf',
@@ -94,8 +95,9 @@ gulp.task('styles:build', function() {
         .pipe(plumber())
         //.pipe(sourcemaps.init())
         .pipe(sass())
-        .pipe(autoprefixer())
-        .pipe(cleanCss())
+        //.pipe(csso())
+        //.pipe(autoprefixer())
+        .pipe(cleanCss({rebase: false}))
         .pipe(concat(bundleNames.styles))
         .pipe(gulp.dest(path.build.styles))
         //.pipe(sourcemaps.write())
@@ -107,8 +109,8 @@ gulp.task('pageStyles:build', function() {
         .pipe(plumber())
         //.pipe(sourcemaps.init())
         .pipe(sass())
-        .pipe(autoprefixer())
-        .pipe(cleanCss())
+        //.pipe(autoprefixer())
+        //.pipe(cleanCss())
         //.pipe(concat(path.bundles.css))
         .pipe(gulp.dest(path.build.pageStyles))
         //.pipe(sourcemaps.write())
@@ -141,21 +143,25 @@ gulp.task('pageScripts:build', function () {
 
 gulp.task('images:build', function () {
     gulp.src(path.src.images)
-        .pipe(plumber())
-        //.pipe(gulpCopy(path.build.images))
-        .pipe(imagemin())
-        .pipe(gulp.dest(path.build.images))
-        .pipe(reload({stream: true}));
-});
-gulp.task('images:watch', function () {
-    gulp.src(path.src.images)
         .pipe(newer(path.build.images))
         .pipe(plumber())
         //.pipe(gulpCopy(path.build.images))
-        .pipe(imagemin())
+        .pipe(imagemin({
+            //progressive: true,
+            interlaced: true
+        }))
         .pipe(gulp.dest(path.build.images))
         .pipe(reload({stream: true}));
 });
+// gulp.task('images:watch', function () {
+//     gulp.src(path.src.images)
+//         .pipe(newer(path.build.images))
+//         .pipe(plumber())
+//         //.pipe(gulpCopy(path.build.images))
+//         .pipe(image())
+//         .pipe(gulp.dest(path.build.images))
+//         .pipe(reload({stream: true}));
+// });
 
 gulp.task('fonts:build', function() {
     gulp.src(path.src.fonts)
@@ -203,7 +209,7 @@ gulp.task('watch', function() {
     });
 
     watch(path.src.images, function(event, cb) {
-        gulp.start('images:watch');
+        gulp.start('images:build');
     });
     watch(path.src.fonts, function(event, cb) {
         gulp.start('fonts:build');

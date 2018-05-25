@@ -1,1 +1,5 @@
-.error-404-page{display:flex;align-items:center;min-height:100vh;background-color:#fff68e}
+.error-404-page {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #FFF68E; }

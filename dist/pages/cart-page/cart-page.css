@@ -1,1 +1,16 @@
-.cart-form__sum-box{overflow:auto;background-color:rgba(79,186,217,.1);padding:1.5rem;max-width:475px}.cart-form__price{font-size:1.25rem;font-weight:700;white-space:nowrap}@media (min-width:1200px){.cart-page__purchase-process .list-of-purchase-process-steps__item:not(:last-child):after{bottom:4px;left:28px;-webkit-transform:initial;transform:initial}}
+.cart-form__sum-box {
+  overflow: auto;
+  background-color: rgba(79, 186, 217, 0.1);
+  padding: 1.5rem;
+  max-width: 475px; }
+
+.cart-form__price {
+  font-size: 1.25rem;
+  font-weight: bold;
+  white-space: nowrap; }
+
+@media (min-width: 1200px) {
+  .cart-page__purchase-process .list-of-purchase-process-steps__item:not(:last-child):after {
+    bottom: 4px;
+    left: 28px;
+    transform: initial; } }
