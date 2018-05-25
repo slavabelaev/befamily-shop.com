@@ -316,10 +316,9 @@
         <ul class="page-footer__list-of-sections row">
             <li class="col-sm-4 col-lg-12">
                 <section class="page-footer__section page-footer__menu-section">
-                    <h3 class="page-footer__nav-title collapsed d-lg-none"
-                        data-toggle="collapse"
-                        data-target=".page-footer__nav_type_menu">Меню</h3>
-                    <nav class="page-footer__nav page-footer__nav_type_menu collapse">
+                    <h3 class="page-footer__nav-title d-lg-none"
+                        data-toggle="collapse">Меню</h3>
+                    <nav class="page-footer__nav page-footer__nav_type_menu">
                         <ul class="page-footer__list-of-links page-footer__menu-list-of-links">
                             <li class="nav-item">
                                 <a href="catalog.html" class="page-footer__nav-link">Каталог</a>
@@ -357,10 +356,9 @@
             </li>
             <li class="col-sm-4 col-lg">
                 <section class="page-footer__section">
-                    <h3 class="page-footer__nav-title collapsed"
-                        data-toggle="collapse"
-                        data-target=".page-footer__nav_type_for-family">Вся семья</h3>
-                    <nav class="page-footer__nav page-footer__nav_type_for-family collapse">
+                    <h3 class="page-footer__nav-title"
+                        data-toggle="collapse">Вся семья</h3>
+                    <nav class="page-footer__nav page-footer__nav_type_for-family">
                         <ul class="page-footer__list-of-links">
                             <li class="nav-item">
                                 <a href="catalog.html?filter[parentCaterory]=&filter[category]="
@@ -392,10 +390,9 @@
             </li>
             <li class="col-sm-4 col-lg">
                 <section class="page-footer__section">
-                    <h3 class="page-footer__nav-title collapsed"
-                        data-toggle="collapse"
-                        data-target=".page-footer__nav_type_moms-and-daughter">Мама и ребенок</h3>
-                    <nav class="page-footer__nav page-footer__nav_type_moms-and-daughter collapse">
+                    <h3 class="page-footer__nav-title"
+                        data-toggle="collapse">Мама и ребенок</h3>
+                    <nav class="page-footer__nav page-footer__nav_type_moms-and-daughter">
                         <ul class="page-footer__list-of-links">
                             <li class="nav-item">
                                 <a href="catalog.html?filter[parentCaterory]=&filter[category]="
@@ -427,10 +424,9 @@
             </li>
             <li class="col-sm-4 col-lg">
                 <section class="page-footer__section">
-                    <h3 class="page-footer__nav-title collapsed"
-                        data-toggle="collapse"
-                        data-target=".page-footer__nav_type_moms-and-sons">Папа и ребенок</h3>
-                    <nav class="page-footer__nav page-footer__nav_type_moms-and-sons collapse">
+                    <h3 class="page-footer__nav-title"
+                        data-toggle="collapse">Папа и ребенок</h3>
+                    <nav class="page-footer__nav page-footer__nav_type_moms-and-sons">
                         <ul class="page-footer__list-of-links">
                             <li class="nav-item">
                                 <a href="catalog.html?filter[parentCaterory]=&filter[category]="
@@ -462,10 +458,9 @@
             </li>
             <li class="col-sm-4 col-lg">
                 <section class="page-footer__section">
-                    <h3 class="page-footer__nav-title collapsed"
-                        data-toggle="collapse"
-                        data-target=".page-footer__nav_type_dads-and-sons">Для двоих</h3>
-                    <nav class="page-footer__nav page-footer__nav_type_dads-and-sons collapse">
+                    <h3 class="page-footer__nav-title"
+                        data-toggle="collapse">Для двоих</h3>
+                    <nav class="page-footer__nav page-footer__nav_type_dads-and-sons">
                         <ul class="page-footer__list-of-links">
                             <li class="nav-item">
                                 <a href="catalog.html?filter[parentCaterory]=&filter[category]="
@@ -497,10 +492,9 @@
             </li>
             <li class="col-sm-4 col-lg">
                 <section class="page-footer__section">
-                    <h3 class="page-footer__nav-title collapsed"
-                        data-toggle="collapse"
-                        data-target=".page-footer__nav_type_menu">Распродажа</h3>
-                    <nav class="page-footer__nav page-footer__nav_type_menu collapse">
+                    <h3 class="page-footer__nav-title"
+                        data-toggle="collapse">Распродажа</h3>
+                    <nav class="page-footer__nav page-footer__nav_type_menu">
                         <ul class="page-footer__list-of-links">
                             <li class="nav-item">
                                 <a href="catalog.html?filter[parentCaterory]=&filter[category]="
@@ -534,10 +528,9 @@
         <ul class="page-footer__list-of-sections page-footer__list-of-sections_type_bottom row">
             <li class="page-footer__section-item_part_contacts col-sm-6 col-md-4">
                 <section class="page-footer__section">
-                    <h3 class="page-footer__nav-title page-footer__title_type_contacts collapsed"
-                        data-toggle="collapse"
-                        data-target=".page-footer__nav_type_contacts">Контакты</h3>
-                    <nav class="page-footer__nav page-footer__nav_type_contacts collapse">
+                    <h3 class="page-footer__nav-title page-footer__title_type_contacts"
+                        data-toggle="collapse">Контакты</h3>
+                    <nav class="page-footer__nav page-footer__nav_type_contacts">
                         <ul class="page-footer__list-of-contacts">
                             <li class="nav-item">
                                 <a href="tel:88005551094"
