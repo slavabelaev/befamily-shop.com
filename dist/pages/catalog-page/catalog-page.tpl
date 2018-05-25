@@ -467,13 +467,13 @@
     </div>
     <div class="col-xl-2 col-6">
         <div class="form-group">
-            <label class="d-none d-xl-block">&nbsp;</label>
+            <label class="catalog-filter__group-label d-none d-xl-block">&nbsp;</label>
             <div class="form-group-inline">
                 <label for="catalog-filter__min-price">От</label>
                 <input type="number"
                        name="minPrice"
                        step="1"
-                       class="form-control"
+                       class="custom-select"
                        id="catalog-filter__min-price"
                        placeholder=""
                        noui-slider-from>
@@ -482,13 +482,13 @@
     </div>
     <div class="col-xl-2 col-6">
         <div class="form-group">
-            <label class="d-none d-xl-block">&nbsp;</label>
+            <label class="catalog-filter__group-label d-none d-xl-block">&nbsp;</label>
             <div class="form-group-inline">
                 <label for="catalog-filter__max-price">До</label>
                 <input type="number"
                        name="maxPrice"
                        step="1"
-                       class="form-control"
+                       class="custom-select"
                        id="catalog-filter__max-price"
                        placeholder=""
                        noui-slider-to>
@@ -498,7 +498,7 @@
     <div class="col-xl-4">
         <div class="form-group">
             <label for="catalog-filter__category" class="catalog-filter__group-label">Выбрать категорию:</label>
-            <select class="form-control" id="catalog-filter__category">
+            <select class="custom-select" id="catalog-filter__category">
                 <option selected value="">Вся семья</option>
                 <option value="">Мама и ребенок</option>
                 <option value="">Папа и ребенок</option>
@@ -523,7 +523,7 @@
                             <label class="catalog-filter__multiple-label">Муж.</label>
                         </td>
                         <td class="catalog-filter__multiple-col">
-                            <select class="form-control catalog-filter__multiple-control"
+                            <select class="custom-select catalog-filter__multiple-control"
                                     name="sizes[male][0]">
                                 <option value="XS">XS</option>
                                 <option value="S">S</option>
@@ -558,7 +558,7 @@
                         <label class="catalog-filter__multiple-label">Жен.</label>
                     </td>
                     <td class="catalog-filter__multiple-col">
-                        <select class="form-control catalog-filter__multiple-control"
+                        <select class="custom-select catalog-filter__multiple-control"
                                 name="sizes[female][0]">
                             <option value="XS">XS</option>
                             <option value="S">S</option>
@@ -593,7 +593,7 @@
                         <label class="catalog-filter__multiple-label">Дет.</label>
                     </td>
                     <td class="catalog-filter__multiple-col">
-                        <select class="form-control catalog-filter__multiple-control"
+                        <select class="custom-select catalog-filter__multiple-control"
                                 name="sizes[children][0]">
                             <option value="XS">XS</option>
                             <option value="S">S</option>

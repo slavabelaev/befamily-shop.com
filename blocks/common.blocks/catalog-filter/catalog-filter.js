@@ -28,7 +28,7 @@ jQuery(document).ready(function ($) {
         .on('click', '[data-action="append-row"]', function (e) {
         e.preventDefault();
         e.stopPropagation();
-        var $this = $(this), tbody = $this.closest('tbody'), row = tbody.find('tr:last-child'), rowClone = row.clone(), clonedControlElement = rowClone.find('.form-control'), countClonedControlOptions = clonedControlElement.find('*').length, countControlsInGroup = tbody.find('.form-control').length + 1, controlGroupElement = $this.closest('.form-group');
+        var $this = $(this), tbody = $this.closest('tbody'), row = tbody.find('tr:last-child'), rowClone = row.clone(), clonedControlElement = rowClone.find('.catalog-filter__multiple-control'), countClonedControlOptions = clonedControlElement.find('*').length, countControlsInGroup = tbody.find('.catalog-filter__multiple-control').length + 1, controlGroupElement = $this.closest('.form-group');
         if (countControlsInGroup > countClonedControlOptions)
             return false;
         selectUniqueMultipleOption(controlGroupElement, clonedControlElement);
@@ -72,7 +72,7 @@ jQuery(document).ready(function ($) {
     // Set unique control names for cloned elements
     function updateMultipleControlNames(controlGroupElement) {
         controlGroupElement
-            .find('.form-control')
+            .find('.catalog-filter__multiple-control')
             .each(function (index, controlElement) {
             var $controlElement = $(controlElement), oldControlName = $controlElement.attr('name'), newControlName = oldControlName.replace(/\[[0-9]+\]/, '') + '[' + index + ']';
             $controlElement.attr('name', newControlName);

@@ -42,9 +42,9 @@ jQuery(document).ready(function($) {
                tbody = $this.closest('tbody'),
                row = tbody.find('tr:last-child'),
                rowClone = row.clone(),
-               clonedControlElement = rowClone.find('.form-control'),
+               clonedControlElement = rowClone.find('.catalog-filter__multiple-control'),
                countClonedControlOptions = clonedControlElement.find('*').length,
-               countControlsInGroup = tbody.find('.form-control').length + 1,
+               countControlsInGroup = tbody.find('.catalog-filter__multiple-control').length + 1,
                controlGroupElement = $this.closest('.form-group');
 
            if (countControlsInGroup > countClonedControlOptions) return false;
@@ -102,7 +102,7 @@ jQuery(document).ready(function($) {
     // Set unique control names for cloned elements
     function updateMultipleControlNames(controlGroupElement) {
         controlGroupElement
-            .find('.form-control')
+            .find('.catalog-filter__multiple-control')
             .each(function(index, controlElement) {
                 let $controlElement = $(controlElement),
                     oldControlName = $controlElement.attr('name'),
