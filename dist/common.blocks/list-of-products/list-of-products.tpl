@@ -11,7 +11,9 @@
             <a href="product.html" class="product-item__title-link">Свитер “Скандинавия”</a>
         </h3>
         <ul class="product-item__details mb-2">
-            <li class="product-item__detail product-item__category">Мальчик</li>
+            <li class="product-item__detail product-item__category">
+                <a href="catalog.html?filter[category]=boy" class="text-muted">Мальчик</a>
+            </li>
             <li class="product-item__detail product-item__uid text-right">Артикул: 0109</li>
             <li class="product-item__detail product-item__price">5860 ₽</li>
         </ul>
@@ -73,7 +75,9 @@
             <a href="product.html" class="product-item__title-link">Свитер “Скандинавия”</a>
         </h3>
         <ul class="product-item__details mb-2">
-            <li class="product-item__detail product-item__category">Мальчик</li>
+            <li class="product-item__detail product-item__category">
+                <a href="catalog.html?filter[category]=boy" class="text-muted">Мальчик</a>
+            </li>
             <li class="product-item__detail product-item__uid text-right">Артикул: 0110</li>
             <li class="product-item__detail product-item__price">7790 ₽</li>
         </ul>

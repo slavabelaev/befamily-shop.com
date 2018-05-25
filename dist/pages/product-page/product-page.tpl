@@ -24,7 +24,7 @@
 <body>
 <!-- /Meta header -->
 <!-- Page header -->
-<header class="page-header" data-sticked>
+<header class="page-header" is-sticked>
 	<nav class="navbar navbar-expand-lg navbar-light container">
 		<a class="navbar-brand" href="index.html">
 			<img src="common.blocks/page-header/page-header__be-Family.svg"
@@ -478,7 +478,7 @@
             <a href="product.html" class="product-item__title-link">Свитер “Скандинавия”</a>
         </h3>
         <ul class="product-item__details mb-2">
-            <li class="product-item__detail product-item__category">Мальчик</li>
+            <li class="product-item__detail product-item__category"><a target="_blank" href="#">Мальчик</a></li>
             <li class="product-item__detail product-item__uid text-right">Артикул: 0109</li>
             <li class="product-item__detail product-item__price">5860 ₽</li>
         </ul>
@@ -540,7 +540,7 @@
             <a href="product.html" class="product-item__title-link">Свитер “Скандинавия”</a>
         </h3>
         <ul class="product-item__details mb-2">
-            <li class="product-item__detail product-item__category">Мальчик</li>
+            <li class="product-item__detail product-item__category"><a target="_blank" href="#">Мальчик</a></li>
             <li class="product-item__detail product-item__uid text-right">Артикул: 0110</li>
             <li class="product-item__detail product-item__price">7790 ₽</li>
         </ul>

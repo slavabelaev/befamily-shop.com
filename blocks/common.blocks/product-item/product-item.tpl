@@ -8,7 +8,9 @@
             <a href="product.html" class="product-item__title-link">@@title</a>
         </h3>
         <ul class="product-item__details mb-2">
-            <li class="product-item__detail product-item__category">Мальчик</li>
+            <li class="product-item__detail product-item__category">
+                <a href="catalog.html?filter[category]=boy" class="text-muted">Мальчик</a>
+            </li>
             <li class="product-item__detail product-item__uid text-right">Артикул: @@uid</li>
             <li class="product-item__detail product-item__price">@@price ₽</li>
         </ul>

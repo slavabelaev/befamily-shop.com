@@ -24,7 +24,7 @@
 <body>
 <!-- /Meta header -->
 <!-- Page header -->
-<header class="page-header" data-sticked>
+<header class="page-header" is-sticked>
 	<nav class="navbar navbar-expand-lg navbar-light container">
 		<a class="navbar-brand" href="index.html">
 			<img src="common.blocks/page-header/page-header__be-Family.svg"
