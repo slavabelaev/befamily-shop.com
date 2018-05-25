@@ -4,8 +4,9 @@
 
 .page-header {
   top: 0;
-  position: fixed;
-  position: sticky;
+  left: 0;
+  right: 0;
+  //position: fixed;
   border-bottom: 1px solid $border-color;
   background-color: $white;
   z-index: 99;
