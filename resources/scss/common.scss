@@ -1,0 +1,27 @@
+@import "bootstrap/bootstrap-common";
+
+.mw-975 {
+  max-width: 975px;
+  margin: auto;
+}
+
+.list-colored {
+  li {
+    list-style: none;
+    padding-left: 1.5rem;
+    position: relative;
+  }
+  li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: .5rem;
+    display: inline-block;
+    width: .5rem;
+    height: .5rem;
+    background-color: $primary;
+    border-radius: 50%;
+    margin: auto;
+    vertical-align: middle;
+  }
+}

@@ -1,0 +1,36 @@
+@import "../bootstrap/bootstrap-common";
+
+@import "../../../node_modules/nouislider/distribute/nouislider.css";
+
+.noUi-horizontal {
+  height: 3px;
+  border-width: 0!important;
+  background-color: #CBE1EA;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+.noUi-connect {
+  background-color: $primary;
+}
+.noUi-horizontal .noUi-handle {
+  width: 20px;
+  height: 30px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.2);
+  border-radius: 10px;
+  border-width: 0;
+  top: -14px;
+  &:after {
+    display: none;
+  }
+  &:before {
+    height: 16px;
+    width: 1px;
+    background-color: $primary;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+  }
+}

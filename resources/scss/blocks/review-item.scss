@@ -1,0 +1,45 @@
+@import "../bootstrap/bootstrap-common";
+
+.review-item {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+$avatarSize: 120px;
+.review-item__avatar {
+  min-width: $avatarSize;
+  min-height: $avatarSize;
+  margin-right: 1rem;
+  border-radius: 50%;
+  background-color: $dark;
+  border: 1px solid $info;
+  box-shadow: 0 0 0 3px $white inset;
+  margin-bottom: 0;
+  background-size: cover;
+  background-position: center;
+}
+.review-item__fullname {
+  color: $gray-900;
+  font-size: 1.125rem;
+  margin-bottom: .75rem;
+}
+.review-item__username {
+  margin-bottom: .5rem;
+  .icon {
+    width: 16px;
+    height: 16px;
+    margin-right: .5rem;
+  }
+}
+.review-item__username-link {
+  color: $primary;
+  &:focus,
+  &:hover {
+    color: lighten($primary, 15%);
+  }
+}
+.review-item__message {
+  color: $text-muted;
+  max-width: 360px;
+}

@@ -1,0 +1,25 @@
+@import "../bootstrap/bootstrap-common";
+
+.delivery-page {
+  font-size: 1.125rem;
+  .table {
+    table-layout: fixed;
+    color: $dark;
+    min-width: 500px;
+  }
+}
+.delivery-page__page-header {
+  background-color: #FFEE19;
+  background-image: url(#{$imagesPagesPath}/delivery-page__header-bg.svg);
+  .lead {
+    font-size: 1.5rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .table {
+    tbody td {
+      padding: 2rem 3rem;
+    }
+  }
+}

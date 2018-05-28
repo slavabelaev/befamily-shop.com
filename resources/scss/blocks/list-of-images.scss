@@ -1,0 +1,26 @@
+@import "../bootstrap/bootstrap-common";
+
+.list-of-images {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  .image-item__link {
+    display: block;
+  }
+}
+.list-of-images__item {
+  margin-bottom: 1.5rem;
+}
+
+@include media-breakpoint-between(xs, sm) {
+  .list-of-images {
+    overflow: hidden;
+    max-height: 450px;
+    margin-bottom: 1.5rem;
+  }
+}
+@include media-breakpoint-up(lg) {
+  .list-of-images__item {
+    margin-bottom: 50px;
+  }
+}

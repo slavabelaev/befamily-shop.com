@@ -5,6 +5,7 @@ var gulp = require('gulp'),
     plumber = require('gulp-plumber'),
     cache = require('gulp-cache'),
     newer = require('gulp-newer'),
+    rename = require('gulp-rename'),
     gulpCopy = require('gulp-copy'),
 
     imagemin = require('gulp-imagemin'),
@@ -14,207 +15,85 @@ var gulp = require('gulp'),
     autoprefixer = require('gulp-autoprefixer'),
     cleanCss = require('gulp-clean-css'),
     babel = require('gulp-babel'),
+    typescript = require('gulp-typescript'),
     concat = require('gulp-concat'),
     fileinclude = require('gulp-file-include'),
-    sourcemaps = require('gulp-sourcemaps'),
+    sourcemaps = require('gulp-sourcemaps');
 
-    browserSync = require("browser-sync"),
-    reload = browserSync.reload;
-
-var bundleNames = {
-    styles: 'bundle.min.css',
-    scripts: 'bundle.min.js'
+var settings = {
+    paths:  {
+        src: {
+            styles: 'resources/scss',
+            scripts: 'resources/ts',
+            images: 'resources/images',
+            fonts: 'resources/fonts'
+        },
+        dest: {
+            styles: 'public/dist/css',
+            scripts: 'public/dist/js',
+            images: 'public/dist/images',
+            fonts: 'public/dist/fonts'
+        }
+    },
+    bundleNames: {
+        styles: 'bundle.min.css',
+        scripts: 'bundle.min.js'
+    }
 };
 
-var path = {
-    build: {
-        html: './dist',
-        scripts: './dist/bundles',
-        pageScripts: './dist/pages',
-        styles: './dist/bundles',
-        pageStyles: './dist/pages',
-        images: './dist',
-        fonts: './dist'
-    },
-    src: {
-        html: [
-            './blocks/**/*.html',
-            './blocks/**/*.tpl',
-            './blocks/**/*.tmpl',
-        ],
-        scripts: './blocks/common.blocks/**/*.js',
-        pageScripts: './blocks/pages/**/*.js',
-        styles: [
-            './blocks/library.blocks/bootstrap/bootstrap.scss',
-            './blocks/common.blocks/**/*.scss'
-        ],
-        pageStyles: './blocks/pages/**/*.scss',
-        libraryStyles: './blocks/library.blocks/**/*.scss',
-        images: [
-            './blocks/**/*.svg',
-            './blocks/**/*.jpg',
-            './blocks/**/*.png',
-            './blocks/**/*.gif',
-        ],
-        fonts: [
-            './blocks/**/*.ttf',
-            './blocks/**/*.otf',
-            './blocks/**/*.woff',
-            './blocks/**/*.woff2',
-            './blocks/**/*.eot',
-        ]
-    },
-    clean: './dist'
+var bundleFiles = {
+    styles: [
+        settings.paths.src.styles + '/bootstrap/bootstrap.scss',
+        settings.paths.src.styles + '/plugins/plugins-reboot.scss',
+        settings.paths.src.styles + '/common.scss',
+        settings.paths.src.styles + '/blocks/**/*.scss',
+        settings.paths.src.styles + '/pages/**/*.scss'
+    ],
+    scripts: [
+        settings.paths.src.scripts + '/classes/**/*.ts',
+        settings.paths.src.scripts + '/common.ts',
+        settings.paths.src.scripts + '/blocks/**/*.ts',
+        settings.paths.src.scripts + '/pages/**/*.ts'
+    ]
 };
 
-var config = {
-    server: {
-        baseDir: "./dist"
-    },
-    tunnel: true,
-    host: 'localhost',
-    port: 9000,
-    logPrefix: "Frontend"
-};
 
-gulp.task('webserver', function () {
-    browserSync(config);
-});
 
-gulp.task('html:build', function () {
-    gulp.src(path.src.html)
+gulp.task('styles:bundle', function() {
+    gulp.src(bundleFiles.styles)
         .pipe(plumber())
-        .pipe(fileinclude())
-        .pipe(gulp.dest(path.build.html))
-        .pipe(reload({stream: true}));
+        .pipe(sourcemaps.init())
+        .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
+        .pipe(autoprefixer())
+        .pipe(concat(settings.bundleNames.styles))
+        .pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest(settings.paths.dest.styles));
 });
 
-gulp.task('styles:build', function() {
-    gulp.src(path.src.styles)
-        //.pipe(newer(path.build.styles))
+gulp.task('scripts:bundle', function () {
+    gulp.src(bundleFiles.scripts)
         .pipe(plumber())
-        //.pipe(sourcemaps.init())
-        .pipe(sass())
-        //.pipe(csso())
-        //.pipe(autoprefixer())
-        .pipe(cleanCss({rebase: false}))
-        .pipe(concat(bundleNames.styles))
-        .pipe(gulp.dest(path.build.styles))
-        //.pipe(sourcemaps.write())
-        .pipe(reload({stream: true}));
-});
-gulp.task('pageStyles:build', function() {
-    gulp.src(path.src.pageStyles)
-        .pipe(newer(path.build.pageStyles))
-        .pipe(plumber())
-        //.pipe(sourcemaps.init())
-        .pipe(sass())
-        //.pipe(autoprefixer())
-        //.pipe(cleanCss())
-        //.pipe(concat(path.bundles.css))
-        .pipe(gulp.dest(path.build.pageStyles))
-        //.pipe(sourcemaps.write())
-        .pipe(reload({stream: true}));
-});
-
-gulp.task('scripts:build', function () {
-    gulp.src(path.src.scripts)
-        //.pipe(newer(path.build.scripts))
-        .pipe(plumber())
-        //.pipe(sourcemaps.init())
-        // .pipe(typescript({
-        //     outFile: path.bundles.js
-        // }))
-        .pipe(babel())
-        .pipe(concat(bundleNames.scripts))
-        //.pipe(sourcemaps.write())
-        .pipe(gulp.dest(path.build.scripts))
-        .pipe(reload({stream: true}));
-});
-gulp.task('pageScripts:build', function () {
-    gulp.src(path.src.pageScripts)
-        .pipe(newer(path.build.pageScripts))
-        .pipe(plumber())
-        .pipe(babel())
-        //.pipe(sourcemaps.write())
-        .pipe(gulp.dest(path.build.pageScripts))
-        .pipe(reload({stream: true}));
-});
-
-gulp.task('images:build', function () {
-    gulp.src(path.src.images)
-        .pipe(newer(path.build.images))
-        .pipe(plumber())
-        //.pipe(gulpCopy(path.build.images))
-        .pipe(imagemin({
-            //progressive: true,
-            interlaced: true
+        .pipe(sourcemaps.init())
+        .pipe(typescript({
+            outFile: settings.bundleNames.scripts
         }))
-        .pipe(gulp.dest(path.build.images))
-        .pipe(reload({stream: true}));
-});
-// gulp.task('images:watch', function () {
-//     gulp.src(path.src.images)
-//         .pipe(newer(path.build.images))
-//         .pipe(plumber())
-//         //.pipe(gulpCopy(path.build.images))
-//         .pipe(image())
-//         .pipe(gulp.dest(path.build.images))
-//         .pipe(reload({stream: true}));
-// });
-
-gulp.task('fonts:build', function() {
-    gulp.src(path.src.fonts)
-        //.pipe(newer(path.src.fonts))
-        .pipe(gulp.dest(path.build.fonts))
-        .pipe(reload({stream: true}));
+        .pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest(settings.paths.dest.scripts));
 });
 
-
-gulp.task('clearCache', () =>
-    cache.clearAll()
-);
-
-gulp.task('build', [
-    'clearCache',
-    'html:build',
-    'styles:build',
-    'pageStyles:build',
-    'scripts:build',
-    'pageScripts:build',
-    'images:build',
-    'fonts:build'
+gulp.task('bundle', [
+    'styles:bundle',
+    'scripts:bundle'
 ]);
 
 gulp.task('watch', function() {
-    watch(path.src.html, function(event, cb) {
-        gulp.start('html:build');
+    watch(bundleFiles.styles, function(event, cb) {
+        gulp.start('styles:bundle');
     });
-
-    watch(path.src.styles, function(event, cb) {
-        gulp.start('styles:build');
-    });
-    watch(path.src.libraryStyles, function(event, cb) {
-        gulp.start('styles:build');
-    });
-    watch(path.src.pageStyles, function(event, cb) {
-        gulp.start('pageStyles:build');
-    });
-
-    watch(path.src.scripts, function(event, cb) {
-        gulp.start('scripts:build');
-    });
-    watch(path.src.pageScripts, function(event, cb) {
-        gulp.start('pageScripts:build');
-    });
-
-    watch(path.src.images, function(event, cb) {
-        gulp.start('images:build');
-    });
-    watch(path.src.fonts, function(event, cb) {
-        gulp.start('fonts:build');
+    watch(bundleFiles.scripts, function(event, cb) {
+        gulp.start('scripts:bundle');
     });
 });
 
-gulp.task('default', ['build']);
-gulp.task('serve', ['build', 'webserver', 'watch']);
+gulp.task('default', ['bundle']);
+gulp.task('watch', ['bundle', 'watch']);

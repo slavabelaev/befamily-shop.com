@@ -1,0 +1,41 @@
+@import "../bootstrap/bootstrap-common";
+
+.contacts-page {
+  position: relative;
+}
+.contacts-page__contacts {
+  font-size: 1.125rem;
+}
+.contacts-page__contact-form {
+  .contact-form__title {
+    font-size: 1.125rem;
+    color: $dark;
+  }
+}
+.contacts-page__phone {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.contacts-page__working-hours,
+.contacts-page__address {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.contacts-page__map {
+  min-height: 500px;
+}
+
+@include media-breakpoint-up(lg) {
+  .contacts-page {
+    overflow: hidden;
+  }
+  .contacts-page__map-wrapper {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding-right: 0;
+  }
+}

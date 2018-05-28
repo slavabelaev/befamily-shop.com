@@ -1,0 +1,15 @@
+@import "../bootstrap/bootstrap-common";
+
+.list-of-gallery-images__link {
+  display: block;
+  height: 175px;
+  margin-bottom: 1.5rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: $dark;
+  transition: $transition-base;
+  &:hover {
+    filter: brightness(1.1);
+  }
+}

@@ -1,0 +1,46 @@
+@import "../bootstrap/bootstrap-common";
+
+@font-face {
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 800;
+  src: url(#{$fontsPath}/Circe-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 700;
+  src: url(#{$fontsPath}/Circe-Bold.ttf);
+}
+@font-face {
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 400;
+  src: url(#{$fontsPath}/Circe-Regular.ttf);
+}
+@font-face {
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 300;
+  src: url(#{$fontsPath}/Circe-Thin.ttf);
+}
+@font-face {
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 200;
+  src: url(#{$fontsPath}/Circe-Light.ttf);
+}
+@font-face {
+  font-family: "Circe";
+  font-style: normal;
+  font-weight: 100;
+  src: url(#{$fontsPath}/Circe-ExtraLight.ttf);
+}
+
+// MarkerFelt
+@font-face {
+  font-family: "MarkerFelt";
+  font-style: normal;
+  font-weight: 800;
+  src: url(#{$fontsPath}/MarkerFelt.ttf);
+}

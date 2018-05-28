@@ -1,0 +1,30 @@
+@import "../bootstrap/bootstrap-common";
+
+
+.list-of-other-articles {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+  .article-item {
+    border-bottom-width: 0;
+  }
+  .article-item__title {
+    order: -2;
+    font-size: 1.125rem;
+    flex: 100%;
+  }
+  .article-item__text {
+    flex: 100%;
+  }
+  .article-item__footer {
+    flex-direction: column;
+  }
+  .article-item__time-container {
+    order: -1;
+    margin-bottom: .5rem;
+  }
+  .article-item__actions {
+    flex: 1;
+    text-align: center;
+  }
+}

@@ -1,0 +1,56 @@
+@import "../bootstrap/bootstrap-common";
+
+.product-item {
+  position: relative;
+  transition: $transition-base;
+  &.active {
+    border-color: $primary !important;
+  }
+  .card-footer {
+    background-color: $white;
+    border-top-width: 0;
+    text-align: center;
+  }
+}
+.product-item__title {
+  margin-bottom: .25rem;
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+.product-item__title-link {
+  white-space: nowrap;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.product-item__category {
+  margin-bottom: .5rem;
+}
+.product-item__image {
+  display: block;
+  min-height: 300px;
+  margin-bottom: .75rem;
+  background-color: $dark;
+  background-size: cover;
+  background-position: center;
+  transition: $transition-fade;
+  &:hover {
+    opacity: .96;
+  }
+}
+.product-item__details {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: $text-muted;
+}
+.product-item__detail {
+  flex: 1 50%;
+}
+.product-item__price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: $gray-900;
+}

@@ -1,0 +1,22 @@
+@import "../bootstrap/bootstrap-common";
+
+.product-size-popover__link {
+  color: $blue;
+  margin-left: 2rem;
+  font-size: 1.125rem;
+  cursor: pointer;
+  .icon {
+    position: absolute;
+    margin-left: -2rem;
+    margin-top: 4px;
+  }
+  &:hover {
+    color: darken($blue, 2);
+    text-decoration: none;
+    border-bottom: 1px dashed darken($blue, 2);
+  }
+}
+
+.product-size-popover__table td {
+  padding: 2px 6px;
+}

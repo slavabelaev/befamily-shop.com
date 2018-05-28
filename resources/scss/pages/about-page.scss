@@ -1,0 +1,19 @@
+@import "../bootstrap/bootstrap-common";
+
+.about-page {
+  p {
+    font-size: 1.125rem;
+  }
+  .figure-caption {
+    color: $black;
+    font-weight: bold;
+    font-size: 1.125rem;
+  }
+}
+.about-page__page-header {
+  background-color: #4FBAD9;
+  background-image: url(#{$imagesPagesPath}/about-page__header-bg.svg);
+  .lead {
+    font-size: 1.5rem;
+  }
+}

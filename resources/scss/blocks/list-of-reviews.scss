@@ -1,0 +1,12 @@
+@import "../bootstrap/bootstrap-common";
+
+.list-of-reviews {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.list-of-reviews__item {
+  &:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+}

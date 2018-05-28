@@ -1,0 +1,44 @@
+@import "../bootstrap/bootstrap-common";
+
+$aside-navigation-border: $list-group-border-width solid $list-group-border-color;
+
+.aside-navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.aside-navigation__title {
+  border-top: $aside-navigation-border;
+  font-size: 1.25rem;
+  .icon__menu {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 1rem;
+  }
+}
+.aside-navigation__title,
+.aside-navigation__link {
+  display: block;
+  padding: $list-group-item-padding-y $list-group-item-padding-x;
+  border-bottom: $aside-navigation-border;
+}
+.aside-navigation__link {
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.aside-navigation__item {
+  &.active {
+    .aside-navigation__link {
+      border-left: $primary 3px solid;
+    }
+  }
+}
+
+@include media-breakpoint-between(xs, sm) {
+  .aside-navigation {
+    margin-left: -($grid-gutter-width / 2);
+    margin-right: -($grid-gutter-width / 2);
+  }
+}

@@ -1,0 +1,23 @@
+@import "../bootstrap/bootstrap-common";
+
+.cart-form__sum-box {
+  overflow: auto;
+  background-color: rgba($blue, .1);
+  padding: 1.5rem;
+  max-width: 475px;
+}
+.cart-form__price {
+  font-size: 1.25rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+@include media-breakpoint-only(xl) {
+  .cart-page__purchase-process {
+    .list-of-purchase-process-steps__item:not(:last-child):after {
+      bottom: 4px;
+      left: 28px;
+      transform: initial;
+    }
+  }
+}

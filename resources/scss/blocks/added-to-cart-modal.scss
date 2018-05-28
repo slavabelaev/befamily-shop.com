@@ -1,0 +1,17 @@
+@import "../bootstrap/bootstrap-common";
+
+.added-to-cart-modal {
+  .product-size-control .btn:not(.active),
+  .product-includes-item__title .icon,
+  .product-size-control__label,
+  .product-includes-item__size-popover-box {
+    display: none;
+  }
+}
+.added-to-cart-modal__total-label {
+  color: $text-muted;
+}
+.added-to-cart-modal__price {
+  font-size: 2rem;
+  font-weight: bold;
+}

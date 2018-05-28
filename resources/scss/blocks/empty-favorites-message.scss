@@ -1,0 +1,9 @@
+@import "../bootstrap/bootstrap-common";
+
+.empty-favorites-message {
+  max-width: 775px;
+  margin: auto;
+  background-color: $light;
+  padding: 3rem;
+  text-align: center;
+}
