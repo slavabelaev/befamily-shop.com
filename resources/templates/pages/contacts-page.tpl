@@ -1,7 +1,6 @@
-@@include('../../common.blocks/meta-header/meta-header.tpl')
-@@include('../../common.blocks/page-header/page-header.tpl')
+@@include('../blocks/meta-header.tpl')
+@@include('../blocks/page-header.tpl')
 
-<link rel="stylesheet" href="pages/contacts-page/contacts-page.css">
 <!-- Contacts page -->
 <main class="contacts-page">
     <div class="container">
@@ -42,7 +41,7 @@
                 </div>
 
                 <div class="contacts-page__contact-form mb-5 pt-5">
-                    @@include('../../common.blocks/contact-form/contact-form.tpl')
+                    @@include('../blocks/contact-form.tpl')
                 </div>
             </div>
             <div class="col-md-6 offset-xl-1 contacts-page__map-wrapper">
@@ -56,7 +55,6 @@
     </div>
 </main>
 <!-- Contacts page -->
-<script src="pages/contacts-page/contacts-page.js" defer></script>
 
-@@include('../../common.blocks/page-footer/page-footer.tpl')
-@@include('../../common.blocks/meta-footer/meta-footer.tpl')
+@@include('../blocks/page-footer.tpl')
+@@include('../blocks/meta-footer.tpl')

@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+$(document).ready(function() {
     let catalogFilterElement = $('.catalog-filter');
 
     if (catalogFilterElement.length < 1) return false;

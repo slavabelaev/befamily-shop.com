@@ -1,7 +1,6 @@
-@@include('../../common.blocks/meta-header/meta-header.tpl')
-@@include('../../common.blocks/page-header/page-header.tpl')
+@@include('../blocks/meta-header.tpl')
+@@include('../blocks/page-header.tpl')
 
-<link rel="stylesheet" href="pages/for-wholesalers-page/for-wholesalers-page.css">
 <!-- For wholesalers page -->
 <main class="for-wholesalers-page">
     <article>
@@ -13,7 +12,7 @@
                             <br class="d-none d-lg-block">Такие звёзды как Мадонна, Виктория Бэкхем, Анжелина Джоли, предпочитают Family look!</p>
                     </div>
                     <div class="col-md-6 text-center">
-                        <img src="pages/for-wholesalers-page/for-wholesalers-page__header-image.png" alt="" class="mw-100">
+                        <img src="images/pages/for-wholesalers-page/for-wholesalers-page__header-image.png" alt="" class="mw-100">
                     </div>
                 </div>
             </div>
@@ -29,25 +28,25 @@
                     <ul class="row list-unstyled text-center mb-0">
                         <li class="col-6 col-lg-3">
                             <figure class="figure">
-                                <img src="pages/for-wholesalers-page/for-wholesalers-page__coin.svg" alt="" class="figure-img">
+                                <img src="images/pages/for-wholesalers-page/for-wholesalers-page__coin.svg" alt="" class="figure-img">
                                 <figcaption class="figure-caption">Опт от 15 000 рублей</figcaption>
                             </figure>
                         </li>
                         <li class="col-6 col-lg-3">
                             <figure class="figure">
-                                <img src="pages/for-wholesalers-page/for-wholesalers-page__Moscow.svg" alt="" class="figure-img">
+                                <img src="images/pages/for-wholesalers-page/for-wholesalers-page__Moscow.svg" alt="" class="figure-img">
                                 <figcaption class="figure-caption">Производство в <br>России</figcaption>
                             </figure>
                         </li>
                         <li class="col-6 col-lg-3">
                             <figure class="figure">
-                                <img src="pages/for-wholesalers-page/for-wholesalers-page__box.svg" alt="" class="figure-img">
+                                <img src="images/pages/for-wholesalers-page/for-wholesalers-page__box.svg" alt="" class="figure-img">
                                 <figcaption class="figure-caption">Все товары, в наличии на <br>складе в Москве</figcaption>
                             </figure>
                         </li>
                         <li class="col-6 col-lg-3">
                             <figure class="figure">
-                                <img src="pages/for-wholesalers-page/for-wholesalers-page__label.svg" alt="" class="figure-img">
+                                <img src="images/pages/for-wholesalers-page/for-wholesalers-page__label.svg" alt="" class="figure-img">
                                 <figcaption class="figure-caption">Низкие оптовые цены</figcaption>
                             </figure>
                         </li>
@@ -97,7 +96,6 @@
     </article>
 </main>
 <!-- /For wholesalers page -->
-<script src="pages/for-wholesalers-page/for-wholesalers-page.js" defer></script>
 
-@@include('../../common.blocks/page-footer/page-footer.tpl')
-@@include('../../common.blocks/meta-footer/meta-footer.tpl')
+@@include('../blocks/page-footer.tpl')
+@@include('../blocks/meta-footer.tpl')

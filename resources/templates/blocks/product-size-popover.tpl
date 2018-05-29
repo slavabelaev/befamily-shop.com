@@ -8,7 +8,7 @@
        data-html="true"
        data-content='
 <div class="p-3 text-center">
-    <img src="common.blocks/product-size-popover/product-size-popover__shirt.svg" alt="">
+    <img src="images/blocks/product-size-popover/product-size-popover__shirt.svg" alt="">
 </div>
 <table class="product-size-popover__table table table-sm table-bordered">
     <thead>

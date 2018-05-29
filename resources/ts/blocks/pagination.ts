@@ -1,4 +1,4 @@
-(function($){
+(function(){
     $.getUrlParam = function(paramName){
         let result = new RegExp(paramName + "=([^&]*)", "i").exec(window.location.search);
         return result && unescape(result[1]) || "";
@@ -17,4 +17,4 @@
             .find('.page-link[href*="page=' + activePage + '"]')
             .parent().addClass('active');
     });
-})(jQuery);
+})($);

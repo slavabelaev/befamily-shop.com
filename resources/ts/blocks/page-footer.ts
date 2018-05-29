@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+$(document).ready(function() {
     let pageFooter = $('.page-footer'),
         pageFooterNavs = pageFooter.find('.page-footer__nav'),
         pageFooterNavTitles = pageFooter.find('.page-footer__nav-title[data-toggle=collapse]');

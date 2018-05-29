@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+$(document).ready(function() {
     const catalogTabsElement = $('.catalog-tabs');
 
     function transfromTabsToAccordion() {

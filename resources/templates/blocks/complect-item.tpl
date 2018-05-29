@@ -18,11 +18,14 @@
                 <a href="#"
                    class="complect-item__added-to-cart"
                    data-toggle="modal"
-                   data-target=".complect-item-modal">
+                   data-target=".complect-item-modal[data-for=COMPLECT_ID]">
                     <i class="icon icon__shopping-bag icon_style_dark"></i>
                 </a>
             </li>
         </ul>
     </div>
 </div>
+
+@@include('../blocks/complect-item-modal.tpl')
 <!-- /Complect item -->
+

@@ -30,7 +30,7 @@
   }
   &.active {
     .icon {
-      background-image: url(#{$imagesPath}/icon__heart_style_primary.svg);
+      background-image: url(#{$rootPath}/images/blocks/icon/icon__heart_style_primary.svg);
     }
   }
   .icon {

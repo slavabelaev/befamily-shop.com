@@ -1,5 +1,5 @@
 <!-- Complect item modal -->
-<div class="complect-item-modal modal fade" tabindex="-1" role="dialog">
+<div class="complect-item-modal modal fade" tabindex="-1" role="dialog" data-for="COMPLECT_ID">
     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <form action="#" class="modal-content">
             <div class="modal-header">
@@ -12,9 +12,9 @@
                 <div class="row">
                     <div class="col-lg-4 mb-4 mb-lg-0">
                         <a data-fancybox="gallery"
-                           href="content/images/complects/scandinavia/scandinavia-1.jpg"
+                           href="images/content/complects/scandinavia/scandinavia-1.jpg"
                            class="list-of-images__link">
-                            <img src="content/images/complects/scandinavia/scandinavia-1.jpg" alt="" class="img-fluid">
+                            <img src="images/content/complects/scandinavia/scandinavia-1.jpg" alt="" class="img-fluid">
                         </a>
                     </div>
                     <div class="col-lg-8">
@@ -22,7 +22,7 @@
                         <div class="complect-item-modal__price">10 890 ₽</div>
                         <hr class="mb-0">
                         <div class="mb-4">
-                            @@include('../../common.blocks/list-of-product-includes/list-of-product-includes.tpl')
+                            @@include('./list-of-product-includes.tpl')
                         </div>
 
                         <button type="submit"

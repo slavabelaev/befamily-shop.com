@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+$(document).ready(function() {
     function initializeCarousel() {
         if (window.innerWidth < 768) {
             var carouselElement = $('.list-of-images[data-slick-carousel]'),

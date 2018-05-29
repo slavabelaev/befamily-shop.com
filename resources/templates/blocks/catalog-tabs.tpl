@@ -53,7 +53,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__clothes.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__clothes.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Все товары</figcaption>
                         </figure>
@@ -63,7 +63,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Футболки</figcaption>
                         </figure>
@@ -73,7 +73,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__dress.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__dress.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Наряды с<br>платьями
                             </figcaption>
@@ -84,7 +84,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__shirt.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__shirt.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Рубашки</figcaption>
                         </figure>
@@ -94,7 +94,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__pullover.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__pullover.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Свитера</figcaption>
                         </figure>
@@ -104,7 +104,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Свитшоты и<br>толстовки
                             </figcaption>
@@ -115,7 +115,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Аксессуары</figcaption>
                         </figure>
@@ -134,7 +134,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__clothes.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__clothes.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Все товары</figcaption>
                         </figure>
@@ -144,7 +144,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Футболки</figcaption>
                         </figure>
@@ -154,7 +154,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__dress.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__dress.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Платья</figcaption>
                         </figure>
@@ -164,7 +164,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Свитшоты и худи
                             </figcaption>
@@ -175,7 +175,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__shirt.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__shirt.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Рубашки</figcaption>
                         </figure>
@@ -185,7 +185,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__pullover.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__pullover.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Свитера</figcaption>
                         </figure>
@@ -195,7 +195,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Аксессуары</figcaption>
                         </figure>
@@ -214,7 +214,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__clothes.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__clothes.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Все товары</figcaption>
                         </figure>
@@ -224,7 +224,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Футболки</figcaption>
                         </figure>
@@ -234,7 +234,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__shirt.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__shirt.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Рубашки</figcaption>
                         </figure>
@@ -244,7 +244,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Свитшоты и<br>толстовки
                             </figcaption>
@@ -255,7 +255,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__pullover.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__pullover.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Свитера</figcaption>
                         </figure>
@@ -265,7 +265,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Аксессуары</figcaption>
                         </figure>
@@ -284,7 +284,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__clothes.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__clothes.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Все товары</figcaption>
                         </figure>
@@ -294,7 +294,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Футболки</figcaption>
                         </figure>
@@ -304,7 +304,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__dress.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__dress.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Наряды с<br>платьями
                             </figcaption>
@@ -315,7 +315,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Свитшоты</figcaption>
                         </figure>
@@ -325,7 +325,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__shirt.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__shirt.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Рубашки</figcaption>
                         </figure>
@@ -335,7 +335,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__pullover.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__pullover.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Свитера</figcaption>
                         </figure>
@@ -345,7 +345,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Аксессуары</figcaption>
                         </figure>
@@ -365,7 +365,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__pullover.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__pullover.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Свитера</figcaption>
                         </figure>
@@ -375,7 +375,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__sweetshot.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Свитшоты и<br>толстовки
                             </figcaption>
@@ -386,7 +386,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__t-shirt.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Футболки</figcaption>
                         </figure>
@@ -396,7 +396,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__dress.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__dress.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Наряды с<br>платьями
                             </figcaption>
@@ -407,7 +407,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__winter-hat.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Аксессуары</figcaption>
                         </figure>
@@ -417,7 +417,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__clothes.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__clothes.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Все товары</figcaption>
                         </figure>
@@ -427,7 +427,7 @@
                     <a href="catalog.html?filter[parentCaterory]=&filter[category]="
                        class="list-of-special-categories__link">
                         <figure class="list-of-special-categories__category">
-                            <img src="common.blocks/catalog-tabs/catalog-tabs__shirt.svg" alt=""
+                            <img src="images/blocks/catalog-tabs/catalog-tabs__shirt.svg" alt=""
                                  class="list-of-special-categories__category-img">
                             <figcaption class="list-of-special-categories__category-caption">Рубашки</figcaption>
                         </figure>

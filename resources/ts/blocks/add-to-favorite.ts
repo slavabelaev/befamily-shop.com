@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+$(document).ready(function() {
     let favorites = new Favorites();
 
     $('[data-toggle="favorite"]').on('click', function() {

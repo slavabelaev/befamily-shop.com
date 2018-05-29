@@ -10,16 +10,18 @@
 }
 .delivery-page__page-header {
   background-color: #FFEE19;
-  background-image: url(#{$imagesPagesPath}/delivery-page__header-bg.svg);
+  background-image: url(#{$rootPath}/images/pages/delivery-page/delivery-page__header-bg.svg);
   .lead {
     font-size: 1.5rem;
   }
 }
 
 @include media-breakpoint-up(lg) {
-  .table {
-    tbody td {
-      padding: 2rem 3rem;
+  .delivery-page {
+    .table {
+      tbody td {
+        padding: 2rem 3rem;
+      }
     }
   }
 }

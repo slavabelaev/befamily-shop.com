@@ -1,7 +1,6 @@
-@@include('../../common.blocks/meta-header/meta-header.tpl')
-@@include('../../common.blocks/page-header/page-header.tpl')
+@@include('../blocks/meta-header.tpl')
+@@include('../blocks/page-header.tpl')
 
-<link rel="stylesheet" href="pages/about-page/about-page.css">
 <!-- About page -->
 <main class="about-page">
     <article>
@@ -12,7 +11,7 @@
                         <p class="lead">Befamily – авторский проект, посвященный одежде в семейном стиле, стоящий у истоков направления Family look в России</p>
                     </div>
                     <div class="col-md-6">
-                        <img src="pages/about-page/about-page__header-image.png" alt="" class="mw-100 mt-md-4">
+                        <img src="images/pages/about-page/about-page__header-image.png" alt="" class="mw-100 mt-md-4">
                     </div>
                 </div>
             </div>
@@ -29,25 +28,25 @@
                     <ul class="row list-unstyled text-center mb-0">
                         <li class="col-6 col-md-3">
                             <figure class="figure">
-                                <img src="pages/about-page/about-page__cake.svg" alt="" class="figure-img">
+                                <img src="images/pages/about-page/about-page__cake.svg" alt="" class="figure-img">
                                 <figcaption class="figure-caption">Основано в 2012 г.</figcaption>
                             </figure>
                         </li>
                         <li class="col-6 col-md-3">
                             <figure class="figure">
-                                <img src="pages/about-page/about-page__Moscow.svg" alt="" class="figure-img">
+                                <img src="images/pages/about-page/about-page__Moscow.svg" alt="" class="figure-img">
                                 <figcaption class="figure-caption">Производство в <br>России</figcaption>
                             </figure>
                         </li>
                         <li class="col-6 col-md-3">
                             <figure class="figure">
-                                <img src="pages/about-page/about-page__team.svg" alt="" class="figure-img">
+                                <img src="images/pages/about-page/about-page__team.svg" alt="" class="figure-img">
                                 <figcaption class="figure-caption">Дружный коллектив</figcaption>
                             </figure>
                         </li>
                         <li class="col-6 col-md-3">
                             <figure class="figure">
-                                <img src="pages/about-page/about-page__sweetshot.svg" alt="" class="figure-img">
+                                <img src="images/pages/about-page/about-page__sweetshot.svg" alt="" class="figure-img">
                                 <figcaption class="figure-caption">Эксклюзивные модели</figcaption>
                             </figure>
                         </li>
@@ -67,7 +66,7 @@
                             <p class="lead text-primary mb-5">Спасибо за ваш интерес! Мы вас любим! :)</p>
                         </div>
                         <div class="col-md-5 d-flex align-items-end">
-                            <img src="pages/about-page/about-page__mother-and-daughter.png" alt="" class="mw-100 d-none d-md-block">
+                            <img src="images/pages/about-page/about-page__mother-and-daughter.png" alt="" class="mw-100 d-none d-md-block">
                         </div>
                     </div>
                 </section>
@@ -76,7 +75,6 @@
     </article>
 </main>
 <!-- /About page -->
-<script src="pages/about-page/about-page.js" defer></script>
 
-@@include('../../common.blocks/page-footer/page-footer.tpl')
-@@include('../../common.blocks/meta-footer/meta-footer.tpl')
+@@include('../blocks/page-footer.tpl')
+@@include('../blocks/meta-footer.tpl')

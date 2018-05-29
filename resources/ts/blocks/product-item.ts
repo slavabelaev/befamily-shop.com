@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+$(document).ready(function() {
     $('.product-item__collapse-size').on('click', function(e) {
         e.preventDefault();
         var closestProductItem = $(this).closest('.product-item');

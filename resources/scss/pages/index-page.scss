@@ -6,10 +6,10 @@
   background-repeat: no-repeat;
 }
 .index-page__shaped-bg {
-  background-image: url(#{$imagesPagesPath}/index-page__shaped-bg.svg);
+  background-image: url(#{$rootPath}/images/pages/index-page/index-page__shaped-bg.svg);
 }
 .index-page__shaped-bg-1 {
-  background-image: url(#{$imagesPagesPath}/index-page__shaped-bg-1.svg);
+  background-image: url(#{$rootPath}/images/pages/index-page/index-page__shaped-bg-1.svg);
 }
 .index-page__section {
   padding-top: 2rem;

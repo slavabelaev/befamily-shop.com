@@ -12,9 +12,9 @@
                 <div class="row">
                     <div class="col-md-4">
                         <a data-fancybox="gallery"
-                           href="content/images/complects/scandinavia/scandinavia-1.jpg"
+                           href="images/content/complects/scandinavia/scandinavia-1.jpg"
                            class="list-of-images__link">
-                            <img src="content/images/complects/scandinavia/scandinavia-1.jpg" alt="" class="img-fluid">
+                            <img src="images/content/complects/scandinavia/scandinavia-1.jpg" alt="" class="img-fluid">
                         </a>
                     </div>
                     <div class="col-md-8">
@@ -24,7 +24,7 @@
                             <!-- List of products included -->
                             <ul class="list-of-product-includes">
                                 <li class="list-of-product-includes__item">
-                                    @@include('../../common.blocks/product-includes-item/product-includes-item.tpl', {
+                                    @@include('./product-includes-item.tpl', {
                                         "uid": "0109",
                                         "productTitle": "Свитер “Скандинавия”",
                                         "categoryTitle": "Женский",
@@ -33,7 +33,7 @@
                                     })
                                 </li>
                                 <li class="list-of-product-includes__item">
-                                    @@include('../../common.blocks/product-includes-item/product-includes-item.tpl', {
+                                    @@include('./product-includes-item.tpl', {
                                         "uid": "0110",
                                         "productTitle": "Свитер “Скандинавия”",
                                         "categoryTitle": "Детский",

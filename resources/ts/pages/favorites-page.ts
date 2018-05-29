@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+$(document).ready(function() {
     var favoritePage = $('.favorites-page'),
         listOfFavoritesElement = favoritePage.find('.list-of-favorites'),
         catalogSorterWrapperElement = favoritePage.find('.favorites-page__catalog-sorter'),

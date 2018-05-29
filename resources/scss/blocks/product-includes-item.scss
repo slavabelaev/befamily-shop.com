@@ -16,7 +16,7 @@
   &.collapsed {
     color: $navbar-light-disabled-color;
     .icon {
-      background-image: url(#{$imagesPath}/icon__expand_style_primary.svg);
+      background-image: url(#{$rootPath}/images/blocks/icon/icon__expand_style_primary.svg);
     }
   }
   .icon {

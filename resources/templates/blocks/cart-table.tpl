@@ -14,9 +14,9 @@
         <tbody class="cart-table__tbody">
         <tr>
             <td class="cart-table__td-photo">
-                @@include("../../common.blocks/image-item/image-item.tpl", {
-                    "previewImageUrl": "content/images/complects/scandinavia/scandinavia-1.jpg",
-                    "imageUrl": "content/images/complects/scandinavia/scandinavia-1.jpg",
+                @@include("./image-item.tpl", {
+                    "previewImageUrl": "images/content/complects/scandinavia/scandinavia-1.jpg",
+                    "imageUrl": "images/content/complects/scandinavia/scandinavia-1.jpg",
                     "imageAltText": ""
                 })
             </td>
@@ -25,7 +25,7 @@
                 <a href="#" class="cart-table__product-category">Женский</a>
             </td>
             <td class="cart-table__td-size">
-                @@include("../../common.blocks/product-size-control/product-size-control.tpl", {
+                @@include("./product-size-control.tpl", {
                     "showTitle": false
                 })
             </td>
@@ -35,9 +35,9 @@
         </tr>
         <tr>
             <td class="cart-table__td-photo">
-                @@include("../../common.blocks/image-item/image-item.tpl", {
-                    "previewImageUrl": "content/images/complects/scandinavia/scandinavia-2.jpg",
-                    "imageUrl": "content/images/complects/scandinavia/scandinavia-2.jpg",
+                @@include("./image-item.tpl", {
+                    "previewImageUrl": "images/content/complects/scandinavia/scandinavia-2.jpg",
+                    "imageUrl": "images/content/complects/scandinavia/scandinavia-2.jpg",
                     "imageAltText": ""
                 })
             </td>
@@ -46,7 +46,7 @@
                 <a href="#" class="cart-table__product-category">Женский</a>
             </td>
             <td class="cart-table__td-size">
-                @@include("../../common.blocks/product-size-control/product-size-control.tpl", {
+                @@include("./product-size-control.tpl", {
                     "showTitle": false
                 })
             </td>

@@ -3,97 +3,123 @@
 var gulp = require('gulp'),
     watch = require('gulp-watch'),
     plumber = require('gulp-plumber'),
-    cache = require('gulp-cache'),
-    newer = require('gulp-newer'),
     rename = require('gulp-rename'),
-    gulpCopy = require('gulp-copy'),
-
-    imagemin = require('gulp-imagemin'),
-    image = require('gulp-image'),
     sass = require('gulp-sass'),
-    csso = require('gulp-csso'),
     autoprefixer = require('gulp-autoprefixer'),
-    cleanCss = require('gulp-clean-css'),
-    babel = require('gulp-babel'),
     typescript = require('gulp-typescript'),
+    uglify = require('gulp-uglify'),
     concat = require('gulp-concat'),
     fileinclude = require('gulp-file-include'),
     sourcemaps = require('gulp-sourcemaps');
 
-var settings = {
-    paths:  {
-        src: {
-            styles: 'resources/scss',
-            scripts: 'resources/ts',
-            images: 'resources/images',
-            fonts: 'resources/fonts'
-        },
-        dest: {
-            styles: 'public/dist/css',
-            scripts: 'public/dist/js',
-            images: 'public/dist/images',
-            fonts: 'public/dist/fonts'
-        }
+var paths =  {
+    src: {
+        styles: './resources/scss',
+        scripts: './resources/ts',
+        images: './resources/images',
+        fonts: './resources/fonts',
+        templates: './resources/templates',
     },
-    bundleNames: {
-        styles: 'bundle.min.css',
-        scripts: 'bundle.min.js'
+    dest: {
+        styles: './public/dist/css',
+        scripts: './public/dist/js',
+        images: './public/dist/images',
+        fonts: './public/dist/fonts',
+        templates: './public/',
+    }
+};
+var builds = {
+    styles: {
+        filename: 'bundle.min.css',
+        files: [
+            'node_modules/slick-carousel/slick/slick.scss',
+            'node_modules/slick-carousel/slick/slick-theme.scss',
+            'node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css',
+            'node_modules/sticky-kit/dist/sticky-kit.min.css',
+            'node_modules/nouislider/distribute/nouislider.min.css',
+
+            paths.src.styles + '/bootstrap/bootstrap.scss',
+            paths.src.styles + '/plugins/plugins-reboot.scss',
+            paths.src.styles + '/common.scss',
+            paths.src.styles + '/blocks/**/*.scss',
+            paths.src.styles + '/pages/**/*.scss'
+        ]
+    },
+    scripts: {
+        filename: 'bundle.min.js',
+        files: [
+            paths.src.scripts + '/classes/**/*.ts',
+            paths.src.scripts + '/common.ts',
+            paths.src.scripts + '/blocks/**/*.ts',
+            paths.src.scripts + '/pages/**/*.ts'
+        ]
+    },
+    templates: {
+        files: [
+            paths.src.templates + '/pages/**/*.tpl'
+        ]
     }
 };
 
-var bundleFiles = {
-    styles: [
-        settings.paths.src.styles + '/bootstrap/bootstrap.scss',
-        settings.paths.src.styles + '/plugins/plugins-reboot.scss',
-        settings.paths.src.styles + '/common.scss',
-        settings.paths.src.styles + '/blocks/**/*.scss',
-        settings.paths.src.styles + '/pages/**/*.scss'
-    ],
-    scripts: [
-        settings.paths.src.scripts + '/classes/**/*.ts',
-        settings.paths.src.scripts + '/common.ts',
-        settings.paths.src.scripts + '/blocks/**/*.ts',
-        settings.paths.src.scripts + '/pages/**/*.ts'
-    ]
-};
-
-
-
-gulp.task('styles:bundle', function() {
-    gulp.src(bundleFiles.styles)
+gulp.task('styles:build', function() {
+    gulp.src(builds.styles.files)
         .pipe(plumber())
         .pipe(sourcemaps.init())
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
         .pipe(autoprefixer())
-        .pipe(concat(settings.bundleNames.styles))
+        .pipe(concat(builds.styles.filename))
         .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest(settings.paths.dest.styles));
+        .pipe(gulp.dest(paths.dest.styles));
 });
 
-gulp.task('scripts:bundle', function () {
-    gulp.src(bundleFiles.scripts)
+gulp.task('scripts:build', function () {
+    gulp.src(builds.scripts.files)
         .pipe(plumber())
         .pipe(sourcemaps.init())
-        .pipe(typescript({
-            outFile: settings.bundleNames.scripts
-        }))
+        .pipe(typescript())
+        .pipe(concat(builds.scripts.filename))
+        .pipe(uglify())
         .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest(settings.paths.dest.scripts));
+        .pipe(gulp.dest(paths.dest.scripts));
 });
 
-gulp.task('bundle', [
-    'styles:bundle',
-    'scripts:bundle'
+gulp.task('templates:generate', function () {
+    gulp.src(builds.templates.files)
+        .pipe(plumber())
+        .pipe(fileinclude())
+        .pipe(rename(function(path) {
+            path.basename = path.basename.replace('-page', '');
+            path.dirname = '';
+            path.extname = '.html';
+        }))
+        .pipe(gulp.dest(paths.dest.templates));
+});
+
+gulp.task('views:generate', function () {
+    gulp.src(builds.templates.files)
+        .pipe(plumber())
+        .pipe(fileinclude())
+        .pipe(rename(function(path) {
+            path.basename = path.basename.replace('-page', '');
+            path.dirname = '';
+            path.extname = '.blade.php';
+        }))
+        .pipe(gulp.dest('resources/views/pages'));
+});
+
+gulp.task('build', [
+    'styles:build',
+    'scripts:build'
 ]);
 
 gulp.task('watch', function() {
-    watch(bundleFiles.styles, function(event, cb) {
-        gulp.start('styles:bundle');
+    watch(builds.styles.files, function(event, cb) {
+        gulp.start('styles:build');
     });
-    watch(bundleFiles.scripts, function(event, cb) {
-        gulp.start('scripts:bundle');
+    watch(builds.scripts.files, function(event, cb) {
+        gulp.start('scripts:build');
     });
 });
 
-gulp.task('default', ['bundle']);
-gulp.task('watch', ['bundle', 'watch']);
+gulp.task('default', ['build']);
+gulp.task('watch', ['build', 'watch']);

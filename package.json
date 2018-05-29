@@ -16,23 +16,18 @@
     "nouislider": "^11.1.0",
     "popper.js": "^1.12.9",
     "slick-carousel": "^1.8.1",
-    "sticky-kit": "^1.1.3"
+    "sticky-kit": "^1.1.3",
+    "wnumb": "^1.1.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
-    "browser-sync": "^2.24.4",
+    "babel-preset-es2015": "^6.24.1"
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-babel": "^7.0.1",
-    "gulp-cache": "^1.0.2",
-    "gulp-clean-css": "^3.9.4",
     "gulp-concat": "^2.6.1",
-    "gulp-copy": "^1.1.0",
-    "gulp-csso": "^3.0.1",
     "gulp-file-include": "^2.0.1",
-    "gulp-image": "^4.3.0",
-    "gulp-imagemin": "^4.1.0",
     "gulp-newer": "^1.4.0",
     "gulp-plumber": "^1.2.0",
     "gulp-sass": "^4.0.1",

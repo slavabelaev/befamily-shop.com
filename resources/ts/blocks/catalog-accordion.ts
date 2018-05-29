@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+$(document).ready(function() {
     $('.catalog-accordion__toogler[data-action="toggle-collapse"]').on('click', function(e) {
         console.log('clicked');
         e.preventDefault();

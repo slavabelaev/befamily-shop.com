@@ -15,7 +15,7 @@
             <li class="product-item__detail product-item__price">@@price ₽</li>
         </ul>
         <div class="product-item__size collapse">
-            @@include('../../common.blocks/product-size-control/product-size-control.tpl', {
+            @@include('./product-size-control.tpl', {
                 "showTitle": true
             })
         </div>

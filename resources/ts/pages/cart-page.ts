@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+$(document).ready(function() {
     var cartPage = $('.cart-page'),
         cartForm = cartPage.find('.cart-form');
 

@@ -12,27 +12,27 @@
   transition: $transition-base;
 }
 
-.icon__expand { background-image: url(#{$imagesPath}/icon__expand.svg); }
-.icon__expand_style_info { background-image: url(#{$imagesPath}/icon__expand_style_info.svg); }
-.icon__shopping-bag { background-image: url(#{$imagesPath}/icon__shopping-bag.svg); }
-.icon__heart { background-image: url(#{$imagesPath}/icon__heart.svg); }
-.icon__clothing-size { background-image: url(#{$imagesPath}/icon__clothing-size.svg); }
-.icon__close { background-image: url(#{$imagesPath}/icon__close.svg); }
-.icon__collapse_style_info { background-image: url(#{$imagesPath}/icon__collapse_style_info.svg); }
-.icon__collapse_style_primary { background-image: url(#{$imagesPath}/icon__collapse_style_primary.svg); }
-.icon__add-to-shopping-bag { background-image: url(#{$imagesPath}/icon__add-to-shopping-bag.svg); }
-.icon__choices { background-image: url(#{$imagesPath}/icon__choices.svg); }
-.icon__rocket-ship { background-image: url(#{$imagesPath}/icon__rocket-ship.svg); }
-.icon__wallet { background-image: url(#{$imagesPath}/icon__wallet.svg); }
-.icon__arrow-down { background-image: url(#{$imagesPath}/icon__arrow-down.svg); }
-.icon__trash { background-image: url(#{$imagesPath}/icon__trash.svg); }
-.icon__menu { background-image: url(#{$imagesPath}/icon__menu.svg); }
-.icon__cancel { background-image: url(#{$imagesPath}/icon__cancel.svg); }
-.icon__search { background-image: url(#{$imagesPath}/icon__search.svg); }
-.icon__paper-plane { background-image: url(#{$imagesPath}/icon__paper-plane.svg); }
+.icon__expand { background-image: url(#{$rootPath}/images/blocks/icon/icon__expand.svg); }
+.icon__expand_style_info { background-image: url(#{$rootPath}/images/blocks/icon/icon__expand_style_info.svg); }
+.icon__shopping-bag { background-image: url(#{$rootPath}/images/blocks/icon/icon__shopping-bag.svg); }
+.icon__heart { background-image: url(#{$rootPath}/images/blocks/icon/icon__heart.svg); }
+.icon__clothing-size { background-image: url(#{$rootPath}/images/blocks/icon/icon__clothing-size.svg); }
+.icon__close { background-image: url(#{$rootPath}/images/blocks/icon/icon__close.svg); }
+.icon__collapse_style_info { background-image: url(#{$rootPath}/images/blocks/icon/icon__collapse_style_info.svg); }
+.icon__collapse_style_primary { background-image: url(#{$rootPath}/images/blocks/icon/icon__collapse_style_primary.svg); }
+.icon__add-to-shopping-bag { background-image: url(#{$rootPath}/images/blocks/icon/icon__add-to-shopping-bag.svg); }
+.icon__choices { background-image: url(#{$rootPath}/images/blocks/icon/icon__choices.svg); }
+.icon__rocket-ship { background-image: url(#{$rootPath}/images/blocks/icon/icon__rocket-ship.svg); }
+.icon__wallet { background-image: url(#{$rootPath}/images/blocks/icon/icon__wallet.svg); }
+.icon__arrow-down { background-image: url(#{$rootPath}/images/blocks/icon/icon__arrow-down.svg); }
+.icon__trash { background-image: url(#{$rootPath}/images/blocks/icon/icon__trash.svg); }
+.icon__menu { background-image: url(#{$rootPath}/images/blocks/icon/icon__menu.svg); }
+.icon__cancel { background-image: url(#{$rootPath}/images/blocks/icon/icon__cancel.svg); }
+.icon__search { background-image: url(#{$rootPath}/images/blocks/icon/icon__search.svg); }
+.icon__paper-plane { background-image: url(#{$rootPath}/images/blocks/icon/icon__paper-plane.svg); }
 
-.icon__vk { background-image: url(#{$imagesPath}/icon__vk.svg); }
-.icon__instagram { background-image: url(#{$imagesPath}/icon__instagram.svg); }
+.icon__vk { background-image: url(#{$rootPath}/images/blocks/icon/icon__vk.svg); }
+.icon__instagram { background-image: url(#{$rootPath}/images/blocks/icon/icon__instagram.svg); }
 
 .icon_style_dark {
   filter: brightness(0);

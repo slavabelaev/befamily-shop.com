@@ -1,7 +1,6 @@
-@@include('../../common.blocks/meta-header/meta-header.tpl')
-@@include('../../common.blocks/page-header/page-header.tpl')
+@@include('../blocks/meta-header.tpl')
+@@include('../blocks/page-header.tpl')
 
-<link rel="stylesheet" href="pages/delivery-page/delivery-page.css">
 <!-- Delivery page -->
 <main class="delivery-page">
     <article>
@@ -12,7 +11,7 @@
                         <p class="lead">Мы идем на встречу клиентам, поэтому может предложить несколько вариантов доставки товаров как жителям Москвы, так и жителям Регионов.</p>
                     </div>
                     <div class="col-md-6 text-center">
-                        <img src="pages/delivery-page/delivery-page__header-image.png" alt="" class="mw-100 mt-md-4">
+                        <img src="images/pages/delivery-page/delivery-page__header-image.png" alt="" class="mw-100 mt-md-4">
                     </div>
                 </div>
             </div>
@@ -23,7 +22,7 @@
                 <ul class="row list-unstyled text-center mb-5">
                     <li class="col-sm-6 col-lg-3">
                         <figure class="figure mb-0">
-                            <img src="pages/delivery-page/delivery-page__clock.svg" alt="" class="figure-img">
+                            <img src="images/pages/delivery-page/delivery-page__clock.svg" alt="" class="figure-img">
                             <figcaption class="figure-caption">
                                 <h3 class="h4 text-dark">Время приема</h3>
                                 <p class="text-dark">Время приема и обработки заказов на сайте: с 10:00 до 18:00 по будним дням.</p>
@@ -32,7 +31,7 @@
                     </li>
                     <li class="col-sm-6 col-lg-3">
                         <figure class="figure mb-0">
-                            <img src="pages/delivery-page/delivery-page__manager.svg" alt="" class="figure-img">
+                            <img src="images/pages/delivery-page/delivery-page__manager.svg" alt="" class="figure-img">
                             <figcaption class="figure-caption">
                                 <h3 class="h4 text-dark">Оформления заказа</h3>
                                 <p class="text-dark">В <strong>течение одного дня после оформления заказа</strong> с Вами свяжется наш менеджер и уточнит Ваш заказ.</p>
@@ -41,7 +40,7 @@
                     </li>
                     <li class="col-sm-6 col-lg-3">
                         <figure class="figure mb-0">
-                            <img src="pages/delivery-page/delivery-page__phone.svg" alt="" class="figure-img">
+                            <img src="images/pages/delivery-page/delivery-page__phone.svg" alt="" class="figure-img">
                             <figcaption class="figure-caption">
                                 <h3 class="h4 text-dark">Время доставки</h3>
                                 <p class="text-dark">Время доставки согласовывается курьером по телефону: с <strong>9:00 до 11:00 по будним дням</strong>.</p>
@@ -50,7 +49,7 @@
                     </li>
                     <li class="col-sm-6 col-lg-3">
                         <figure class="figure mb-0">
-                            <img src="pages/delivery-page/delivery-page__courier.svg" alt="" class="figure-img">
+                            <img src="images/pages/delivery-page/delivery-page__courier.svg" alt="" class="figure-img">
                             <figcaption class="figure-caption">
                                 <h3 class="h4 text-dark">Время работы курьера</h3>
                                 <p class="text-dark">Время работы курьера: <strong>с 11:00 до 18:00 по будним дням</strong>. В выходные дни доставка не осуществляется.</p>
@@ -59,7 +58,7 @@
                     </li>
                 </ul>
                 <figure class="figure d-sm-flex align-items-center border border-primary mw-975 py-3 px-3 px-sm-5 mb-5 text-center text-sm-left">
-                    <img src="pages/delivery-page/delivery-page__shirt.svg" alt="" class="figure-img mr-sm-5 mb-4 mb-sm-0">
+                    <img src="images/pages/delivery-page/delivery-page__shirt.svg" alt="" class="figure-img mr-sm-5 mb-4 mb-sm-0">
                     <figcaption class="figure-caption">
                         <h2 class="h4 text-primary mb-2">Если не подошел размер</h2>
                         <p class="text-dark mb-0">На примерку одежды выделяется 15 минут. В случае, если вещь не подошла, оплачивается только доставка в размере 350 руб.</p>
@@ -189,7 +188,6 @@
     </article>
 </main>
 <!-- /Delivery page -->
-<script src="pages/delivery-page/delivery-page.js" defer></script>
 
-@@include('../../common.blocks/page-footer/page-footer.tpl')
-@@include('../../common.blocks/meta-footer/meta-footer.tpl')
+@@include('../blocks/page-footer.tpl')
+@@include('../blocks/meta-footer.tpl')

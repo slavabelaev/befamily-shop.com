@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+$(document).ready(function() {
     const carouselElement = $('.list-of-famous-buyers[data-slick]');
 
     carouselElement.slick({

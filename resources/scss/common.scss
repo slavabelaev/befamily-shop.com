@@ -25,3 +25,9 @@
     vertical-align: middle;
   }
 }
+
+@include media-breakpoint-between(xs,sm) {
+  .list-colored {
+    padding-left: 1.5rem;
+  }
+}

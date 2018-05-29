@@ -1,11 +1,10 @@
-@@include('../../common.blocks/meta-header/meta-header.tpl')
-@@include('../../common.blocks/page-header/page-header.tpl')
+@@include('../blocks/meta-header.tpl')
+@@include('../blocks/page-header.tpl')
 
-<link rel="stylesheet" href="pages/sitemap-page/sitemap-page.css">
 <!-- Sitemap page -->
 <main class="sitemap-page">
     <div class="container">
-        @@include('../../common.blocks/breadcrumb/breadcrumb.tpl', {
+        @@include('../blocks/breadcrumb.tpl', {
             "level2": "Блог",
             "activeItem": "Новости"
         })
@@ -51,7 +50,6 @@
     </div>
 </main>
 <!-- Sitemap page -->
-<script src="pages/sitemap-page/sitemap-page.js" defer></script>
 
-@@include('../../common.blocks/page-footer/page-footer.tpl')
-@@include('../../common.blocks/meta-footer/meta-footer.tpl')
+@@include('../blocks/page-footer.tpl')
+@@include('../blocks/meta-footer.tpl')
