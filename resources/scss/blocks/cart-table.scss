@@ -29,6 +29,22 @@
   font-size: 1.5rem;
 }
 
+@include media-breakpoint-up(md) {
+  .cart-table {
+    .product-size-control {
+      .btn-group-toggle {
+        flex-wrap: nowrap;
+      }
+      .btn-group-toggle>.btn {
+        margin-bottom: 0;
+      }
+    }
+    .product-size-control__quantity-select {
+      min-width: 55px;
+    }
+  }
+}
+
 @include media-breakpoint-between(xs, sm) {
   .cart-table__product-title {
     font-weight: bold;

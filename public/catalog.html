@@ -465,7 +465,7 @@
                 <input type="number"
                        name="minPrice"
                        step="1"
-                       class="custom-select"
+                       class="form-control"
                        id="catalog-filter__min-price"
                        placeholder=""
                        noui-slider-from>
@@ -480,7 +480,7 @@
                 <input type="number"
                        name="maxPrice"
                        step="1"
-                       class="custom-select"
+                       class="form-control"
                        id="catalog-filter__max-price"
                        placeholder=""
                        noui-slider-to>
