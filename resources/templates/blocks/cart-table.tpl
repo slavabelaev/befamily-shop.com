@@ -12,7 +12,8 @@
         </tr>
         </thead>
         <tbody class="cart-table__tbody">
-        <tr>
+        <!-- Repeated Item -->
+        <tr class="cart-table__row">
             <td class="cart-table__td-photo">
                 @@include("./image-item.tpl", {
                     "previewImageUrl": "images/content/complects/scandinavia/scandinavia-1.jpg",
@@ -31,9 +32,14 @@
             </td>
             <td class="cart-table__td-price cart-table__price">10 890 ₽</td>
             <td class="cart-table__td-sum cart-table__price text-primary">10 890 ₽</td>
-            <td class="cart-table__td-action"><a href="#" class="icon icon__close"></a></td>
+            <td class="cart-table__td-action">
+                <a href="#"
+                   class="icon icon__close"
+                   data-action="remove-row"></a>
+            </td>
         </tr>
-        <tr>
+        <!-- /Repeated Item -->
+        <tr class="cart-table__row">
             <td class="cart-table__td-photo">
                 @@include("./image-item.tpl", {
                     "previewImageUrl": "images/content/complects/scandinavia/scandinavia-2.jpg",
@@ -52,14 +58,22 @@
             </td>
             <td class="cart-table__td-price cart-table__price">10 890 ₽</td>
             <td class="cart-table__td-sum cart-table__price text-primary">10 890 ₽</td>
-            <td class="cart-table__td-action"><a href="#" class="icon icon__close"></a></td>
+            <td class="cart-table__td-action">
+                <a href="#"
+                   class="icon icon__close"
+                   data-action="remove-row"></a>
+            </td>
         </tr>
         </tbody>
         <tfoot class="cart-table__tfoot">
-        <tr>
+        <tr class="cart-table__tfoot-row">
             <td colspan="4" class="cart-table__total-cost-label text-md-right">Итоговая стоимость:</td>
             <td class="cart-table__total-cost cart-table__price text-primary">21 780 ₽</td>
-            <td class="cart-table__td-action"><a href="#" class="icon icon__close"></a></td>
+            <td class="cart-table__td-action">
+                <a href="#"
+                   class="icon icon__close"
+                   data-action="remove-row"></a>
+            </td>
         </tr>
         </tfoot>
     </table>

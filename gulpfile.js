@@ -86,7 +86,7 @@ gulp.task('scripts:build', function () {
         .pipe(gulp.dest(paths.dest.scripts));
 });
 
-gulp.task('templates:generate', function () {
+gulp.task('templates:build', function () {
     gulp.src(builds.templates.files)
         .pipe(plumber())
         .pipe(fileinclude())
@@ -97,6 +97,29 @@ gulp.task('templates:generate', function () {
         }))
         .pipe(gulp.dest(paths.dest.templates));
 });
+gulp.task('viewsPages:build', function () {
+    gulp.src(builds.templates.files)
+        .pipe(plumber())
+        .pipe(fileinclude())
+        .pipe(rename(function(path) {
+            path.basename = path.basename.replace('-page', '');
+            path.dirname = '';
+            path.extname = '.blade.php';
+        }))
+        .pipe(gulp.dest('resources/views/pages'));
+});
+gulp.task('viewsBlocks:build', function () {
+    gulp.src('resources/templates/blocks/**/*.tpl')
+        .pipe(plumber())
+        .pipe(fileinclude())
+        .pipe(rename(function(path) {
+            path.dirname = '';
+            path.extname = '.blade.php';
+        }))
+        .pipe(gulp.dest('resources/views/blocks'));
+});
+
+gulp.task('templates', ['templates:build', 'viewsPages:build', 'viewsBlocks:build']);
 
 gulp.task('build', [
     'styles:build',
