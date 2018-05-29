@@ -227,11 +227,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -344,11 +341,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -493,11 +487,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -557,11 +548,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -745,11 +733,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -862,11 +847,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -1019,11 +1001,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -1136,11 +1115,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -1324,11 +1300,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -1441,11 +1414,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -1598,11 +1568,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -1715,11 +1682,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -1903,11 +1867,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -2020,11 +1981,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -2177,11 +2135,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -2294,11 +2249,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -2482,11 +2434,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -2599,11 +2548,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -2756,11 +2702,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -2873,11 +2816,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -3061,11 +3001,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -3178,11 +3115,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -3335,11 +3269,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -3452,11 +3383,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -3640,11 +3568,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -3757,11 +3682,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -3914,11 +3836,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -4031,11 +3950,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -4219,11 +4135,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -4336,11 +4249,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -4493,11 +4403,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -4610,11 +4517,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -4798,11 +4702,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -4915,11 +4816,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -5072,11 +4970,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -5189,11 +5084,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -5358,11 +5250,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -5475,11 +5364,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -5632,11 +5518,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -5749,11 +5632,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -5903,11 +5783,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
@@ -6020,11 +5897,8 @@
         <label class="btn btn-outline-dark">
             <input type="radio" name="size" value="L"> L
         </label>
-        <label class="btn btn-outline-dark">
-            <input type="radio" name="size" value="XL"> XL
-        </label>
         <label class="btn btn-outline-dark active">
-            <input type="radio" name="size" value="XXL"> XXL
+            <input type="radio" name="size" value="XL"> XL
         </label>
         <select name="quantity" class="product-size-control__quantity-select custom-select custom-select-sm">
             <option selected value="1">1</option>
