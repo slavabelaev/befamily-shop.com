@@ -8,6 +8,11 @@ $(document).ready(function () {
                 .addClass(accordionClassName)
                 .find('.tab-pane').each(function () {
                 var paneElement = $(this), paneNavItem = paneElement.attr('id'), paneNavItemElement = $('[href="#' + paneNavItem + '"]');
+                catalogTabsElement.find('[data-toggle=pill]').on('click', function () {
+                    catalogTabsElement
+                        .find('.collapse.show')
+                        .collapse('toggle');
+                });
                 paneElement
                     .removeClass('active')
                     .removeClass('fade')
@@ -18,8 +23,8 @@ $(document).ready(function () {
                     .on('click', function (e) {
                     e.preventDefault();
                     e.stopPropagation();
+                    $(this).toggleClass('collapsed');
                     paneElement
-                        .toggleClass('active')
                         .collapse('toggle');
                 });
             });

@@ -13,6 +13,12 @@ $(document).ready(function() {
                         paneNavItem = paneElement.attr('id'),
                         paneNavItemElement = $('[href="#' + paneNavItem + '"]');
 
+                    catalogTabsElement.find('[data-toggle=pill]').on('click', function() {
+                        catalogTabsElement
+                            .find('.collapse.show')
+                            .collapse('toggle');
+                    });
+
                     paneElement
                         .removeClass('active')
                         .removeClass('fade')
@@ -24,8 +30,9 @@ $(document).ready(function() {
                             e.preventDefault();
                             e.stopPropagation();
 
+                            $(this).toggleClass('collapsed');
+
                             paneElement
-                                .toggleClass('active')
                                 .collapse('toggle');
                         })
                 });

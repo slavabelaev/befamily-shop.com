@@ -4,6 +4,7 @@ var gulp = require('gulp'),
     watch = require('gulp-watch'),
     plumber = require('gulp-plumber'),
     rename = require('gulp-rename'),
+    newer = require('gulp-newer'),
     sass = require('gulp-sass'),
     autoprefixer = require('gulp-autoprefixer'),
     typescript = require('gulp-typescript'),
@@ -63,6 +64,7 @@ var builds = {
 
 gulp.task('styles:build', function() {
     gulp.src(builds.styles.files)
+        .pipe(newer(paths.dest.styles + '/' + builds.styles.filename))
         .pipe(plumber())
         .pipe(sourcemaps.init())
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
@@ -74,6 +76,7 @@ gulp.task('styles:build', function() {
 
 gulp.task('scripts:build', function () {
     gulp.src(builds.scripts.files)
+        .pipe(newer(paths.dest.scripts + '/' + builds.scripts.filename))
         .pipe(plumber())
         .pipe(sourcemaps.init())
         .pipe(typescript())
@@ -112,7 +115,7 @@ gulp.task('build', [
     'scripts:build'
 ]);
 
-gulp.task('watch', function() {
+gulp.task('files:watch', function() {
     watch(builds.styles.files, function(event, cb) {
         gulp.start('styles:build');
     });
@@ -123,6 +126,6 @@ gulp.task('watch', function() {
 
 gulp.task('styles', ['styles:build']);
 gulp.task('scripts', ['scripts:build']);
-gulp.task('watch', ['build', 'watch']);
+gulp.task('watch', ['files:watch']);
 
 gulp.task('default', ['build']);
