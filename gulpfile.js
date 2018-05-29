@@ -98,18 +98,6 @@ gulp.task('templates:generate', function () {
         .pipe(gulp.dest(paths.dest.templates));
 });
 
-gulp.task('views:generate', function () {
-    gulp.src(builds.templates.files)
-        .pipe(plumber())
-        .pipe(fileinclude())
-        .pipe(rename(function(path) {
-            path.basename = path.basename.replace('-page', '');
-            path.dirname = '';
-            path.extname = '.blade.php';
-        }))
-        .pipe(gulp.dest('resources/views/pages'));
-});
-
 gulp.task('build', [
     'styles:build',
     'scripts:build'
