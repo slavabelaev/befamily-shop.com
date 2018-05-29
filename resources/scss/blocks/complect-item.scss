@@ -91,3 +91,9 @@
     }
   }
 }
+
+@include media-breakpoint-between(xs,sm){
+  .complect-item__image {
+    min-height: 320px;
+  }
+}

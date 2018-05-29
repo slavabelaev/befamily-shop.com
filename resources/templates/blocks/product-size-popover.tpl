@@ -1,6 +1,6 @@
 <!-- Product size table popup -->
 <div class="product-size-popover">
-    <a href="#"
+    <a tabindex="0"
        class="product-size-popover__link"
        data-trigger="focus"
        data-toggle="popover"
