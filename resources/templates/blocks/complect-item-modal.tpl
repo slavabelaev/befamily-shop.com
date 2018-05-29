@@ -36,4 +36,5 @@
         </form>
     </div>
 </div>
+@@include('../blocks/added-to-cart-modal.tpl')
 <!-- /Complect item modal -->
