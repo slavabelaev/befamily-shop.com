@@ -121,5 +121,8 @@ gulp.task('watch', function() {
     });
 });
 
-gulp.task('default', ['build']);
+gulp.task('styles', ['styles:build']);
+gulp.task('scripts', ['scripts:build']);
 gulp.task('watch', ['build', 'watch']);
+
+gulp.task('default', ['build']);
