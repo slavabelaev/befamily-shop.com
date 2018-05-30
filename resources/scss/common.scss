@@ -1,6 +1,7 @@
 @import "bootstrap/bootstrap-common";
 
 .preloader {
+  display: block;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -8,6 +9,32 @@
   right: 0;
   z-index: 9999;
   background-color: #fff;
+  &:before {
+    content: "";
+    display: block;
+    background-image: url(#{$rootPath}/images/preloader.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    margin: auto;
+    animation-name: fadein;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+  }
+}
+@keyframes fadein{
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 .mw-975 {
