@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="dist/css/bundle.min.css">
 </head>
 <body>
+<div class="preloader"></div>
 <!-- /Meta header -->
 
 <!-- 404 page -->

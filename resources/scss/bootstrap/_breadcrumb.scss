@@ -39,3 +39,14 @@
     color: $breadcrumb-active-color;
   }
 }
+
+@include media-breakpoint-between(xs,sm){
+  .breadcrumb-item {
+    + .breadcrumb-item {
+      padding-left: 1rem;
+      &::before {
+        padding-right: 1rem;
+      }
+    }
+  }
+}
