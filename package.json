@@ -5,46 +5,46 @@
   "homepage": "https://belaevslava.github.io/befamily-shop.com/public/index.html",
   "main": "gulpfile.js",
   "previews": {
-  	"path": "previews",
+  	"directory": "previews",
   	"images": [
 	  {
-	  	"image_path": "home.png",
+	  	"path": "home.png",
 	  	"title": "Home"
 	  },
 	  {
-	  	"image_path": "catalog.png",
+	  	"path": "catalog.png",
 	  	"title": "Catalog"
 	  },
 	  {
-	  	"image_path": "product.png",
+	  	"path": "product.png",
 	  	"title": "Product"
 	  },
 	  {
-	  	"image_path": "cart.png",
+	  	"path": "cart.png",
 	  	"title": "Cart"
 	  },
 	  {
-	  	"image_path": "blog.png",
+	  	"path": "blog.png",
 	  	"title": "Blog"
 	  },
 	  {
-	  	"image_path": "article.png",
+	  	"path": "article.png",
 	  	"title": "Article"
 	  },
 	  {
-	  	"image_path": "about.png",
+	  	"path": "about.png",
 	  	"title": "About"
 	  },
 	  {
-	  	"image_path": "contacts.png",
+	  	"path": "contacts.png",
 	  	"title": "Contacts"
 	  },
 	  {
-	  	"image_path": "delivery.png",
+	  	"path": "delivery.png",
 	  	"title": "Delivery"
 	  },
 	  {
-	  	"image_path": "for_wholesalers.png",
+	  	"path": "for_wholesalers.png",
 	  	"title": "For Wholesalers"
 	  }
   	]
