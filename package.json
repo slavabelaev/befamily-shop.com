@@ -2,12 +2,16 @@
   "name": "befamily-shop.com",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://belaevslava.github.io/befamily-shop.com/public/index.html",
   "main": "gulpfile.js",
+  "directories": {
+  	"example": "previews"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "slav@belaev.pro",
   "license": "ISC",
   "dependencies": {
     "@fancyapps/fancybox": "^3.3.5",
